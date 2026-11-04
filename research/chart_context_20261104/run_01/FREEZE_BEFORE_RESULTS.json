@@ -1,0 +1,191 @@
+{
+  "plan": {
+    "study": "EURUSD_CHART_CONTEXT_AND_POST_2R_01",
+    "origin": "User asks better chart context, fewer losing trades, and how many 2R exits later reach3R or higher",
+    "recorded_before_financial_results": true,
+    "period": {
+      "start": "2021-01-04T00:00:00Z",
+      "end_exclusive": "2021-04-01T00:00:00Z"
+    },
+    "period_status": "Already viewed2021 development quarter; chosen before this turn because annual April path missing; not independent",
+    "baseline": "Unmodified V03 range/rearming, risk125EUR/trade,500EUR planned/day,cap4,one position,24h pause after2 net losses,16h London deadline",
+    "variants": [
+      {
+        "name": "V03_3R",
+        "target_R": 3,
+        "context_filter": false,
+        "level_veto": false
+      },
+      {
+        "name": "V03_2R",
+        "target_R": 2,
+        "context_filter": false,
+        "level_veto": false
+      },
+      {
+        "name": "H1_ADX_2R",
+        "target_R": 2,
+        "context_filter": true,
+        "level_veto": false
+      },
+      {
+        "name": "H1_ADX_LEVEL_2R",
+        "target_R": 2,
+        "context_filter": true,
+        "level_veto": true
+      }
+    ],
+    "costs": [
+      "frozen V03 base",
+      "frozen V03 higher_costs"
+    ],
+    "context_filter": {
+      "H1": "Last expected UTC H1 already closed; require complete60M1 and direction*(close-open)>0; never reuse older complete H1",
+      "ADX": "TA-Lib ADX14 on last closed complete M5; require >=25; strength only, H1 body supplies directional condition",
+      "ADX_gap_policy": "Reset seed on every missing M5; no interpolation or gap-skipping",
+      "missing_value": "Explicit UNKNOWN filter refusal, no zero replacement",
+      "threshold_status": "Single conventional25 threshold fixed without PnL-by-indicator search",
+      "H1_EMA20_excluded": "Preliminary availability check0/61 entries and0/202breakouts; not used or retuned to conceal missing warmup"
+    },
+    "level_veto": {
+      "family": "Strict H1 fractals2left2right, all5H1 complete, known only at second right close",
+      "lookback": "Confirmations in preceding24 clock hours, including exactlyt-24h",
+      "revisit": "Executable bid high for resistance / ask low for support touched at or beyond level during [known_at,t), excludes level as already visited",
+      "observation_gap": "If not observed touched but a minute is missing in [known_at,t), freshness UNKNOWN",
+      "execution_guard": "At actual first entry quote, known opposing INTACT level ahead of bid_open for BUY or ask_open for SELL and before or exactly at planned2R target refuses; corresponding UNKNOWN level separately refuses",
+      "no_level_found": "No identified veto, not proof there are no barriers or that level will reverse price",
+      "partial_daily_levels": "Not used: exact previous NY17day unavailable; no invented extrema"
+    },
+    "continuation": {
+      "denominator": "Only actual TP exits of each newly replayed2R portfolio, separately by cost",
+      "source": "Same entry, original stop, same quantity and cost convention; independent hypothetical per-trade extension, not portfolio",
+      "horizon": "Original16h Europe/London hard exit; no overnight continuation or break-even change",
+      "thresholds_R": [
+        3,
+        4,
+        5
+      ],
+      "threshold_formula": "entry + direction*(R*(direction*(entry-stop)+fee+slip)+fee), same as frozen order",
+      "fill_rule": "Executable bid/ask, one-tick target penetration, original stop priority if both reachable sameM1, deadline open before that row high/low",
+      "same_minute": "Threshold reached in TP2 M1 separately labelled SAME_M1_AS_2R; not claimed strictly after2R fill",
+      "later_minute": "LATER_M1_AFTER_2R reported separately",
+      "missing_path": "Unknown not a failure;3R known reached remains known if4R subsequently unknown",
+      "not_used_for_entry_filter": true,
+      "no_sum_as_portfolio_profit": true
+    },
+    "decision_criteria": [
+      "Compare full portfolios, positions and pauses, not deletion of old losses",
+      "Report trades,winners,losers,lossrate,netEUR,costs,drawdown,frequency and all refusal reasons",
+      "Fewer absolute losses with drastically fewer trades is not by itself an improvement",
+      "Evidence of development improvement requires lower lossrate and higher net in BOTH cost cases versus corresponding2R witness",
+      "Below20 closed trades interpretation remains insufficient, regardless of percentage",
+      "No automatic promotion, parameter search,80pct or FTMOpass claim; stop after this finite comparison"
+    ],
+    "charts": "Use actual historical candlesticks,ADX and only entry-known H1 levels; render post-exit prices separately; illustrative selections do not choose filters",
+    "official_FTMO_rules_verified": false,
+    "account": "FTMO2-Step100000EUR,MT5,EURUSD only",
+    "live_trading_enabled": false
+  },
+  "baseline_protocol": {
+    "version": "EURUSD_RANGE_REARMED_V03_RESEARCH",
+    "hypothesis": "Continuation after a closed M5 breakout of the 08:00-09:00 Europe/London range; unproven for this sample",
+    "instrument": "EURUSD",
+    "indicators": [],
+    "timezone": "Europe/London",
+    "range_start": "08:00",
+    "range_end_exclusive": "09:00",
+    "entry_start": "09:00",
+    "entry_end_exclusive": "14:30",
+    "hard_exit": "16:00",
+    "signal": "First complete M5 close strictly above/below the frozen range; one attempt per direction, even if refused",
+    "stop": "Other executable-side range boundary plus one tick",
+    "planned_quote_reward_risk": 3,
+    "capital_eur": 100000,
+    "risk_budget_per_trade_eur": 125,
+    "max_attempts_per_day": null,
+    "max_planned_daily_risk_eur": 500,
+    "max_open_positions": 1,
+    "pause_after_consecutive_losses": 2,
+    "pause_hours": 24,
+    "friction_max_fraction_of_stop": 0.3,
+    "first_tick_max_delay_ms": 5000,
+    "fee_round_trip_quote": 5e-05,
+    "slip_quote_per_market_execution": 1e-05,
+    "tick_quote": 1e-05,
+    "qty_step_eur": 2000,
+    "qty_min_eur": 2000,
+    "leverage_max": 10,
+    "missing_signal_data": "Do not invent bars; stop forming new signals for that session; do not label it a market no-signal",
+    "gap_during_position": "Stop continuous branch, total unknown, retain known costs",
+    "simultaneous_stop_and_target": "Stop first, flag ambiguity",
+    "historical_cache_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+    "historical_periods": [
+      {
+        "name": "D45",
+        "start": "2021-01-04T00:00:00Z",
+        "end_exclusive": "2021-02-18T00:00:00Z"
+      },
+      {
+        "name": "Y2021",
+        "start": "2021-01-01T00:00:00Z",
+        "end_exclusive": "2022-01-01T00:00:00Z"
+      }
+    ],
+    "2021_status": "Previously consulted development data; never independent holdout",
+    "optimization": "No further tuning; same parameters as the frozen follow-up candidate",
+    "FTMO_product": "2-Step",
+    "FTMO_account_eur": 100000,
+    "deadline_preference": "Both phases in less than one month if feasible",
+    "FTMO_rules_officially_verified": false,
+    "live_trading_enabled": false,
+    "implementation_revision": "02_causal_end_of_data_and_gap_timestamp_fixes_no_trading_parameter_change",
+    "max_entries_per_day": 4,
+    "signal_source": "rearmed",
+    "target_win_rate": 0.8,
+    "min_closed_trades_for_win_rate_review": 100,
+    "selection_status": "Development candidate;80pctnotmet;noindependentvalidation",
+    "study_source": "simple_forex/followup_protocol.json; REARMED_4_ENTRIES_3R"
+  },
+  "source_sha256": {
+    "research/chart_context_20261104/test_context.py": "082d95192cdbd65c30ffcced453a5af6b188d8a587deddd51ae4c9621ee02aa6",
+    "research/chart_context_20261104/context.py": "a62b59c44bdd15c96b64408dc74941481b791967736fedb8ded85f104380f9e0",
+    "research/chart_context_20261104/run_study.py": "231eb3b8de79c1eecb8e416630d94b2bd760922298947765037bedc8e6438632",
+    "research/chart_context_20261104/PLAN_BEFORE_RESULTS.json": "28140032dee34dc56d2def649da5e52afca4499447274bdd853a8c20a4c21a42",
+    "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6",
+    "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+    "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+    "research/chart_context_20261104/continuation/__init__.py": "aa9e4d1cbf02107f4c426e77dad032658431a67db9eebdb923d05317f49755a7",
+    "research/chart_context_20261104/continuation/continuation.py": "7622151a214240be286e5aa09ed4ef302494cc53e7374a9a8e688aa576dea1fd",
+    "research/chart_context_20261104/continuation/test_continuation.py": "483093e486266d6aaca1a2c313d6792e7b2f3d6af3fd28405c16205fd7d03a5c",
+    "research/chart_context_20261104/continuation/PLAN_BEFORE_HISTORY.json": "9981d76914f20ccb13912a54f0b1177c48c6469b2817ee71a92a7ea7e49a99eb",
+    "src/backtest_bot/reference.py": "6b3fe8756560646f7ca046a2c54c30f2aed75fd29d6bf4892c1c42626e0fcdcf",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "vendor/h4m30_v01/integrity_guard.py": "4f19df0f0c2c0c7de64f8301ca4083186f31becac9e405eb50d2db30be48d4fd"
+  },
+  "shared_source_sha256": {
+    "config/reference_params.json": "ab2bd8326e00b2fb67afebf7af7ff0314c025cbafbc77964b65e1f74628c74c3",
+    "config/research_v02.json": "cd811ba1c560ce3432d4fec756f464a8923748abe248c029c880929d7d6c593b",
+    "src/backtest_bot/__init__.py": "8726bd020e5ccf91143ecaf2fa85c2b9b29ac2ebd73038e1cf2eb8a4d57bcce0",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21",
+    "src/backtest_bot/reference.py": "6b3fe8756560646f7ca046a2c54c30f2aed75fd29d6bf4892c1c42626e0fcdcf",
+    "src/backtest_bot/research.py": "443647fd631ff4afff09f606c99c8f26eaf39a1fd0488471dd86faabf9e91d7d",
+    "src/backtest_bot/simulation.py": "e9bf7151d9cd7876af0c450126e1643b1488c49bc3ba2843bd94f704d59b9111",
+    "src/backtest_bot/strategy.py": "3a1eea23ff1a8f67d0e4205320a06065ca9d1f64b1383ea899d26044982ef0ed",
+    "vendor/h4m30_v01/h4m30_bias.py": "0c50dc1963e7000b83963301b60af0d93f7b5cf6a5106686285b48b617011061",
+    "vendor/h4m30_v01/h4m30_data.py": "be020d78225a55068677617dc4a777860e73a3ceec5287ccb3f0dee93cb613eb",
+    "vendor/h4m30_v01/h4m30_engine.py": "55d22ccdf2fa40fc907e0773b547ba7894db575c2a4f7b6d455bf26fd4549618",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "vendor/h4m30_v01/integrity_guard.py": "4f19df0f0c2c0c7de64f8301ca4083186f31becac9e405eb50d2db30be48d4fd"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "talib_wrapper": "0.6.8",
+    "talib_C": "0.6.4 (Oct 20 2025 20:23:51)",
+    "compatibility": 0,
+    "ADX_unstable_period": 0
+  },
+  "active_rules_modified": false,
+  "future_continuation_used_as_filter": false
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "FTMO_ACCOUNT_PROFILE_DRAFT_01",
+  "status": "USER_CONFIRMED_FTMO_2STEP_100000_EUR_OFFICIAL_RULES_UNVERIFIED",
+  "provider": "FTMO",
+  "product": "2-Step",
+  "account_type": null,
+  "account_currency": "EUR",
+  "initial_balance": 100000,
+  "target_deadline_calendar_days": 30,
+  "deadline_covers_all_evaluation_phases": true,
+  "rules_effective_date": null,
+  "official_source_urls": [
+    "https://ftmo.com/en/trading-objectives/"
+  ],
+  "official_sources_consulted": false,
+  "phases": [
+    {
+      "name": "Challenge",
+      "profit_target_fraction": null,
+      "profit_target_verified": false
+    },
+    {
+      "name": "Verification",
+      "profit_target_fraction": null,
+      "profit_target_verified": false
+    }
+  ],
+  "daily_loss": {
+    "limit": null,
+    "reference_base": null,
+    "includes_floating_pnl": null,
+    "includes_commission": null,
+    "includes_swaps": null,
+    "reset_iana_timezone": null
+  },
+  "max_loss": {
+    "limit": null,
+    "static_or_trailing": null,
+    "reference_base": null,
+    "update_timing": null
+  },
+  "minimum_qualifying_days": null,
+  "qualifying_day_definition": null,
+  "best_day_rule": {
+    "applicable": null,
+    "limit": null,
+    "denominator_definition": null
+  },
+  "restrictions": {
+    "news": null,
+    "weekend": null,
+    "standard_or_swing": null
+  },
+  "rule_verification_required_before_pass_fail_simulation": true,
+  "live_trading_enabled": false,
+  "execution_contract": {
+    "platform": "MT5",
+    "symbol": null,
+    "server_timezone": null,
+    "lot_contract_size": null,
+    "minimum_volume": null,
+    "volume_step": null,
+    "tick_size": null,
+    "commission_currency_and_schedule": null,
+    "swap_schedule": null
+  },
+  "user_brief": {
+    "path": "research/user_briefs/TRADING_BOT_AMI_01_FOREX_BRIEF_CODEX.md",
+    "sha256": "ffa0a355e108268b677ddf5767cacef726151f46d4107feb2afe6c98d22e3817",
+    "contains_verified_ftmo_terms": false,
+    "contains_actual_ftmo_account_details": false
+  },
+  "historical_simulation_context_from_brief": {
+    "capital_eur": 100000,
+    "planned_risk_budget_eur_per_position": 250,
+    "is_actual_ftmo_account_profile": false,
+    "underlying": "EURUSD",
+    "strategy_reference": "H4_M30_V02 structural target"
+  },
+  "deadline_strictly_less_than": true,
+  "deadline_convention_note": "User asks less than one month. A 30-calendar-day cap is an explicit research convention, not a contractual FTMO deadline; use a strict comparison and distinguish trading from administrative delays.",
+  "user_confirmation": "FTMO 2-Step, 100 000 EUR, EUR account currency, less than one month covers Challenge and Verification combined; Forex only; research objective without guaranteed success.",
+  "platform_confirmation_source": "Direct user reply: mt5"
+}

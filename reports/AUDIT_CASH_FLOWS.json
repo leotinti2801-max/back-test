@@ -1,0 +1,17 @@
+{
+  "annual_trade_rows_checked": 110,
+  "max_cash_flow_difference_eur": 0.0,
+  "checks": [
+    "bid/ask cash flows and FX",
+    "commissions and slippage",
+    "planned risk <=250 EUR",
+    "quantity step",
+    "one entry per UTC day",
+    "24 h pause after two losses",
+    "target availability",
+    "entry first tick delay",
+    "continuous closing balance"
+  ],
+  "trades_csv_sha256": "fb74ec82f7c2c46bd0db59bd983c536c0c6b3a7660707524d31dcddc6acec29e",
+  "status": "PASS"
+}

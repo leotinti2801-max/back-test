@@ -1,0 +1,7 @@
+{
+  "script_sha256": "cf8f382283535ef1c1ac425cf8fe83fbf298eb4551a9f1b72e8fea6aaf9d258d",
+  "source_manifest_sha256": "7b27507633bfc01797f27a0ed5641a48d8709d91ea474ed933f14ffe1cad228d",
+  "new_simulation": false,
+  "refused_trade_outcomes_invented": false,
+  "removed_baseline_trades_not_summed_as_filter_profit": true
+}

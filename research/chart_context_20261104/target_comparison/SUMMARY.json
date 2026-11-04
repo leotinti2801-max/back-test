@@ -1,0 +1,14 @@
+{
+  "base": {
+    "same_entry_keys": true,
+    "entries": 61,
+    "changed_net_entries": 4,
+    "net_improvement_2R_eur": 196.91046891791078
+  },
+  "higher_costs": {
+    "same_entry_keys": true,
+    "entries": 61,
+    "changed_net_entries": 4,
+    "net_improvement_2R_eur": 215.02220145538504
+  }
+}

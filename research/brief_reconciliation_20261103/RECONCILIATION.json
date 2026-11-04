@@ -1,0 +1,31 @@
+{
+  "received_brief": "research/user_briefs/TRADING_BOT_AMI_01_FOREX_BRIEF_CODEX.md",
+  "brief_sha256": "ffa0a355e108268b677ddf5767cacef726151f46d4107feb2afe6c98d22e3817",
+  "scope_of_current_user_request": "Review the uploaded dossier and reconcile it with the current conversation",
+  "market_backtest_started": false,
+  "strategy_parameters_changed": false,
+  "external_messages_sent": false,
+  "active_research_candidate_preserved": "A_STRUCTURE_FIXED_2R",
+  "historical_reference_preserved": "H4_M30_V02 structural target",
+  "verified_reference_hashes": {
+    "cahier": "140c43381d2b1c6712ceb026e76eb051f5e0d8fe0d7aa6f1f173ea7f1ce9dab4",
+    "M1_cache": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+    "delivery_manifest": "27fa4051cb2233eba97e6fde63bf3a12df4e037f53e22c92562ffe834d7da8f7"
+  },
+  "ftmo_profile_missing": [
+    "verified_current_profit_targets_and_loss_rules",
+    "intraday_equity_definition_and_daily_reset_timezone",
+    "minimum_qualifying_days_and_other_product_conditions",
+    "execution_contract"
+  ],
+  "context_note": "The brief describes the historical zero-trade structural-target version. Later research results in this conversation concern a different fixed-2R hypothesis; these cannot be labeled as compliant results of the original specification.",
+  "user_followup_confirmed": {
+    "provider": "FTMO",
+    "product": "2-Step",
+    "initial_balance": 100000,
+    "account_currency": "EUR",
+    "deadline": "less than one month for both Challenge and Verification combined",
+    "forex_only": true,
+    "success_guaranteed": false
+  }
+}

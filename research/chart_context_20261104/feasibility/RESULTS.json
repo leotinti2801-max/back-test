@@ -1,0 +1,140 @@
+{
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "talib_wrapper": "0.6.8",
+    "talib_C": "0.6.4 (Oct 20 2025 20:23:51)",
+    "compatibility": 0,
+    "unstable_periods": {
+      "EMA": 0,
+      "ATR": 0
+    },
+    "lookbacks_H1_indices": {
+      "EMA20": 19,
+      "ATR14": 14
+    }
+  },
+  "coverage": {
+    "V03_CLOSED_ENTRY": {
+      "events": 61,
+      "complete_source_H1": 61,
+      "EMA20_H1_available": 0,
+      "ATR14_H1_available": 0,
+      "both_available": 0,
+      "EMA20_status_counts": {
+        "WARMUP_AFTER_GAP": 61
+      },
+      "ATR14_status_counts": {
+        "WARMUP_AFTER_GAP": 61
+      },
+      "consecutive_complete_H1_distribution": {
+        "2": 2,
+        "3": 5,
+        "4": 7,
+        "5": 4,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 6,
+        "10": 17,
+        "11": 4,
+        "12": 3,
+        "13": 4,
+        "14": 3
+      },
+      "source_age_minutes_min_max": [
+        0,
+        55
+      ],
+      "first_event_utc": "2021-01-04T09:20:00Z",
+      "last_event_utc": "2021-03-31T08:15:00Z"
+    },
+    "Q1_RAW_BREAKOUT": {
+      "events": 202,
+      "complete_source_H1": 202,
+      "EMA20_H1_available": 0,
+      "ATR14_H1_available": 3,
+      "both_available": 0,
+      "EMA20_status_counts": {
+        "WARMUP_AFTER_GAP": 202
+      },
+      "ATR14_status_counts": {
+        "WARMUP_AFTER_GAP": 199,
+        "AVAILABLE": 3
+      },
+      "consecutive_complete_H1_distribution": {
+        "1": 1,
+        "2": 5,
+        "3": 14,
+        "4": 12,
+        "5": 17,
+        "6": 9,
+        "7": 14,
+        "8": 10,
+        "9": 11,
+        "10": 33,
+        "11": 20,
+        "12": 19,
+        "13": 18,
+        "14": 16,
+        "15": 3
+      },
+      "source_age_minutes_min_max": [
+        0,
+        55
+      ],
+      "first_event_utc": "2021-01-04T09:20:00Z",
+      "last_event_utc": "2021-03-31T13:20:00Z"
+    }
+  },
+  "validated_cache_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "full_grid_H1": {
+    "slots": 9504,
+    "complete": 5518,
+    "incomplete": 3986,
+    "complete_segments": 593,
+    "max_consecutive_complete_H1": 47,
+    "EMA20_available_slots": 290,
+    "ATR14_available_slots": 980
+  },
+  "mapping_boundary_examples": [
+    {
+      "decision_utc": "2021-01-05T09:59:00Z",
+      "last_closed_H1_open_utc": "2021-01-05T08:00:00Z",
+      "last_closed_H1_close_utc": "2021-01-05T09:00:00Z",
+      "bar0_open_utc_excluded": "2021-01-05T09:00:00Z"
+    },
+    {
+      "decision_utc": "2021-01-05T10:00:00Z",
+      "last_closed_H1_open_utc": "2021-01-05T09:00:00Z",
+      "last_closed_H1_close_utc": "2021-01-05T10:00:00Z",
+      "bar0_open_utc_excluded": "2021-01-05T10:00:00Z"
+    },
+    {
+      "decision_utc": "2021-01-05T10:05:00Z",
+      "last_closed_H1_open_utc": "2021-01-05T09:00:00Z",
+      "last_closed_H1_close_utc": "2021-01-05T10:00:00Z",
+      "bar0_open_utc_excluded": "2021-01-05T10:00:00Z"
+    }
+  ],
+  "mapping_passed_for_every_event": true,
+  "aggregation_crosscheck_passed": true,
+  "policy_relation_to_existing_lab": "Same reset-after-every-incomplete-bar rule; target timeframe changed from M5 to H1, so a single missing M1 resets an entire H1 segment.",
+  "closed_market_sessions_skipped": false,
+  "market_closure_calendar_supplied": false,
+  "PnL_columns_loaded_into_feature_rows": false,
+  "PnL_indicator_join": false,
+  "new_market_backtest": false,
+  "parameter_search": false,
+  "active_filter_enabled": false,
+  "financial_improvement_claimed": false,
+  "development_only": true
+}

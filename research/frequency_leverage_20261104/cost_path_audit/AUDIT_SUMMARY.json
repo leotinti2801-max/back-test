@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-11-04",
+  "scope": "Existing ledgers only; arithmetic reconciliation and loss/pause state annotations; selected target quote inspection, no financial path rerun",
+  "focused_Q1": {
+    "EXTENDED": {
+      "variant": "EXTENDED",
+      "period": "Q1",
+      "base_trades": 61,
+      "stress_trades": 60,
+      "common_entry_count": 58,
+      "base_only_count": 3,
+      "stress_only_count": 2,
+      "base_known_closed_net_eur": -44.45819002786451,
+      "stress_known_closed_net_eur": 92.29052998017299,
+      "stress_minus_base_known_net_eur": 136.7487200080375,
+      "common_entries_delta_eur": -105.58797855766744,
+      "base_only_net_eur": -366.9758660817027,
+      "stress_only_net_eur": -124.63916751599777,
+      "common_net_sign_flip_count": 2,
+      "first_common_net_sign_flip_entry_utc": "2021-01-21T09:30:00Z",
+      "common_exit_time_or_reason_change_count": 1,
+      "first_common_exit_change_entry_utc": "2021-01-27T09:10:00Z",
+      "base_halt": "null",
+      "higher_costs_halt": "null",
+      "decision_reason_divergence_count": 13,
+      "first_decision_reason_divergence_utc": "2021-03-11T13:15:00Z",
+      "trade_sign_flip_entries": [
+        "2021-01-21T09:30:00Z",
+        "2021-03-10T09:10:00Z"
+      ],
+      "different_exit_entries": [
+        "2021-01-27T09:10:00Z"
+      ],
+      "base_only_entries": [
+        "2021-03-11T13:15:00Z",
+        "2021-03-11T14:45:00Z",
+        "2021-03-16T09:10:00Z"
+      ],
+      "stress_only_entries": [
+        "2021-03-12T09:20:00Z",
+        "2021-03-17T09:05:00Z"
+      ]
+    },
+    "EXTENDED_HOLD60_8SMALL_M1": {
+      "variant": "EXTENDED_HOLD60_8SMALL_M1",
+      "period": "Q1",
+      "base_trades": 117,
+      "stress_trades": 115,
+      "common_entry_count": 115,
+      "base_only_count": 2,
+      "stress_only_count": 0,
+      "base_known_closed_net_eur": 138.52831679357934,
+      "stress_known_closed_net_eur": 33.39015694053378,
+      "stress_minus_base_known_net_eur": -105.13815985304555,
+      "common_entries_delta_eur": -139.8528717678981,
+      "base_only_net_eur": -34.71471191485254,
+      "stress_only_net_eur": 0.0,
+      "common_net_sign_flip_count": 1,
+      "first_common_net_sign_flip_entry_utc": "2021-01-18T13:34:00Z",
+      "common_exit_time_or_reason_change_count": 0,
+      "first_common_exit_change_entry_utc": "",
+      "base_halt": "null",
+      "higher_costs_halt": "null",
+      "decision_reason_divergence_count": 7,
+      "first_decision_reason_divergence_utc": "2021-01-18T14:45:00Z",
+      "trade_sign_flip_entries": [
+        "2021-01-18T13:34:00Z"
+      ],
+      "different_exit_entries": [],
+      "base_only_entries": [
+        "2021-01-19T09:16:00Z",
+        "2021-01-19T09:48:00Z"
+      ],
+      "stress_only_entries": []
+    }
+  },
+  "comparisons_reconciled": 36,
+  "pause_states_reconstructed_from_existing_closed_trades": true,
+  "all_focused_divergent_pause_refusals_have_active_reconstructed_pause": true,
+  "cache_sha256_verified": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "separate_fill_logs_persisted_in_run": false,
+  "fill_limits": "TRADES.csv carries entry/target/exit timestamps, but no serialized detailed fills. Target evidence is direct quote inspection against recorded thresholds, not a regenerated fill simulation.",
+  "new_backtest": false,
+  "new_http": false,
+  "existing_files_modified": false
+}

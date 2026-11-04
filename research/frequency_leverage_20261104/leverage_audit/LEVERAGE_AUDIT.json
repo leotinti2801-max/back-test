@@ -1,0 +1,236 @@
+{
+  "schema_version": "EXISTING_WITNESS_LEVERAGE_AUDIT_01",
+  "as_of": "2026-11-04",
+  "instrument": "EURUSD",
+  "account_currency": "EUR",
+  "scope": "Existing closed V03 witness trades only, base and stressed costs; no market-path simulation or signal replay",
+  "period": {
+    "start_utc": "2021-01-04T00:00:00Z",
+    "end_exclusive_utc": "2021-04-01T00:00:00Z",
+    "development_only": true,
+    "cost_scenarios_are_not_independent_samples": true
+  },
+  "cache": {
+    "path": "data/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+    "sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+    "validated_by": "backtest_bot.data.market_from_cache with reviewed size/hash, allowlisted deserialization and schema validation",
+    "entry_mid_open_read_from_actual_cache": true,
+    "quality": {
+      "rows": 401000,
+      "first_minute_utc": "2020-12-01T05:00:00Z",
+      "last_minute_utc": "2021-12-31T21:59:00Z",
+      "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+      "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+    }
+  },
+  "formulas": {
+    "risk_unit_eur": "(direction*(entry-stop) + round_trip_fee + market_slippage) / actual_mid_open",
+    "q_budget": "125 / risk_unit_eur",
+    "q_leverage": "ceiling * balance_before * actual_mid_open / entry",
+    "qty": "floor(min(q_budget,q_leverage)/2000)*2000",
+    "effective_leverage": "qty*entry/actual_mid_open/balance_before",
+    "initial_margin_model_proxy": "qty*entry/actual_mid_open/ceiling",
+    "free_margin_model_proxy": "balance_before - initial_margin_model_proxy"
+  },
+  "proxy_limits": [
+    "Margin is an algebraic proxy implied by X.size_position, not a verified MT5/FTMO account statement",
+    "Pre-entry account is flat in this one-position model; proxy uses pre-entry balance, not verified broker equity after spread/fees",
+    "MT5 contract size, leverage eligibility, margin calculation, margin-call/stop-out, tiering and commission treatment remain unverified",
+    "Fixed entry/mid ratio follows the existing sizing implementation; it must not be substituted for the broker instrument specification",
+    "Audit does not price new entries, refused signals, future paths or changes to concurrent exposure"
+  ],
+  "confirmed_research_risk_parameters": {
+    "planned_risk_budget_per_trade_eur": 125,
+    "planned_daily_risk_budget_eur": 500,
+    "max_open_positions": 1,
+    "max_entries_per_day": 4,
+    "qty_step_eur": 2000,
+    "current_leverage_cap": 10
+  },
+  "officially_authorized_ftmo_leverage": null,
+  "MT5_confirmed_by_user": true,
+  "FTMO_account_type": null,
+  "summaries": {
+    "base": {
+      "observed_trades": 61,
+      "qty_eur": {
+        "min": 30000.0,
+        "mean": 63344.262295081964,
+        "median": 58000.0,
+        "max": 150000.0
+      },
+      "effective_leverage": {
+        "min": 0.29880642928831547,
+        "mean": 0.6304313768318305,
+        "median": 0.5754233350813649,
+        "max": 1.4893950536804397
+      },
+      "planned_risk_eur": {
+        "min": 120.00694255040027,
+        "mean": 123.09651282621004,
+        "median": 123.42390413808545,
+        "max": 124.92733187381451
+      },
+      "q_budget_unrounded_eur": {
+        "min": 31078.832304525877,
+        "mean": 64256.57074437811,
+        "median": 59658.26612903011,
+        "max": 150087.2524752136
+      },
+      "q_leverage10_unrounded_eur": {
+        "min": 996467.541534957,
+        "mean": 1004648.0356016023,
+        "median": 1006791.815122976,
+        "max": 1009511.6583090947
+      },
+      "leverage10_unrounded_constraint_active_count": 0,
+      "leverage10_reduces_rounded_qty_count": 0,
+      "risk_budget_is_smaller_than_leverage_ceiling_count": 61,
+      "maximum_effective_leverage_trade": "2021-02-11T09:10:00Z",
+      "scenarios": {
+        "10": {
+          "qty_differs_from_observed_count": 0,
+          "max_initial_margin_model_proxy_eur": 15000.309226068994,
+          "min_free_margin_model_proxy_eur": 85713.7974107281
+        },
+        "30": {
+          "qty_differs_from_observed_count": 0,
+          "max_initial_margin_model_proxy_eur": 5000.103075356331,
+          "min_free_margin_model_proxy_eur": 95714.00356144077
+        },
+        "100": {
+          "qty_differs_from_observed_count": 0,
+          "max_initial_margin_model_proxy_eur": 1500.0309226068994,
+          "min_free_margin_model_proxy_eur": 98768.79153079222
+        }
+      },
+      "net_eur_from_existing_ledger_only": 642.3667390327173
+    },
+    "higher_costs": {
+      "observed_trades": 61,
+      "qty_eur": {
+        "min": 30000.0,
+        "mean": 61868.852459016394,
+        "median": 58000.0,
+        "max": 142000.0
+      },
+      "effective_leverage": {
+        "min": 0.29802699741669025,
+        "mean": 0.6161827477116046,
+        "median": 0.5759683319088749,
+        "max": 1.4107569291170787
+      },
+      "planned_risk_eur": {
+        "min": 117.78340450725737,
+        "mean": 122.7303513618303,
+        "median": 122.77395061369957,
+        "max": 124.99067419361559
+      },
+      "q_budget_unrounded_eur": {
+        "min": 30793.705402650474,
+        "mean": 62930.2407742764,
+        "median": 58595.049504952054,
+        "max": 143685.42654027458
+      },
+      "q_leverage10_unrounded_eur": {
+        "min": 996272.20716871,
+        "mean": 1003959.4332994116,
+        "median": 1005680.3239658045,
+        "max": 1008594.2857241215
+      },
+      "leverage10_unrounded_constraint_active_count": 0,
+      "leverage10_reduces_rounded_qty_count": 0,
+      "risk_budget_is_smaller_than_leverage_ceiling_count": 61,
+      "maximum_effective_leverage_trade": "2021-02-11T09:10:00Z",
+      "scenarios": {
+        "10": {
+          "qty_differs_from_observed_count": 0,
+          "max_initial_margin_model_proxy_eur": 14200.40982761677,
+          "min_free_margin_model_proxy_eur": 86457.6804112459
+        },
+        "30": {
+          "qty_differs_from_observed_count": 0,
+          "max_initial_margin_model_proxy_eur": 4733.4699425389235,
+          "min_free_margin_model_proxy_eur": 95924.62029632374
+        },
+        "100": {
+          "qty_differs_from_observed_count": 0,
+          "max_initial_margin_model_proxy_eur": 1420.040982761677,
+          "min_free_margin_model_proxy_eur": 98790.07363614891
+        }
+      },
+      "net_eur_from_existing_ledger_only": 504.2153276037279
+    }
+  },
+  "validation_max_abs_error": {
+    "entry_price": 0.0,
+    "planned_risk_eur": 0.0,
+    "balance_after_eur": 0.0,
+    "qty_eur": 0.0
+  },
+  "recommended_scenarios": [
+    {
+      "ceiling": 30,
+      "risk_budget_eur_unchanged": 125,
+      "purpose": "Sensitivity of margin ceiling only; no claim of additional trades or profitability",
+      "observed_qty_change_count_base": 0,
+      "observed_qty_change_count_stress": 0,
+      "ftmo_authorization_verified": false
+    },
+    {
+      "ceiling": 100,
+      "risk_budget_eur_unchanged": 125,
+      "purpose": "Same algebraic diagnostic; not a recommendation to increase notional or live leverage",
+      "observed_qty_change_count_base": 0,
+      "observed_qty_change_count_stress": 0,
+      "ftmo_authorization_verified": false
+    }
+  ],
+  "decision": "Ceiling10 is not the position-sizing bottleneck in any of the audited trades. Higher ceiling at unchanged EUR risk produces identical observed entry quantities; margin reservation decreases mechanically, not signal count or expected cash advantage.",
+  "source_identities": [
+    {
+      "path": "simple_forex/protocol_v03.json",
+      "sha256": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20"
+    },
+    {
+      "path": "simple_forex/runner.py",
+      "sha256": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6"
+    },
+    {
+      "path": "vendor/h4m30_v01/h4m30_execution.py",
+      "sha256": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e"
+    },
+    {
+      "path": "src/backtest_bot/data.py",
+      "sha256": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21"
+    },
+    {
+      "path": "config/reference_params.json",
+      "sha256": "ab2bd8326e00b2fb67afebf7af7ff0314c025cbafbc77964b65e1f74628c74c3"
+    },
+    {
+      "path": "research/indicator_study_20261104/lab/comparison_01/V03_base_TRADES.csv",
+      "sha256": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9"
+    },
+    {
+      "path": "research/indicator_study_20261104/lab/comparison_01/V03_higher_costs_TRADES.csv",
+      "sha256": "e7ebdaba62a7428fb3f4cb638420837d4635daaba7c049274c47a6f8ce0fcca9"
+    },
+    {
+      "path": "research/indicator_study_20261104/lab/comparison_01/FREEZE_BEFORE_RESULTS.json",
+      "sha256": "dfc91a3b646c5113c6acb9c4c464e7c040e2ecd39bb7b9f900d966529d09df6d"
+    },
+    {
+      "path": "research/indicator_study_20261104/lab/comparison_01/RESULTS.json",
+      "sha256": "bc7c6889558c3c77aabeaff0878683c625bdc167bd48fa9879caa3e0388f6a71"
+    }
+  ],
+  "changes": {
+    "new_backtest": false,
+    "new_http": false,
+    "active_bot_modified": false,
+    "existing_files_modified": false,
+    "risk_increased": false,
+    "orders_sent": false
+  }
+}

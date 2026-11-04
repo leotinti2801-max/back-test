@@ -1,0 +1,3280 @@
+{
+  "variants": {
+    "V03": {
+      "Q1": {
+        "base": {
+          "closed_trades": 61,
+          "wins": 31,
+          "losses": 30,
+          "known_closed_net_eur": 642.3667390327232,
+          "net_eur": 642.3667390327232,
+          "profit_factor": 1.3089442324862741,
+          "closed_drawdown_eur": 420.04951015782717,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_SL": 12,
+            "REFUSED": 141,
+            "TRADE_CLOSED_TIME": 48,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5081967213114754,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "SL": 12,
+            "TIME": 48,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 12,
+            "TIME": 18
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 104,
+            "PAUSE_AFTER_TWO_LOSSES": 33,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.6423667390327232,
+          "mean_realized_R": 0.08533800989224613,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4893950536804397
+        },
+        "higher_costs": {
+          "closed_trades": 61,
+          "wins": 31,
+          "losses": 30,
+          "known_closed_net_eur": 504.21532760375015,
+          "net_eur": 504.21532760375015,
+          "profit_factor": 1.2399888810370796,
+          "closed_drawdown_eur": 431.46643899573246,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_SL": 12,
+            "REFUSED": 141,
+            "TRADE_CLOSED_TIME": 48,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5081967213114754,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "SL": 12,
+            "TIME": 48,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 12,
+            "TIME": 18
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 104,
+            "PAUSE_AFTER_TWO_LOSSES": 33,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.5042153276037502,
+          "mean_realized_R": 0.06677314859643338,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4107569291170787
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": 396.538034082297,
+          "net_eur": 396.538034082297,
+          "profit_factor": 1.4725913232056957,
+          "closed_drawdown_eur": 420.04951015782717,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_SL": 5,
+            "REFUSED": 38,
+            "TRADE_CLOSED_TIME": 14,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 5,
+            "TIME": 14,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 5,
+            "TIME": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": 0.396538034082297,
+          "mean_realized_R": 0.16120974836437063,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8831195832474877
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": 358.36548270367234,
+          "net_eur": 358.36548270367234,
+          "profit_factor": 1.426840386525405,
+          "closed_drawdown_eur": 421.4818981054559,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_SL": 5,
+            "REFUSED": 38,
+            "TRADE_CLOSED_TIME": 14,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 5,
+            "TIME": 14,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 5,
+            "TIME": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": 0.35836548270367236,
+          "mean_realized_R": 0.1449136754162484,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.859973941617089
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 18,
+          "wins": 9,
+          "losses": 9,
+          "known_closed_net_eur": 518.7742525911403,
+          "net_eur": 518.7742525911403,
+          "profit_factor": 2.2793929443048966,
+          "closed_drawdown_eur": 255.94231682935788,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 53,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 1,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 45,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.5187742525911403,
+          "mean_realized_R": 0.2327059216307006,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4952823752611422
+        },
+        "higher_costs": {
+          "closed_trades": 18,
+          "wins": 9,
+          "losses": 9,
+          "known_closed_net_eur": 462.5257420658988,
+          "net_eur": 462.5257420658988,
+          "profit_factor": 2.112710076194275,
+          "closed_drawdown_eur": 264.9798108570394,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 53,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 1,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 45,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.46252574206589875,
+          "mean_realized_R": 0.20911011013266703,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4157974871954753
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 9,
+          "losses": 11,
+          "known_closed_net_eur": -235.07127071719302,
+          "net_eur": -235.07127071719302,
+          "profit_factor": 0.6707862788693594,
+          "closed_drawdown_eur": 448.8461708834511,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 596,
+            "REFUSED": 35,
+            "TRADE_CLOSED_TIME": 16,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.235071270717193,
+          "mean_realized_R": -0.09418538961748785,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.023045707656479
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 9,
+          "losses": 11,
+          "known_closed_net_eur": -270.5423039342817,
+          "net_eur": -270.5423039342817,
+          "profit_factor": 0.624695751553171,
+          "closed_drawdown_eur": 460.0507327382802,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 596,
+            "REFUSED": 35,
+            "TRADE_CLOSED_TIME": 16,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.2705423039342817,
+          "mean_realized_R": -0.111220397946136,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9832241213325827
+        }
+      }
+    },
+    "LEVERAGE30": {
+      "Q1": {
+        "base": {
+          "closed_trades": 61,
+          "wins": 31,
+          "losses": 30,
+          "known_closed_net_eur": 642.3667390327232,
+          "net_eur": 642.3667390327232,
+          "profit_factor": 1.3089442324862741,
+          "closed_drawdown_eur": 420.04951015782717,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_SL": 12,
+            "REFUSED": 141,
+            "TRADE_CLOSED_TIME": 48,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5081967213114754,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "SL": 12,
+            "TIME": 48,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 12,
+            "TIME": 18
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 104,
+            "PAUSE_AFTER_TWO_LOSSES": 33,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.6423667390327232,
+          "mean_realized_R": 0.08533800989224613,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4893950536804397
+        },
+        "higher_costs": {
+          "closed_trades": 61,
+          "wins": 31,
+          "losses": 30,
+          "known_closed_net_eur": 504.21532760375015,
+          "net_eur": 504.21532760375015,
+          "profit_factor": 1.2399888810370796,
+          "closed_drawdown_eur": 431.46643899573246,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_SL": 12,
+            "REFUSED": 141,
+            "TRADE_CLOSED_TIME": 48,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5081967213114754,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "SL": 12,
+            "TIME": 48,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 12,
+            "TIME": 18
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 104,
+            "PAUSE_AFTER_TWO_LOSSES": 33,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.5042153276037502,
+          "mean_realized_R": 0.06677314859643338,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4107569291170787
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": 396.538034082297,
+          "net_eur": 396.538034082297,
+          "profit_factor": 1.4725913232056957,
+          "closed_drawdown_eur": 420.04951015782717,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_SL": 5,
+            "REFUSED": 38,
+            "TRADE_CLOSED_TIME": 14,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 5,
+            "TIME": 14,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 5,
+            "TIME": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": 0.396538034082297,
+          "mean_realized_R": 0.16120974836437063,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8831195832474877
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": 358.36548270367234,
+          "net_eur": 358.36548270367234,
+          "profit_factor": 1.426840386525405,
+          "closed_drawdown_eur": 421.4818981054559,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_SL": 5,
+            "REFUSED": 38,
+            "TRADE_CLOSED_TIME": 14,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 5,
+            "TIME": 14,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 5,
+            "TIME": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": 0.35836548270367236,
+          "mean_realized_R": 0.1449136754162484,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.859973941617089
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 18,
+          "wins": 9,
+          "losses": 9,
+          "known_closed_net_eur": 518.7742525911403,
+          "net_eur": 518.7742525911403,
+          "profit_factor": 2.2793929443048966,
+          "closed_drawdown_eur": 255.94231682935788,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 53,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 1,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 45,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.5187742525911403,
+          "mean_realized_R": 0.2327059216307006,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4952823752611422
+        },
+        "higher_costs": {
+          "closed_trades": 18,
+          "wins": 9,
+          "losses": 9,
+          "known_closed_net_eur": 462.5257420658988,
+          "net_eur": 462.5257420658988,
+          "profit_factor": 2.112710076194275,
+          "closed_drawdown_eur": 264.9798108570394,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 53,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 1,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 45,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.46252574206589875,
+          "mean_realized_R": 0.20911011013266703,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4157974871954753
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 9,
+          "losses": 11,
+          "known_closed_net_eur": -235.07127071719302,
+          "net_eur": -235.07127071719302,
+          "profit_factor": 0.6707862788693594,
+          "closed_drawdown_eur": 448.8461708834511,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 596,
+            "REFUSED": 35,
+            "TRADE_CLOSED_TIME": 16,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.235071270717193,
+          "mean_realized_R": -0.09418538961748785,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.023045707656479
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 9,
+          "losses": 11,
+          "known_closed_net_eur": -270.5423039342817,
+          "net_eur": -270.5423039342817,
+          "profit_factor": 0.624695751553171,
+          "closed_drawdown_eur": 460.0507327382802,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 596,
+            "REFUSED": 35,
+            "TRADE_CLOSED_TIME": 16,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.2705423039342817,
+          "mean_realized_R": -0.111220397946136,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9832241213325827
+        }
+      }
+    },
+    "LEVERAGE100": {
+      "Q1": {
+        "base": {
+          "closed_trades": 61,
+          "wins": 31,
+          "losses": 30,
+          "known_closed_net_eur": 642.3667390327232,
+          "net_eur": 642.3667390327232,
+          "profit_factor": 1.3089442324862741,
+          "closed_drawdown_eur": 420.04951015782717,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_SL": 12,
+            "REFUSED": 141,
+            "TRADE_CLOSED_TIME": 48,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5081967213114754,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "SL": 12,
+            "TIME": 48,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 12,
+            "TIME": 18
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 104,
+            "PAUSE_AFTER_TWO_LOSSES": 33,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.6423667390327232,
+          "mean_realized_R": 0.08533800989224613,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4893950536804397
+        },
+        "higher_costs": {
+          "closed_trades": 61,
+          "wins": 31,
+          "losses": 30,
+          "known_closed_net_eur": 504.21532760375015,
+          "net_eur": 504.21532760375015,
+          "profit_factor": 1.2399888810370796,
+          "closed_drawdown_eur": 431.46643899573246,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_SL": 12,
+            "REFUSED": 141,
+            "TRADE_CLOSED_TIME": 48,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5081967213114754,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "SL": 12,
+            "TIME": 48,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 12,
+            "TIME": 18
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 104,
+            "PAUSE_AFTER_TWO_LOSSES": 33,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.5042153276037502,
+          "mean_realized_R": 0.06677314859643338,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4107569291170787
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": 396.538034082297,
+          "net_eur": 396.538034082297,
+          "profit_factor": 1.4725913232056957,
+          "closed_drawdown_eur": 420.04951015782717,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_SL": 5,
+            "REFUSED": 38,
+            "TRADE_CLOSED_TIME": 14,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 5,
+            "TIME": 14,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 5,
+            "TIME": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": 0.396538034082297,
+          "mean_realized_R": 0.16120974836437063,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8831195832474877
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": 358.36548270367234,
+          "net_eur": 358.36548270367234,
+          "profit_factor": 1.426840386525405,
+          "closed_drawdown_eur": 421.4818981054559,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_SL": 5,
+            "REFUSED": 38,
+            "TRADE_CLOSED_TIME": 14,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 5,
+            "TIME": 14,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 5,
+            "TIME": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": 0.35836548270367236,
+          "mean_realized_R": 0.1449136754162484,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.859973941617089
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 18,
+          "wins": 9,
+          "losses": 9,
+          "known_closed_net_eur": 518.7742525911403,
+          "net_eur": 518.7742525911403,
+          "profit_factor": 2.2793929443048966,
+          "closed_drawdown_eur": 255.94231682935788,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 53,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 1,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 45,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.5187742525911403,
+          "mean_realized_R": 0.2327059216307006,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4952823752611422
+        },
+        "higher_costs": {
+          "closed_trades": 18,
+          "wins": 9,
+          "losses": 9,
+          "known_closed_net_eur": 462.5257420658988,
+          "net_eur": 462.5257420658988,
+          "profit_factor": 2.112710076194275,
+          "closed_drawdown_eur": 264.9798108570394,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 53,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 1,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 45,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.46252574206589875,
+          "mean_realized_R": 0.20911011013266703,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4157974871954753
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 9,
+          "losses": 11,
+          "known_closed_net_eur": -235.07127071719302,
+          "net_eur": -235.07127071719302,
+          "profit_factor": 0.6707862788693594,
+          "closed_drawdown_eur": 448.8461708834511,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 596,
+            "REFUSED": 35,
+            "TRADE_CLOSED_TIME": 16,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.235071270717193,
+          "mean_realized_R": -0.09418538961748785,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.023045707656479
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 9,
+          "losses": 11,
+          "known_closed_net_eur": -270.5423039342817,
+          "net_eur": -270.5423039342817,
+          "profit_factor": 0.624695751553171,
+          "closed_drawdown_eur": 460.0507327382802,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 596,
+            "REFUSED": 35,
+            "TRADE_CLOSED_TIME": 16,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 7,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 7,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.2705423039342817,
+          "mean_realized_R": -0.111220397946136,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9832241213325827
+        }
+      }
+    },
+    "EXTENDED": {
+      "Q1": {
+        "base": {
+          "closed_trades": 61,
+          "wins": 30,
+          "losses": 31,
+          "known_closed_net_eur": -44.45819002786451,
+          "net_eur": -44.45819002786451,
+          "profit_factor": 0.9833348472108476,
+          "closed_drawdown_eur": 652.1718831832259,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 61,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_SL": 17,
+            "REFUSED": 178,
+            "TRADE_CLOSED_TIME": 43,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4918032786885246,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 53,
+          "closed_exits": {
+            "SL": 17,
+            "TIME": 43,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 17,
+            "TIME": 14
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 120,
+            "PAUSE_AFTER_TWO_LOSSES": 55,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.04445819002786451,
+          "mean_realized_R": -0.005221873611949173,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4974058148514413
+        },
+        "higher_costs": {
+          "closed_trades": 60,
+          "wins": 28,
+          "losses": 32,
+          "known_closed_net_eur": 92.29052998017299,
+          "net_eur": 92.29052998017299,
+          "profit_factor": 1.037915765485763,
+          "closed_drawdown_eur": 653.5058786049049,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 60,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_SL": 15,
+            "REFUSED": 179,
+            "TRADE_CLOSED_TIME": 44,
+            "WEEKEND_NO_SESSION": 24,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4666666666666667,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 53,
+          "closed_exits": {
+            "SL": 15,
+            "TIME": 44,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 15,
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 122,
+            "PAUSE_AFTER_TWO_LOSSES": 54,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.092290529980173,
+          "mean_realized_R": 0.011232076685114447,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4181632965318278
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 20,
+          "wins": 11,
+          "losses": 9,
+          "known_closed_net_eur": -135.57125893397028,
+          "net_eur": -135.57125893397028,
+          "profit_factor": 0.8627802049646138,
+          "closed_drawdown_eur": 644.9952256123797,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_SL": 7,
+            "REFUSED": 43,
+            "TRADE_CLOSED_TIME": 12,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.55,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 7,
+            "TIME": 12,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 7,
+            "TIME": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": -0.1355712589339703,
+          "mean_realized_R": -0.054087579040226375,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8857310759403023
+        },
+        "higher_costs": {
+          "closed_trades": 20,
+          "wins": 10,
+          "losses": 10,
+          "known_closed_net_eur": -158.95709006425645,
+          "net_eur": -158.95709006425645,
+          "profit_factor": 0.8384131249422184,
+          "closed_drawdown_eur": 653.5058786049049,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 20,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_SL": 7,
+            "REFUSED": 43,
+            "TRADE_CLOSED_TIME": 12,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_TP": 1
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "SL": 7,
+            "TIME": 12,
+            "TP": 1
+          },
+          "negative_exits": {
+            "SL": 7,
+            "TIME": 3
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 13
+          },
+          "net_pct_initial_capital": -0.15895709006425646,
+          "mean_realized_R": -0.0666814179628056,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8639457483681859
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 18,
+          "wins": 10,
+          "losses": 8,
+          "known_closed_net_eur": 591.5323360099643,
+          "net_eur": 591.5323360099643,
+          "profit_factor": 2.3096178316379583,
+          "closed_drawdown_eur": 429.28160298772855,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 64,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5555555555555556,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 6,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 46,
+            "PAUSE_AFTER_TWO_LOSSES": 18
+          },
+          "net_pct_initial_capital": 0.5915323360099642,
+          "mean_realized_R": 0.268112541058991,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4953820544363503
+        },
+        "higher_costs": {
+          "closed_trades": 18,
+          "wins": 10,
+          "losses": 8,
+          "known_closed_net_eur": 542.9519689143574,
+          "net_eur": 542.9519689143574,
+          "profit_factor": 2.1781545885980975,
+          "closed_drawdown_eur": 434.71554892518907,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 64,
+            "TRADE_CLOSED_TIME": 16,
+            "WEEKEND_NO_SESSION": 8,
+            "TRADE_CLOSED_SL": 2
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5555555555555556,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 16,
+            "SL": 2
+          },
+          "negative_exits": {
+            "TIME": 6,
+            "SL": 2
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 46,
+            "PAUSE_AFTER_TWO_LOSSES": 18
+          },
+          "net_pct_initial_capital": 0.5429519689143574,
+          "mean_realized_R": 0.2453765541180416,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4159155743814202
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 19,
+          "wins": 7,
+          "losses": 12,
+          "known_closed_net_eur": -380.77072922729064,
+          "net_eur": -380.77072922729064,
+          "profit_factor": 0.6122251136368716,
+          "closed_drawdown_eur": 652.1718831832259,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 19,
+            "NO_FRESH_CROSS": 828,
+            "REFUSED": 54,
+            "TRADE_CLOSED_TIME": 13,
+            "TRADE_CLOSED_SL": 6,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.3684210526315789,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 16,
+          "closed_exits": {
+            "TIME": 13,
+            "SL": 6
+          },
+          "negative_exits": {
+            "TIME": 6,
+            "SL": 6
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 35,
+            "PAUSE_AFTER_TWO_LOSSES": 16,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.38077072922729066,
+          "mean_realized_R": -0.16243765412508276,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0247296341600076
+        },
+        "higher_costs": {
+          "closed_trades": 18,
+          "wins": 6,
+          "losses": 12,
+          "known_closed_net_eur": -166.135288524215,
+          "net_eur": -166.135288524215,
+          "profit_factor": 0.7767773392012178,
+          "closed_drawdown_eur": 416.73588469169044,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 18,
+            "NO_FRESH_CROSS": 828,
+            "REFUSED": 55,
+            "TRADE_CLOSED_TIME": 14,
+            "TRADE_CLOSED_SL": 4,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.3333333333333333,
+          "maximum_executed_entries_per_day": 2,
+          "days_with_executed_entry": 16,
+          "closed_exits": {
+            "TIME": 14,
+            "SL": 4
+          },
+          "negative_exits": {
+            "TIME": 8,
+            "SL": 4
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 37,
+            "PAUSE_AFTER_TWO_LOSSES": 15,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": -0.166135288524215,
+          "mean_realized_R": -0.07702733012935287,
+          "days_with_more_than_two_entries": 0,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9823669279960623
+        }
+      }
+    },
+    "HOLD60": {
+      "Q1": {
+        "base": {
+          "closed_trades": 94,
+          "wins": 47,
+          "losses": 47,
+          "known_closed_net_eur": 543.2024870300095,
+          "net_eur": 543.2024870300095,
+          "profit_factor": 1.3406479156559565,
+          "closed_drawdown_eur": 338.77843044212204,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 94,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_TIME": 93,
+            "REFUSED": 108,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 93,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 46,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 56,
+            "PAUSE_AFTER_TWO_LOSSES": 45,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 3,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.5432024870300095,
+          "mean_realized_R": 0.04745568222935819,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.499111769190125
+        },
+        "higher_costs": {
+          "closed_trades": 94,
+          "wins": 47,
+          "losses": 47,
+          "known_closed_net_eur": 327.71637064464426,
+          "net_eur": 327.71637064464426,
+          "profit_factor": 1.1977725477498038,
+          "closed_drawdown_eur": 352.6418971037492,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1695,
+            "ENTERED": 94,
+            "NO_FRESH_CROSS": 2198,
+            "TRADE_CLOSED_TIME": 93,
+            "REFUSED": 108,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 93,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 46,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 56,
+            "PAUSE_AFTER_TWO_LOSSES": 45,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 3,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.32771637064464426,
+          "mean_realized_R": 0.02752912822111726,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4403820527742153
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": 19.66474573351078,
+          "net_eur": 19.66474573351078,
+          "profit_factor": 1.0294433235910676,
+          "closed_drawdown_eur": 338.77843044212204,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 30,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 15,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": 0.01966474573351078,
+          "mean_realized_R": 0.0059453123266829016,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0222753008103957
+        },
+        "higher_costs": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": -42.28019442732116,
+          "net_eur": -42.28019442732116,
+          "profit_factor": 0.9380735913168904,
+          "closed_drawdown_eur": 352.6418971037492,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 477,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 765,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 30,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 15,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": -0.042280194427321165,
+          "mean_realized_R": -0.01332222372564286,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9823899544609535
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 31,
+          "wins": 17,
+          "losses": 14,
+          "known_closed_net_eur": 464.055602580597,
+          "net_eur": 464.055602580597,
+          "profit_factor": 2.192212520362187,
+          "closed_drawdown_eur": 118.96003979357192,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 31,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 40,
+            "TRADE_CLOSED_TIME": 31,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5483870967741935,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 20,
+          "closed_exits": {
+            "TIME": 31
+          },
+          "negative_exits": {
+            "TIME": 14
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.46405560258059697,
+          "mean_realized_R": 0.12217048508220889,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4994064405502783
+        },
+        "higher_costs": {
+          "closed_trades": 31,
+          "wins": 17,
+          "losses": 14,
+          "known_closed_net_eur": 386.5976893034746,
+          "net_eur": 386.5976893034746,
+          "profit_factor": 1.9466859090968662,
+          "closed_drawdown_eur": 141.3936901982088,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 502,
+            "ENTERED": 31,
+            "NO_FRESH_CROSS": 727,
+            "REFUSED": 40,
+            "TRADE_CLOSED_TIME": 31,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5483870967741935,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 20,
+          "closed_exits": {
+            "TIME": 31
+          },
+          "negative_exits": {
+            "TIME": 14
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 25,
+            "PAUSE_AFTER_TWO_LOSSES": 13,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.3865976893034746,
+          "mean_realized_R": 0.10123871552207922,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.4397731749633957
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 28,
+          "wins": 15,
+          "losses": 13,
+          "known_closed_net_eur": 60.389934608061175,
+          "net_eur": 60.389934608061175,
+          "profit_factor": 1.1258413619541472,
+          "closed_drawdown_eur": 246.19124109308177,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 596,
+            "TRADE_CLOSED_TIME": 28,
+            "REFUSED": 27,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5357142857142857,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 28
+          },
+          "negative_exits": {
+            "TIME": 13
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 13,
+            "PAUSE_AFTER_TWO_LOSSES": 11,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.06038993460806117,
+          "mean_realized_R": 0.018308056116869996,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0193178696598193
+        },
+        "higher_costs": {
+          "closed_trades": 28,
+          "wins": 15,
+          "losses": 13,
+          "known_closed_net_eur": 0.5616933707864051,
+          "net_eur": 0.5616933707864051,
+          "profit_factor": 1.0011310309810502,
+          "closed_drawdown_eur": 260.4742615356954,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 649,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 596,
+            "TRADE_CLOSED_TIME": 28,
+            "REFUSED": 27,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5357142857142857,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 28
+          },
+          "negative_exits": {
+            "TIME": 13
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 13,
+            "PAUSE_AFTER_TWO_LOSSES": 11,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.0005616933707864051,
+          "mean_realized_R": -0.001441241448225081,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.979905473491879
+        }
+      }
+    },
+    "EXTENDED_HOLD60": {
+      "Q1": {
+        "base": {
+          "closed_trades": 108,
+          "wins": 55,
+          "losses": 53,
+          "known_closed_net_eur": 685.8140560800864,
+          "net_eur": 685.8140560800864,
+          "profit_factor": 1.4050940430434307,
+          "closed_drawdown_eur": 338.77843044212204,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 108,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_TIME": 107,
+            "REFUSED": 131,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5092592592592593,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 107,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 52,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 67,
+            "PAUSE_AFTER_TWO_LOSSES": 56,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.6858140560800864,
+          "mean_realized_R": 0.05208336557823125,
+          "days_with_more_than_two_entries": 8,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0329287131634437
+        },
+        "higher_costs": {
+          "closed_trades": 108,
+          "wins": 55,
+          "losses": 53,
+          "known_closed_net_eur": 444.43195989829013,
+          "net_eur": 444.43195989829013,
+          "profit_factor": 1.2519128867260263,
+          "closed_drawdown_eur": 352.6418971037492,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 108,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_TIME": 107,
+            "REFUSED": 131,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5092592592592593,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 107,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 52,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 67,
+            "PAUSE_AFTER_TWO_LOSSES": 56,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.4444319598982901,
+          "mean_realized_R": 0.0326712539586042,
+          "days_with_more_than_two_entries": 8,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9954348214783698
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": 19.66474573351078,
+          "net_eur": 19.66474573351078,
+          "profit_factor": 1.0294433235910676,
+          "closed_drawdown_eur": 338.77843044212204,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 35,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 19,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2
+          },
+          "net_pct_initial_capital": 0.01966474573351078,
+          "mean_realized_R": 0.0059453123266829016,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0222753008103957
+        },
+        "higher_costs": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": -42.28019442732116,
+          "net_eur": -42.28019442732116,
+          "profit_factor": 0.9380735913168904,
+          "closed_drawdown_eur": 352.6418971037492,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 35,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 19,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2
+          },
+          "net_pct_initial_capital": -0.042280194427321165,
+          "mean_realized_R": -0.01332222372564286,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9823899544609535
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 36,
+          "wins": 19,
+          "losses": 17,
+          "known_closed_net_eur": 488.9650414500847,
+          "net_eur": 488.9650414500847,
+          "profit_factor": 2.055924096241952,
+          "closed_drawdown_eur": 152.3060228041868,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 36,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 46,
+            "TRADE_CLOSED_TIME": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5277777777777778,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 19,
+          "closed_exits": {
+            "TIME": 36
+          },
+          "negative_exits": {
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.4889650414500847,
+          "mean_realized_R": 0.11081366100997433,
+          "days_with_more_than_two_entries": 2,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8987313394066574
+        },
+        "higher_costs": {
+          "closed_trades": 36,
+          "wins": 19,
+          "losses": 17,
+          "known_closed_net_eur": 405.85651424685847,
+          "net_eur": 405.85651424685847,
+          "profit_factor": 1.8359024113190674,
+          "closed_drawdown_eur": 172.2470385057095,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 36,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 46,
+            "TRADE_CLOSED_TIME": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5277777777777778,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 19,
+          "closed_exits": {
+            "TIME": 36
+          },
+          "negative_exits": {
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.4058565142468585,
+          "mean_realized_R": 0.09108577509388024,
+          "days_with_more_than_two_entries": 2,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8788597871763982
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 37,
+          "wins": 21,
+          "losses": 16,
+          "known_closed_net_eur": 178.09206478865036,
+          "net_eur": 178.09206478865036,
+          "profit_factor": 1.3530635232319217,
+          "closed_drawdown_eur": 124.55244404201221,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 37,
+            "NO_FRESH_CROSS": 828,
+            "TRADE_CLOSED_TIME": 37,
+            "REFUSED": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5675675675675675,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 37
+          },
+          "negative_exits": {
+            "TIME": 16
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 19,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.17809206478865036,
+          "mean_realized_R": 0.03985913960408282,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0181203471215152
+        },
+        "higher_costs": {
+          "closed_trades": 37,
+          "wins": 21,
+          "losses": 16,
+          "known_closed_net_eur": 98.0184576810485,
+          "net_eur": 98.0184576810485,
+          "profit_factor": 1.1861164272770246,
+          "closed_drawdown_eur": 139.89695742931508,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 37,
+            "NO_FRESH_CROSS": 828,
+            "TRADE_CLOSED_TIME": 37,
+            "REFUSED": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5675675675675675,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 37
+          },
+          "negative_exits": {
+            "TIME": 16
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 19,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.0980184576810485,
+          "mean_realized_R": 0.02053283491888366,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9789515393432864
+        }
+      }
+    },
+    "EXTENDED_HOLD60_CAP8": {
+      "Q1": {
+        "base": {
+          "closed_trades": 108,
+          "wins": 55,
+          "losses": 53,
+          "known_closed_net_eur": 685.8140560800864,
+          "net_eur": 685.8140560800864,
+          "profit_factor": 1.4050940430434307,
+          "closed_drawdown_eur": 338.77843044212204,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 108,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_TIME": 107,
+            "REFUSED": 131,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5092592592592593,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 107,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 52,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 67,
+            "PAUSE_AFTER_TWO_LOSSES": 56,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.6858140560800864,
+          "mean_realized_R": 0.05208336557823125,
+          "days_with_more_than_two_entries": 8,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0329287131634437
+        },
+        "higher_costs": {
+          "closed_trades": 108,
+          "wins": 55,
+          "losses": 53,
+          "known_closed_net_eur": 444.43195989829013,
+          "net_eur": 444.43195989829013,
+          "profit_factor": 1.2519128867260263,
+          "closed_drawdown_eur": 352.6418971037492,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 108,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_TIME": 107,
+            "REFUSED": 131,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5092592592592593,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 107,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 52,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 67,
+            "PAUSE_AFTER_TWO_LOSSES": 56,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.4444319598982901,
+          "mean_realized_R": 0.0326712539586042,
+          "days_with_more_than_two_entries": 8,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9954348214783698
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": 19.66474573351078,
+          "net_eur": 19.66474573351078,
+          "profit_factor": 1.0294433235910676,
+          "closed_drawdown_eur": 338.77843044212204,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 35,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 19,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2
+          },
+          "net_pct_initial_capital": 0.01966474573351078,
+          "mean_realized_R": 0.0059453123266829016,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0222753008103957
+        },
+        "higher_costs": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": -42.28019442732116,
+          "net_eur": -42.28019442732116,
+          "profit_factor": 0.9380735913168904,
+          "closed_drawdown_eur": 352.6418971037492,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 35,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 19,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2
+          },
+          "net_pct_initial_capital": -0.042280194427321165,
+          "mean_realized_R": -0.01332222372564286,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9823899544609535
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 36,
+          "wins": 19,
+          "losses": 17,
+          "known_closed_net_eur": 488.9650414500847,
+          "net_eur": 488.9650414500847,
+          "profit_factor": 2.055924096241952,
+          "closed_drawdown_eur": 152.3060228041868,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 36,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 46,
+            "TRADE_CLOSED_TIME": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5277777777777778,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 19,
+          "closed_exits": {
+            "TIME": 36
+          },
+          "negative_exits": {
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.4889650414500847,
+          "mean_realized_R": 0.11081366100997433,
+          "days_with_more_than_two_entries": 2,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8987313394066574
+        },
+        "higher_costs": {
+          "closed_trades": 36,
+          "wins": 19,
+          "losses": 17,
+          "known_closed_net_eur": 405.85651424685847,
+          "net_eur": 405.85651424685847,
+          "profit_factor": 1.8359024113190674,
+          "closed_drawdown_eur": 172.2470385057095,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 36,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 46,
+            "TRADE_CLOSED_TIME": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5277777777777778,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 19,
+          "closed_exits": {
+            "TIME": 36
+          },
+          "negative_exits": {
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.4058565142468585,
+          "mean_realized_R": 0.09108577509388024,
+          "days_with_more_than_two_entries": 2,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.8788597871763982
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 37,
+          "wins": 21,
+          "losses": 16,
+          "known_closed_net_eur": 178.09206478865036,
+          "net_eur": 178.09206478865036,
+          "profit_factor": 1.3530635232319217,
+          "closed_drawdown_eur": 124.55244404201221,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 37,
+            "NO_FRESH_CROSS": 828,
+            "TRADE_CLOSED_TIME": 37,
+            "REFUSED": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5675675675675675,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 37
+          },
+          "negative_exits": {
+            "TIME": 16
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 19,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.17809206478865036,
+          "mean_realized_R": 0.03985913960408282,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 1.0181203471215152
+        },
+        "higher_costs": {
+          "closed_trades": 37,
+          "wins": 21,
+          "losses": 16,
+          "known_closed_net_eur": 98.0184576810485,
+          "net_eur": 98.0184576810485,
+          "profit_factor": 1.1861164272770246,
+          "closed_drawdown_eur": 139.89695742931508,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 37,
+            "NO_FRESH_CROSS": 828,
+            "TRADE_CLOSED_TIME": 37,
+            "REFUSED": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5675675675675675,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 37
+          },
+          "negative_exits": {
+            "TIME": 16
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 19,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.0980184576810485,
+          "mean_realized_R": 0.02053283491888366,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.9789515393432864
+        }
+      }
+    },
+    "EXTENDED_HOLD60_8SMALL": {
+      "Q1": {
+        "base": {
+          "closed_trades": 108,
+          "wins": 55,
+          "losses": 53,
+          "known_closed_net_eur": 339.43569244670493,
+          "net_eur": 339.43569244670493,
+          "profit_factor": 1.4095398907673855,
+          "closed_drawdown_eur": 167.92204397174646,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 108,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_TIME": 107,
+            "REFUSED": 131,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5092592592592593,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 107,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 52,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 67,
+            "PAUSE_AFTER_TWO_LOSSES": 56,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.3394356924467049,
+          "mean_realized_R": 0.05208336557823125,
+          "days_with_more_than_two_entries": 8,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.5182467261970845
+        },
+        "higher_costs": {
+          "closed_trades": 108,
+          "wins": 55,
+          "losses": 53,
+          "known_closed_net_eur": 221.41941180341044,
+          "net_eur": 221.41941180341044,
+          "profit_factor": 1.2563381580874167,
+          "closed_drawdown_eur": 171.9469063268043,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 1990,
+            "ENTERED": 108,
+            "NO_FRESH_CROSS": 3000,
+            "TRADE_CLOSED_TIME": 107,
+            "REFUSED": 131,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5092592592592593,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 58,
+          "closed_exits": {
+            "TIME": 107,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 52,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 67,
+            "PAUSE_AFTER_TWO_LOSSES": 56,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 4
+          },
+          "net_pct_initial_capital": 0.22141941180341043,
+          "mean_realized_R": 0.03267125395860421,
+          "days_with_more_than_two_entries": 8,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.4988645207316149
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": 12.916474833588534,
+          "net_eur": 12.916474833588534,
+          "profit_factor": 1.0394698623015777,
+          "closed_drawdown_eur": 167.92204397174646,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 35,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 19,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2
+          },
+          "net_pct_initial_capital": 0.012916474833588534,
+          "mean_realized_R": 0.0059453123266829016,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.5005472906826395
+        },
+        "higher_costs": {
+          "closed_trades": 28,
+          "wins": 13,
+          "losses": 15,
+          "known_closed_net_eur": -15.793964427838727,
+          "net_eur": -15.793964427838727,
+          "profit_factor": 0.9525239616168861,
+          "closed_drawdown_eur": 171.9469063268043,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 561,
+            "ENTERED": 28,
+            "NO_FRESH_CROSS": 1036,
+            "TRADE_CLOSED_TIME": 27,
+            "REFUSED": 35,
+            "TRADE_CLOSED_SL": 1,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4642857142857143,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 27,
+            "SL": 1
+          },
+          "negative_exits": {
+            "TIME": 14,
+            "SL": 1
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 14,
+            "PAUSE_AFTER_TWO_LOSSES": 19,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 2
+          },
+          "net_pct_initial_capital": -0.015793964427838727,
+          "mean_realized_R": -0.013322223725642847,
+          "days_with_more_than_two_entries": 1,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.48055755475138334
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 36,
+          "wins": 19,
+          "losses": 17,
+          "known_closed_net_eur": 239.78612539691886,
+          "net_eur": 239.78612539691886,
+          "profit_factor": 2.064441051188578,
+          "closed_drawdown_eur": 74.4646773807035,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 36,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 46,
+            "TRADE_CLOSED_TIME": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5277777777777778,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 19,
+          "closed_exits": {
+            "TIME": 36
+          },
+          "negative_exits": {
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.23978612539691888,
+          "mean_realized_R": 0.11081366100997433,
+          "days_with_more_than_two_entries": 2,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.4396948724801978
+        },
+        "higher_costs": {
+          "closed_trades": 36,
+          "wins": 19,
+          "losses": 17,
+          "known_closed_net_eur": 196.58488211643862,
+          "net_eur": 196.58488211643862,
+          "profit_factor": 1.8191769299747034,
+          "closed_drawdown_eur": 85.58776685931662,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 585,
+            "ENTERED": 36,
+            "NO_FRESH_CROSS": 993,
+            "REFUSED": 46,
+            "TRADE_CLOSED_TIME": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5277777777777778,
+          "maximum_executed_entries_per_day": 3,
+          "days_with_executed_entry": 19,
+          "closed_exits": {
+            "TIME": 36
+          },
+          "negative_exits": {
+            "TIME": 17
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 30,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.19658488211643863,
+          "mean_realized_R": 0.09108577509388026,
+          "days_with_more_than_two_entries": 2,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.4397095867309475
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 37,
+          "wins": 21,
+          "losses": 16,
+          "known_closed_net_eur": 87.73447148588575,
+          "net_eur": 87.73447148588575,
+          "profit_factor": 1.353641636666439,
+          "closed_drawdown_eur": 61.98054491818766,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 37,
+            "NO_FRESH_CROSS": 828,
+            "TRADE_CLOSED_TIME": 37,
+            "REFUSED": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5675675675675675,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 37
+          },
+          "negative_exits": {
+            "TIME": 16
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 19,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.08773447148588576,
+          "mean_realized_R": 0.03985913960408282,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.4995511369339527
+        },
+        "higher_costs": {
+          "closed_trades": 37,
+          "wins": 21,
+          "losses": 16,
+          "known_closed_net_eur": 49.79825721725337,
+          "net_eur": 49.79825721725337,
+          "profit_factor": 1.1940805294344885,
+          "closed_drawdown_eur": 66.74610541414586,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 759,
+            "ENTERED": 37,
+            "NO_FRESH_CROSS": 828,
+            "TRADE_CLOSED_TIME": 37,
+            "REFUSED": 36,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5675675675675675,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 37
+          },
+          "negative_exits": {
+            "TIME": 16
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 19,
+            "PAUSE_AFTER_TWO_LOSSES": 14,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.049798257217253374,
+          "mean_realized_R": 0.020532834918883667,
+          "days_with_more_than_two_entries": 4,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.4801620477254295
+        }
+      }
+    },
+    "EXTENDED_HOLD60_8SMALL_M1": {
+      "Q1": {
+        "base": {
+          "closed_trades": 117,
+          "wins": 54,
+          "losses": 63,
+          "known_closed_net_eur": 138.52831679357934,
+          "net_eur": 138.52831679357934,
+          "profit_factor": 1.117299772932778,
+          "closed_drawdown_eur": 172.39210667001316,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 10051,
+            "ENTERED": 117,
+            "NO_FRESH_CROSS": 15814,
+            "TRADE_CLOSED_TIME": 113,
+            "TRADE_CLOSED_SL": 4,
+            "REFUSED": 415,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.46153846153846156,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 54,
+          "closed_exits": {
+            "TIME": 113,
+            "SL": 4
+          },
+          "negative_exits": {
+            "SL": 4,
+            "TIME": 59
+          },
+          "refusal_reasons_nonexclusive": {
+            "PAUSE_AFTER_TWO_LOSSES": 190,
+            "POSITION_OPEN": 218,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 5,
+            "FIRST_TICK_LATE": 2
+          },
+          "net_pct_initial_capital": 0.13852831679357933,
+          "mean_realized_R": 0.019117743312385405,
+          "days_with_more_than_two_entries": 14,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.7801857889731598
+        },
+        "higher_costs": {
+          "closed_trades": 115,
+          "wins": 52,
+          "losses": 63,
+          "known_closed_net_eur": 33.39015694053378,
+          "net_eur": 33.39015694053378,
+          "profit_factor": 1.0284916150597414,
+          "closed_drawdown_eur": 189.70375560411776,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 63,
+            "INTERIOR_CLOSE_REARMED": 10051,
+            "ENTERED": 115,
+            "NO_FRESH_CROSS": 15814,
+            "TRADE_CLOSED_TIME": 112,
+            "TRADE_CLOSED_SL": 3,
+            "REFUSED": 417,
+            "WEEKEND_NO_SESSION": 24
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.45217391304347826,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 53,
+          "closed_exits": {
+            "TIME": 112,
+            "SL": 3
+          },
+          "negative_exits": {
+            "SL": 3,
+            "TIME": 60
+          },
+          "refusal_reasons_nonexclusive": {
+            "PAUSE_AFTER_TWO_LOSSES": 197,
+            "POSITION_OPEN": 214,
+            "FIRST_TICK_LATE": 2,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4
+          },
+          "net_pct_initial_capital": 0.03339015694053378,
+          "mean_realized_R": 0.004219436208420356,
+          "days_with_more_than_two_entries": 14,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.740302324196196
+        }
+      },
+      "JAN28": {
+        "base": {
+          "closed_trades": 32,
+          "wins": 16,
+          "losses": 16,
+          "known_closed_net_eur": -18.79916545274768,
+          "net_eur": -18.79916545274768,
+          "profit_factor": 0.9578607289198178,
+          "closed_drawdown_eur": 153.74206445812888,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 2824,
+            "ENTERED": 32,
+            "NO_FRESH_CROSS": 5415,
+            "TRADE_CLOSED_TIME": 29,
+            "TRADE_CLOSED_SL": 3,
+            "REFUSED": 109,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.5,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 16,
+          "closed_exits": {
+            "TIME": 29,
+            "SL": 3
+          },
+          "negative_exits": {
+            "SL": 3,
+            "TIME": 13
+          },
+          "refusal_reasons_nonexclusive": {
+            "PAUSE_AFTER_TWO_LOSSES": 53,
+            "POSITION_OPEN": 55,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+          },
+          "net_pct_initial_capital": -0.01879916545274768,
+          "mean_realized_R": -0.01141518736891775,
+          "days_with_more_than_two_entries": 3,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.5200738346217941
+        },
+        "higher_costs": {
+          "closed_trades": 30,
+          "wins": 14,
+          "losses": 16,
+          "known_closed_net_eur": -22.09973752871317,
+          "net_eur": -22.09973752871317,
+          "profit_factor": 0.944364371129622,
+          "closed_drawdown_eur": 137.41139670873235,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 2824,
+            "ENTERED": 30,
+            "NO_FRESH_CROSS": 5415,
+            "TRADE_CLOSED_TIME": 28,
+            "TRADE_CLOSED_SL": 2,
+            "REFUSED": 111,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4666666666666667,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 15,
+          "closed_exits": {
+            "TIME": 28,
+            "SL": 2
+          },
+          "negative_exits": {
+            "SL": 2,
+            "TIME": 14
+          },
+          "refusal_reasons_nonexclusive": {
+            "PAUSE_AFTER_TWO_LOSSES": 60,
+            "POSITION_OPEN": 51
+          },
+          "net_pct_initial_capital": -0.02209973752871317,
+          "mean_realized_R": -0.013142573702365028,
+          "days_with_more_than_two_entries": 3,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.5001802365065338
+        }
+      },
+      "FEB28": {
+        "base": {
+          "closed_trades": 39,
+          "wins": 17,
+          "losses": 22,
+          "known_closed_net_eur": 107.69842720140137,
+          "net_eur": 107.69842720140137,
+          "profit_factor": 1.368761241389274,
+          "closed_drawdown_eur": 134.06027196740615,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "ENTERED": 39,
+            "NO_FRESH_CROSS": 5263,
+            "INTERIOR_CLOSE_REARMED": 2946,
+            "TRADE_CLOSED_TIME": 39,
+            "REFUSED": 132,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4358974358974359,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 39
+          },
+          "negative_exits": {
+            "TIME": 22
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 81,
+            "PAUSE_AFTER_TWO_LOSSES": 50,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.10769842720140138,
+          "mean_realized_R": 0.044365301089801926,
+          "days_with_more_than_two_entries": 5,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.7800391162243454
+        },
+        "higher_costs": {
+          "closed_trades": 39,
+          "wins": 17,
+          "losses": 22,
+          "known_closed_net_eur": 59.53500993204971,
+          "net_eur": 59.53500993204971,
+          "profit_factor": 1.1920063941686767,
+          "closed_drawdown_eur": 141.2139849895466,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "ENTERED": 39,
+            "NO_FRESH_CROSS": 5263,
+            "INTERIOR_CLOSE_REARMED": 2946,
+            "TRADE_CLOSED_TIME": 39,
+            "REFUSED": 132,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.4358974358974359,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 17,
+          "closed_exits": {
+            "TIME": 39
+          },
+          "negative_exits": {
+            "TIME": 22
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 81,
+            "PAUSE_AFTER_TWO_LOSSES": 50,
+            "FIRST_TICK_LATE": 1
+          },
+          "net_pct_initial_capital": 0.05953500993204971,
+          "mean_realized_R": 0.024107248285147296,
+          "days_with_more_than_two_entries": 5,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.7401386933849544
+        }
+      },
+      "MAR28": {
+        "base": {
+          "closed_trades": 39,
+          "wins": 19,
+          "losses": 20,
+          "known_closed_net_eur": 84.32298020331692,
+          "net_eur": 84.32298020331692,
+          "profit_factor": 1.2390160248307815,
+          "closed_drawdown_eur": 102.88295262159954,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 3836,
+            "ENTERED": 39,
+            "NO_FRESH_CROSS": 4371,
+            "TRADE_CLOSED_TIME": 39,
+            "REFUSED": 134,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.48717948717948717,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 39
+          },
+          "negative_exits": {
+            "TIME": 20
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 66,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 1,
+            "PAUSE_AFTER_TWO_LOSSES": 63
+          },
+          "net_pct_initial_capital": 0.08432298020331692,
+          "mean_realized_R": 0.0372677587530505,
+          "days_with_more_than_two_entries": 5,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.49935112121858194
+        },
+        "higher_costs": {
+          "closed_trades": 39,
+          "wins": 19,
+          "losses": 20,
+          "known_closed_net_eur": 41.828277785661015,
+          "net_eur": 41.828277785661015,
+          "profit_factor": 1.1135229255346752,
+          "closed_drawdown_eur": 104.85525574597705,
+          "halt": null,
+          "event_counts": {
+            "RANGE_READY": 20,
+            "INTERIOR_CLOSE_REARMED": 3836,
+            "ENTERED": 39,
+            "NO_FRESH_CROSS": 4371,
+            "TRADE_CLOSED_TIME": 39,
+            "REFUSED": 134,
+            "WEEKEND_NO_SESSION": 8
+          },
+          "full_market_period_certified": false,
+          "FTMO_compliance_verified": false,
+          "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+          "observed_closed_win_rate": 0.48717948717948717,
+          "maximum_executed_entries_per_day": 4,
+          "days_with_executed_entry": 18,
+          "closed_exits": {
+            "TIME": 39
+          },
+          "negative_exits": {
+            "TIME": 20
+          },
+          "refusal_reasons_nonexclusive": {
+            "POSITION_OPEN": 66,
+            "ENTRY_NO_LONGER_BEYOND_RANGE": 4,
+            "FIRST_TICK_LATE": 1,
+            "PAUSE_AFTER_TWO_LOSSES": 63
+          },
+          "net_pct_initial_capital": 0.04182827778566101,
+          "mean_realized_R": 0.0165997972697188,
+          "days_with_more_than_two_entries": 5,
+          "leverage_cap_binding_closed_trades": 0,
+          "maximum_effective_model_leverage": 0.48018060576595883
+        }
+      }
+    }
+  },
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "winner_selected": null,
+  "active_strategy_unchanged": true,
+  "FTMO_pass_claimed": false,
+  "independent_validation": false,
+  "attempts_not_independent_of_Q1": true,
+  "annual_total_still_unknown": true
+}

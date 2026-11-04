@@ -1,0 +1,22 @@
+{
+  "as_of_date": "2026-11-04",
+  "hash_checks_passed": 86,
+  "all_study_json_parsed": true,
+  "active_V03_and_shared_core_match_previous_freeze": true,
+  "witness_trade_CSVs_identical_to_prior_closed_prefix_both_costs": true,
+  "unit_tests_run_and_passed": {
+    "test_features.py": 8,
+    "test_comparison.py": 1
+  },
+  "independent_review": {
+    "material_defects_remaining": 0,
+    "raw_M5_events_same": 4095,
+    "raw_breakouts_same": 202,
+    "candidate_new_entries": 8,
+    "four_arms_period_cash_balances_overlap_pause_risk_quota_checked": true
+  },
+  "FTMO_compliance_verified": false,
+  "independent_market_validation": false,
+  "annual_total_still_unknown": true,
+  "promotion": "REJECTED_EMA_FILTER_BASELINE_UNCHANGED"
+}

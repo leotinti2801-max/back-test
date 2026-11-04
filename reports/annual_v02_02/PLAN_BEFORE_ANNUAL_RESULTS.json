@@ -1,0 +1,10 @@
+{
+  "first_experiment_freeze_sha256": "9b3a40f5417c7572b8343e127385d0a66cd9433fa015ab5c68fe879b5e14cda0",
+  "script_sha256": "89a880e34f990313caa6908570f46f344264cab65e47f0e0747590baa353bb10",
+  "analyses": [
+    "full 2021 continuous replay",
+    "same candidates: fee x1.5, market slippage x2"
+  ],
+  "no_new_candidates": true,
+  "no_parameter_retuning": true
+}

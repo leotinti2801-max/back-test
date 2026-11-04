@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/background.rst",
+    "file": "arch_background.rst",
+    "sha256": "7e042e446fdca7b63650271d1fd09cda661ffad6eadc82e0de541545fc84f3a2",
+    "bytes": 622,
+    "status": 200
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/multiple-comparison-reference.rst",
+    "file": "arch_multiple-comparison-reference.rst",
+    "sha256": "d5736e011eb2fa37ceef483eae3505b4f0e33de0b2b0da6cf1bd0d9c6e18de04",
+    "bytes": 5891,
+    "status": 200
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/multiple-comparisons.rst",
+    "file": "arch_multiple-comparisons.rst",
+    "sha256": "79a5d63f8578c1ccc3cbdb7fb6ec4b1d12afe76fa5f47f4ddda911fabe721bd3",
+    "bytes": 557,
+    "status": 200
+  }
+]

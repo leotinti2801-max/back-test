@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "closed_trade_rows_audited": 152,
+  "not_independent_observations": true,
+  "max_cash_flow_difference_eur": 0.0,
+  "financial_trade_CSV_identical_before_after_diagnostic_fix": true,
+  "risk_per_trade_max_planned_eur": 250,
+  "risk_per_day_max_planned_eur": 500,
+  "realized_risk_cap_guaranteed": false,
+  "official_FTMO_compliance_checked": false
+}

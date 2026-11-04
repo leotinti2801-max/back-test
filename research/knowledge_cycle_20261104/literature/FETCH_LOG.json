@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/pst-group/pysystemtrade/master/systems/provided/rules/breakout.py",
+    "attempted_at_utc": "2026-11-04T10:14:28.911540+00:00",
+    "proxy": "inherited urllib default proxy",
+    "tls_verification": "default enabled",
+    "purpose": "Inspect author-maintained breakout example; establish scope, not strategy profitability",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/pst-group/pysystemtrade/master/systems/provided/rules/breakout.py",
+    "bytes": 1086,
+    "sha256": "9e7fd5079ff1c7bb09913c2c3a512a923e8d8fb5525065831f6d69c71b5c198f",
+    "local_path": "research/knowledge_cycle_20261104/literature/sources/carver_breakout.py.txt"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/bootstrap/timeseries-bootstraps.rst",
+    "attempted_at_utc": "2026-11-04T10:14:55.897808+00:00",
+    "proxy": "inherited urllib default proxy",
+    "tls_verification": "default enabled",
+    "purpose": "Verify what time-series bootstrap documentation does and does not establish",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/bootstrap/timeseries-bootstraps.rst",
+    "bytes": 3457,
+    "sha256": "1bc55e3dee8279bc54b68acb943fa1ce3b2ad6397dd83b8ddb69dd40a3debd2f",
+    "local_path": "research/knowledge_cycle_20261104/literature/sources/arch_timeseries_bootstraps.rst"
+  }
+]

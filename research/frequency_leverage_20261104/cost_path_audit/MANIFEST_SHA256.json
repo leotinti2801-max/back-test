@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-11-04",
+  "artifacts": {
+    "AUDIT_SUMMARY.json": "554ebf3d9aeec06ebac05cd9680e22b373a91c8d995a5914681bef73fb4727dc",
+    "DECISION_DIVERGENCES_Q1.csv": "baf84d616afa352bdf70a98019bac1695ec6b33355133db6e9e4a534691cb293",
+    "JAN27_TARGET_QUOTE_EVIDENCE.csv": "07267001853ced23961d47019e5374ae9ca5f64a9aa48eb148959d673b05f3d9",
+    "LOSS_PAUSE_STATE_Q1.csv": "1d1544a077212e80522a794cc4f37ecae5756421f929e3f6619ee95c8e1df768",
+    "NOTE_FR.md": "c21e06562be4b7335acefb20add5cd9074d2301dfcb27fe9fdf6c284673248ba",
+    "PERIOD_COST_COMPARISON.csv": "86670c85d44db2cc7f23250295c2e42e84ae46dc4a430016cca968d6d794ff7c",
+    "SOURCE_IDENTITIES.json": "ef4e759fabe97345a2cd42c60307bc782a2ef7778f3f2c83eede0b82f5b0c91b",
+    "TRADE_COMPARISON_Q1.csv": "2dc081cb0cb9b1eb99d2dfae9737e7e386da338fae324af671a1161e59c281d4"
+  },
+  "validation": {
+    "pairs_reconciled": 36,
+    "focused_decision_divergences": 20,
+    "source_files_hashes_unchanged": 82,
+    "new_financial_path_simulations": 0
+  }
+}

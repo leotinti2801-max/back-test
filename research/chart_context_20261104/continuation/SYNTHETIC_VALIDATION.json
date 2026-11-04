@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "synthetic_tests_passed": 11,
+  "failed": 0,
+  "skipped": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python -m unittest discover -s research/chart_context_20261104/continuation -p 'test_continuation.py' -v",
+  "historical_cache_loaded": false,
+  "market_portfolio_simulation_run": false,
+  "source_sha256": {
+    "research/chart_context_20261104/continuation/__init__.py": "aa9e4d1cbf02107f4c426e77dad032658431a67db9eebdb923d05317f49755a7",
+    "research/chart_context_20261104/continuation/continuation.py": "7622151a214240be286e5aa09ed4ef302494cc53e7374a9a8e688aa576dea1fd",
+    "research/chart_context_20261104/continuation/test_continuation.py": "483093e486266d6aaca1a2c313d6792e7b2f3d6af3fd28405c16205fd7d03a5c",
+    "research/chart_context_20261104/continuation/PLAN_BEFORE_HISTORY.json": "9981d76914f20ccb13912a54f0b1177c48c6469b2817ee71a92a7ea7e49a99eb",
+    "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6",
+    "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+    "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+    "src/backtest_bot/reference.py": "6b3fe8756560646f7ca046a2c54c30f2aed75fd29d6bf4892c1c42626e0fcdcf",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "vendor/h4m30_v01/integrity_guard.py": "4f19df0f0c2c0c7de64f8301ca4083186f31becac9e405eb50d2db30be48d4fd"
+  }
+}

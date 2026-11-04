@@ -1,0 +1,156 @@
+{
+  "cycle": "indicator_study_20261104",
+  "scope": "Formulas, causal availability, initialization and data semantics for EMA/RSI/ATR/ADX/Bollinger Bands on EURUSD research",
+  "maximum_targeted_documents": 8,
+  "documents_read": 8,
+  "download_failures": 0,
+  "official_repositories": [
+    "https://github.com/TA-Lib/ta-lib",
+    "https://github.com/oanda/v20-openapi"
+  ],
+  "upstream_identity": "Mutable main/master branches; content pinned by SHA256, no release or commit identity invented",
+  "new_backtests": false,
+  "active_strategy_code_modified": false,
+  "indicator_integration": false,
+  "edge_or_FTMO_pass_claim": false,
+  "network": "Inherited HTTPS proxy, default TLS verification, direct official GitHub raw destinations permitted by startup policy; no blocked-host retries or relays",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "EMA implementation",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_EMA.c",
+      "local_copy": "TA_EMA.c",
+      "sha256": "a5e403878df4743da9ff323dabd4f54099a9054ef2a64bc34a09e0375358277d",
+      "bytes": 20733,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "62-77: lookback/display",
+        "114-190: coefficients, seed and recurrence"
+      ],
+      "verified_scope_and_limit": "EMA arithmetic; no trading edge or universal warm-up default.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S2",
+      "title": "RSI implementation",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_RSI.c",
+      "local_copy": "TA_RSI.c",
+      "sha256": "3615579001c957bb0056ef2e074aa39492690bc763aef5a6624d7b0eec05ac77",
+      "bytes": 24807,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "70-85: lookback/display",
+        "144-246: seed, Wilder recursion and zero-change case"
+      ],
+      "verified_scope_and_limit": "RSI arithmetic and observed flat-input convention; no reversal probability.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S3",
+      "title": "ATR implementation",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_ATR.c",
+      "local_copy": "TA_ATR.c",
+      "sha256": "aa70876d7158be94d58fb4637e983a180ae3c992a297151acd6978c25f071174",
+      "bytes": 27732,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "64-85: lookback/display",
+        "136-274: true range, seed and Wilder recursion"
+      ],
+      "verified_scope_and_limit": "Amplitude arithmetic; no direction or calibrated EUR risk without position sizing.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S4",
+      "title": "ADX implementation",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_ADX.c",
+      "local_copy": "TA_ADX.c",
+      "sha256": "ec1b4bc9891e1d8d9f368244953e1893a6d714735d3a90f40e3620ae356cd7ed",
+      "bytes": 49249,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "70-85: lookback/display",
+        "145-240: directional-movement definitions",
+        "271-442: initialization, DI/DX and ADX recursion",
+        "450-480: continuation of Wilder state update"
+      ],
+      "verified_scope_and_limit": "Directional intensity arithmetic; no optimal threshold or significance result.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S5",
+      "title": "Bollinger Bands implementation",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_BBANDS.c",
+      "local_copy": "TA_BBANDS.c",
+      "sha256": "eaa02bada44dfff5f73734f555b4e74fc08f62148769879b17107cd4201b787c",
+      "bytes": 53477,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "81-118: lookback",
+        "184-378: SMA mean, N-divisor variance and upper/lower bands"
+      ],
+      "verified_scope_and_limit": "Band arithmetic; no guaranteed probability coverage or mean-reversion edge.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S6",
+      "title": "Standard deviation implementation",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_STDDEV.c",
+      "local_copy": "TA_STDDEV.c",
+      "sha256": "8ed42ecf5e1726f1e3d09ff0957a99deeabea5c8d494f7d787b38ce1ba7d5ed1",
+      "bytes": 19026,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "63-83: lookback/display",
+        "118-166: VAR delegation and scaled square root"
+      ],
+      "verified_scope_and_limit": "Standard deviation implementation; N-divisor independently checked in BBANDS SMA path.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S7",
+      "title": "Official v20 OpenAPI schema",
+      "official_repository_owner": "OANDA",
+      "url": "https://raw.githubusercontent.com/oanda/v20-openapi/master/yaml/v20.yaml",
+      "local_copy": "OANDA_v20.yaml",
+      "sha256": "f1a16f1ea81ea77189e1c61badadfdab4df464ae6b3214f1f4463f4a694b5f1e",
+      "bytes": 619259,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "27-104: candle parameters, price components, smoothing and alignment",
+        "3009-3037: candle time, bid/ask/mid, volume and completeness",
+        "12380-12431: tradeable state, quote liquidity and closeout-only prices"
+      ],
+      "verified_scope_and_limit": "Provider-specific candle and quote schema; no certification of user cache, broker FTMO fills, global FX volumes or profitable indicator.",
+      "financial_edge_study": false
+    },
+    {
+      "id": "S8",
+      "title": "Internal global settings header",
+      "official_repository_owner": "TA-Lib",
+      "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_common/ta_global.h",
+      "local_copy": "TA_global.h",
+      "sha256": "2f89c5e70f7ba15c5e21d39fc72980b71ff6ead2af7ad3cb64897f97dbb15e09",
+      "bytes": 4752,
+      "read_on_utc_date": "2026-11-04",
+      "sections_read": [
+        "Complete header"
+      ],
+      "verified_scope_and_limit": "Confirms per-function unstablePeriod storage. Does not resolve default unstable-period policy or macro definition.",
+      "financial_edge_study": false
+    }
+  ],
+  "unverified": [
+    "Installed TA-Lib version and effective unstable-period defaults",
+    "VWAP primary specification and suitable actual traded-volume data",
+    "User cache volume semantics and its relationship to any broker feed",
+    "Any indicator parameter profitability on independent EURUSD data",
+    "Current FTMO rules or execution quality; separate workstream"
+  ]
+}

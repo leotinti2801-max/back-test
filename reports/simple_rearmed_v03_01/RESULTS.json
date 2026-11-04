@@ -1,0 +1,192 @@
+{
+  "strategy": "EURUSD_RANGE_REARMED_V03_RESEARCH",
+  "periods": {
+    "D45": {
+      "base": {
+        "closed_trades": 31,
+        "wins": 17,
+        "losses": 14,
+        "known_closed_net_eur": 765.3482308618301,
+        "net_eur": 765.3482308618301,
+        "profit_factor": 1.6822831458508913,
+        "closed_drawdown_eur": 420.04951015782717,
+        "halt": null,
+        "event_counts": {
+          "RANGE_READY": 33,
+          "INTERIOR_CLOSE_REARMED": 834,
+          "ENTERED": 31,
+          "NO_FRESH_CROSS": 1201,
+          "TRADE_CLOSED_SL": 7,
+          "REFUSED": 79,
+          "TRADE_CLOSED_TIME": 23,
+          "WEEKEND_NO_SESSION": 12,
+          "TRADE_CLOSED_TP": 1
+        },
+        "full_market_period_certified": false,
+        "FTMO_compliance_verified": false,
+        "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+        "observed_closed_win_rate": 0.5483870967741935
+      },
+      "higher_costs": {
+        "closed_trades": 31,
+        "wins": 17,
+        "losses": 14,
+        "known_closed_net_eur": 692.7190037126306,
+        "net_eur": 692.7190037126306,
+        "profit_factor": 1.6151944213672873,
+        "closed_drawdown_eur": 421.4818981054559,
+        "halt": null,
+        "event_counts": {
+          "RANGE_READY": 33,
+          "INTERIOR_CLOSE_REARMED": 834,
+          "ENTERED": 31,
+          "NO_FRESH_CROSS": 1201,
+          "TRADE_CLOSED_SL": 7,
+          "REFUSED": 79,
+          "TRADE_CLOSED_TIME": 23,
+          "WEEKEND_NO_SESSION": 12,
+          "TRADE_CLOSED_TP": 1
+        },
+        "full_market_period_certified": false,
+        "FTMO_compliance_verified": false,
+        "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+        "observed_closed_win_rate": 0.5483870967741935
+      }
+    },
+    "Y2021": {
+      "base": {
+        "closed_trades": 61,
+        "wins": 31,
+        "losses": 30,
+        "known_closed_net_eur": 642.3667390327232,
+        "net_eur": null,
+        "profit_factor": 1.3089442324862741,
+        "closed_drawdown_eur": 420.04951015782717,
+        "halt": {
+          "reason": "UNRESOLVED_EXECUTION",
+          "at_utc": "2021-04-01T11:40:00Z",
+          "entry_at_utc": "2021-04-01T08:25:00Z",
+          "details": {
+            "status": "UNRESOLVED_EXECUTION",
+            "reason": "UNRESOLVED_M1_STEP",
+            "entry_ms": 1617265500000,
+            "previous_ms": 1617277140000,
+            "current_ms": 1617277260000,
+            "missing_minutes": 1,
+            "gap_class": "UNCLASSIFIED_MISSING_M1",
+            "total_net_pnl": null,
+            "performance_publishable": false,
+            "tick_completeness_certified": false,
+            "known_realized_per_unit": -2.1300434102847018e-05,
+            "remaining_fraction": 1.0,
+            "known_fills": [],
+            "exposure": {
+              "direction": 1,
+              "entry_t_ms": 1617265500000,
+              "entry_price": 1.17371,
+              "entry_raw_price": 1.1737,
+              "initial_stop": 1.1712399999999998,
+              "target": 1.1813500000000006,
+              "distance": 0.0024700000000001943,
+              "fx_entry": 1.1736849999999999,
+              "risk_unit_eur": 0.002155603931208284,
+              "fee": 5e-05,
+              "slip": 1e-05,
+              "deadline_ms": 1617289200000
+            },
+            "first_unobserved_minute_ms": 1617277200000
+          },
+          "known_partial_cash_eur": -1.192824309759433
+        },
+        "event_counts": {
+          "RANGE_DATA_INCOMPLETE": 1,
+          "WEEKEND_NO_SESSION": 26,
+          "RANGE_READY": 64,
+          "INTERIOR_CLOSE_REARMED": 1702,
+          "ENTERED": 62,
+          "NO_FRESH_CROSS": 2232,
+          "TRADE_CLOSED_SL": 12,
+          "REFUSED": 142,
+          "TRADE_CLOSED_TIME": 48,
+          "TRADE_CLOSED_TP": 1,
+          "UNRESOLVED_EXECUTION": 1
+        },
+        "full_market_period_certified": false,
+        "FTMO_compliance_verified": false,
+        "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+        "observed_closed_win_rate": 0.5081967213114754
+      },
+      "higher_costs": {
+        "closed_trades": 61,
+        "wins": 31,
+        "losses": 30,
+        "known_closed_net_eur": 504.21532760375015,
+        "net_eur": null,
+        "profit_factor": 1.2399888810370796,
+        "closed_drawdown_eur": 431.46643899573246,
+        "halt": {
+          "reason": "UNRESOLVED_EXECUTION",
+          "at_utc": "2021-04-01T11:40:00Z",
+          "entry_at_utc": "2021-04-01T08:25:00Z",
+          "details": {
+            "status": "UNRESOLVED_EXECUTION",
+            "reason": "UNRESOLVED_M1_STEP",
+            "entry_ms": 1617265500000,
+            "previous_ms": 1617277140000,
+            "current_ms": 1617277260000,
+            "missing_minutes": 1,
+            "gap_class": "UNCLASSIFIED_MISSING_M1",
+            "total_net_pnl": null,
+            "performance_publishable": false,
+            "tick_completeness_certified": false,
+            "known_realized_per_unit": -3.195065115427053e-05,
+            "remaining_fraction": 1.0,
+            "known_fills": [],
+            "exposure": {
+              "direction": 1,
+              "entry_t_ms": 1617265500000,
+              "entry_price": 1.1737199999999999,
+              "entry_raw_price": 1.1737,
+              "initial_stop": 1.1712399999999998,
+              "target": 1.18152,
+              "distance": 0.0024800000000000377,
+              "fx_entry": 1.1736849999999999,
+              "risk_unit_eur": 0.002193944712593275,
+              "fee": 7.500000000000001e-05,
+              "slip": 2e-05,
+              "deadline_ms": 1617289200000
+            },
+            "first_unobserved_minute_ms": 1617277200000
+          },
+          "known_partial_cash_eur": -1.7892364646391496
+        },
+        "event_counts": {
+          "RANGE_DATA_INCOMPLETE": 1,
+          "WEEKEND_NO_SESSION": 26,
+          "RANGE_READY": 64,
+          "INTERIOR_CLOSE_REARMED": 1702,
+          "ENTERED": 62,
+          "NO_FRESH_CROSS": 2232,
+          "TRADE_CLOSED_SL": 12,
+          "REFUSED": 142,
+          "TRADE_CLOSED_TIME": 48,
+          "TRADE_CLOSED_TP": 1,
+          "UNRESOLVED_EXECUTION": 1
+        },
+        "full_market_period_certified": false,
+        "FTMO_compliance_verified": false,
+        "equity_warning": "M1 hypothetical liquidation envelopes include exit costs; not contractual FTMO equity.",
+        "observed_closed_win_rate": 0.5081967213114754
+      }
+    }
+  },
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "independent_validation": false,
+  "FTMO_pass_claimed": false
+}

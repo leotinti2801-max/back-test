@@ -1,0 +1,14 @@
+{
+  "as_of_date": "2026-11-04",
+  "hash_checks_passed": 416,
+  "new_behavior_tests_passed": 6,
+  "independent_audit_cells_passed": 72,
+  "closed_trade_rows_audited_correlated": 3014,
+  "witness_and_higher_leverage_financial_journals_identical": true,
+  "active_V03_and_core_sources_unchanged": true,
+  "official_FTMO_compliance_verified": false,
+  "independent_market_validation": false,
+  "annual_total_still_unknown": true,
+  "new_variant_promoted": false,
+  "finding": "Actual frequency up to4/day; no positive net difference versus V03 in both cost scenarios"
+}

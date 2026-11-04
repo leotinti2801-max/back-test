@@ -1,0 +1,138 @@
+{
+  "account": {
+    "capital_eur": 100000.0,
+    "leverage_max": 10.0,
+    "leverage_rule": "qty_eur <= leverage_max * balance_eur * fx_entry / entry_price (same as V03 witness)",
+    "prop_firm_rules": null,
+    "qty_min_eur": 2000.0,
+    "qty_step_eur": 2000.0,
+    "risk_budget_eur_per_position": 250.0,
+    "risk_budget_includes_planned_costs": true
+  },
+  "atr": {
+    "consecutive_complete_bars_required": 15,
+    "known_for_breakout_bar": "AT_ITS_OPEN",
+    "method": "ARITHMETIC_MEAN_OF_TRUE_RANGES_NOT_WILDER",
+    "period": 14,
+    "timeframe": "M30"
+  },
+  "breakout": {
+    "body_atr_min": 1.0,
+    "candle_in_breakout_direction": true,
+    "close_beyond_level": "STRICT",
+    "level": "LAST_M30_PIVOT_CONFIRMED_AT_OR_BEFORE_BAR_OPEN",
+    "level_consumption": "FIRST_COMPLETE_M30_CLOSE_BEYOND_EVEN_IF_NOT_ADMISSIBLE",
+    "timeframe": "M30",
+    "while_position_open": "BOS_IGNORED_POSITION_OPEN_LEVEL_CONSUMED_NO_DEFERRED_SETUP"
+  },
+  "clock": {
+    "bars": "CLOSED_LEFT_LABEL_RIGHT_AVAILABLE_AT_CLOSE",
+    "fill_missing_minutes": false,
+    "h4_open_hours_utc": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20
+    ],
+    "h4_required_m1": 240,
+    "m1_index": "MINUTE_OPEN_UTC",
+    "m30_open_minutes": [
+      0,
+      30
+    ],
+    "m30_required_m1": 30,
+    "paris_timezone_iana": "Europe/Paris",
+    "structure_price": "MID"
+  },
+  "config_id": "H4M30_CORE_V01",
+  "costs": {
+    "fee_round_trip_quote": 5e-05,
+    "fee_split": "HALF_AT_ENTRY_HALF_AT_EXIT",
+    "limit_exit_slip_quote": 0.0,
+    "slip_quote_per_market_execution": 1e-05,
+    "spread_multiplier": 1.0,
+    "tick_quote": 1e-05
+  },
+  "entry": {
+    "execution": "OPEN_OF_NEXT_M1",
+    "first_return_consumed_even_if_refused": true,
+    "first_tick_max_delay_ms": 5000,
+    "max_entries_per_utc_date": 1,
+    "max_open_positions": 1,
+    "mid_open_inside_zone": true,
+    "return": "FIRST_CLOSED_M1_MID_RANGE_INTERSECTING_ZONE_AFTER_BREAKOUT_AT_ANY_HOUR",
+    "return_m1_close_inside_zone": true,
+    "target_known_before_return_m1_open": true,
+    "window_utc_end_minute_exclusive": 1170,
+    "window_utc_start_minute": 360
+  },
+  "exit": {
+    "break_even": false,
+    "exits": "INITIAL_STOP_OR_STRUCTURAL_TARGET_OR_DEADLINE",
+    "hard_exit_utc_minute": 1200,
+    "max_holding_minutes": 240,
+    "partials": false,
+    "stop_priority_if_stop_and_target_in_same_m1": true,
+    "time_exit": "OPEN_QUOTE_OF_DEADLINE_ROW",
+    "trailing": false
+  },
+  "h4_bias": {
+    "comparison": "STRICT",
+    "invalidation": "H4_CLOSE_STRICTLY_BEYOND_LAST_CONFIRMED_OPPOSITE_PIVOT",
+    "lock": "NEUTRAL_UNTIL_NEW_PIVOT_WITH_PIVOT_TIME_AFTER_INVALIDATION_TIME",
+    "missing_h4": "SUSPEND_NEW_ENTRIES_UNTIL_NEXT_COMPLETE_H4_LOCK_KEPT",
+    "rule": "LAST_TWO_CONFIRMED_HIGHS_AND_LOWS_BOTH_RISING_OR_BOTH_FALLING"
+  },
+  "instrument": "EURUSD",
+  "pivots": {
+    "comparison": "STRICT_NO_PIVOT_ON_TIE",
+    "complete_consecutive_bars": 5,
+    "known_at": "CLOSE_OF_SECOND_RIGHT_BAR",
+    "left_bars": 2,
+    "pivot_time": "CLOSE_OF_CENTER_BAR",
+    "right_bars": 2
+  },
+  "poi": {
+    "candle": "LAST_OPPOSITE_BODY_AMONG_SIX_COMPLETE_CONSECUTIVE_PRECEDING_BARS",
+    "doji_is_opposite": false,
+    "lookback_m30": 6,
+    "zone": "POI_MID_LOW_TO_MID_HIGH_FROZEN_AT_BREAKOUT"
+  },
+  "risk": {
+    "friction": "ENTRY_SPREAD_PLUS_FEE_PLUS_TWO_SLIP",
+    "friction_max_fraction_of_stop": 0.3,
+    "min_reward_risk": 2.0,
+    "reward_risk": "(target_distance - fee) / (stop_distance + fee + slip)",
+    "stop_atr_buffer": 0.1,
+    "stop_long": "POI_BID_LOW_MINUS_BUFFER_TIMES_ATR_REF",
+    "stop_short": "POI_ASK_HIGH_PLUS_BUFFER_TIMES_ATR_REF"
+  },
+  "sample": {
+    "n_min_closed_resolved_trades_per_configuration_and_window": 100
+  },
+  "setup": {
+    "bias_change": "EXPIRES_SETUP",
+    "expiry_m30_intervals": 24,
+    "invalidation": "COMPLETE_M30_CLOSE_STRICTLY_BEYOND_OPPOSITE_ZONE_EDGE",
+    "max_active": 1,
+    "replacement": "NEW_VALID_BREAKOUT_REPLACES_UNENTERED_SETUP"
+  },
+  "spec_version": "H4_M30_V02",
+  "target": {
+    "fixed_once_confirmed": true,
+    "pivot": "FIRST_CONFIRMED_M30_PIVOT_WITH_CENTER_CLOSE_AT_OR_AFTER_BREAKOUT_CLOSE_STRICTLY_BEYOND_ZONE",
+    "price_long": "BID_HIGH_OF_PIVOT_BAR",
+    "price_short": "ASK_LOW_OF_PIVOT_BAR",
+    "revisit_before_entry": "CANCEL_SETUP",
+    "revisit_penetration_ticks": 1
+  },
+  "unknowns": {
+    "gap_during_exposure": "UNRESOLVED_EXECUTION_HALT_BRANCH",
+    "impute_zero": false,
+    "masked_return_decision_or_invalidation": "SETUP_AND_DECISION_UNKNOWN_PERIOD_COVERAGE_PARTIAL",
+    "undeterminable_exposure": "HALT_BRANCH_RESULT_UNKNOWN"
+  },
+  "user_rules": null
+}

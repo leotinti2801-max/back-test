@@ -1,0 +1,601 @@
+{
+  "schema_version": "CHART_CONTEXT_FILTER_AUDIT_01",
+  "as_of": "2026-11-04",
+  "period": {
+    "start": "2021-01-04T00:00:00Z",
+    "end_exclusive": "2021-04-01T00:00:00Z"
+  },
+  "scope": "Existing portfolios and logged contexts; no indicator/price-path rerun",
+  "metrics": [
+    {
+      "variant": "V03_2R",
+      "cost": "base",
+      "closed_trades": 61,
+      "wins": 31,
+      "losses": 30,
+      "neutral": 0,
+      "loss_rate": 0.4918032786885246,
+      "net_eur": 839.277207950634,
+      "mean_net_eur_per_trade": 13.758642753289081,
+      "closed_drawdown_eur": 420.04951015782717,
+      "max_entries_per_day": 2,
+      "actual_tp_count": 4
+    },
+    {
+      "variant": "H1_ADX_2R",
+      "cost": "base",
+      "closed_trades": 33,
+      "wins": 16,
+      "losses": 17,
+      "neutral": 0,
+      "loss_rate": 0.5151515151515151,
+      "net_eur": 582.3735447522882,
+      "mean_net_eur_per_trade": 17.647683174311766,
+      "closed_drawdown_eur": 488.13259496187675,
+      "max_entries_per_day": 1,
+      "actual_tp_count": 2
+    },
+    {
+      "variant": "H1_ADX_LEVEL_2R",
+      "cost": "base",
+      "closed_trades": 24,
+      "wins": 12,
+      "losses": 12,
+      "neutral": 0,
+      "loss_rate": 0.5,
+      "net_eur": -20.954757391826092,
+      "mean_net_eur_per_trade": -0.8731148913260872,
+      "closed_drawdown_eur": 311.60647801548475,
+      "max_entries_per_day": 1,
+      "actual_tp_count": 0
+    },
+    {
+      "variant": "V03_2R",
+      "cost": "higher_costs",
+      "closed_trades": 61,
+      "wins": 31,
+      "losses": 30,
+      "neutral": 0,
+      "loss_rate": 0.4918032786885246,
+      "net_eur": 719.2375290591352,
+      "mean_net_eur_per_trade": 11.790779164903856,
+      "closed_drawdown_eur": 431.46643899573246,
+      "max_entries_per_day": 2,
+      "actual_tp_count": 4
+    },
+    {
+      "variant": "H1_ADX_2R",
+      "cost": "higher_costs",
+      "closed_trades": 33,
+      "wins": 16,
+      "losses": 17,
+      "neutral": 0,
+      "loss_rate": 0.5151515151515151,
+      "net_eur": 528.2807695243148,
+      "mean_net_eur_per_trade": 16.008508167403477,
+      "closed_drawdown_eur": 511.0626488606795,
+      "max_entries_per_day": 1,
+      "actual_tp_count": 2
+    },
+    {
+      "variant": "H1_ADX_LEVEL_2R",
+      "cost": "higher_costs",
+      "closed_trades": 24,
+      "wins": 12,
+      "losses": 12,
+      "neutral": 0,
+      "loss_rate": 0.5,
+      "net_eur": -66.43541060143471,
+      "mean_net_eur_per_trade": -2.768142108393113,
+      "closed_drawdown_eur": 314.82187126623467,
+      "max_entries_per_day": 1,
+      "actual_tp_count": 0
+    }
+  ],
+  "pairwise_decompositions": [
+    {
+      "cost": "base",
+      "reference": "V03_2R",
+      "candidate": "H1_ADX_2R",
+      "reference_trades": 61,
+      "candidate_trades": 33,
+      "common_count": 26,
+      "reference_only_count": 35,
+      "candidate_only_count": 7,
+      "common_delta_eur": 0.0,
+      "removed_loss_count": 16,
+      "removed_loss_cash_abs_eur": 1339.32103893342,
+      "removed_gain_count": 19,
+      "removed_gain_cash_eur": 1643.34826382849,
+      "reference_only_net_eur": 304.0272248950701,
+      "new_loss_count": 3,
+      "new_gain_count": 4,
+      "new_loss_cash_abs_eur": 308.6852965451859,
+      "new_gain_cash_eur": 355.80885824191023,
+      "candidate_only_net_eur": 47.123561696724366,
+      "reference_net_eur": 839.277207950634,
+      "candidate_net_eur": 582.3735447522882,
+      "delta_net_eur": -256.9036631983457,
+      "accounting_residual_eur": 0.0,
+      "membership_absence_reason_counts": {
+        "reference_only_candidate_decision": {
+          "CHART_CONTEXT_REJECTED  [\"ADX_BELOW_25\"]": 16,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\", \"ADX_BELOW_25\"]": 14,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\"]": 2,
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 3
+        },
+        "candidate_only_reference_decision": {
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 5,
+          "REFUSED [\"POSITION_OPEN\"] ": 2
+        }
+      }
+    },
+    {
+      "cost": "base",
+      "reference": "V03_2R",
+      "candidate": "H1_ADX_LEVEL_2R",
+      "reference_trades": 61,
+      "candidate_trades": 24,
+      "common_count": 19,
+      "reference_only_count": 42,
+      "candidate_only_count": 5,
+      "common_delta_eur": 0.0,
+      "removed_loss_count": 20,
+      "removed_loss_cash_abs_eur": 1550.8523009411156,
+      "removed_gain_count": 22,
+      "removed_gain_cash_eur": 2327.8894576316716,
+      "reference_only_net_eur": 777.0371566905561,
+      "new_loss_count": 2,
+      "new_gain_count": 3,
+      "new_loss_cash_abs_eur": 247.48605509328553,
+      "new_gain_cash_eur": 164.29124644138156,
+      "candidate_only_net_eur": -83.19480865190398,
+      "reference_net_eur": 839.277207950634,
+      "candidate_net_eur": -20.954757391826092,
+      "delta_net_eur": -860.2319653424601,
+      "accounting_residual_eur": 0.0,
+      "membership_absence_reason_counts": {
+        "reference_only_candidate_decision": {
+          "CHART_CONTEXT_REJECTED  [\"ADX_BELOW_25\"]": 16,
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\"] ": 8,
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\", \"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\", \"ADX_BELOW_25\"]": 14,
+          "REFUSED [\"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\"]": 2
+        },
+        "candidate_only_reference_decision": {
+          "REFUSED [\"POSITION_OPEN\"] ": 2,
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 3
+        }
+      }
+    },
+    {
+      "cost": "base",
+      "reference": "H1_ADX_2R",
+      "candidate": "H1_ADX_LEVEL_2R",
+      "reference_trades": 33,
+      "candidate_trades": 24,
+      "common_count": 21,
+      "reference_only_count": 12,
+      "candidate_only_count": 3,
+      "common_delta_eur": 0.0,
+      "removed_loss_count": 5,
+      "removed_loss_cash_abs_eur": 272.730503459596,
+      "removed_gain_count": 7,
+      "removed_gain_cash_eur": 1032.0704777036278,
+      "reference_only_net_eur": 759.3399742440317,
+      "new_loss_count": 0,
+      "new_gain_count": 3,
+      "new_loss_cash_abs_eur": -0.0,
+      "new_gain_cash_eur": 156.01167209991743,
+      "candidate_only_net_eur": 156.01167209991743,
+      "reference_net_eur": 582.3735447522882,
+      "candidate_net_eur": -20.954757391826092,
+      "delta_net_eur": -603.3283021441143,
+      "accounting_residual_eur": 0.0,
+      "membership_absence_reason_counts": {
+        "reference_only_candidate_decision": {
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\"] ": 10,
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\", \"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1,
+          "REFUSED [\"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1
+        },
+        "candidate_only_reference_decision": {
+          "REFUSED [\"POSITION_OPEN\"] ": 1,
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 2
+        }
+      }
+    },
+    {
+      "cost": "higher_costs",
+      "reference": "V03_2R",
+      "candidate": "H1_ADX_2R",
+      "reference_trades": 61,
+      "candidate_trades": 33,
+      "common_count": 26,
+      "reference_only_count": 35,
+      "candidate_only_count": 7,
+      "common_delta_eur": 0.0,
+      "removed_loss_count": 16,
+      "removed_loss_cash_abs_eur": 1343.7586492832704,
+      "removed_gain_count": 19,
+      "removed_gain_cash_eur": 1577.0970397743422,
+      "reference_only_net_eur": 233.3383904910718,
+      "new_loss_count": 3,
+      "new_gain_count": 4,
+      "new_loss_cash_abs_eur": 305.7032167241049,
+      "new_gain_cash_eur": 348.08484768035635,
+      "candidate_only_net_eur": 42.38163095625144,
+      "reference_net_eur": 719.2375290591352,
+      "candidate_net_eur": 528.2807695243148,
+      "delta_net_eur": -190.95675953482043,
+      "accounting_residual_eur": -5.684341886080802e-14,
+      "membership_absence_reason_counts": {
+        "reference_only_candidate_decision": {
+          "CHART_CONTEXT_REJECTED  [\"ADX_BELOW_25\"]": 16,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\", \"ADX_BELOW_25\"]": 14,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\"]": 2,
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 3
+        },
+        "candidate_only_reference_decision": {
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 5,
+          "REFUSED [\"POSITION_OPEN\"] ": 2
+        }
+      }
+    },
+    {
+      "cost": "higher_costs",
+      "reference": "V03_2R",
+      "candidate": "H1_ADX_LEVEL_2R",
+      "reference_trades": 61,
+      "candidate_trades": 24,
+      "common_count": 19,
+      "reference_only_count": 42,
+      "candidate_only_count": 5,
+      "common_delta_eur": 0.0,
+      "removed_loss_count": 20,
+      "removed_loss_cash_abs_eur": 1561.01598096307,
+      "removed_gain_count": 22,
+      "removed_gain_cash_eur": 2261.4656874393354,
+      "reference_only_net_eur": 700.4497064762655,
+      "new_loss_count": 2,
+      "new_gain_count": 3,
+      "new_loss_cash_abs_eur": 244.53642667824494,
+      "new_gain_cash_eur": 159.31319349394056,
+      "candidate_only_net_eur": -85.22323318430436,
+      "reference_net_eur": 719.2375290591352,
+      "candidate_net_eur": -66.43541060143471,
+      "delta_net_eur": -785.6729396605699,
+      "accounting_residual_eur": 0.0,
+      "membership_absence_reason_counts": {
+        "reference_only_candidate_decision": {
+          "CHART_CONTEXT_REJECTED  [\"ADX_BELOW_25\"]": 16,
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\"] ": 8,
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\", \"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\", \"ADX_BELOW_25\"]": 14,
+          "REFUSED [\"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1,
+          "CHART_CONTEXT_REJECTED  [\"H1_BODY_NOT_ALIGNED\"]": 2
+        },
+        "candidate_only_reference_decision": {
+          "REFUSED [\"POSITION_OPEN\"] ": 2,
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 3
+        }
+      }
+    },
+    {
+      "cost": "higher_costs",
+      "reference": "H1_ADX_2R",
+      "candidate": "H1_ADX_LEVEL_2R",
+      "reference_trades": 33,
+      "candidate_trades": 24,
+      "common_count": 21,
+      "reference_only_count": 12,
+      "candidate_only_count": 3,
+      "common_delta_eur": 0.0,
+      "removed_loss_count": 5,
+      "removed_loss_cash_abs_eur": 278.4241217256596,
+      "removed_gain_count": 7,
+      "removed_gain_cash_eur": 1021.3179114939197,
+      "reference_only_net_eur": 742.8937897682601,
+      "new_loss_count": 0,
+      "new_gain_count": 3,
+      "new_loss_cash_abs_eur": -0.0,
+      "new_gain_cash_eur": 148.17760964251056,
+      "candidate_only_net_eur": 148.17760964251056,
+      "reference_net_eur": 528.2807695243148,
+      "candidate_net_eur": -66.43541060143471,
+      "delta_net_eur": -594.7161801257495,
+      "accounting_residual_eur": 1.1368683772161603e-13,
+      "membership_absence_reason_counts": {
+        "reference_only_candidate_decision": {
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\"] ": 10,
+          "REFUSED [\"H1_LEVEL_FRESHNESS_UNKNOWN\", \"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1,
+          "REFUSED [\"H1_LEVEL_BEFORE_OR_AT_TARGET\"] ": 1
+        },
+        "candidate_only_reference_decision": {
+          "REFUSED [\"POSITION_OPEN\"] ": 1,
+          "REFUSED [\"PAUSE_AFTER_TWO_LOSSES\"] ": 2
+        }
+      }
+    }
+  ],
+  "context_checks": [
+    {
+      "variant": "H1_ADX_2R",
+      "cost": "base",
+      "breakout_contexts_checked": 202,
+      "context_reason_combinations": [
+        {
+          "reasons": [],
+          "count": 56
+        },
+        {
+          "reasons": [
+            "ADX_BELOW_25"
+          ],
+          "count": 72
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED",
+            "ADX_BELOW_25"
+          ],
+          "count": 58
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED"
+          ],
+          "count": 15
+        },
+        {
+          "reasons": [
+            "ADX_WARMUP_UNKNOWN"
+          ],
+          "count": 1
+        }
+      ],
+      "signal_reasons_nonexclusive": {
+        "ADX_BELOW_25": 130,
+        "H1_BODY_NOT_ALIGNED": 73,
+        "ADX_WARMUP_UNKNOWN": 1
+      },
+      "account_reasons_nonexclusive": {
+        "POSITION_OPEN": 16,
+        "PAUSE_AFTER_TWO_LOSSES": 4,
+        "FIRST_TICK_LATE": 3
+      },
+      "unique_decisions_with_level_reason": 0,
+      "level_reason_combinations": []
+    },
+    {
+      "variant": "H1_ADX_LEVEL_2R",
+      "cost": "base",
+      "breakout_contexts_checked": 202,
+      "context_reason_combinations": [
+        {
+          "reasons": [],
+          "count": 56
+        },
+        {
+          "reasons": [
+            "ADX_BELOW_25"
+          ],
+          "count": 72
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED",
+            "ADX_BELOW_25"
+          ],
+          "count": 58
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED"
+          ],
+          "count": 15
+        },
+        {
+          "reasons": [
+            "ADX_WARMUP_UNKNOWN"
+          ],
+          "count": 1
+        }
+      ],
+      "signal_reasons_nonexclusive": {
+        "ADX_BELOW_25": 130,
+        "H1_BODY_NOT_ALIGNED": 73,
+        "ADX_WARMUP_UNKNOWN": 1
+      },
+      "account_reasons_nonexclusive": {
+        "H1_LEVEL_FRESHNESS_UNKNOWN": 22,
+        "H1_LEVEL_BEFORE_OR_AT_TARGET": 2,
+        "POSITION_OPEN": 7,
+        "FIRST_TICK_LATE": 3,
+        "PAUSE_AFTER_TWO_LOSSES": 1
+      },
+      "unique_decisions_with_level_reason": 23,
+      "level_reason_combinations": [
+        {
+          "reasons": [
+            "H1_LEVEL_FRESHNESS_UNKNOWN"
+          ],
+          "count": 19
+        },
+        {
+          "reasons": [
+            "H1_LEVEL_FRESHNESS_UNKNOWN",
+            "H1_LEVEL_BEFORE_OR_AT_TARGET"
+          ],
+          "count": 1
+        },
+        {
+          "reasons": [
+            "H1_LEVEL_BEFORE_OR_AT_TARGET"
+          ],
+          "count": 1
+        },
+        {
+          "reasons": [
+            "FIRST_TICK_LATE",
+            "H1_LEVEL_FRESHNESS_UNKNOWN"
+          ],
+          "count": 2
+        }
+      ]
+    },
+    {
+      "variant": "H1_ADX_2R",
+      "cost": "higher_costs",
+      "breakout_contexts_checked": 202,
+      "context_reason_combinations": [
+        {
+          "reasons": [],
+          "count": 56
+        },
+        {
+          "reasons": [
+            "ADX_BELOW_25"
+          ],
+          "count": 72
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED",
+            "ADX_BELOW_25"
+          ],
+          "count": 58
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED"
+          ],
+          "count": 15
+        },
+        {
+          "reasons": [
+            "ADX_WARMUP_UNKNOWN"
+          ],
+          "count": 1
+        }
+      ],
+      "signal_reasons_nonexclusive": {
+        "ADX_BELOW_25": 130,
+        "H1_BODY_NOT_ALIGNED": 73,
+        "ADX_WARMUP_UNKNOWN": 1
+      },
+      "account_reasons_nonexclusive": {
+        "POSITION_OPEN": 16,
+        "PAUSE_AFTER_TWO_LOSSES": 4,
+        "FIRST_TICK_LATE": 3
+      },
+      "unique_decisions_with_level_reason": 0,
+      "level_reason_combinations": []
+    },
+    {
+      "variant": "H1_ADX_LEVEL_2R",
+      "cost": "higher_costs",
+      "breakout_contexts_checked": 202,
+      "context_reason_combinations": [
+        {
+          "reasons": [],
+          "count": 56
+        },
+        {
+          "reasons": [
+            "ADX_BELOW_25"
+          ],
+          "count": 72
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED",
+            "ADX_BELOW_25"
+          ],
+          "count": 58
+        },
+        {
+          "reasons": [
+            "H1_BODY_NOT_ALIGNED"
+          ],
+          "count": 15
+        },
+        {
+          "reasons": [
+            "ADX_WARMUP_UNKNOWN"
+          ],
+          "count": 1
+        }
+      ],
+      "signal_reasons_nonexclusive": {
+        "ADX_BELOW_25": 130,
+        "H1_BODY_NOT_ALIGNED": 73,
+        "ADX_WARMUP_UNKNOWN": 1
+      },
+      "account_reasons_nonexclusive": {
+        "H1_LEVEL_FRESHNESS_UNKNOWN": 22,
+        "H1_LEVEL_BEFORE_OR_AT_TARGET": 2,
+        "POSITION_OPEN": 7,
+        "FIRST_TICK_LATE": 3,
+        "PAUSE_AFTER_TWO_LOSSES": 1
+      },
+      "unique_decisions_with_level_reason": 23,
+      "level_reason_combinations": [
+        {
+          "reasons": [
+            "H1_LEVEL_FRESHNESS_UNKNOWN"
+          ],
+          "count": 19
+        },
+        {
+          "reasons": [
+            "H1_LEVEL_FRESHNESS_UNKNOWN",
+            "H1_LEVEL_BEFORE_OR_AT_TARGET"
+          ],
+          "count": 1
+        },
+        {
+          "reasons": [
+            "H1_LEVEL_BEFORE_OR_AT_TARGET"
+          ],
+          "count": 1
+        },
+        {
+          "reasons": [
+            "FIRST_TICK_LATE",
+            "H1_LEVEL_FRESHNESS_UNKNOWN"
+          ],
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "independent_validation": false,
+  "ftmo_rules_verified": false,
+  "filter_promotion_supported": false,
+  "reason": "Both context variants fail the predeclared lower-loss-rate and higher-net requirement versus corresponding TP2 witness in both costs",
+  "validation": {
+    "portfolio_summaries_recomputed_from_ledgers": 6,
+    "pairwise_decompositions_reconciled": 6,
+    "logged_contexts_checked": 808,
+    "max_published_net_error_eur": 0.0,
+    "all_entered_filtered_contexts_pass_H1_body_and_M5_ADX25": true,
+    "all_logged_indicator_known_times_causal": true,
+    "all_serialized_level_guard_decisions_match_status_rule": true,
+    "all_frozen_sources_unchanged": true
+  },
+  "limits": [
+    "ADX14 is M5, not H1 ADX; H1 condition is last closed candle body direction, not EMA trend",
+    "Source timestamp and logged-value checks do not independently recompute indicator series or every pivot path",
+    "Unknown level freshness is data incompleteness, not evidence that a resistance/support would reverse price",
+    "Account checks not evaluated after upstream context rejection; refusal counts are nonexclusive",
+    "Cost scenarios and all 2021 observations are development data, not independent samples"
+  ],
+  "changes": {
+    "new_backtest": false,
+    "new_price_path": false,
+    "new_http": false,
+    "source_modified": false,
+    "results_modified": false
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposition de journal causal des niveaux V03; aucune observation calculée ici",
+  "type": "object",
+  "required": ["audit_id", "policy", "provenance", "levels", "entries"],
+  "properties": {
+    "audit_id": {"type": "string"},
+    "policy": {
+      "type": "object",
+      "required": ["daily_timezone", "daily_close", "eligible_end_weekdays", "h1_anchor", "pivot_rule", "formation_completeness", "lookback_policy", "post_confirmation_policy", "same_timestamp_order"],
+      "properties": {
+        "daily_timezone": {"const": "America/New_York"},
+        "daily_close": {"const": "17:00"},
+        "eligible_end_weekdays": {"const": [0, 1, 2, 3, 4]},
+        "h1_anchor": {"const": "UTC whole hours; left closed/right open"},
+        "pivot_rule": {"const": "Strict central mid extreme against two consecutive complete H1 each side; known at second right close"},
+        "formation_completeness": {"const": "Every expected M1 present and outside quarantine; no gap compression or imputation"},
+        "lookback_policy": {"type": "string", "description": "Declare before association with outcomes; no PnL-based choice"},
+        "post_confirmation_policy": {"type": "string", "description": "Distinguish historical pivot existence from unpenetrated/active status"},
+        "same_timestamp_order": {"const": "Closed bar committed before actual entry open quote; never entry-row OHLC"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["cache_sha256", "trades_sha256", "source_sha256", "frozen_run", "study_code_sha256"],
+      "properties": {
+        "cache_sha256": {"$ref": "#/$defs/hash"},
+        "trades_sha256": {"$ref": "#/$defs/hash"},
+        "source_sha256": {"type": "object", "additionalProperties": {"$ref": "#/$defs/hash"}},
+        "study_code_sha256": {"$ref": "#/$defs/hash"},
+        "frozen_run": {"const": "reports/simple_rearmed_v03_01"}
+      }
+    },
+    "levels": {"type": "array", "items": {"$ref": "#/$defs/level"}},
+    "entries": {"type": "array", "description": "Exactly61 original closed trades, including unknown feature rows; unresolved exposure in a separate register", "items": {"$ref": "#/$defs/entry"}}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "ms": {"type": "integer"},
+    "nullable_ms": {"type": ["integer", "null"]},
+    "nullable_number": {"type": ["number", "null"]},
+    "window": {
+      "type": "object",
+      "required": ["start_ms", "end_exclusive_ms", "expected_m1", "observed_m1", "missing_m1", "first_missing_ms", "quarantined_m1"],
+      "properties": {
+        "start_ms": {"$ref": "#/$defs/ms"},
+        "end_exclusive_ms": {"$ref": "#/$defs/ms"},
+        "expected_m1": {"type": "integer", "minimum": 1},
+        "observed_m1": {"type": "integer", "minimum": 0},
+        "missing_m1": {"type": "integer", "minimum": 0},
+        "first_missing_ms": {"$ref": "#/$defs/nullable_ms"},
+        "quarantined_m1": {"type": "integer", "minimum": 0}
+      }
+    },
+    "level": {
+      "type": "object",
+      "required": ["level_id", "family", "formation_status", "source_windows", "pivot_time_ms", "scheduled_confirmation_ms", "known_at_ms", "mid_price", "bid_reference", "ask_reference", "partial_bound_direction"],
+      "properties": {
+        "level_id": {"type": "string"},
+        "family": {"enum": ["PREVIOUS_DAY_HIGH", "PREVIOUS_DAY_LOW", "H1_PIVOT_HIGH", "H1_PIVOT_LOW"]},
+        "formation_status": {"enum": ["KNOWN_FULL", "KNOWN_PARTIAL_BOUND_ONLY", "UNKNOWN_INPUT_GAP", "UNKNOWN_OUTSIDE_CACHE", "NOT_YET_CONFIRMED"]},
+        "source_windows": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/window"}, "description": "One daily interval or five actual consecutive H1 intervals"},
+        "pivot_time_ms": {"$ref": "#/$defs/nullable_ms"},
+        "scheduled_confirmation_ms": {"$ref": "#/$defs/ms"},
+        "known_at_ms": {"$ref": "#/$defs/nullable_ms"},
+        "mid_price": {"$ref": "#/$defs/nullable_number"},
+        "bid_reference": {"$ref": "#/$defs/nullable_number"},
+        "ask_reference": {"$ref": "#/$defs/nullable_number"},
+        "partial_bound_direction": {"enum": [null, "TRUE_HIGH_GE_OBSERVED_HIGH", "TRUE_LOW_LE_OBSERVED_LOW"]}
+      },
+      "description": "UNKNOWN formation prices must be null; partial observed extrema are separate records with separate IDs, never upgrades of unknown exact levels"
+    },
+    "join": {
+      "type": "object",
+      "required": ["level_id", "known_before_entry", "post_confirmation_status", "post_confirmation_missing_m1", "reference_side", "reference_price", "distance_from_open_quote", "before_or_at_target", "eligible", "exclusion_reasons"],
+      "properties": {
+        "level_id": {"type": "string"},
+        "known_before_entry": {"type": "boolean", "description": "known_at_ms<=entry_ms; unknown formation not eligible as certified level"},
+        "post_confirmation_status": {"enum": ["UNSCREENED_FORMATION_ONLY", "NOT_PENETRATED_OBSERVED", "PENETRATED_OBSERVED", "UNKNOWN_GAP_SINCE_CONFIRMATION", "NOT_APPLICABLE"]},
+        "post_confirmation_missing_m1": {"type": "integer", "minimum": 0},
+        "reference_side": {"enum": ["bid", "ask"]},
+        "reference_price": {"$ref": "#/$defs/nullable_number"},
+        "distance_from_open_quote": {"$ref": "#/$defs/nullable_number"},
+        "before_or_at_target": {"type": ["boolean", "null"]},
+        "eligible": {"type": "boolean"},
+        "exclusion_reasons": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "entry": {
+      "type": "object",
+      "required": ["trade_id", "entry_ms", "entry_first_tick_ms", "direction", "entry_price", "entry_bid_open", "entry_ask_open", "original_stop", "original_target", "feature_status", "level_joins", "selected_level_id"],
+      "properties": {
+        "trade_id": {"type": "string", "description": "Stable original run+entry+direction identifier"},
+        "entry_ms": {"$ref": "#/$defs/ms"},
+        "entry_first_tick_ms": {"$ref": "#/$defs/ms"},
+        "direction": {"enum": [-1, 1]},
+        "entry_price": {"type": "number"},
+        "entry_bid_open": {"type": "number"},
+        "entry_ask_open": {"type": "number"},
+        "original_stop": {"type": "number"},
+        "original_target": {"type": "number"},
+        "feature_status": {"enum": ["FULLY_KNOWN", "PARTIALLY_UNKNOWN", "UNKNOWN"]},
+        "level_joins": {"type": "array", "items": {"$ref": "#/$defs/join"}},
+        "selected_level_id": {"type": ["string", "null"]}
+      },
+      "description": "No counterfactual outcome in the entry feature record; associate existing outcomes only after causal features are fixed"
+    }
+  }
+}

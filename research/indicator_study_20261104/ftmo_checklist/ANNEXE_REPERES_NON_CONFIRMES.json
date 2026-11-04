@@ -1,0 +1,55 @@
+{
+  "schema_version": "UNVERIFIED_FTMO_REFERENCES_01",
+  "as_of": "2026-11-04",
+  "status": "HISTORICAL_WORKING_ASSUMPTIONS_ONLY_NOT_CONTRACTUAL_RULES",
+  "official_document_received": false,
+  "must_not_populate_confirmed_profile": true,
+  "must_not_produce_ftmo_pass_fail": true,
+  "hypothetical_objectives": {
+    "challenge_profit_target_pct": 10,
+    "verification_profit_target_pct": 5,
+    "maximum_daily_loss_pct": 5,
+    "maximum_loss_pct": 10,
+    "minimum_qualifying_days_per_phase": 4,
+    "reset_historical_label": "CET/CEST",
+    "reset_iana_timezone_not_verified": null
+  },
+  "v03_optimistic_arithmetic_only": {
+    "capital_eur_per_phase": 100000,
+    "exact_assumed_risk_eur": 125,
+    "exact_assumed_winning_cash_r": 3,
+    "exact_assumed_winning_cash_eur": 375,
+    "assumed_losses": 0,
+    "challenge_hypothetical_target_eur": 10000,
+    "verification_hypothetical_target_eur": 5000,
+    "minimum_wins_challenge": 27,
+    "minimum_wins_verification": 14,
+    "minimum_wins_total": 41,
+    "four_wins_per_entry_day": {
+      "minimum_days_challenge": 7,
+      "minimum_days_verification": 4,
+      "minimum_phase_entry_day_count_sum": 11,
+      "minimum_unique_calendar_entry_days_if_same_cap_applies_globally_across_phases": 11
+    },
+    "two_wins_per_entry_day": {
+      "minimum_days_challenge": 14,
+      "minimum_days_verification": 7,
+      "two_entries_per_day_origin": "Maximum observed in V03 known data, not a protocol limit or future guarantee",
+      "minimum_phase_entry_day_count_sum": 21,
+      "minimum_unique_calendar_entry_days_if_same_cap_applies_globally_across_phases": 21
+    },
+    "not_a_pass_probability_or_operational_feasibility_claim": true,
+    "omissions": [
+      "Current official objective thresholds are not verified",
+      "Losses and future uncertainty",
+      "Minimum qualifying-day definition and threshold",
+      "Daily/equity/max-loss clauses and intrabar ordering",
+      "Phase activation and administrative delays",
+      "Trading calendar, holidays and actual available setups",
+      "Cash-R deviations due to sizing, FX conversion and execution",
+      "Observed average winning trades are about 0.90R D45 and 0.71R known annual prefix, not 3R"
+    ],
+    "actual_minimum_unique_calendar_days_with_contractual_phase_transition": null,
+    "phase_day_and_calendar_day_distinction": "Phase-day counts may overlap one calendar date if transition permits; shared or reset daily entry quota is not verified. No unique-calendar-day bound is promoted without the explicit quota convention."
+  }
+}

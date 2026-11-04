@@ -1,0 +1,34 @@
+{
+  "source_sha256": {
+    "research/indicator_study_20261104/lab/features.py": "326de64ee673426e891d4e8abd8dbd761181eacb8504a77db45a889961f6f755",
+    "research/indicator_study_20261104/lab/run_annotations.py": "b43f806114686cb82fdce558d1192f18f5d7adc6b4448a5c6673e9a84e627c69",
+    "research/indicator_study_20261104/lab/test_features.py": "b8eedfaf6b199f73d3ec36c4ac86d9a2040f5bc8b5e0b90242f2b17250821930"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "talib_wrapper": "0.6.8",
+    "talib_C": "0.6.4 (Oct 20 2025 20:23:51)",
+    "lookbacks_in_complete_M5_bars": {
+      "EMA20": 19,
+      "EMA50": 49,
+      "RSI14": 14,
+      "ATR14": 14,
+      "ADX14": 27,
+      "BBANDS20": 19
+    },
+    "compatibility": 0,
+    "unstable_periods": {
+      "EMA": 0,
+      "RSI": 0,
+      "ATR": 0,
+      "ADX": 0
+    },
+    "constant_series_RSI14_probe": 0.0
+  },
+  "decision_csv_sha256": "b86b14fd14edd04222273f2db123f969e696694c42e25b86c540e52bbfe957fc",
+  "trades_csv_sha256": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+  "active_rules_modified": false,
+  "new_market_backtest": false
+}

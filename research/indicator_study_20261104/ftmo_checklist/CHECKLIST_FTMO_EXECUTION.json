@@ -1,0 +1,416 @@
+{
+  "schema_version": "INDICATOR_FTMO_EXECUTION_CHECKLIST_01",
+  "as_of": "2026-11-04",
+  "language": "fr",
+  "purpose": "Contraintes de toute future comparaison de filtre autour de V03 ; aucune modification du protocole actif",
+  "requested_scope": {
+    "provider": "FTMO",
+    "product": "2-Step",
+    "initial_balance_eur": 100000,
+    "currency": "EUR",
+    "scope_origin": "User confirmation recorded in AGENTS.md; no newly fetched official document",
+    "account_type": null,
+    "platform": "MT5",
+    "official_rules_verified": false,
+    "official_contract_fields": {
+      "account_type": null,
+      "best_day_denominator_definition": null,
+      "best_day_rule_applicable": null,
+      "best_day_rule_limit": null,
+      "broker_freeze_level": null,
+      "broker_stop_min_distance": null,
+      "challenge_target_fraction": null,
+      "commission_accounting": null,
+      "commission_schedule": null,
+      "daily_loss_reference": null,
+      "daily_reset_iana_timezone": null,
+      "daily_reset_time": null,
+      "equity_definition": null,
+      "execution_slippage_model": null,
+      "fx_conversion_rule": null,
+      "leverage_margin_rules": null,
+      "lot_contract_size": null,
+      "maximum_daily_loss_fraction": null,
+      "maximum_loss_fraction": null,
+      "maximum_loss_reference": null,
+      "maximum_loss_static_or_trailing": null,
+      "maximum_loss_update_timing": null,
+      "minimum_qualifying_days": null,
+      "minimum_volume": null,
+      "news_restrictions_per_phase_type": null,
+      "overnight_weekend_restrictions_per_phase_type": null,
+      "phase_completion_requires_flat": null,
+      "phase_reset_rules": null,
+      "phase_transition_review_delay": null,
+      "platform": null,
+      "qualifying_day_definition": null,
+      "qualifying_day_timezone": null,
+      "rules_effective_date": null,
+      "server_timezone": null,
+      "swap_accounting": null,
+      "swap_schedule": null,
+      "symbol": null,
+      "tick_size": null,
+      "time_limits_per_phase": null,
+      "trading_hours_contract": null,
+      "verification_target_fraction": null,
+      "violation_boundary_comparison": null,
+      "volume_step": null
+    },
+    "not_a_new_confirmed_account_profile": true,
+    "platform_confirmation": "Direct user reply; official broker specifications remain unverified"
+  },
+  "deadline_research_convention": {
+    "calendar_days": 30,
+    "strictly_less_than": true,
+    "covers": [
+      "Challenge",
+      "Verification"
+    ],
+    "new_attempt_starts_flat": true,
+    "window_end_exclusive": true,
+    "administrative_delays_verified": false,
+    "is_ftmo_contract_clause": false
+  },
+  "official_access_evidence": {
+    "source": "research/knowledge_cycle_20261104/ftmo_sources/PROFILE_VERIFICATION_STATUS.json",
+    "attempted_at_utc": "2026-11-04T10:12:10.776116+00:00",
+    "url": "https://ftmo.com/en/trading-objectives/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "attribution": "Proxy tunnel route; no official FTMO document received",
+    "http_request_performed_for_this_checklist": false,
+    "retry_only_after_meaningful_access_change_or_official_document": true
+  },
+  "frozen_research_parameters_not_ftmo_rules": {
+    "protocol": "simple_forex/protocol_v03.json",
+    "instrument": "EURUSD",
+    "timezone": "Europe/London",
+    "range": [
+      "08:00",
+      "09:00 exclusive"
+    ],
+    "entry_window": [
+      "09:00",
+      "14:30 exclusive"
+    ],
+    "hard_exit": "16:00",
+    "rearm": "Actual interior M5 close before next exterior M5 close",
+    "stop": "Other executable-side range boundary plus one tick",
+    "planned_quote_reward_risk": 3,
+    "risk_budget_per_trade_eur": 125,
+    "max_planned_daily_risk_eur": 500,
+    "max_entries_executed_per_day": 4,
+    "refusals_consume_entry_quota": false,
+    "max_open_positions": 1,
+    "pause_after_consecutive_losses": 2,
+    "pause_hours": 24,
+    "qty_min_eur": 2000,
+    "qty_step_eur": 2000,
+    "leverage_max": 10,
+    "tick_quote": 1e-05,
+    "fee_round_trip_quote": 5e-05,
+    "slip_quote_per_market_execution": 1e-05,
+    "friction_max_fraction_of_stop": 0.3,
+    "first_tick_max_delay_ms": 5000,
+    "win_rate_goal_not_achieved": 0.8,
+    "min_closed_trades_for_win_rate_review_not_proof": 100
+  },
+  "existing_observations_not_new_backtest": {
+    "source": "reports/RAPPORT_FREQUENCE_ET_R_V03.md",
+    "D45": {
+      "closed_trades": 31,
+      "net_winners": 17,
+      "net_eur": 765.35,
+      "stressed_net_eur": 692.72,
+      "mean_winner_cash_R_approx": 0.9
+    },
+    "known_annual_prefix": {
+      "closed_trades": 61,
+      "net_winners": 31,
+      "known_closed_net_eur": 642.37,
+      "stressed_known_closed_net_eur": 504.22,
+      "whole_year_net_eur": null,
+      "mean_winner_cash_R_approx": 0.71,
+      "tp_exits": 1,
+      "time_exits": 48,
+      "stop_exits": 12
+    },
+    "D45_is_subset_of_known_annual_prefix": true,
+    "max_executed_same_day_observed": 2,
+    "annual_unknown_from_utc": "2021-04-01T11:40:00Z",
+    "all_2021_is_development_data": true,
+    "challenge_pass_probability": null
+  },
+  "minimum_stop_distinctions": {
+    "broker_contract_min_distance": null,
+    "model_friction_guard": "spread + round_trip_fee + 2*market_slippage <= 0.30*entry_to_stop_price_distance",
+    "equality_accepted_in_current_model": true,
+    "base_implied_distance_formula": "(spread + 0.00007) / 0.30",
+    "stress_implied_distance_formula": "(spread + 0.000115) / 0.30",
+    "illustration_only": {
+      "assumed_spread_quote": 0.0001,
+      "pip_quote": 0.0001,
+      "base_min_distance_pips_approx": 5.666666666666667,
+      "stress_min_distance_pips_approx": 7.166666666666667,
+      "assumed_spread_is_measured_or_official": false
+    },
+    "tick_rounding_must_not_reduce_required_distance": true
+  },
+  "matrix": [
+    {
+      "id": "product_scope",
+      "constraint_fr": "Clauses du produit exact, type de compte, plateforme, date et phases",
+      "unknown_contract_fields": [
+        "account_type",
+        "platform",
+        "rules_effective_date"
+      ],
+      "required_control_fr": "Capturer des sources officielles datées 2-Step ; distinguer évaluation et compte financé ; aucun transfert de clauses 1-Step.",
+      "decision_gate": "INDETERMINATE_COMPLIANCE_WHILE_UNVERIFIED"
+    },
+    {
+      "id": "intraposition_equity",
+      "constraint_fr": "Equity en continu au côté exécutable, conversions et frais selon contrat",
+      "unknown_contract_fields": [
+        "equity_definition",
+        "commission_accounting",
+        "swap_accounting",
+        "fx_conversion_rule"
+      ],
+      "required_control_fr": "Garder balance, latent, cash et conversions séparés ; éviter double commission et confusion avec enveloppe hypothétique de liquidation.",
+      "decision_gate": "INDETERMINATE_IF_ACTIVE_PATH_OR_CONTRACT_UNKNOWN"
+    },
+    {
+      "id": "daily_reset",
+      "constraint_fr": "Perte journalière par reset et base contractuels",
+      "unknown_contract_fields": [
+        "maximum_daily_loss_fraction",
+        "daily_loss_reference",
+        "daily_reset_iana_timezone",
+        "daily_reset_time",
+        "violation_boundary_comparison"
+      ],
+      "required_control_fr": "Recalculer selon le fuseau IANA vérifié et les changements heure ; traiter chaque exposition traversant le reset.",
+      "decision_gate": "FAILED_DAILY_LOSS_ONLY_UNDER_VERIFIED_RULES_ELSE_INDETERMINATE"
+    },
+    {
+      "id": "maximum_loss",
+      "constraint_fr": "Seuil total et référence statique ou suiveuse",
+      "unknown_contract_fields": [
+        "maximum_loss_fraction",
+        "maximum_loss_reference",
+        "maximum_loss_static_or_trailing",
+        "maximum_loss_update_timing",
+        "violation_boundary_comparison"
+      ],
+      "required_control_fr": "Conserver toute violation passée même si le compte récupère ensuite ; ne pas utiliser seulement balance close.",
+      "decision_gate": "FAILED_MAX_LOSS_ONLY_UNDER_VERIFIED_RULES_ELSE_INDETERMINATE"
+    },
+    {
+      "id": "qualifying_days",
+      "constraint_fr": "Jours qualifiants par phase",
+      "unknown_contract_fields": [
+        "minimum_qualifying_days",
+        "qualifying_day_definition",
+        "qualifying_day_timezone"
+      ],
+      "required_control_fr": "Distinguer journées et trades ; compter selon événement, fuseau et phase contractuels.",
+      "decision_gate": "MIN_DAYS_NOT_MET_ONLY_UNDER_VERIFIED_RULES_ELSE_INDETERMINATE"
+    },
+    {
+      "id": "phase_transition",
+      "constraint_fr": "Cibles et conditions de passage puis réinitialisation explicite",
+      "unknown_contract_fields": [
+        "challenge_target_fraction",
+        "verification_target_fraction",
+        "phase_completion_requires_flat",
+        "phase_reset_rules",
+        "phase_transition_review_delay"
+      ],
+      "required_control_fr": "Ne réutiliser ni profit phase 1 ni signaux antérieurs à activation phase 2 ; déclarer disponibilité de phase 2 et état des pauses.",
+      "decision_gate": "NO_BOTH_PHASES_PASS_UNTIL_EACH_PHASE_AND_TRANSITION_VERIFIED"
+    },
+    {
+      "id": "calendar_deadline",
+      "constraint_fr": "Deux phases dans une fenêtre strictement inférieure à 30 jours calendaires",
+      "unknown_contract_fields": [
+        "time_limits_per_phase",
+        "phase_transition_review_delay"
+      ],
+      "required_control_fr": "Tentative neuve à plat, chauffe passée, fin exclusive, toutes journées incluses ; inconnues au dénominateur ; fenêtres chevauchantes dépendantes.",
+      "decision_gate": "REJECT_DEADLINE_CLAIM_FROM_INHERITED_SUBTRAJECTORY_OR_UNMODELED_DELAY"
+    },
+    {
+      "id": "costs",
+      "constraint_fr": "Bid/ask et coûts monétaires symétriques entre témoin et filtre",
+      "unknown_contract_fields": [
+        "commission_schedule",
+        "swap_schedule",
+        "fx_conversion_rule",
+        "execution_slippage_model"
+      ],
+      "required_control_fr": "Coûts de base et stress préannoncés, aucune double déduction ; publier résultat net et sensibilité.",
+      "decision_gate": "REJECT_ADVANTAGE_IF_ABSENT_UNDER_CREDIBLE_PREDECLARED_COSTS_ELSE_INCONCLUSIVE_IF_UNKNOWN"
+    },
+    {
+      "id": "news_and_holding",
+      "constraint_fr": "Restrictions par événement, phase et Standard/Swing",
+      "unknown_contract_fields": [
+        "news_restrictions_per_phase_type",
+        "overnight_weekend_restrictions_per_phase_type"
+      ],
+      "required_control_fr": "Calendrier historique point-in-time ; vérifier instruments et fenêtres, entrée/sortie/SL/TP ; pas de dispense présumée via sortie 16h.",
+      "decision_gate": "INDETERMINATE_COMPLIANCE_WITHOUT_TERMS_AND_CALENDAR"
+    },
+    {
+      "id": "execution_stop",
+      "constraint_fr": "Stop exécutable et garde économique conservée",
+      "unknown_contract_fields": [
+        "broker_stop_min_distance",
+        "broker_freeze_level",
+        "tick_size",
+        "minimum_volume",
+        "volume_step",
+        "lot_contract_size",
+        "leverage_margin_rules"
+      ],
+      "required_control_fr": "Stop range et côté bid/ask inchangés ; refuser avant résultat si inexécutable ; ne pas resserrer pour augmenter R.",
+      "decision_gate": "REFUSE_UNEXECUTABLE_ENTRY_AND_REJECT_COMPLIANCE_CLAIM_WITH_UNKNOWN_CONTRACT"
+    },
+    {
+      "id": "risk_and_frequency",
+      "constraint_fr": "Budgets, une position, plafond entrées et pause V03 conservés",
+      "unknown_contract_fields": [],
+      "required_control_fr": "Mesurer fréquence effective, temps en position, pauses et motifs simultanés ; ne pas augmenter risque pour accélérer la cible.",
+      "decision_gate": "REJECT_IF_VERIFIED_TARGETS_IMPOSSIBLE_WITHIN_DEADLINE_AT_FROZEN_RISK"
+    },
+    {
+      "id": "indicator_causality",
+      "constraint_fr": "Valeurs disponibles à la décision et calcul causal",
+      "unknown_contract_fields": [],
+      "required_control_fr": "Formule, source, version, barres closes, initialisation, trous, multi-timeframe et timestamps fixés ; pas de révisions futures.",
+      "decision_gate": "INVALID_IF_LOOKAHEAD_OR_FUTURE_LEAKAGE"
+    },
+    {
+      "id": "fair_comparison",
+      "constraint_fr": "Filtre unique déclaré contre V03 identique",
+      "unknown_contract_fields": [],
+      "required_control_fr": "Geler famille et paramètres avant résultats ; conserver tous essais ; validation sur données qualifiées encore inutilisées.",
+      "decision_gate": "DEVELOPMENT_ONLY_IF_2021_RETUNING_OR_POST_RESULT_SELECTION"
+    },
+    {
+      "id": "path_effects",
+      "constraint_fr": "Parcours et états du compte, pas filtrage ex post de CSV",
+      "unknown_contract_fields": [],
+      "required_control_fr": "Documenter refus du filtre et effet sur position/pause ultérieure ; filtre peut changer le nombre final de trades dans les deux sens.",
+      "decision_gate": "INVALID_IF_LOSERS_REMOVED_USING_OUTCOME_OR_FUTURE_PATH"
+    },
+    {
+      "id": "data_uncertainty",
+      "constraint_fr": "Absence ou ambiguïté de chemin reste explicite",
+      "unknown_contract_fields": [],
+      "required_control_fr": "Signal absent = inconnu si données manquent ; position active manquante = arrêt branche et total null ; tester chronologies intrabar compatibles.",
+      "decision_gate": "INDETERMINATE_IF_POSSIBLE_UNOBSERVED_VIOLATION_OR_UNRESOLVED_POSITION"
+    },
+    {
+      "id": "economic_decision",
+      "constraint_fr": "Avantage net, effectif et stabilité au-delà du seul win rate",
+      "unknown_contract_fields": [],
+      "required_control_fr": "Rapporter cash-R réalisé, pertes, concentration, fréquence, dépendance par séances/blocs et historique des essais ; seuils décision fixés avant futur test.",
+      "decision_gate": "REJECT_IF_NET_ADVANTAGE_FAILS_INDEPENDENT_REPLICATION_OR_INCONCLUSIVE_IF_UNDERPOWERED"
+    }
+  ],
+  "future_test_preregistration_required": [
+    "Exact indicator family, implementation source/version and economic hypothesis",
+    "One frozen parameterization or small finite comparison declared before results",
+    "Timeframe, closed-bar availability, warmup and missing-value behavior",
+    "Identical V03 witness risk, stops, target, hours, position cap and pause",
+    "Qualified unused data identity and split; all 2021 explicitly development",
+    "Base/stress costs, effect-size and minimum sample review thresholds fixed before future test",
+    "Frequency and account-state effects evaluated jointly, not by deleting CSV losses",
+    "All attempted variants retained; no automatic winner after repeated tuning"
+  ],
+  "distinct_outcomes": [
+    "OPPORTUNITY_NOT_EXECUTED_WITH_CAUSAL_REASONS",
+    "EXECUTED_TRADE_WIN_LOSS_OR_UNKNOWN",
+    "CHALLENGE_TARGET_NOT_MET_DESPITE_POSSIBLE_POSITIVE_PNL"
+  ],
+  "hypothesis_decisions": {
+    "REJECT_ECONOMIC_HYPOTHESIS": [
+      "Independent net advantage absent under credible predeclared costs",
+      "Verified target/frequency incompatible with strict deadline at unchanged risk",
+      "Requires raising risk or breaking frozen position/pause constraints"
+    ],
+    "INVALID_EXPERIMENT": [
+      "Lookahead or future revised data",
+      "Ex-post deletion of losses",
+      "Changed stop/target/risk mislabeled pure filter",
+      "Unreported multiple testing"
+    ],
+    "INCONCLUSIVE": [
+      "Contractual fields unknown",
+      "Active price path missing or violation chronology ambiguous",
+      "Insufficient qualified independent sample",
+      "Execution/cost provenance inadequate"
+    ],
+    "PROMOTE_FOR_FURTHER_RESEARCH_ONLY": "Independent net evidence plus causal and execution checks; not automatic funded-account or live authorization",
+    "ftmo_compliance_status": "INDETERMINATE"
+  },
+  "separate_unverified_appendix": "ANNEXE_REPERES_NON_CONFIRMES.json",
+  "documentary_caveats": [
+    "protocol_v03.json signal string retains older one-attempt-per-direction wording; README and report define current rearming/actual-entry quota. No edit performed.",
+    "knowledge_cycle_20261104/SYNTHESE.md contains earlier V01 performance, not current V03 performance.",
+    "V03 liquidation envelopes include hypothetical exit costs; they are not certified contractual FTMO equity."
+  ],
+  "source_identities": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "d34415e66eea2dd8b5794a87b42347b137f53d5fe992bde7f09e8a4c0cb48987"
+    },
+    {
+      "path": "simple_forex/protocol_v03.json",
+      "sha256": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20"
+    },
+    {
+      "path": "simple_forex/README_V03.md",
+      "sha256": "13d7258e8f88042185296b7f59f89d879f366c02de33ec9471e3ac3a025eb699"
+    },
+    {
+      "path": "simple_forex/runner.py",
+      "sha256": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6"
+    },
+    {
+      "path": "reports/RAPPORT_FREQUENCE_ET_R_V03.md",
+      "sha256": "5095b2bb60b32e099429c0c50111331909c18dc2e4edabba9a11d81aea313b82"
+    },
+    {
+      "path": "research/ftmo_readiness/OBJECTIF_ET_BLOCAGES.md",
+      "sha256": "70805cfe1f193fbd03b37fe825aff402a5ca7d2deae79eff2d10b2c6352a93e9"
+    },
+    {
+      "path": "research/ftmo_readiness/ACCOUNT_PROFILE_TO_COMPLETE.json",
+      "sha256": "7d523680735f676ff16dfc7d5362557ba82f79cc59e01c2feab1e4a9c82a3f9e"
+    },
+    {
+      "path": "research/knowledge_cycle_20261104/SYNTHESE.md",
+      "sha256": "3b8ecf9a6cb94882df110db8286f8ad2d15653e524781f2f9e84afc6efed0a8a"
+    },
+    {
+      "path": "research/knowledge_cycle_20261104/RESEARCH_QUEUE.json",
+      "sha256": "abc08bb19ff42d491f53040a7c4e54f40d3e81ec26b9f9a0e4091d615048c178"
+    },
+    {
+      "path": "research/knowledge_cycle_20261104/ftmo_sources/PROFILE_VERIFICATION_STATUS.json",
+      "sha256": "b5a9093bde199880c21ccc3fc99aff2c5e0b5c010624564249c8e9367b61e95b"
+    }
+  ],
+  "work_performed": {
+    "new_backtest": false,
+    "trading_code_created_or_modified": false,
+    "protocol_modified": false,
+    "account_profile_modified": false,
+    "network_draft_modified": false,
+    "new_http_requests": 0,
+    "live_orders": false
+  }
+}

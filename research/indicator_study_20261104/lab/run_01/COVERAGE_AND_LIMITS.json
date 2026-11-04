@@ -1,0 +1,103 @@
+{
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "talib_wrapper": "0.6.8",
+    "talib_C": "0.6.4 (Oct 20 2025 20:23:51)",
+    "lookbacks_in_complete_M5_bars": {
+      "EMA20": 19,
+      "EMA50": 49,
+      "RSI14": 14,
+      "ATR14": 14,
+      "ADX14": 27,
+      "BBANDS20": 19
+    },
+    "compatibility": 0,
+    "unstable_periods": {
+      "EMA": 0,
+      "RSI": 0,
+      "ATR": 0,
+      "ADX": 0
+    },
+    "constant_series_RSI14_probe": 0.0
+  },
+  "coverage": {
+    "CLOSED": {
+      "decisions": 61,
+      "available": {
+        "ema20": 61,
+        "ema50": 55,
+        "rsi14": 61,
+        "atr14": 61,
+        "adx14": 61,
+        "bb_upper": 61,
+        "nearest_resistance": 61,
+        "nearest_support": 56,
+        "nearest_opposing_executable_level": 57
+      },
+      "previous_NY_days_complete": 0,
+      "previous_London_sessions_complete": 60,
+      "historical_opponent_before_or_at_target": 57
+    },
+    "UNRESOLVED": {
+      "decisions": 1,
+      "available": {
+        "ema20": 1,
+        "ema50": 0,
+        "rsi14": 1,
+        "atr14": 1,
+        "adx14": 0,
+        "bb_upper": 1,
+        "nearest_resistance": 1,
+        "nearest_support": 1,
+        "nearest_opposing_executable_level": 1
+      },
+      "previous_NY_days_complete": 0,
+      "previous_London_sessions_complete": 1,
+      "historical_opponent_before_or_at_target": 1
+    },
+    "NOT_ENTERED": {
+      "decisions": 142,
+      "available": {
+        "ema20": 142,
+        "ema50": 131,
+        "rsi14": 142,
+        "atr14": 142,
+        "adx14": 141,
+        "bb_upper": 142,
+        "nearest_resistance": 141,
+        "nearest_support": 133,
+        "nearest_opposing_executable_level": 133
+      },
+      "previous_NY_days_complete": 0,
+      "previous_London_sessions_complete": 142,
+      "historical_opponent_before_or_at_target": 0
+    }
+  },
+  "all_closed_positions_retained": 61,
+  "decision_types": {
+    "ENTERED": 62,
+    "REFUSED": 142
+  },
+  "new_market_backtest": false,
+  "active_filter": null,
+  "indicator_winner_selected": null,
+  "causal_time_checks_passed": true,
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "warnings": [
+    "No prediction or trading improvement established",
+    "2021 is development already viewed",
+    "Observed daily extrema are not certified levels when a minute is missing",
+    "Previous-day convention is NY17, not a verified MT5 broker candle",
+    "No global FX volume supplied; no VWAP or volume profile qualified",
+    "Historical levels can be stale or revisited; presence is not proof of reversal",
+    "RSI conventions of the tested 0.6.4 C library differ from newer main source docs"
+  ]
+}

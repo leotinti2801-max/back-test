@@ -1,0 +1,9 @@
+{
+  "version": "H4M30_RESEARCH_V02",
+  "status": "RESEARCH_ONLY_NO_QUALIFIED_CANDIDATE",
+  "selected_candidate": null,
+  "live_trading_enabled": false,
+  "orders_sent": 0,
+  "reason": "No candidate passes the predeclared development criteria; independent data unavailable",
+  "profitable_trades_guaranteed": false
+}

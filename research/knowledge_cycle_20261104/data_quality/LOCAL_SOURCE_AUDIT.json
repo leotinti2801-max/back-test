@@ -1,0 +1,612 @@
+{
+  "audit_version": "LOCAL_M1_SOURCE_CHECK_20261104_V01",
+  "audit_type": "Read-only data/provenance inspection; not a strategy simulation",
+  "target_minute_utc": "2021-04-01 11:40:00+00:00",
+  "target_source_clock_under_recorded_fixed_EST_conversion": "2021-04-01 06:40:00 to 06:41:00 (UTC-05:00)",
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "script": {
+    "path": "/workspace/back-test/research/knowledge_cycle_20261104/data_quality/inspect_local_sources.py",
+    "bytes": 16839,
+    "sha256": "5728a6b13a90ab5fee421cd5c4a847dae3fb4b4ad44933b166d2fe4ab3298480"
+  },
+  "provenance": {
+    "top_manifest": {
+      "path": "/workspace/backtest_review_20261103/MANIFEST_RESULTATS_SHA256.json",
+      "bytes": 87464,
+      "sha256": "5e8a4273b6cc78ef0b360adfa2f654286fef5007a5a98d479eb0c1801cb413a9"
+    },
+    "proof_manifest": {
+      "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/PROOF_ENTRIES_SHA256.json",
+      "bytes": 49032,
+      "sha256": "d55dffa970fd82fd197a6b2bed373ea990108bd7ba146fd4325600e73018ff03"
+    },
+    "evidence": [
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/reference_data/EURUSD_M1_RAW_SPREAD.pkl",
+        "bytes": 18033788,
+        "sha256": "0cad4b151c47e05376e170d0b78351229769e9e86816f60233080fabdf3251de",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/raw/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+        "bytes": 48121320,
+        "sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/README_PREUVES.md",
+        "bytes": 2295,
+        "sha256": "f79b0d68ad536352203b3515a3fe956d90323b669d2dc5e0d78c3c280477046a",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/analysis/build_input_v02_quarantine.py",
+        "bytes": 6183,
+        "sha256": "e7b2790c8af4b1e6b7db3f0d199aa2eb5b11cdd555685015f5a62de8867f8e46",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/protocol/DATA_AUDIT.json",
+        "bytes": 7439,
+        "sha256": "ce0c21829d6cfb2c27f5023057213fc63469e1105b468f0ba89fde364f6443ab",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/protocol/RAW_ARCHIVE_DELIVERY_MANIFEST.json",
+        "bytes": 2099,
+        "sha256": "6f4af04daa24fb5a37ba4e46b4e5732c778db1a821a43465392d7c79e7e735ea",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/protocol/RAW_INPUTS_FROZEN.json",
+        "bytes": 3693,
+        "sha256": "d2f4e0c8bc84a91d3d7008dd89ec7dc526ce1eac963512a77f6fbe564835d9bf",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/protocol/EXISTING_RAW_INPUTS.json",
+        "bytes": 1515,
+        "sha256": "0343fd0b287253ba13c91683f6550116793a140f3158ad8d5bc212e0366a3d06",
+        "supplied_manifest_match": true
+      },
+      {
+        "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/analysis/BUILD_INPUT_V02_LOG.txt",
+        "bytes": 6309,
+        "sha256": "f5cf6f87b6322a57ce9f3e6ecabfbfd1fded5be99f97df83d0c8647b01844637",
+        "supplied_manifest_match": true
+      }
+    ],
+    "limit": "Hashes prove consistency with supplied local evidence, not provider authenticity or market completeness."
+  },
+  "inputs": {
+    "reference_data/EURUSD_M1_RAW_SPREAD.pkl": {
+      "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/reference_data/EURUSD_M1_RAW_SPREAD.pkl",
+      "bytes": 18033788,
+      "sha256": "0cad4b151c47e05376e170d0b78351229769e9e86816f60233080fabdf3251de",
+      "schema_validated": true,
+      "rows": 150269,
+      "first_minute_utc": "2021-01-03 22:00:00+00:00",
+      "last_minute_utc": "2021-05-31 04:59:00+00:00",
+      "columns": [
+        "bid_open",
+        "bid_high",
+        "bid_low",
+        "bid_close",
+        "ask_open",
+        "ask_high",
+        "ask_low",
+        "ask_close",
+        "mid_open",
+        "mid_high",
+        "mid_low",
+        "mid_close",
+        "first_ts",
+        "tick_count"
+      ],
+      "target_minute_present": false,
+      "neighbouring_observed_rows": [
+        {
+          "minute_utc": "2021-04-01 11:38:00+00:00",
+          "bid_open": 1.17467,
+          "bid_high": 1.17476,
+          "bid_low": 1.17464,
+          "bid_close": 1.17473,
+          "ask_open": 1.1747,
+          "ask_high": 1.17478,
+          "ask_low": 1.17467,
+          "ask_close": 1.17476,
+          "mid_open": 1.1746850000000002,
+          "mid_high": 1.17477,
+          "mid_low": 1.174655,
+          "mid_close": 1.1747450000000002,
+          "first_ts": 1617277080567.0,
+          "tick_count": 30.0
+        },
+        {
+          "minute_utc": "2021-04-01 11:39:00+00:00",
+          "bid_open": 1.17474,
+          "bid_high": 1.17475,
+          "bid_low": 1.17463,
+          "bid_close": 1.17464,
+          "ask_open": 1.17477,
+          "ask_high": 1.17478,
+          "ask_low": 1.17465,
+          "ask_close": 1.17467,
+          "mid_open": 1.174755,
+          "mid_high": 1.1747649999999998,
+          "mid_low": 1.1746400000000001,
+          "mid_close": 1.174655,
+          "first_ts": 1617277140229.0,
+          "tick_count": 43.0
+        },
+        {
+          "minute_utc": "2021-04-01 11:41:00+00:00",
+          "bid_open": 1.17463,
+          "bid_high": 1.17463,
+          "bid_low": 1.1745,
+          "bid_close": 1.17458,
+          "ask_open": 1.17467,
+          "ask_high": 1.17467,
+          "ask_low": 1.17454,
+          "ask_close": 1.17462,
+          "mid_open": 1.1746500000000002,
+          "mid_high": 1.1746500000000002,
+          "mid_low": 1.17452,
+          "mid_close": 1.1745999999999999,
+          "first_ts": 1617277265289.0,
+          "tick_count": 34.0
+        },
+        {
+          "minute_utc": "2021-04-01 11:42:00+00:00",
+          "bid_open": 1.17458,
+          "bid_high": 1.17467,
+          "bid_low": 1.17454,
+          "bid_close": 1.17454,
+          "ask_open": 1.17461,
+          "ask_high": 1.1747,
+          "ask_low": 1.17457,
+          "ask_close": 1.17457,
+          "mid_open": 1.174595,
+          "mid_high": 1.1746850000000002,
+          "mid_low": 1.1745549999999998,
+          "mid_close": 1.1745549999999998,
+          "first_ts": 1617277324697.0,
+          "tick_count": 44.0
+        }
+      ],
+      "restricted_globals_observed": [
+        [
+          "builtins",
+          "slice"
+        ],
+        [
+          "datetime",
+          "timedelta"
+        ],
+        [
+          "datetime",
+          "timezone"
+        ],
+        [
+          "numpy",
+          "dtype"
+        ],
+        [
+          "numpy",
+          "ndarray"
+        ],
+        [
+          "numpy._core.multiarray",
+          "_reconstruct"
+        ],
+        [
+          "numpy._core.numeric",
+          "_frombuffer"
+        ],
+        [
+          "pandas._libs.arrays",
+          "__pyx_unpickle_NDArrayBacked"
+        ],
+        [
+          "pandas._libs.internals",
+          "_unpickle_block"
+        ],
+        [
+          "pandas.core.arrays.datetimes",
+          "DatetimeArray"
+        ],
+        [
+          "pandas.core.dtypes.dtypes",
+          "DatetimeTZDtype"
+        ],
+        [
+          "pandas.core.frame",
+          "DataFrame"
+        ],
+        [
+          "pandas.core.indexes.base",
+          "Index"
+        ],
+        [
+          "pandas.core.indexes.base",
+          "_new_Index"
+        ],
+        [
+          "pandas.core.indexes.datetimes",
+          "DatetimeIndex"
+        ],
+        [
+          "pandas.core.indexes.datetimes",
+          "_new_DatetimeIndex"
+        ],
+        [
+          "pandas.core.internals.managers",
+          "BlockManager"
+        ]
+      ],
+      "pickle_opcode_counts": {
+        "APPENDS": 2,
+        "BINBYTES": 1,
+        "BINGET": 35,
+        "BININT": 15,
+        "BININT1": 45,
+        "BUILD": 9,
+        "BYTEARRAY8": 5,
+        "EMPTY_DICT": 8,
+        "EMPTY_LIST": 3,
+        "EMPTY_TUPLE": 2,
+        "FRAME": 7,
+        "MARK": 21,
+        "MEMOIZE": 177,
+        "NEWFALSE": 6,
+        "NEWOBJ": 2,
+        "NEWTRUE": 5,
+        "NONE": 17,
+        "PROTO": 1,
+        "REDUCE": 27,
+        "SETITEM": 1,
+        "SETITEMS": 6,
+        "SHORT_BINBYTES": 2,
+        "SHORT_BINUNICODE": 66,
+        "STACK_GLOBAL": 17,
+        "STOP": 1,
+        "TUPLE": 13,
+        "TUPLE1": 5,
+        "TUPLE2": 9,
+        "TUPLE3": 19
+      }
+    },
+    "raw/EURUSD_M1_2021_WITH_202012_WARMUP.pkl": {
+      "path": "/workspace/backtest_review_20261103/verified_reference/Trading_bot/reference/raw/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+      "bytes": 48121320,
+      "sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+      "schema_validated": true,
+      "rows": 401000,
+      "first_minute_utc": "2020-12-01 05:00:00+00:00",
+      "last_minute_utc": "2021-12-31 21:59:00+00:00",
+      "columns": [
+        "bid_open",
+        "bid_high",
+        "bid_low",
+        "bid_close",
+        "ask_open",
+        "ask_high",
+        "ask_low",
+        "ask_close",
+        "mid_open",
+        "mid_high",
+        "mid_low",
+        "mid_close",
+        "first_ts",
+        "tick_count"
+      ],
+      "target_minute_present": false,
+      "neighbouring_observed_rows": [
+        {
+          "minute_utc": "2021-04-01 11:38:00+00:00",
+          "bid_open": 1.17467,
+          "bid_high": 1.17476,
+          "bid_low": 1.17464,
+          "bid_close": 1.17473,
+          "ask_open": 1.1747,
+          "ask_high": 1.17478,
+          "ask_low": 1.17467,
+          "ask_close": 1.17476,
+          "mid_open": 1.1746850000000002,
+          "mid_high": 1.17477,
+          "mid_low": 1.174655,
+          "mid_close": 1.1747450000000002,
+          "first_ts": 1617277080567.0,
+          "tick_count": 30.0
+        },
+        {
+          "minute_utc": "2021-04-01 11:39:00+00:00",
+          "bid_open": 1.17474,
+          "bid_high": 1.17475,
+          "bid_low": 1.17463,
+          "bid_close": 1.17464,
+          "ask_open": 1.17477,
+          "ask_high": 1.17478,
+          "ask_low": 1.17465,
+          "ask_close": 1.17467,
+          "mid_open": 1.174755,
+          "mid_high": 1.1747649999999998,
+          "mid_low": 1.1746400000000001,
+          "mid_close": 1.174655,
+          "first_ts": 1617277140229.0,
+          "tick_count": 43.0
+        },
+        {
+          "minute_utc": "2021-04-01 11:41:00+00:00",
+          "bid_open": 1.17463,
+          "bid_high": 1.17463,
+          "bid_low": 1.1745,
+          "bid_close": 1.17458,
+          "ask_open": 1.17467,
+          "ask_high": 1.17467,
+          "ask_low": 1.17454,
+          "ask_close": 1.17462,
+          "mid_open": 1.1746500000000002,
+          "mid_high": 1.1746500000000002,
+          "mid_low": 1.17452,
+          "mid_close": 1.1745999999999999,
+          "first_ts": 1617277265289.0,
+          "tick_count": 34.0
+        },
+        {
+          "minute_utc": "2021-04-01 11:42:00+00:00",
+          "bid_open": 1.17458,
+          "bid_high": 1.17467,
+          "bid_low": 1.17454,
+          "bid_close": 1.17454,
+          "ask_open": 1.17461,
+          "ask_high": 1.1747,
+          "ask_low": 1.17457,
+          "ask_close": 1.17457,
+          "mid_open": 1.174595,
+          "mid_high": 1.1746850000000002,
+          "mid_low": 1.1745549999999998,
+          "mid_close": 1.1745549999999998,
+          "first_ts": 1617277324697.0,
+          "tick_count": 44.0
+        }
+      ],
+      "restricted_globals_observed": [
+        [
+          "builtins",
+          "slice"
+        ],
+        [
+          "datetime",
+          "timedelta"
+        ],
+        [
+          "datetime",
+          "timezone"
+        ],
+        [
+          "numpy",
+          "dtype"
+        ],
+        [
+          "numpy",
+          "ndarray"
+        ],
+        [
+          "numpy._core.multiarray",
+          "_reconstruct"
+        ],
+        [
+          "numpy._core.numeric",
+          "_frombuffer"
+        ],
+        [
+          "pandas._libs.arrays",
+          "__pyx_unpickle_NDArrayBacked"
+        ],
+        [
+          "pandas._libs.internals",
+          "_unpickle_block"
+        ],
+        [
+          "pandas.core.arrays.datetimes",
+          "DatetimeArray"
+        ],
+        [
+          "pandas.core.dtypes.dtypes",
+          "DatetimeTZDtype"
+        ],
+        [
+          "pandas.core.frame",
+          "DataFrame"
+        ],
+        [
+          "pandas.core.indexes.base",
+          "Index"
+        ],
+        [
+          "pandas.core.indexes.base",
+          "_new_Index"
+        ],
+        [
+          "pandas.core.indexes.datetimes",
+          "DatetimeIndex"
+        ],
+        [
+          "pandas.core.indexes.datetimes",
+          "_new_DatetimeIndex"
+        ],
+        [
+          "pandas.core.internals.managers",
+          "BlockManager"
+        ]
+      ],
+      "pickle_opcode_counts": {
+        "APPENDS": 2,
+        "BINBYTES": 1,
+        "BINGET": 20,
+        "BININT": 12,
+        "BININT1": 30,
+        "BUILD": 9,
+        "BYTEARRAY8": 2,
+        "EMPTY_DICT": 8,
+        "EMPTY_LIST": 3,
+        "EMPTY_TUPLE": 2,
+        "FRAME": 4,
+        "MARK": 16,
+        "MEMOIZE": 152,
+        "NEWFALSE": 6,
+        "NEWOBJ": 2,
+        "NEWTRUE": 5,
+        "NONE": 16,
+        "PROTO": 1,
+        "REDUCE": 18,
+        "SETITEM": 2,
+        "SETITEMS": 5,
+        "SHORT_BINBYTES": 2,
+        "SHORT_BINUNICODE": 65,
+        "STACK_GLOBAL": 17,
+        "STOP": 1,
+        "TUPLE": 9,
+        "TUPLE1": 5,
+        "TUPLE2": 7,
+        "TUPLE3": 13
+      }
+    }
+  },
+  "active_cache": {
+    "path": "/workspace/back-test/data/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+    "bytes": 48121320,
+    "sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2"
+  },
+  "old_cache_comparison": {
+    "full_14_column_frame_and_index_exactly_equal_to_annual_subset": true,
+    "annual_subset_rows": 150269,
+    "old_rows": 150269,
+    "old_minutes_not_in_annual": 0,
+    "independent_source": false
+  },
+  "recorded_raw_april": {
+    "monthly_archive_identity": {
+      "path": "EURUSD_202104.zip",
+      "bytes": 7463785,
+      "sha256": "db93091c6e0ebba8fe9a5cef8df50b110962a5f154bd78900659ff7c58e91702"
+    },
+    "recorded_aggregation_audit_not_reexecuted": {
+      "month_file": "EURUSD_202104.zip",
+      "csv_sha256": "4e2149657097b09467c599705266a6ea47e5747c94e72473d8c835db161bb445",
+      "raw_ticks": 1187450,
+      "m1_rows": 30843,
+      "first_tick_utc": "2021-04-01 05:00:00.478000+00:00",
+      "last_tick_utc": "2021-04-30 21:59:59.434000+00:00",
+      "duplicate_tick_timestamps": 0,
+      "zero_spread_ticks": 0,
+      "invalid_rows_dropped": 0,
+      "interpolation": false,
+      "aggregation_spot_checks": 3
+    },
+    "recorded_drive_location_not_fetched": {
+      "name": "EURUSD_202104.zip",
+      "bytes": 7463785,
+      "sha256": "db93091c6e0ebba8fe9a5cef8df50b110962a5f154bd78900659ff7c58e91702",
+      "drive_id": "19DOLFPcs1wrtmQQM8LQyHPutOTOgaLhB",
+      "drive_url": "https://drive.google.com/file/d/19DOLFPcs1wrtmQQM8LQyHPutOTOgaLhB/view?usp=drivesdk"
+    },
+    "declared_source_clock": "EST fixed UTC-5, no DST; +5 hours to UTC",
+    "provider_full_tick_certification": false
+  },
+  "local_archive_inspection": {
+    "roots_inspected": [
+      "/workspace",
+      "/tmp"
+    ],
+    "method": "Recursive filenames and ZIP central directories; no extraction; no network",
+    "archives": [
+      {
+        "path": "/workspace/attachments/cf9854be-cd25-4b2d-b4b1-d201ecae4f98/H4M30_BACKTEST_2026-11-03_PREUVES.zip",
+        "bytes": 22408465,
+        "sha256": "35d5081f1ff32723a02201ec826aaa9aa614ba2be150af6f1a3c2ff854822113",
+        "entry_count": 409,
+        "matching_raw_entries": [],
+        "pickle_entries": [
+          {
+            "path": "verified_reference/Trading_bot/reference/raw/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+            "bytes": 48121320
+          },
+          {
+            "path": "verified_reference/Trading_bot/reference/reference_data/EURUSD_M1_RAW_SPREAD.pkl",
+            "bytes": 18033788
+          }
+        ]
+      },
+      {
+        "path": "/workspace/deliverables/BACKTEST_STRATEGIE_UNIQUE_EURUSD_2026-11-03_01.zip",
+        "bytes": 10496,
+        "sha256": "e471430bed42db747067888789aa474bdc1cb9a154c5197a387b3188a15d807c",
+        "entry_count": 9,
+        "matching_raw_entries": [],
+        "pickle_entries": []
+      },
+      {
+        "path": "/workspace/deliverables/BOT_H4M30_V02_2026-11-03.zip",
+        "bytes": 15204405,
+        "sha256": "97ed4220cebe2057f678130f494a441ae5702d6b1c908f115109abb16a28a280",
+        "entry_count": 48,
+        "matching_raw_entries": [],
+        "pickle_entries": [
+          {
+            "path": "back-test/data/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+            "bytes": 48121320
+          }
+        ]
+      },
+      {
+        "path": "/workspace/deliverables/DOSSIER_FOREX_STRATEGIE_UNIQUE_2026-11-03.zip",
+        "bytes": 18135,
+        "sha256": "14c44358e798cf3ef0160677a7d9661de6dac9b8394f439dcc1930dbe0dfcce5",
+        "entry_count": 11,
+        "matching_raw_entries": [],
+        "pickle_entries": []
+      },
+      {
+        "path": "/workspace/deliverables/FOREX_SIMPLE_V01_CODE_ET_PREUVES_2026-11-03.zip",
+        "bytes": 1420813,
+        "sha256": "2adf6928db624da11861d060716290478e5aee19d33c221b3762ef0c43b11c26",
+        "entry_count": 33,
+        "matching_raw_entries": [],
+        "pickle_entries": []
+      },
+      {
+        "path": "/workspace/deliverables/NOUVEAU_BACKTEST_V02_2026-11-03_RUN03.zip",
+        "bytes": 29378,
+        "sha256": "408c8ea2a9fea35b78a099c638e8e4792ab32263d098f9d8ffb297eed599b260",
+        "entry_count": 11,
+        "matching_raw_entries": [],
+        "pickle_entries": []
+      }
+    ],
+    "direct_april_or_raw_bundle_files": [],
+    "errors": [],
+    "limits": "No assertion about inaccessible locations, remote Drive or other archive formats."
+  },
+  "conclusions": {
+    "missing_m1_in_both_reviewed_caches": true,
+    "local_replacement_quote_found": false,
+    "tick_archive_available_for_target_inspection": false,
+    "absence_of_actual_market_quotes_proven": false,
+    "collection_or_export_loss_proven": false,
+    "active_path_remains_unresolved": true,
+    "next_evidence_needed": "Obtain exact EURUSD_202104.zip (or documented raw bundle), verify SHA and CSV SHA, inspect source-clock 2021-04-01 06:39-06:42 and provider gap report; independent same-convention data only under a separately declared source protocol."
+  },
+  "actions": {
+    "cache_modified": false,
+    "cache_merged": false,
+    "prices_interpolated": false,
+    "simulation_run": false,
+    "external_file_fetched": false
+  }
+}

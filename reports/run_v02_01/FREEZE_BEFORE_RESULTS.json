@@ -1,0 +1,115 @@
+{
+  "created_at_utc": "2026-11-03T16:12:33.238121+00:00",
+  "protocol": {
+    "version": "H4M30_RESEARCH_V02",
+    "purpose": "Bounded development experiment, frozen before viewing its returns",
+    "data_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+    "independent_holdout_available": false,
+    "periods": [
+      {
+        "name": "development",
+        "start": "2021-01-01T00:00:00Z",
+        "end": "2021-07-01T00:00:00Z"
+      },
+      {
+        "name": "chronological_check",
+        "start": "2021-07-01T00:00:00Z",
+        "end": "2021-10-01T00:00:00Z"
+      },
+      {
+        "name": "final_2021_check",
+        "start": "2021-10-01T00:00:00Z",
+        "end": "2022-01-01T00:00:00Z"
+      }
+    ],
+    "fixed_controls": {
+      "capital_eur": 100000,
+      "risk_budget_eur": 250,
+      "max_entries_per_utc_day": 1,
+      "entry_start_utc_minute": 480,
+      "entry_end_utc_minute": 960,
+      "hard_exit_utc_minute": 960,
+      "max_holding_minutes": 120,
+      "no_entry_paris_start_minute": 930,
+      "no_entry_paris_end_minute": 1020,
+      "pause_hours_after_two_losses": 24,
+      "h4_impulse_min_body_fraction": 0.25,
+      "missing_minutes": "Never fill; halt continuous branch on uncertain active setup or exposure",
+      "daily_diagnostics": "Independent flat-at-session-start trials; no cross-day pause or equity claim"
+    },
+    "candidates": [
+      {
+        "name": "A_STRUCTURE_FIXED_2R",
+        "bias": "structure",
+        "body_atr_min": 1.0,
+        "target": "fixed",
+        "reward_risk": 2.0
+      },
+      {
+        "name": "B_IMPULSE_FIXED_2R",
+        "bias": "impulse",
+        "body_atr_min": 1.0,
+        "target": "fixed",
+        "reward_risk": 2.0
+      },
+      {
+        "name": "C_IMPULSE_BODY05_2R",
+        "bias": "impulse",
+        "body_atr_min": 0.5,
+        "target": "fixed",
+        "reward_risk": 2.0
+      },
+      {
+        "name": "D_IMPULSE_BODY05_15R",
+        "bias": "impulse",
+        "body_atr_min": 0.5,
+        "target": "fixed",
+        "reward_risk": 1.5
+      },
+      {
+        "name": "E_IMPULSE_KNOWN_TARGET",
+        "bias": "impulse",
+        "body_atr_min": 0.5,
+        "target": "known_structural",
+        "reward_risk": 2.0
+      }
+    ],
+    "selection": {
+      "uses": "development continuous branch only",
+      "min_closed_trades": 20,
+      "min_profit_factor": 1.2,
+      "max_closed_drawdown_eur": 5000,
+      "require_positive_net_eur": true,
+      "require_no_halt": true,
+      "ranking": "highest net_eur / max(250, closed_drawdown_eur), then lexicographic name",
+      "no_fallback_when_checks_fail": true,
+      "live_trading_enabled": false
+    },
+    "stress": {
+      "fee_multiplier": 1.5,
+      "slip_multiplier": 2.0
+    },
+    "predeclared_limit": "Five candidates; no parameter retuning against these results"
+  },
+  "source_sha256": {
+    "config/reference_params.json": "ab2bd8326e00b2fb67afebf7af7ff0314c025cbafbc77964b65e1f74628c74c3",
+    "config/research_v02.json": "cd811ba1c560ce3432d4fec756f464a8923748abe248c029c880929d7d6c593b",
+    "src/backtest_bot/__init__.py": "8726bd020e5ccf91143ecaf2fa85c2b9b29ac2ebd73038e1cf2eb8a4d57bcce0",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21",
+    "src/backtest_bot/reference.py": "6b3fe8756560646f7ca046a2c54c30f2aed75fd29d6bf4892c1c42626e0fcdcf",
+    "src/backtest_bot/research.py": "443647fd631ff4afff09f606c99c8f26eaf39a1fd0488471dd86faabf9e91d7d",
+    "src/backtest_bot/simulation.py": "e9bf7151d9cd7876af0c450126e1643b1488c49bc3ba2843bd94f704d59b9111",
+    "src/backtest_bot/strategy.py": "bc2956a14b9c4e66eb32d0962f2f91fedfc6314926f363b3f99dd507d688982b",
+    "vendor/h4m30_v01/h4m30_bias.py": "0c50dc1963e7000b83963301b60af0d93f7b5cf6a5106686285b48b617011061",
+    "vendor/h4m30_v01/h4m30_data.py": "be020d78225a55068677617dc4a777860e73a3ceec5287ccb3f0dee93cb613eb",
+    "vendor/h4m30_v01/h4m30_engine.py": "55d22ccdf2fa40fc907e0773b547ba7894db575c2a4f7b6d455bf26fd4549618",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "vendor/h4m30_v01/integrity_guard.py": "4f19df0f0c2c0c7de64f8301ca4083186f31becac9e405eb50d2db30be48d4fd"
+  },
+  "data_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

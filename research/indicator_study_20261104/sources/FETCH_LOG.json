@@ -1,0 +1,99 @@
+[
+  {
+    "filename": "TA_EMA.c",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_EMA.c",
+    "attempted_at_utc": "2026-11-04T17:06:24.046251+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_EMA.c",
+    "bytes": 20733,
+    "sha256": "a5e403878df4743da9ff323dabd4f54099a9054ef2a64bc34a09e0375358277d"
+  },
+  {
+    "filename": "TA_RSI.c",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_RSI.c",
+    "attempted_at_utc": "2026-11-04T17:06:24.046794+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_RSI.c",
+    "bytes": 24807,
+    "sha256": "3615579001c957bb0056ef2e074aa39492690bc763aef5a6624d7b0eec05ac77"
+  },
+  {
+    "filename": "TA_ATR.c",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_ATR.c",
+    "attempted_at_utc": "2026-11-04T17:06:24.047289+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_ATR.c",
+    "bytes": 27732,
+    "sha256": "aa70876d7158be94d58fb4637e983a180ae3c992a297151acd6978c25f071174"
+  },
+  {
+    "filename": "TA_ADX.c",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_ADX.c",
+    "attempted_at_utc": "2026-11-04T17:06:24.047632+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_ADX.c",
+    "bytes": 49249,
+    "sha256": "ec1b4bc9891e1d8d9f368244953e1893a6d714735d3a90f40e3620ae356cd7ed"
+  },
+  {
+    "filename": "TA_BBANDS.c",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_BBANDS.c",
+    "attempted_at_utc": "2026-11-04T17:06:24.508359+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_BBANDS.c",
+    "bytes": 53477,
+    "sha256": "eaa02bada44dfff5f73734f555b4e74fc08f62148769879b17107cd4201b787c"
+  },
+  {
+    "filename": "TA_STDDEV.c",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_STDDEV.c",
+    "attempted_at_utc": "2026-11-04T17:06:24.542806+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_func/ta_STDDEV.c",
+    "bytes": 19026,
+    "sha256": "8ed42ecf5e1726f1e3d09ff0957a99deeabea5c8d494f7d787b38ce1ba7d5ed1"
+  },
+  {
+    "filename": "OANDA_v20.yaml",
+    "url": "https://raw.githubusercontent.com/oanda/v20-openapi/master/yaml/v20.yaml",
+    "attempted_at_utc": "2026-11-04T17:06:24.616062+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/oanda/v20-openapi/master/yaml/v20.yaml",
+    "bytes": 619259,
+    "sha256": "f1a16f1ea81ea77189e1c61badadfdab4df464ae6b3214f1f4463f4a694b5f1e"
+  },
+  {
+    "filename": "TA_global.h",
+    "url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_common/ta_global.h",
+    "attempted_at_utc": "2026-11-04T17:07:07.557298+00:00",
+    "tls_verification": "default enabled",
+    "proxy": "inherited urllib default proxy",
+    "purpose": "Resolve unstable-period macro needed to interpret indicator lookbacks, without assuming legacy defaults",
+    "status": "downloaded",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/TA-Lib/ta-lib/main/src/ta_common/ta_global.h",
+    "bytes": 4752,
+    "sha256": "2f89c5e70f7ba15c5e21d39fc72980b71ff6ead2af7ad3cb64897f97dbb15e09"
+  }
+]

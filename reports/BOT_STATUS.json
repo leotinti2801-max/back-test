@@ -1,0 +1,15 @@
+{
+  "version": "EURUSD_RANGE_REARMED_V03_RESEARCH",
+  "status": "DEVELOPMENT_CANDIDATE_80PCT_NOT_ACHIEVED_ANNUAL_UNRESOLVED",
+  "live_trading_enabled": false,
+  "signal": "simple_forex/strategy_rearmed.py",
+  "risk_per_trade_planned_eur": 125,
+  "max_daily_planned_risk_eur": 500,
+  "max_daily_real_entries": 4,
+  "observed_max_daily_real_entries": 2,
+  "D45_net_win_rate": 0.5483870967741935,
+  "D45_closed_trades": 31,
+  "D45_net_eur": 765.3482308618301,
+  "year_net_eur": null,
+  "FTMO_qualified": false
+}

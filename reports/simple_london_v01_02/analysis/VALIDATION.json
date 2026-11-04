@@ -1,0 +1,12 @@
+{
+  "tests_executed": 34,
+  "passed": 34,
+  "failed": 0,
+  "skipped": 0,
+  "new_strategy_tests": 12,
+  "financial_sources_match_executed_freeze": true,
+  "signal_physical_lines": 40,
+  "indicators": 0,
+  "live_trading_enabled": false,
+  "FTMO_qualified": false
+}

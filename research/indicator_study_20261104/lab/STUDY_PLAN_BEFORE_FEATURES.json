@@ -1,0 +1,43 @@
+{
+  "study": "EURUSD_CAUSAL_SUPPORT_AND_INDICATORS_01",
+  "task": "Read-only annotations of the frozen V03 decisions; no change to the trading rules",
+  "instrument": "EURUSD",
+  "platform_confirmed": "MT5",
+  "FTMO": "2-Step,100000EUR,bothphases<1monthgoal;officialtermsunverified",
+  "M5_indicators": {
+    "EMA": [
+      20,
+      50
+    ],
+    "RSI": [
+      14
+    ],
+    "ATR": [
+      14
+    ],
+    "ADX": [
+      14
+    ],
+    "BBANDS": {
+      "period": 20,
+      "deviations": 2
+    }
+  },
+  "price_levels": [
+    "strictH1fractal2left2right;knownatsecondrightclose",
+    "previousNY17day;Monday-Fridayclosingdates;strictM1completeness",
+    "previouscompletedLondon08-16weekday;strictM1completeness"
+  ],
+  "gap_policy": "Split M5 into complete consecutive segments; reset indicator warmup after each missing bar; no forwardfill",
+  "features_only_use": "Bars closed at or before decision time; no M1 high/low at the entry open",
+  "volume_indicators_status": "Not qualified; no consolidated traded volume supplied",
+  "comparisons_or_profit_filters_activated": false,
+  "historical_backtest_started": false,
+  "automatic_indicator_selection": false,
+  "methodological_warnings": [
+    "2021alreadyusedfordevelopment",
+    "Pastlevelnotproofpricewillreverse",
+    "Opportunityfilterchangesfuturepositionsandpauses;dontdropCSVlosses",
+    "Exactdailyhighlowunknownwhenanyrequiredminuteabsent"
+  ]
+}

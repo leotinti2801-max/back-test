@@ -1,0 +1,183 @@
+{
+  "plan": {
+    "study": "EURUSD_FREQUENCY_AND_LEVERAGE_02",
+    "origin": "Direct user request: continue with more daily trades or higher leverage",
+    "recorded_before_new_results": true,
+    "active_strategy_modified": false,
+    "baseline": "simple_forex/protocol_v03.json, frozen rearmed London range",
+    "data_status": "All 2021 previously viewed development; no independent validation",
+    "common_period": {
+      "name": "Q1",
+      "start": "2021-01-04T00:00:00Z",
+      "end_exclusive": "2021-04-01T00:00:00Z"
+    },
+    "period_reason": "Known common development quarter before April exposure gap; variants may encounter other gaps and must halt if exposed",
+    "diagnostic_attempts": [
+      {
+        "name": "JAN28",
+        "start": "2021-01-04T00:00:00Z",
+        "end_exclusive": "2021-02-01T00:00:00Z"
+      },
+      {
+        "name": "FEB28",
+        "start": "2021-02-01T00:00:00Z",
+        "end_exclusive": "2021-03-01T00:00:00Z"
+      },
+      {
+        "name": "MAR28",
+        "start": "2021-03-01T00:00:00Z",
+        "end_exclusive": "2021-03-29T00:00:00Z"
+      }
+    ],
+    "attempt_semantics": "Each 28-calendar-day diagnostic starts with fresh balance and pause state; NOT a verified FTMO phase or Challenge+Verification evaluator",
+    "costs": [
+      "base",
+      "frozen V03 higher_costs"
+    ],
+    "controls": {
+      "capital_eur": 100000,
+      "instrument": "EURUSD",
+      "range": "08:00-09:00 Europe/London",
+      "stop": "Opposite executable-side range boundary plus tick",
+      "target_planned_net_quote_R": 3,
+      "daily_planned_risk_cap_eur": 500,
+      "max_open_positions": 1,
+      "pause_after_net_losses": 2,
+      "pause_hours": 24,
+      "indicators": 0,
+      "no_scaling_risk_to_hit_deadline": true
+    },
+    "variants": [
+      {
+        "name": "V03",
+        "overrides": {},
+        "signal_minutes": 5,
+        "max_holding_minutes": 1440
+      },
+      {
+        "name": "LEVERAGE30",
+        "overrides": {
+          "leverage_max": 30
+        },
+        "signal_minutes": 5,
+        "max_holding_minutes": 1440
+      },
+      {
+        "name": "LEVERAGE100",
+        "overrides": {
+          "leverage_max": 100
+        },
+        "signal_minutes": 5,
+        "max_holding_minutes": 1440
+      },
+      {
+        "name": "EXTENDED",
+        "overrides": {
+          "entry_end_exclusive": "16:00",
+          "hard_exit": "17:00"
+        },
+        "signal_minutes": 5,
+        "max_holding_minutes": 1440
+      },
+      {
+        "name": "HOLD60",
+        "overrides": {},
+        "signal_minutes": 5,
+        "max_holding_minutes": 60
+      },
+      {
+        "name": "EXTENDED_HOLD60",
+        "overrides": {
+          "entry_end_exclusive": "16:00",
+          "hard_exit": "17:00"
+        },
+        "signal_minutes": 5,
+        "max_holding_minutes": 60
+      },
+      {
+        "name": "EXTENDED_HOLD60_CAP8",
+        "overrides": {
+          "entry_end_exclusive": "16:00",
+          "hard_exit": "17:00",
+          "max_entries_per_day": 8
+        },
+        "signal_minutes": 5,
+        "max_holding_minutes": 60
+      },
+      {
+        "name": "EXTENDED_HOLD60_8SMALL",
+        "overrides": {
+          "entry_end_exclusive": "16:00",
+          "hard_exit": "17:00",
+          "risk_budget_per_trade_eur": 62.5,
+          "max_entries_per_day": 8
+        },
+        "signal_minutes": 5,
+        "max_holding_minutes": 60
+      },
+      {
+        "name": "EXTENDED_HOLD60_8SMALL_M1",
+        "overrides": {
+          "entry_end_exclusive": "16:00",
+          "hard_exit": "17:00",
+          "risk_budget_per_trade_eur": 62.5,
+          "max_entries_per_day": 8
+        },
+        "signal_minutes": 1,
+        "max_holding_minutes": 60
+      }
+    ],
+    "method": [
+      "Full replay of positions, pauses, costs and entry quotas for every arm and attempt",
+      "Raw rearming remains driven by interior closed prices, not by executed entries or PnL",
+      "Frozen engine reused via function-local parameters injection; no global monkeypatch or core mutation",
+      "No quote, exposure or signal gap is interpolated; branch halts with total null if exposed",
+      "Report unknown branches without ranking their partial net against complete totals",
+      "Leverage30/100 are hypothetical model scenarios, not verified FTMO permitted leverage"
+    ],
+    "decision": {
+      "primary": "Net EUR, actual frequency, closed drawdown and two-cost robustness on common Q1",
+      "secondary": "All three 28-day diagnostics and causal losses/refusals; no best-window selection",
+      "evidence_of_improvement": "Positive common-quarter net difference in both cost cases, with frequency and drawdown tradeoffs stated; still development only",
+      "automatic_winner_promotion": false,
+      "parameter_search": false,
+      "retain_all_results": true,
+      "stop_after_this_batch": true,
+      "FTMO_pass_claim_allowed": false,
+      "annual_pass_claim_allowed": false
+    }
+  },
+  "source_sha256": {
+    "research/frequency_leverage_20261104/test_study.py": "b8c9ad1d23102df1796181914cb10d6f48b8a31c8328cf0346adb2d9f553208b",
+    "research/frequency_leverage_20261104/signals.py": "80985c81567f6d30f7814a88b9d0209b0068dae2fb33d17c92bdca2cee718e87",
+    "research/frequency_leverage_20261104/engine.py": "83d0c9f263d1afd55a30f2492bfd5fa9601edd798cff699b80c28cc0f50dfeec",
+    "research/frequency_leverage_20261104/run_study.py": "c178c262607c20b1ee2f47577b28aa67dad9ef3868176e1352019e79bef0983b",
+    "research/frequency_leverage_20261104/PLAN_BEFORE_RESULTS.json": "dddc1ecee5c5744577a07bbba282b8a7db3c6284816dac48ddecff65a2d2d0ca",
+    "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+    "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+    "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6"
+  },
+  "shared_source_sha256": {
+    "config/reference_params.json": "ab2bd8326e00b2fb67afebf7af7ff0314c025cbafbc77964b65e1f74628c74c3",
+    "config/research_v02.json": "cd811ba1c560ce3432d4fec756f464a8923748abe248c029c880929d7d6c593b",
+    "src/backtest_bot/__init__.py": "8726bd020e5ccf91143ecaf2fa85c2b9b29ac2ebd73038e1cf2eb8a4d57bcce0",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21",
+    "src/backtest_bot/reference.py": "6b3fe8756560646f7ca046a2c54c30f2aed75fd29d6bf4892c1c42626e0fcdcf",
+    "src/backtest_bot/research.py": "443647fd631ff4afff09f606c99c8f26eaf39a1fd0488471dd86faabf9e91d7d",
+    "src/backtest_bot/simulation.py": "e9bf7151d9cd7876af0c450126e1643b1488c49bc3ba2843bd94f704d59b9111",
+    "src/backtest_bot/strategy.py": "3a1eea23ff1a8f67d0e4205320a06065ca9d1f64b1383ea899d26044982ef0ed",
+    "vendor/h4m30_v01/h4m30_bias.py": "0c50dc1963e7000b83963301b60af0d93f7b5cf6a5106686285b48b617011061",
+    "vendor/h4m30_v01/h4m30_data.py": "be020d78225a55068677617dc4a777860e73a3ceec5287ccb3f0dee93cb613eb",
+    "vendor/h4m30_v01/h4m30_engine.py": "55d22ccdf2fa40fc907e0773b547ba7894db575c2a4f7b6d455bf26fd4549618",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "vendor/h4m30_v01/integrity_guard.py": "4f19df0f0c2c0c7de64f8301ca4083186f31becac9e405eb50d2db30be48d4fd"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "active_core_modified": false,
+  "independent_validation": false,
+  "FTMO_compliance_verified": false
+}

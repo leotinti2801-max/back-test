@@ -1,0 +1,13 @@
+{
+  "version": "EURUSD_LONDON_RANGE_SIMPLE_V01",
+  "status": "RESEARCH_ONLY_ANNUAL_DATA_UNRESOLVED_NOT_QUALIFIED_FOR_FTMO",
+  "active_signal": "simple_forex/strategy.py",
+  "signal_physical_lines": 40,
+  "indicators": [],
+  "live_trading_enabled": false,
+  "risk_per_trade_planned_eur": 250,
+  "max_daily_planned_risk_eur": 500,
+  "max_attempts_per_day": 2,
+  "qualified_for_FTMO": false,
+  "official_FTMO_rules_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "RESEARCH_QUEUE.json": "abc08bb19ff42d491f53040a7c4e54f40d3e81ec26b9f9a0e4091d615048c178",
+  "SYNTHESE.md": "3b8ecf9a6cb94882df110db8286f8ad2d15653e524781f2f9e84afc6efed0a8a",
+  "data_quality/LOCAL_SOURCE_AUDIT.json": "20566d1b87204c0f3a264dadce6fef40534c60e37a24ed3c3271e0780dd9f054",
+  "data_quality/NOTE_FR.md": "24419710da249b1a5759b5b868b5e536a3789c95e1bd2b882ec36cd92a20e133",
+  "data_quality/inspect_local_sources.py": "5728a6b13a90ab5fee421cd5c4a847dae3fb4b4ad44933b166d2fe4ab3298480",
+  "ftmo_sources/FETCH_RESULT.json": "c58ced7a5d4af74b2e6ada8e62382b3e2b335f33f9cb6031c627934f15c0f782",
+  "ftmo_sources/MANIFEST_SHA256.json": "27cc2cc6bcaa599537cd0c2caee2aad2a99a32be2d47c10fecc778c4e3255f54",
+  "ftmo_sources/NOTE_FTMO_FR.md": "173dffeeac7ba2ee144f96759dc7bcaff71689219a229f3dd4abb32c6f819554",
+  "ftmo_sources/PROFILE_VERIFICATION_STATUS.json": "b5a9093bde199880c21ccc3fc99aff2c5e0b5c010624564249c8e9367b61e95b",
+  "literature/FETCH_LOG.json": "463beb63daaecb86ffaf9c722d8e99d83595f870b919014e06874fd30322ca2d",
+  "literature/NOTE_PREUVES_ET_LIMITES.md": "28fe2c880949e75acb6c2e51d75f2275a922abd9fbcc6a027553308187e2690d",
+  "literature/SHA256SUMS": "1bc1ed7c0f41015798ff972c64d73963f39125b4242bab49e817befa1bfca93f",
+  "literature/SOURCE_REGISTER.json": "32416d1de836686375b4dc418bc5ab6e0ab92aeaf4abef831b815d4e6132d1f1",
+  "performance/OBSERVED_30D_SUBTRAJECTORIES.csv": "2c2c070b7c5aaebd320c64ec93c2cc1c8215d4c34186a2b501d11cccad24f3ef",
+  "performance/PERFORMANCE_FACTS.json": "8c09bac41bf63e68033cf64452a33b7b1c132fafa0057466697fba2cba1b0033",
+  "performance/analyse_existing.py": "73a286670c19a63df2323f5077e95b6ca18f0a52b214166ecbdaf8b362695f5c"
+}

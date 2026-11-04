@@ -1,0 +1,34 @@
+{
+  "base": {
+    "baseline_entries": 61,
+    "candidate_entries": 53,
+    "shared_entries": 45,
+    "baseline_only": 16,
+    "candidate_only": 8,
+    "filter_unknown_decisions": 16,
+    "V03_losses_by_exit": {
+      "SL": 12,
+      "TIME": 18
+    },
+    "EMA20_50_losses_by_exit": {
+      "SL": 10,
+      "TIME": 18
+    }
+  },
+  "higher_costs": {
+    "baseline_entries": 61,
+    "candidate_entries": 53,
+    "shared_entries": 45,
+    "baseline_only": 16,
+    "candidate_only": 8,
+    "filter_unknown_decisions": 16,
+    "V03_losses_by_exit": {
+      "SL": 12,
+      "TIME": 18
+    },
+    "EMA20_50_losses_by_exit": {
+      "SL": 10,
+      "TIME": 18
+    }
+  }
+}

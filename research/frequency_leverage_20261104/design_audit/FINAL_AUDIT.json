@@ -1,0 +1,692 @@
+{
+  "audit": "INDEPENDENT_RECORDED_RUN_CHECK_20261104",
+  "status": "PASS",
+  "audit_script_sha256": "d3251d49e4a290fe2c592bf599a640f04a3461fd7a11786d1901c77e1d08920f",
+  "run_manifest_sha256": "c467c2e662e5fcbf334c58d4616f7cf44d4118169a2e8994682d69fb56e007df",
+  "result_files_verified": 363,
+  "source_identities_verified": 21,
+  "frozen_original_core_unchanged": true,
+  "function_clone_isolated": true,
+  "baseline_Q1_trade_and_decision_bytes_reproduced": true,
+  "leverage_financial_byte_parity_cells": [
+    "LEVERAGE30/Q1/base",
+    "LEVERAGE100/Q1/base",
+    "LEVERAGE30/Q1/higher_costs",
+    "LEVERAGE100/Q1/higher_costs",
+    "LEVERAGE30/JAN28/base",
+    "LEVERAGE100/JAN28/base",
+    "LEVERAGE30/JAN28/higher_costs",
+    "LEVERAGE100/JAN28/higher_costs",
+    "LEVERAGE30/FEB28/base",
+    "LEVERAGE100/FEB28/base",
+    "LEVERAGE30/FEB28/higher_costs",
+    "LEVERAGE100/FEB28/higher_costs",
+    "LEVERAGE30/MAR28/base",
+    "LEVERAGE100/MAR28/base",
+    "LEVERAGE30/MAR28/higher_costs",
+    "LEVERAGE100/MAR28/higher_costs"
+  ],
+  "cells_passed": 72,
+  "closed_trade_rows_audited_correlated": 3014,
+  "cells": {
+    "V03/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 642.3667390327232,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.32464896518763
+    },
+    "V03/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 504.21532760375015,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.54035786518256
+    },
+    "V03/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 396.538034082297,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 247.80912487279625
+    },
+    "V03/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 358.36548270367234,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 244.25030336503642
+    },
+    "V03/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 518.7742525911403,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 1,
+      "maximum_daily_planned_risk_eur": 124.92733187381451
+    },
+    "V03/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 462.5257420658988,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 1,
+      "maximum_daily_planned_risk_eur": 124.28723382067434
+    },
+    "V03/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -235.07127071719302,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 249.20631037476355
+    },
+    "V03/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -270.5423039342817,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.54035786518256
+    },
+    "LEVERAGE30/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 642.3667390327232,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.32464896518763
+    },
+    "LEVERAGE30/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 504.21532760375015,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.54035786518256
+    },
+    "LEVERAGE30/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 396.538034082297,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 247.80912487279625
+    },
+    "LEVERAGE30/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 358.36548270367234,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 244.25030336503642
+    },
+    "LEVERAGE30/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 518.7742525911403,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 1,
+      "maximum_daily_planned_risk_eur": 124.92733187381451
+    },
+    "LEVERAGE30/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 462.5257420658988,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 1,
+      "maximum_daily_planned_risk_eur": 124.28723382067434
+    },
+    "LEVERAGE30/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -235.07127071719302,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 249.20631037476355
+    },
+    "LEVERAGE30/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -270.5423039342817,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.54035786518256
+    },
+    "LEVERAGE100/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 642.3667390327232,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.32464896518763
+    },
+    "LEVERAGE100/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 504.21532760375015,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.54035786518256
+    },
+    "LEVERAGE100/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 396.538034082297,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 247.80912487279625
+    },
+    "LEVERAGE100/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 358.36548270367234,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 244.25030336503642
+    },
+    "LEVERAGE100/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 518.7742525911403,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 1,
+      "maximum_daily_planned_risk_eur": 124.92733187381451
+    },
+    "LEVERAGE100/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 462.5257420658988,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 1,
+      "maximum_daily_planned_risk_eur": 124.28723382067434
+    },
+    "LEVERAGE100/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -235.07127071719302,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 249.20631037476355
+    },
+    "LEVERAGE100/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -270.5423039342817,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 248.54035786518256
+    },
+    "EXTENDED/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "raw_closed_bar_events": 5229,
+      "net_eur": -44.45819002786451,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 249.20631037476355
+    },
+    "EXTENDED/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 60,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 92.29052998017299,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 246.18439825148783
+    },
+    "EXTENDED/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -135.57125893397028,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 247.80912487279625
+    },
+    "EXTENDED/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 20,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -158.95709006425645,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 244.25030336503642
+    },
+    "EXTENDED/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 591.5323360099643,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 245.03032877413085
+    },
+    "EXTENDED/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 542.9519689143574,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 245.04253538789553
+    },
+    "EXTENDED/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 19,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -380.77072922729064,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 249.20631037476355
+    },
+    "EXTENDED/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 18,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -166.135288524215,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 2,
+      "maximum_daily_planned_risk_eur": 246.18439825148783
+    },
+    "HOLD60/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 94,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 543.2024870300095,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 372.1244552445644
+    },
+    "HOLD60/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 94,
+      "raw_closed_bar_events": 4095,
+      "net_eur": 327.71637064464426,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.95054520034495
+    },
+    "HOLD60/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 19.66474573351078,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 372.1244552445644
+    },
+    "HOLD60/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1300,
+      "net_eur": -42.28019442732116,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.95054520034495
+    },
+    "HOLD60/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 31,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 464.055602580597,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 370.2962815126184
+    },
+    "HOLD60/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 31,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 386.5976893034746,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.713716085071
+    },
+    "HOLD60/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 60.389934608061175,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 370.9748153912354
+    },
+    "HOLD60/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1300,
+      "net_eur": 0.5616933707864051,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 364.56551320309654
+    },
+    "EXTENDED_HOLD60/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 108,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 685.8140560800864,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 492.3861348305013
+    },
+    "EXTENDED_HOLD60/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 108,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 444.43195989829013,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 489.2128614904235
+    },
+    "EXTENDED_HOLD60/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 19.66474573351078,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 372.1244552445644
+    },
+    "EXTENDED_HOLD60/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -42.28019442732116,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.95054520034495
+    },
+    "EXTENDED_HOLD60/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 36,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 488.9650414500847,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 370.2962815126184
+    },
+    "EXTENDED_HOLD60/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 36,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 405.85651424685847,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.713716085071
+    },
+    "EXTENDED_HOLD60/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 37,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 178.09206478865036,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 492.3861348305013
+    },
+    "EXTENDED_HOLD60/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 37,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 98.0184576810485,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 489.2128614904235
+    },
+    "EXTENDED_HOLD60_CAP8/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 108,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 685.8140560800864,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 492.3861348305013
+    },
+    "EXTENDED_HOLD60_CAP8/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 108,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 444.43195989829013,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 489.2128614904235
+    },
+    "EXTENDED_HOLD60_CAP8/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 19.66474573351078,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 372.1244552445644
+    },
+    "EXTENDED_HOLD60_CAP8/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -42.28019442732116,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.95054520034495
+    },
+    "EXTENDED_HOLD60_CAP8/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 36,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 488.9650414500847,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 370.2962815126184
+    },
+    "EXTENDED_HOLD60_CAP8/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 36,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 405.85651424685847,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 371.713716085071
+    },
+    "EXTENDED_HOLD60_CAP8/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 37,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 178.09206478865036,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 492.3861348305013
+    },
+    "EXTENDED_HOLD60_CAP8/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 37,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 98.0184576810485,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 489.2128614904235
+    },
+    "EXTENDED_HOLD60_8SMALL/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 108,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 339.43569244670493,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 243.5536909057014
+    },
+    "EXTENDED_HOLD60_8SMALL/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 108,
+      "raw_closed_bar_events": 5229,
+      "net_eur": 221.41941180341044,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 242.64850303274505
+    },
+    "EXTENDED_HOLD60_8SMALL/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 12.916474833588534,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 182.08367880185685
+    },
+    "EXTENDED_HOLD60_8SMALL/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 28,
+      "raw_closed_bar_events": 1660,
+      "net_eur": -15.793964427838727,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 184.7196887744127
+    },
+    "EXTENDED_HOLD60_8SMALL/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 36,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 239.78612539691886,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 183.49854341555942
+    },
+    "EXTENDED_HOLD60_8SMALL/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 36,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 196.58488211643862,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 3,
+      "maximum_daily_planned_risk_eur": 180.73802723868394
+    },
+    "EXTENDED_HOLD60_8SMALL/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 37,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 87.73447148588575,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 243.5536909057014
+    },
+    "EXTENDED_HOLD60_8SMALL/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 37,
+      "raw_closed_bar_events": 1660,
+      "net_eur": 49.79825721725337,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 242.64850303274505
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/Q1/base": {
+      "status": "PASS",
+      "closed_trades": 117,
+      "raw_closed_bar_events": 26397,
+      "net_eur": 138.52831679357934,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 245.32750548745346
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 115,
+      "raw_closed_bar_events": 26397,
+      "net_eur": 33.39015694053378,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 242.7142561258924
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/JAN28/base": {
+      "status": "PASS",
+      "closed_trades": 32,
+      "raw_closed_bar_events": 8380,
+      "net_eur": -18.79916545274768,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 241.9907976638521
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/JAN28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 30,
+      "raw_closed_bar_events": 8380,
+      "net_eur": -22.09973752871317,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 236.76930627644515
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/FEB28/base": {
+      "status": "PASS",
+      "closed_trades": 39,
+      "raw_closed_bar_events": 8380,
+      "net_eur": 107.69842720140137,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 245.32750548745346
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/FEB28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 39,
+      "raw_closed_bar_events": 8380,
+      "net_eur": 59.53500993204971,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 239.90603312154246
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/MAR28/base": {
+      "status": "PASS",
+      "closed_trades": 39,
+      "raw_closed_bar_events": 8380,
+      "net_eur": 84.32298020331692,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 241.46689355062296
+    },
+    "EXTENDED_HOLD60_8SMALL_M1/MAR28/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 39,
+      "raw_closed_bar_events": 8380,
+      "net_eur": 41.828277785661015,
+      "maximum_recorded_fill_pnl_error_eur": 0.0,
+      "maximum_daily_entries": 4,
+      "maximum_daily_planned_risk_eur": 242.7142561258924
+    }
+  },
+  "failures": [],
+  "method": "Existing CSV state transitions and recorded fills recomputed from source quotes; no new order, trading simulator or market backtest called",
+  "limits": [
+    "72 correlated development cells, not independent samples",
+    "No tick path or FTMO compliance certified",
+    "Recorded exit fills audited; no counterfactual stop/TP path generated",
+    "No unknown exposure encountered in the72 recorded cells; preservation also inspected in frozen exception branch",
+    "Six source tests reviewed, not rerun by this audit"
+  ],
+  "new_financial_backtest": false,
+  "active_sources_modified": false
+}

@@ -1,0 +1,59 @@
+{
+  "research_version": "EURUSD_SINGLE_STRATEGY_RESEARCH_01",
+  "research_scope": "EURUSD H4 directional structure, M30 breakout, first observable POI pullback, fixed planned 2R target",
+  "strategy_count": 1,
+  "candidate": {
+    "name": "A_STRUCTURE_FIXED_2R",
+    "bias": "structure",
+    "body_atr_min": 1.0,
+    "target": "fixed",
+    "reward_risk": 2.0
+  },
+  "fixed_controls": {
+    "capital_eur": 100000,
+    "risk_budget_eur": 250,
+    "max_entries_per_utc_day": 1,
+    "entry_start_utc_minute": 480,
+    "entry_end_utc_minute": 960,
+    "hard_exit_utc_minute": 960,
+    "max_holding_minutes": 120,
+    "no_entry_paris_start_minute": 930,
+    "no_entry_paris_end_minute": 1020,
+    "pause_hours_after_two_losses": 24,
+    "h4_impulse_min_body_fraction": 0.25,
+    "missing_minutes": "Never fill; halt continuous branch on uncertain active setup or exposure",
+    "daily_diagnostics": "Independent flat-at-session-start trials; no cross-day pause or equity claim"
+  },
+  "source_freeze_relative_path": "reports/run_v02_02/FREEZE_BEFORE_RESULTS.json",
+  "source_freeze_sha256": "9b3a40f5417c7572b8343e127385d0a66cd9433fa015ab5c68fe879b5e14cda0",
+  "reason_for_focus": "Continuity, interpretability and reduced degrees of freedom; not evidence that the three-trade winner is best",
+  "development_period_already_used": "2021; not an independent holdout",
+  "retired_from_active_research": [
+    "B_IMPULSE_FIXED_2R",
+    "C_IMPULSE_BODY05_2R",
+    "D_IMPULSE_BODY05_15R",
+    "E_IMPULSE_KNOWN_TARGET"
+  ],
+  "historical_results_preserved": true,
+  "new_optimization_performed": false,
+  "planned_quote_target_R": 2.0,
+  "target_warning": "Realized EUR R varies with actual exit, costs and conversion; time exits can realize less than 2R",
+  "macro_news_filter_status": "NOT_IMPLEMENTED; requires point-in-time economic calendar and separately frozen rule before testing",
+  "independent_validation_status": "MISSING_DATA",
+  "primary_financial_literature_status": "PENDING_NETWORK_ACTIVATION",
+  "live_trading_enabled": false,
+  "research_questions": [
+    "Does the entry retain a positive net expectancy on independent qualified bid/ask history?",
+    "Is the distribution of target distance compatible with the time remaining before the forced exit?",
+    "How much does strict bar completeness suppress valid trend contexts on a qualified feed?",
+    "How stable are costs, observed risk and performance across sessions and market regimes?"
+  ],
+  "not_allowed_in_this_research_batch": [
+    "claim profitable-only trades",
+    "select new parameters from the three observed trades",
+    "relabel 2021 as out-of-sample",
+    "deduct costs twice",
+    "invent missing quotes or historical news",
+    "erase failed experiments"
+  ]
+}

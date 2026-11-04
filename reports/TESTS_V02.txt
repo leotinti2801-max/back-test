@@ -1,0 +1,24 @@
+test_context_without_shared_cache_honours_candidate_bias (test_research.CausalityAndExecutionTests.test_context_without_shared_cache_honours_candidate_bias) ... ok
+test_diagnostics_cannot_be_reported_as_portfolio (test_research.CausalityAndExecutionTests.test_diagnostics_cannot_be_reported_as_portfolio) ... ok
+test_feed_gap_does_not_disappear_from_portfolio (test_research.CausalityAndExecutionTests.test_feed_gap_does_not_disappear_from_portfolio) ... ok
+test_fixed_target_net_ratio_and_budget_both_directions (test_research.CausalityAndExecutionTests.test_fixed_target_net_ratio_and_budget_both_directions) ... ok
+test_future_high_low_cannot_move_entry_or_target (test_research.CausalityAndExecutionTests.test_future_high_low_cannot_move_entry_or_target) ... ok
+test_future_prices_cannot_rewrite_past_breakouts_or_pivots (test_research.CausalityAndExecutionTests.test_future_prices_cannot_rewrite_past_breakouts_or_pivots) ... ok
+test_future_suffix_cannot_change_past_h4_bias (test_research.CausalityAndExecutionTests.test_future_suffix_cannot_change_past_h4_bias) ... ok
+test_impulse_cannot_reuse_stale_h4 (test_research.CausalityAndExecutionTests.test_impulse_cannot_reuse_stale_h4) ... ok
+test_known_target_excludes_broken_visited_and_unknown_pivots (test_research.CausalityAndExecutionTests.test_known_target_excludes_broken_visited_and_unknown_pivots) ... ok
+test_missing_exposure_is_unknown_keeps_entry_commission (test_research.CausalityAndExecutionTests.test_missing_exposure_is_unknown_keeps_entry_commission) ... ok
+test_missing_first_return_halts_instead_of_selecting_next_touch (test_research.CausalityAndExecutionTests.test_missing_first_return_halts_instead_of_selecting_next_touch) ... ok
+test_paris_daylight_saving_is_not_fixed_utc_offset (test_research.CausalityAndExecutionTests.test_paris_daylight_saving_is_not_fixed_utc_offset) ... ok
+test_single_entry_per_day_and_pause_after_two_losses (test_research.CausalityAndExecutionTests.test_single_entry_per_day_and_pause_after_two_losses) ... ok
+test_stop_and_target_same_minute_stop_wins (test_research.CausalityAndExecutionTests.test_stop_and_target_same_minute_stop_wins) ... ok
+test_target_fills_executable_side_and_fees (test_research.CausalityAndExecutionTests.test_target_fills_executable_side_and_fees) ... ok
+test_time_exit_does_not_read_deadline_high_low (test_research.CausalityAndExecutionTests.test_time_exit_does_not_read_deadline_high_low) ... ok
+test_future_check_returns_cannot_choose_candidate (test_research.SelectionTests.test_future_check_returns_cannot_choose_candidate) ... ok
+test_no_fallback_to_profitable_known_subset_after_halt (test_research.SelectionTests.test_no_fallback_to_profitable_known_subset_after_halt) ... ok
+test_pickle_cannot_import_arbitrary_functions (test_research.SelectionTests.test_pickle_cannot_import_arbitrary_functions) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.018s
+
+OK

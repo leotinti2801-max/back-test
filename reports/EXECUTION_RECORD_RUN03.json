@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-11-03T16:31:26.384554+00:00",
+  "run": "annual_v02_03",
+  "scenario_cells": 10,
+  "independent_new_period": false,
+  "audit_status": "PASS",
+  "result_files_byte_identical_to_previous": true,
+  "live_trading_enabled": false
+}

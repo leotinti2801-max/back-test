@@ -1,0 +1,243 @@
+{
+  "V03_3R": {},
+  "V03_2R": {
+    "base": {
+      "actual_TP2_exits": 4,
+      "hypothetical_not_portfolio": true,
+      "thresholds": {
+        "3R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 3,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.25,
+          "descriptive_reach_fraction_upper": 0.25
+        },
+        "4R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 3,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.25,
+          "descriptive_reach_fraction_upper": 0.25
+        },
+        "5R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 4,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.0,
+          "descriptive_reach_fraction_upper": 0.0
+        }
+      }
+    },
+    "higher_costs": {
+      "actual_TP2_exits": 4,
+      "hypothetical_not_portfolio": true,
+      "thresholds": {
+        "3R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 3,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.25,
+          "descriptive_reach_fraction_upper": 0.25
+        },
+        "4R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 3,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.25,
+          "descriptive_reach_fraction_upper": 0.25
+        },
+        "5R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 4,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.0,
+          "descriptive_reach_fraction_upper": 0.0
+        }
+      }
+    }
+  },
+  "H1_ADX_2R": {
+    "base": {
+      "actual_TP2_exits": 2,
+      "hypothetical_not_portfolio": true,
+      "thresholds": {
+        "3R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 1,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.5,
+          "descriptive_reach_fraction_upper": 0.5
+        },
+        "4R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 1,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.5,
+          "descriptive_reach_fraction_upper": 0.5
+        },
+        "5R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 2,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.0,
+          "descriptive_reach_fraction_upper": 0.0
+        }
+      }
+    },
+    "higher_costs": {
+      "actual_TP2_exits": 2,
+      "hypothetical_not_portfolio": true,
+      "thresholds": {
+        "3R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 1,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.5,
+          "descriptive_reach_fraction_upper": 0.5
+        },
+        "4R": {
+          "reached": 1,
+          "reached_in_later_M1": 1,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 1,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.5,
+          "descriptive_reach_fraction_upper": 0.5
+        },
+        "5R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 2,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": 0.0,
+          "descriptive_reach_fraction_upper": 0.0
+        }
+      }
+    }
+  },
+  "H1_ADX_LEVEL_2R": {
+    "base": {
+      "actual_TP2_exits": 0,
+      "hypothetical_not_portfolio": true,
+      "thresholds": {
+        "3R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 0,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": null,
+          "descriptive_reach_fraction_upper": null
+        },
+        "4R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 0,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": null,
+          "descriptive_reach_fraction_upper": null
+        },
+        "5R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 0,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": null,
+          "descriptive_reach_fraction_upper": null
+        }
+      }
+    },
+    "higher_costs": {
+      "actual_TP2_exits": 0,
+      "hypothetical_not_portfolio": true,
+      "thresholds": {
+        "3R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 0,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": null,
+          "descriptive_reach_fraction_upper": null
+        },
+        "4R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 0,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": null,
+          "descriptive_reach_fraction_upper": null
+        },
+        "5R": {
+          "reached": 0,
+          "reached_in_later_M1": 0,
+          "reached_in_same_M1_as_TP2": 0,
+          "stop_before_threshold": 0,
+          "expired_at_16_London": 0,
+          "unknown": 0,
+          "stop_threshold_same_M1_ambiguities": 0,
+          "descriptive_reach_fraction_lower": null,
+          "descriptive_reach_fraction_upper": null
+        }
+      }
+    }
+  }
+}

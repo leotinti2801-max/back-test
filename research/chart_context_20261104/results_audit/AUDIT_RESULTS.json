@@ -1,0 +1,496 @@
+{
+  "status": "PASS",
+  "audit_type": "Recorded outputs and direct source quote checks only",
+  "audit_script_sha256": "ca16c0cb6ce78d0a50fe4978b55deaf52a92fba5c799be8c2c9c5a37724019ac",
+  "run_manifest_sha256": "0c68f643d779fc9af436198a958c22d3787155222b13117a4f845063ea613d24",
+  "result_files_verified": 48,
+  "source_identities_verified": 24,
+  "original_core_and_continuation_pre_history_hashes_unchanged": true,
+  "control_3R_trade_and_decision_byte_parity": true,
+  "cells_verified": {
+    "V03_3R/base": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "V03_3R/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "V03_2R/base": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "V03_2R/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 61,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "H1_ADX_2R/base": {
+      "status": "PASS",
+      "closed_trades": 33,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "H1_ADX_2R/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 33,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "H1_ADX_LEVEL_2R/base": {
+      "status": "PASS",
+      "closed_trades": 24,
+      "maximum_fill_cash_error_eur": 0.0
+    },
+    "H1_ADX_LEVEL_2R/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 24,
+      "maximum_fill_cash_error_eur": 0.0
+    }
+  },
+  "unique_price_time_context_snapshots_prefix_checked": 202,
+  "continued_threshold_outcomes_checked_correlated": 36,
+  "continuation_evidence": {
+    "V03_2R/base": [
+      {
+        "entry_utc": "2021-01-25T09:05:00Z",
+        "TP2_row_utc": "2021-01-25T15:00:00Z",
+        "TP2_model_closed_utc": "2021-01-25T15:01:00Z",
+        "deadline_utc": "2021-01-25T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.2098199999999992,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.207759999999999,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2056999999999987,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-01-27T09:10:00Z",
+        "TP2_row_utc": "2021-01-27T12:45:00Z",
+        "TP2_model_closed_utc": "2021-01-27T12:46:00Z",
+        "deadline_utc": "2021-01-27T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": true,
+            "target": 1.2091299999999991,
+            "event_row_utc": "2021-01-27T14:33:00Z",
+            "model_closed_utc": "2021-01-27T14:34:00Z",
+            "executable_favorable_extreme": 1.20905,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:33:00.128Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": true,
+            "target": 1.207439999999999,
+            "event_row_utc": "2021-01-27T14:36:00Z",
+            "model_closed_utc": "2021-01-27T14:37:00Z",
+            "executable_favorable_extreme": 1.20722,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:36:00.107Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2057499999999985,
+            "event_row_utc": "2021-01-27T16:00:00Z",
+            "model_closed_utc": "2021-01-27T16:00:00Z",
+            "executable_favorable_extreme": 1.20895,
+            "row_first_quote_utc_not_fill": "2021-01-27T16:00:00.177Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-02-02T09:40:00Z",
+        "TP2_row_utc": "2021-02-02T14:48:00Z",
+        "TP2_model_closed_utc": "2021-02-02T14:49:00Z",
+        "deadline_utc": "2021-02-02T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.20024,
+            "event_row_utc": "2021-02-02T16:00:00Z",
+            "model_closed_utc": "2021-02-02T16:00:00Z",
+            "executable_favorable_extreme": 1.20264,
+            "row_first_quote_utc_not_fill": "2021-02-02T16:00:00.075Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.19811,
+            "event_row_utc": "2021-02-02T16:00:00Z",
+            "model_closed_utc": "2021-02-02T16:00:00Z",
+            "executable_favorable_extreme": 1.20264,
+            "row_first_quote_utc_not_fill": "2021-02-02T16:00:00.075Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.1959799999999998,
+            "event_row_utc": "2021-02-02T16:00:00Z",
+            "model_closed_utc": "2021-02-02T16:00:00Z",
+            "executable_favorable_extreme": 1.20264,
+            "row_first_quote_utc_not_fill": "2021-02-02T16:00:00.075Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-02-11T09:10:00Z",
+        "TP2_row_utc": "2021-02-11T13:11:00Z",
+        "TP2_model_closed_utc": "2021-02-11T13:12:00Z",
+        "deadline_utc": "2021-02-11T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.2158100000000007,
+            "event_row_utc": "2021-02-11T16:00:00Z",
+            "model_closed_utc": "2021-02-11T16:00:00Z",
+            "executable_favorable_extreme": 1.21322,
+            "row_first_quote_utc_not_fill": "2021-02-11T16:00:00.108Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.216820000000001,
+            "event_row_utc": "2021-02-11T16:00:00Z",
+            "model_closed_utc": "2021-02-11T16:00:00Z",
+            "executable_favorable_extreme": 1.21322,
+            "row_first_quote_utc_not_fill": "2021-02-11T16:00:00.108Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2178300000000013,
+            "event_row_utc": "2021-02-11T16:00:00Z",
+            "model_closed_utc": "2021-02-11T16:00:00Z",
+            "executable_favorable_extreme": 1.21322,
+            "row_first_quote_utc_not_fill": "2021-02-11T16:00:00.108Z"
+          }
+        ]
+      }
+    ],
+    "V03_2R/higher_costs": [
+      {
+        "entry_utc": "2021-01-25T09:05:00Z",
+        "TP2_row_utc": "2021-01-25T15:10:00Z",
+        "TP2_model_closed_utc": "2021-01-25T15:11:00Z",
+        "deadline_utc": "2021-01-25T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.20965,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.2075449999999996,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2054399999999996,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-01-27T09:10:00Z",
+        "TP2_row_utc": "2021-01-27T12:57:00Z",
+        "TP2_model_closed_utc": "2021-01-27T12:58:00Z",
+        "deadline_utc": "2021-01-27T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": true,
+            "target": 1.2089599999999998,
+            "event_row_utc": "2021-01-27T14:35:00Z",
+            "model_closed_utc": "2021-01-27T14:36:00Z",
+            "executable_favorable_extreme": 1.20866,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:35:00.011Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": true,
+            "target": 1.2072249999999995,
+            "event_row_utc": "2021-01-27T14:37:00Z",
+            "model_closed_utc": "2021-01-27T14:38:00Z",
+            "executable_favorable_extreme": 1.20696,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:37:00.047Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2054899999999995,
+            "event_row_utc": "2021-01-27T16:00:00Z",
+            "model_closed_utc": "2021-01-27T16:00:00Z",
+            "executable_favorable_extreme": 1.20895,
+            "row_first_quote_utc_not_fill": "2021-01-27T16:00:00.177Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-02-02T09:40:00Z",
+        "TP2_row_utc": "2021-02-02T14:53:00Z",
+        "TP2_model_closed_utc": "2021-02-02T14:54:00Z",
+        "deadline_utc": "2021-02-02T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.2000700000000006,
+            "event_row_utc": "2021-02-02T16:00:00Z",
+            "model_closed_utc": "2021-02-02T16:00:00Z",
+            "executable_favorable_extreme": 1.20264,
+            "row_first_quote_utc_not_fill": "2021-02-02T16:00:00.075Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.1978950000000006,
+            "event_row_utc": "2021-02-02T16:00:00Z",
+            "model_closed_utc": "2021-02-02T16:00:00Z",
+            "executable_favorable_extreme": 1.20264,
+            "row_first_quote_utc_not_fill": "2021-02-02T16:00:00.075Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.1957200000000008,
+            "event_row_utc": "2021-02-02T16:00:00Z",
+            "model_closed_utc": "2021-02-02T16:00:00Z",
+            "executable_favorable_extreme": 1.20264,
+            "row_first_quote_utc_not_fill": "2021-02-02T16:00:00.075Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-02-11T09:10:00Z",
+        "TP2_row_utc": "2021-02-11T13:11:00Z",
+        "TP2_model_closed_utc": "2021-02-11T13:12:00Z",
+        "deadline_utc": "2021-02-11T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.21598,
+            "event_row_utc": "2021-02-11T16:00:00Z",
+            "model_closed_utc": "2021-02-11T16:00:00Z",
+            "executable_favorable_extreme": 1.21322,
+            "row_first_quote_utc_not_fill": "2021-02-11T16:00:00.108Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.2170350000000003,
+            "event_row_utc": "2021-02-11T16:00:00Z",
+            "model_closed_utc": "2021-02-11T16:00:00Z",
+            "executable_favorable_extreme": 1.21322,
+            "row_first_quote_utc_not_fill": "2021-02-11T16:00:00.108Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2180900000000003,
+            "event_row_utc": "2021-02-11T16:00:00Z",
+            "model_closed_utc": "2021-02-11T16:00:00Z",
+            "executable_favorable_extreme": 1.21322,
+            "row_first_quote_utc_not_fill": "2021-02-11T16:00:00.108Z"
+          }
+        ]
+      }
+    ],
+    "H1_ADX_2R/base": [
+      {
+        "entry_utc": "2021-01-25T09:05:00Z",
+        "TP2_row_utc": "2021-01-25T15:00:00Z",
+        "TP2_model_closed_utc": "2021-01-25T15:01:00Z",
+        "deadline_utc": "2021-01-25T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.2098199999999992,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.207759999999999,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2056999999999987,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-01-27T09:10:00Z",
+        "TP2_row_utc": "2021-01-27T12:45:00Z",
+        "TP2_model_closed_utc": "2021-01-27T12:46:00Z",
+        "deadline_utc": "2021-01-27T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": true,
+            "target": 1.2091299999999991,
+            "event_row_utc": "2021-01-27T14:33:00Z",
+            "model_closed_utc": "2021-01-27T14:34:00Z",
+            "executable_favorable_extreme": 1.20905,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:33:00.128Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": true,
+            "target": 1.207439999999999,
+            "event_row_utc": "2021-01-27T14:36:00Z",
+            "model_closed_utc": "2021-01-27T14:37:00Z",
+            "executable_favorable_extreme": 1.20722,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:36:00.107Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2057499999999985,
+            "event_row_utc": "2021-01-27T16:00:00Z",
+            "model_closed_utc": "2021-01-27T16:00:00Z",
+            "executable_favorable_extreme": 1.20895,
+            "row_first_quote_utc_not_fill": "2021-01-27T16:00:00.177Z"
+          }
+        ]
+      }
+    ],
+    "H1_ADX_2R/higher_costs": [
+      {
+        "entry_utc": "2021-01-25T09:05:00Z",
+        "TP2_row_utc": "2021-01-25T15:10:00Z",
+        "TP2_model_closed_utc": "2021-01-25T15:11:00Z",
+        "deadline_utc": "2021-01-25T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": false,
+            "target": 1.20965,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": false,
+            "target": 1.2075449999999996,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2054399999999996,
+            "event_row_utc": "2021-01-25T16:00:00Z",
+            "model_closed_utc": "2021-01-25T16:00:00Z",
+            "executable_favorable_extreme": 1.21287,
+            "row_first_quote_utc_not_fill": "2021-01-25T16:00:00.050Z"
+          }
+        ]
+      },
+      {
+        "entry_utc": "2021-01-27T09:10:00Z",
+        "TP2_row_utc": "2021-01-27T12:57:00Z",
+        "TP2_model_closed_utc": "2021-01-27T12:58:00Z",
+        "deadline_utc": "2021-01-27T16:00:00Z",
+        "thresholds": [
+          {
+            "threshold": "3R",
+            "reached": true,
+            "target": 1.2089599999999998,
+            "event_row_utc": "2021-01-27T14:35:00Z",
+            "model_closed_utc": "2021-01-27T14:36:00Z",
+            "executable_favorable_extreme": 1.20866,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:35:00.011Z"
+          },
+          {
+            "threshold": "4R",
+            "reached": true,
+            "target": 1.2072249999999995,
+            "event_row_utc": "2021-01-27T14:37:00Z",
+            "model_closed_utc": "2021-01-27T14:38:00Z",
+            "executable_favorable_extreme": 1.20696,
+            "row_first_quote_utc_not_fill": "2021-01-27T14:37:00.047Z"
+          },
+          {
+            "threshold": "5R",
+            "reached": false,
+            "target": 1.2054899999999995,
+            "event_row_utc": "2021-01-27T16:00:00Z",
+            "model_closed_utc": "2021-01-27T16:00:00Z",
+            "executable_favorable_extreme": 1.20895,
+            "row_first_quote_utc_not_fill": "2021-01-27T16:00:00.177Z"
+          }
+        ]
+      }
+    ],
+    "H1_ADX_LEVEL_2R/base": [],
+    "H1_ADX_LEVEL_2R/higher_costs": []
+  },
+  "new_financial_backtest": false,
+  "execution_path_simulator_called": false,
+  "counterfactual_portfolio_aggregated": false,
+  "limits": [
+    "Counts apply to actual TP2 exits, not all trades or a prediction",
+    "M1 row boundaries and model close times are not certified intraminute fills",
+    "Known threshold horizons checked only for already recorded continuation observations",
+    "Same trades repeated across variants/costs are correlated",
+    "2021 development; no FTMO compliance or independent validation established"
+  ]
+}

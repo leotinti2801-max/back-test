@@ -1,0 +1,112 @@
+{
+  "consulted": [
+    {
+      "id": "M1",
+      "title": "pysystemtrade — Backtesting user guide",
+      "author": "Rob Carver / pysystemtrade contributors",
+      "url": "https://github.com/robcarver17/pysystemtrade/blob/master/docs/backtesting.md",
+      "local_copy": "sources/carver_backtesting.txt",
+      "read_sections": [
+        "Testing account curves",
+        "Costs",
+        "Optimisation / Time periods",
+        "Advanced caching / implicit overfitting"
+      ],
+      "supports": "Methodology: actual costs, turnover, temporal estimation and overfitting cautions",
+      "does_not_support": "Profitability of an EURUSD H4/M30 pullback strategy"
+    },
+    {
+      "id": "M2",
+      "title": "arch — Multiple Comparison Procedures, Reference and Background",
+      "author": "Kevin Sheppard / arch contributors",
+      "url": "https://github.com/bashtage/arch/tree/main/doc/source/multiple-comparison",
+      "local_copies": [
+        "sources/arch_multiple-comparisons.rst",
+        "sources/arch_multiple-comparison-reference.rst",
+        "sources/arch_background.rst"
+      ],
+      "supports": "Accounting for dependence and multiple models in model comparison; references White 2000, Hansen 2005 and related papers",
+      "does_not_support": "A computed significance result for this three-trade strategy; no such test was run"
+    }
+  ],
+  "financial_primary_sources_pending": [
+    {
+      "host": "www.bis.org",
+      "purpose": "Foreign-exchange market structure and turnover; currency momentum research and its horizon limitations",
+      "candidate_urls": [
+        "https://www.bis.org/statistics/rpfx25_fx.htm",
+        "https://www.bis.org/publ/work366.htm"
+      ],
+      "status": "Not consulted; observed proxy 403 on BIS work366; exact document metadata/content still to verify"
+    },
+    {
+      "host": "www.federalreserve.gov",
+      "purpose": "Macro-announcement research, policy schedule and point-in-time event information",
+      "candidate_urls": [
+        "https://www.federalreserve.gov/pubs/ifdp/2002/724/ifdp724.pdf"
+      ],
+      "status": "Not consulted; candidate article identity and contents require verification"
+    },
+    {
+      "host": "www.ecb.europa.eu",
+      "purpose": "ECB policy communication, timing and EUR macro context",
+      "candidate_urls": [
+        "https://www.ecb.europa.eu/"
+      ],
+      "status": "Not consulted"
+    },
+    {
+      "host": "www.aqr.com",
+      "purpose": "Moskowitz, Ooi, Pedersen, Time Series Momentum (2012); verify market coverage and horizons before inferring relevance",
+      "candidate_urls": [
+        "https://www.aqr.com/Insights/Research/Journal-Article/Time-Series-Momentum"
+      ],
+      "status": "Not consulted; no intraday profitability claim derived"
+    },
+    {
+      "host": "www.davidhbailey.com",
+      "purpose": "Backtest-overfitting literature",
+      "candidate_urls": [
+        "https://www.davidhbailey.com/dhbpapers/backtest-overfitting.pdf"
+      ],
+      "status": "Not consulted"
+    },
+    {
+      "host": "www.nber.org",
+      "purpose": "Academic work on FX price discovery and macro announcements",
+      "candidate_urls": [
+        "https://www.nber.org/"
+      ],
+      "status": "Not consulted"
+    },
+    {
+      "host": "www.bls.gov",
+      "purpose": "Release schedule and historical US inflation/employment releases; no future calendar invented",
+      "candidate_urls": [
+        "https://www.bls.gov/schedule/"
+      ],
+      "status": "Not consulted"
+    },
+    {
+      "host": "www.globalfxc.org",
+      "purpose": "FX Global Code; execution principles and market practices",
+      "candidate_urls": [
+        "https://www.globalfxc.org/"
+      ],
+      "status": "Not consulted"
+    }
+  ],
+  "network_configuration": {
+    "draft_save_status": "saved",
+    "requires_publish": true,
+    "runtime_access_to_these_financial_hosts_confirmed": false,
+    "existing_package_manager_presets_preserved": true
+  },
+  "integrity": {
+    "copies_sha256_recorded_in": [
+      "sources/FETCH_LOG.json",
+      "sources/ARCH_FETCH_LOG.json"
+    ]
+  },
+  "notes": "Methodology documentation was read; primary financial papers have not been read in this session. Bibliographic candidates are not verified citations."
+}

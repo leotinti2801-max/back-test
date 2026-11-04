@@ -1,0 +1,180 @@
+{
+  "cycle": "knowledge_cycle_20261104",
+  "scope": "Bounded evidence review for the single frozen EURUSD London range breakout protocol",
+  "documents_read": 7,
+  "author_documentation_families": 2,
+  "new_public_documents_fetched": 2,
+  "maximum_targeted_sources": 8,
+  "strategy_tuning": false,
+  "new_market_backtest": false,
+  "statistical_significance_test_run": false,
+  "direct_empirical_validation_found_in_documents_read": false,
+  "sources": [
+    {
+      "id": "C1",
+      "title": "Project README",
+      "author_or_maintainer": "Carver / pysystemtrade contributors",
+      "url": "https://raw.githubusercontent.com/robcarver17/pysystemtrade/master/README.md",
+      "local_copy": "sources/carver_readme.txt",
+      "bytes": 4511,
+      "sha256": "6f50ed3562ea201e3f048ee98a00c23f71495ef792d3e18fe8bea7d09ab334d0",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": "Existing local copy from preceding cycle; source bytes verified against preceding fetch log",
+      "sections_read": [
+        "Description",
+        "History"
+      ],
+      "scope_and_limit": "Futures framework and documented maintainer provenance; not empirical edge.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    },
+    {
+      "id": "C2",
+      "title": "Backtesting guide",
+      "author_or_maintainer": "Carver / pysystemtrade contributors",
+      "url": "https://raw.githubusercontent.com/robcarver17/pysystemtrade/master/docs/backtesting.md",
+      "local_copy": "sources/carver_backtesting.txt",
+      "bytes": 215508,
+      "sha256": "37614ea48b2a51ed8c7f5f35a0ba471101214edef34e47d6508cc092b7b9083b",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": "Existing local copy from preceding cycle; source bytes verified against preceding fetch log",
+      "sections_read": [
+        "Advanced Caching when backtesting",
+        "Costs",
+        "Time periods"
+      ],
+      "scope_and_limit": "Cost and temporal-validation methodology; not evidence for the exact M5 strategy.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    },
+    {
+      "id": "A1",
+      "title": "Multiple comparisons overview",
+      "author_or_maintainer": "Kevin Sheppard / arch contributors",
+      "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/multiple-comparisons.rst",
+      "local_copy": "sources/arch_multiple-comparisons.rst",
+      "bytes": 557,
+      "sha256": "79a5d63f8578c1ccc3cbdb7fb6ec4b1d12afe76fa5f47f4ddda911fabe721bd3",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": "Existing local copy from preceding cycle; source bytes verified against preceding fetch log",
+      "sections_read": [
+        "Complete file"
+      ],
+      "scope_and_limit": "Index page; not an empirical study.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    },
+    {
+      "id": "A2",
+      "title": "Multiple comparison procedures reference",
+      "author_or_maintainer": "Kevin Sheppard / arch contributors",
+      "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/multiple-comparison-reference.rst",
+      "local_copy": "sources/arch_multiple-comparison-reference.rst",
+      "bytes": 5891,
+      "sha256": "d5736e011eb2fa37ceef483eae3505b4f0e33de0b2b0da6cf1bd0d9c6e18de04",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": "Existing local copy from preceding cycle; source bytes verified against preceding fetch log",
+      "sections_read": [
+        "SPA / RealityCheck prose",
+        "Studentization",
+        "StepM",
+        "MCS"
+      ],
+      "scope_and_limit": "Statistical methodology only. No test run; original cited papers not read. Null formula is not reproduced.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    },
+    {
+      "id": "A3",
+      "title": "Multiple comparisons bibliography",
+      "author_or_maintainer": "Kevin Sheppard / arch contributors",
+      "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/background.rst",
+      "local_copy": "sources/arch_background.rst",
+      "bytes": 622,
+      "sha256": "7e042e446fdca7b63650271d1fd09cda661ffad6eadc82e0de541545fc84f3a2",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": "Existing local copy from preceding cycle; source bytes verified against preceding fetch log",
+      "sections_read": [
+        "Complete file"
+      ],
+      "scope_and_limit": "Bibliographic metadata from documentation only; not full-paper reading.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    },
+    {
+      "id": "C3",
+      "title": "Breakout trading-rule source",
+      "author_or_maintainer": "Carver / pst-group pysystemtrade contributors",
+      "url": "https://raw.githubusercontent.com/pst-group/pysystemtrade/master/systems/provided/rules/breakout.py",
+      "local_copy": "sources/carver_breakout.py.txt",
+      "bytes": 1086,
+      "sha256": "9e7fd5079ff1c7bb09913c2c3a512a923e8d8fb5525065831f6d69c71b5c198f",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/pst-group/pysystemtrade/master/systems/provided/rules/breakout.py",
+        "attempted_at_utc": "2026-11-04T10:14:28.911540+00:00",
+        "proxy": "inherited urllib default proxy",
+        "tls_verification": "default enabled",
+        "purpose": "Inspect author-maintained breakout example; establish scope, not strategy profitability",
+        "status": "downloaded",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/pst-group/pysystemtrade/master/systems/provided/rules/breakout.py",
+        "bytes": 1086,
+        "sha256": "9e7fd5079ff1c7bb09913c2c3a512a923e8d8fb5525065831f6d69c71b5c198f",
+        "local_path": "research/knowledge_cycle_20261104/literature/sources/carver_breakout.py.txt"
+      },
+      "sections_read": [
+        "Complete function"
+      ],
+      "scope_and_limit": "Docstring says lookback in days; code produces smoothed forecast. No London clock, stop/target or 16:00 exit.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    },
+    {
+      "id": "A4",
+      "title": "Time-series bootstraps documentation",
+      "author_or_maintainer": "Kevin Sheppard / arch contributors",
+      "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/bootstrap/timeseries-bootstraps.rst",
+      "local_copy": "sources/arch_timeseries_bootstraps.rst",
+      "bytes": 3457,
+      "sha256": "1bc55e3dee8279bc54b68acb943fa1ce3b2ad6397dd83b8ddb69dd40a3debd2f",
+      "read_on_utc_date": "2026-11-04",
+      "retrieval": {
+        "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/bootstrap/timeseries-bootstraps.rst",
+        "attempted_at_utc": "2026-11-04T10:14:55.897808+00:00",
+        "proxy": "inherited urllib default proxy",
+        "tls_verification": "default enabled",
+        "purpose": "Verify what time-series bootstrap documentation does and does not establish",
+        "status": "downloaded",
+        "http_status": 200,
+        "final_url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/bootstrap/timeseries-bootstraps.rst",
+        "bytes": 3457,
+        "sha256": "1bc55e3dee8279bc54b68acb943fa1ce3b2ad6397dd83b8ddb69dd40a3debd2f",
+        "local_path": "research/knowledge_cycle_20261104/literature/sources/arch_timeseries_bootstraps.rst"
+      },
+      "sections_read": [
+        "Complete file"
+      ],
+      "scope_and_limit": "Block bootstrap assumptions and stationarity/locality restrictions. No bootstrap calculated; no FX edge validation.",
+      "direct_empirical_evidence_for_exact_EURUSD_London_M5_protocol": false
+    }
+  ],
+  "local_research_context": [
+    {
+      "repository_path": "simple_forex/protocol_v01.json",
+      "sha256": "fe78f7a26e6288720494379ee94a8e893ecc36afda8d0be22b3f9dfd5155c4f5",
+      "usage": "Local frozen protocol / pre-existing output read for interpretation; no new market backtest"
+    },
+    {
+      "repository_path": "reports/simple_london_v01_02/RESULTS.json",
+      "sha256": "4153f6b4ec84463a4ef73bee897afcf4e1f8edc570efd1606c57f905ecc2da3f",
+      "usage": "Local frozen protocol / pre-existing output read for interpretation; no new market backtest"
+    }
+  ],
+  "not_read_in_this_cycle": [
+    "BIS papers and FX statistics",
+    "Federal Reserve paper candidate",
+    "AQR Time Series Momentum",
+    "Full original papers cited by arch documentation"
+  ],
+  "limitations": [
+    "Targeted review, not systematic literature census",
+    "Mutable upstream branch URLs pinned by content hashes, not claimed commit SHAs",
+    "Author-maintained documentation and code are not a financial empirical study",
+    "Monthly or daily futures evidence would not directly establish M5 spot/CFD Forex edge"
+  ]
+}

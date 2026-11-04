@@ -1,0 +1,16 @@
+{
+  "D45_base": {
+    "PAUSE_AFTER_TWO_LOSSES": 4
+  },
+  "D45_higher_costs": {
+    "PAUSE_AFTER_TWO_LOSSES": 4
+  },
+  "Y2021_base": {
+    "PAUSE_AFTER_TWO_LOSSES": 10,
+    "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+  },
+  "Y2021_higher_costs": {
+    "PAUSE_AFTER_TWO_LOSSES": 10,
+    "ENTRY_NO_LONGER_BEYOND_RANGE": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "strategy": "A_STRUCTURE_FIXED_2R",
+  "market_replayed": false,
+  "parameters_optimized": false,
+  "existing_trades": 3,
+  "net_eur": 201.22435736801157,
+  "mean_positive_cash_R": 0.9064038191207576,
+  "mean_absolute_negative_cash_R": 1.0020080604025092,
+  "illustrative_breakeven_win_rate_if_these_average_payoffs_were_stable": 0.5250481152175688,
+  "breakeven_warning": "Descriptive calculation from three selected trades; not a population estimate or prediction",
+  "exit_reasons": {
+    "SL_GAP": 1,
+    "TIME": 2
+  },
+  "TP_count": 0,
+  "positive_TIME_exit_count": 2,
+  "explicit_commission_eur": 34.00129268390691,
+  "explicit_slippage_eur": 13.598549249884679,
+  "cost_warning": "Already included in net_eur. Spread is already embedded in bid/ask fills. Do not deduct twice.",
+  "excursion_warning": "Pre-exit-minute M1 price envelopes only; neither tick-accurate MAE/MFE nor EUR cash R",
+  "source_trades_sha256": "fb74ec82f7c2c46bd0db59bd983c536c0c6b3a7660707524d31dcddc6acec29e"
+}

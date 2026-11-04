@@ -1,0 +1,13 @@
+{
+  "tests_executed": 47,
+  "passed": 47,
+  "failed": 0,
+  "skipped": 0,
+  "new_signal_lines": 32,
+  "max_daily_real_entries_allowed": 4,
+  "max_daily_real_entries_observed": 2,
+  "requested_80pct_goal_achieved": false,
+  "FTMO_qualified": false,
+  "historical_studies_and_current_replay_manifests_verified": true,
+  "historical_runner_source_preserved": "research/source_snapshots/runner_before_active_rearmed/runner.py"
+}

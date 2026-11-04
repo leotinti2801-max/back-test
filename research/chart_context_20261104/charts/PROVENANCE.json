@@ -1,0 +1,400 @@
+{
+  "purpose": "Scientific/financial plotting of existing results only",
+  "selection_post_hoc": true,
+  "strategy_selection_from_images": false,
+  "all_four_actual_TP2_cases_included": true,
+  "loss_selection": "Worst net H1_ADX_LEVEL_2R/base trade",
+  "read_existing_continuations_only": true,
+  "execution_or_continuation_paths_recomputed": false,
+  "EMA20_H1_displayed": false,
+  "source_sha256": {
+    "research/chart_context_20261104/run_01/V03_2R/base/TP2_CONTINUATIONS.json": "20191eb1ecbe07d3d82d16da841cdd867b352f32d15dd686fdffc0f649575a08",
+    "research/chart_context_20261104/run_01/V03_2R/base/TRADES.csv": "fa466117ee3832011aed1d75f858c75a5f48507e40cbcbcd2dc4bfbd145f477a",
+    "research/chart_context_20261104/run_01/H1_ADX_LEVEL_2R/base/TRADES.csv": "96cd646758ec8e0724cbfe50c365680aef60431a4c7e0c23056f8b6ea2c8d756",
+    "research/chart_context_20261104/run_01/FREEZE_BEFORE_RESULTS.json": "50afd56f9deb8e38f03fe74dcc3014beeb31e44697fb220930629635ea7044ac",
+    "research/chart_context_20261104/context.py": "a62b59c44bdd15c96b64408dc74941481b791967736fedb8ded85f104380f9e0",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21",
+    "vendor/h4m30_v01/h4m30_data.py": "be020d78225a55068677617dc4a777860e73a3ceec5287ccb3f0dee93cb613eb",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e"
+  },
+  "cache_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "talib_wrapper": "0.6.8",
+    "talib_C": "0.6.4 (Oct 20 2025 20:23:51)"
+  },
+  "cases": [
+    {
+      "id": "01_2021-01-25_SELL_TP2",
+      "entry_utc": "2021-01-25T09:05:00Z",
+      "direction": -1,
+      "actual_exit_utc": "2021-01-25T15:01:00Z",
+      "actual_exit_reason": "TP",
+      "actual_net_eur": 244.7442589646574,
+      "selection": "All four actual V03_2R/base TP exits, no winner subsampling",
+      "candle_side": "ask",
+      "observed_complete_M5": 96,
+      "incomplete_M5_not_drawn": 0,
+      "displayed_target_prices": {
+        "2": 1.2118799999999994,
+        "3": 1.2098199999999992,
+        "4": 1.207759999999999,
+        "5": 1.2056999999999987
+      },
+      "actual_exit_price_displayed": 1.2118799999999994,
+      "actual_exit_price_source": "Frozen actual TP target; timestamp is the model M1-end close, not a tick fill time",
+      "recorded_later_threshold_hits": [],
+      "H1_levels_displayed": [
+        {
+          "id": "H1L@1611540000000",
+          "kind": "LOW",
+          "mid_price": 1.2160250000000001,
+          "executable_price": 1.21604,
+          "known_at_ms": 1611547200000,
+          "freshness": "INTACT_OBSERVED",
+          "observed_minutes": 305,
+          "expected_minutes": 305
+        }
+      ],
+      "full_entry_snapshot": {
+        "decision_ms": 1611565500000,
+        "H1_known_at_ms": 1611565200000,
+        "H1_complete": true,
+        "H1_body": -0.000640000000000196,
+        "ADX14_M5": 30.42150801789855,
+        "M5_known_at_ms": 1611565500000,
+        "reasons": [],
+        "levels": [
+          {
+            "id": "H1L@1611540000000",
+            "kind": "LOW",
+            "mid_price": 1.2160250000000001,
+            "executable_price": 1.21604,
+            "known_at_ms": 1611547200000,
+            "freshness": "INTACT_OBSERVED",
+            "observed_minutes": 305,
+            "expected_minutes": 305
+          }
+        ]
+      },
+      "files": {
+        "png": "01_2021-01-25_SELL_TP2.png",
+        "svg": "01_2021-01-25_SELL_TP2.svg"
+      },
+      "description": "3R, 4R et 5R non atteints avant 16 h",
+      "post_exit_region_is_observational": true,
+      "new_execution_path_computed": false
+    },
+    {
+      "id": "02_2021-01-27_SELL_TP2",
+      "entry_utc": "2021-01-27T09:10:00Z",
+      "direction": -1,
+      "actual_exit_utc": "2021-01-27T12:46:00Z",
+      "actual_exit_reason": "TP",
+      "actual_net_eur": 245.63133937856077,
+      "selection": "All four actual V03_2R/base TP exits, no winner subsampling",
+      "candle_side": "ask",
+      "observed_complete_M5": 96,
+      "incomplete_M5_not_drawn": 0,
+      "displayed_target_prices": {
+        "2": 1.2108199999999993,
+        "3": 1.2091299999999991,
+        "4": 1.207439999999999,
+        "5": 1.2057499999999985
+      },
+      "actual_exit_price_displayed": 1.2108199999999993,
+      "actual_exit_price_source": "Frozen actual TP target; timestamp is the model M1-end close, not a tick fill time",
+      "recorded_later_threshold_hits": [
+        {
+          "threshold": "3R",
+          "recorded_M1_start_utc": "2021-01-27T14:33:00Z",
+          "recorded_M1_end_exclusive_utc": "2021-01-27T14:34:00Z",
+          "exact_tick_time_claimed": false
+        },
+        {
+          "threshold": "4R",
+          "recorded_M1_start_utc": "2021-01-27T14:36:00Z",
+          "recorded_M1_end_exclusive_utc": "2021-01-27T14:37:00Z",
+          "exact_tick_time_claimed": false
+        }
+      ],
+      "H1_levels_displayed": [
+        {
+          "id": "H1L@1611680400000",
+          "kind": "LOW",
+          "mid_price": 1.21399,
+          "executable_price": 1.21401,
+          "known_at_ms": 1611687600000,
+          "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+          "observed_minutes": 837,
+          "expected_minutes": 850
+        },
+        {
+          "id": "H1L@1611648000000",
+          "kind": "LOW",
+          "mid_price": 1.2107800000000002,
+          "executable_price": 1.2108,
+          "known_at_ms": 1611655200000,
+          "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+          "observed_minutes": 1377,
+          "expected_minutes": 1390
+        }
+      ],
+      "full_entry_snapshot": {
+        "decision_ms": 1611738600000,
+        "H1_known_at_ms": 1611738000000,
+        "H1_complete": true,
+        "H1_body": -0.0006949999999998902,
+        "ADX14_M5": 31.03976000030454,
+        "M5_known_at_ms": 1611738600000,
+        "reasons": [],
+        "levels": [
+          {
+            "id": "H1L@1611648000000",
+            "kind": "LOW",
+            "mid_price": 1.2107800000000002,
+            "executable_price": 1.2108,
+            "known_at_ms": 1611655200000,
+            "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+            "observed_minutes": 1377,
+            "expected_minutes": 1390
+          },
+          {
+            "id": "H1L@1611680400000",
+            "kind": "LOW",
+            "mid_price": 1.21399,
+            "executable_price": 1.21401,
+            "known_at_ms": 1611687600000,
+            "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+            "observed_minutes": 837,
+            "expected_minutes": 850
+          }
+        ]
+      },
+      "files": {
+        "png": "02_2021-01-27_SELL_TP2.png",
+        "svg": "02_2021-01-27_SELL_TP2.svg"
+      },
+      "description": "3R et 4R atteints ensuite; 5R non atteint",
+      "post_exit_region_is_observational": true,
+      "new_execution_path_computed": false
+    },
+    {
+      "id": "03_2021-02-02_SELL_TP2",
+      "entry_utc": "2021-02-02T09:40:00Z",
+      "direction": -1,
+      "actual_exit_utc": "2021-02-02T14:49:00Z",
+      "actual_exit_reason": "TP",
+      "actual_net_eur": 247.99155681533838,
+      "selection": "All four actual V03_2R/base TP exits, no winner subsampling",
+      "candle_side": "ask",
+      "observed_complete_M5": 96,
+      "incomplete_M5_not_drawn": 0,
+      "displayed_target_prices": {
+        "2": 1.20237,
+        "3": 1.20024,
+        "4": 1.19811,
+        "5": 1.1959799999999998
+      },
+      "actual_exit_price_displayed": 1.20237,
+      "actual_exit_price_source": "Frozen actual TP target; timestamp is the model M1-end close, not a tick fill time",
+      "recorded_later_threshold_hits": [],
+      "H1_levels_displayed": [
+        {
+          "id": "H1L@1612177200000",
+          "kind": "LOW",
+          "mid_price": 1.2069450000000002,
+          "executable_price": 1.20696,
+          "known_at_ms": 1612184400000,
+          "freshness": "VISITED",
+          "observed_minutes": 1235,
+          "expected_minutes": 1240
+        }
+      ],
+      "full_entry_snapshot": {
+        "decision_ms": 1612258800000,
+        "H1_known_at_ms": 1612256400000,
+        "H1_complete": true,
+        "H1_body": 0.0018000000000002458,
+        "ADX14_M5": 19.653033108310463,
+        "M5_known_at_ms": 1612258800000,
+        "reasons": [
+          "H1_BODY_NOT_ALIGNED",
+          "ADX_BELOW_25"
+        ],
+        "levels": [
+          {
+            "id": "H1L@1612177200000",
+            "kind": "LOW",
+            "mid_price": 1.2069450000000002,
+            "executable_price": 1.20696,
+            "known_at_ms": 1612184400000,
+            "freshness": "VISITED",
+            "observed_minutes": 1235,
+            "expected_minutes": 1240
+          }
+        ]
+      },
+      "files": {
+        "png": "03_2021-02-02_SELL_TP2.png",
+        "svg": "03_2021-02-02_SELL_TP2.svg"
+      },
+      "description": "3R, 4R et 5R non atteints avant 16 h",
+      "post_exit_region_is_observational": true,
+      "new_execution_path_computed": false
+    },
+    {
+      "id": "04_2021-02-11_BUY_TP2",
+      "entry_utc": "2021-02-11T09:10:00Z",
+      "direction": 1,
+      "actual_exit_utc": "2021-02-11T13:12:00Z",
+      "actual_exit_reason": "TP",
+      "actual_net_eur": 249.46729767051232,
+      "selection": "All four actual V03_2R/base TP exits, no winner subsampling",
+      "candle_side": "bid",
+      "observed_complete_M5": 96,
+      "incomplete_M5_not_drawn": 0,
+      "displayed_target_prices": {
+        "2": 1.2148000000000005,
+        "3": 1.2158100000000007,
+        "4": 1.216820000000001,
+        "5": 1.2178300000000013
+      },
+      "actual_exit_price_displayed": 1.2148000000000005,
+      "actual_exit_price_source": "Frozen actual TP target; timestamp is the model M1-end close, not a tick fill time",
+      "recorded_later_threshold_hits": [],
+      "H1_levels_displayed": [
+        {
+          "id": "H1H@1612965600000",
+          "kind": "HIGH",
+          "mid_price": 1.2139600000000002,
+          "executable_price": 1.21395,
+          "known_at_ms": 1612972800000,
+          "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+          "observed_minutes": 1016,
+          "expected_minutes": 1030
+        },
+        {
+          "id": "H1H@1612947600000",
+          "kind": "HIGH",
+          "mid_price": 1.21441,
+          "executable_price": 1.2144,
+          "known_at_ms": 1612954800000,
+          "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+          "observed_minutes": 1316,
+          "expected_minutes": 1330
+        }
+      ],
+      "full_entry_snapshot": {
+        "decision_ms": 1613034600000,
+        "H1_known_at_ms": 1613034000000,
+        "H1_complete": true,
+        "H1_body": 1.4999999999876223e-05,
+        "ADX14_M5": 27.66364438962045,
+        "M5_known_at_ms": 1613034600000,
+        "reasons": [],
+        "levels": [
+          {
+            "id": "H1H@1612947600000",
+            "kind": "HIGH",
+            "mid_price": 1.21441,
+            "executable_price": 1.2144,
+            "known_at_ms": 1612954800000,
+            "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+            "observed_minutes": 1316,
+            "expected_minutes": 1330
+          },
+          {
+            "id": "H1H@1612965600000",
+            "kind": "HIGH",
+            "mid_price": 1.2139600000000002,
+            "executable_price": 1.21395,
+            "known_at_ms": 1612972800000,
+            "freshness": "UNKNOWN_SINCE_CONFIRMATION",
+            "observed_minutes": 1016,
+            "expected_minutes": 1030
+          }
+        ]
+      },
+      "files": {
+        "png": "04_2021-02-11_BUY_TP2.png",
+        "svg": "04_2021-02-11_BUY_TP2.svg"
+      },
+      "description": "3R, 4R et 5R non atteints avant 16 h",
+      "post_exit_region_is_observational": true,
+      "new_execution_path_computed": false
+    },
+    {
+      "id": "05_2021-03-03_BUY_LOSS",
+      "entry_utc": "2021-03-03T10:30:00Z",
+      "direction": 1,
+      "actual_exit_utc": "2021-03-03T11:38:00Z",
+      "actual_exit_reason": "SL",
+      "actual_net_eur": -124.62972171420658,
+      "selection": "Minimum observed net_eur among H1_ADX_LEVEL_2R/base trades; post-hoc illustration only",
+      "candle_side": "bid",
+      "observed_complete_M5": 96,
+      "incomplete_M5_not_drawn": 0,
+      "displayed_target_prices": {
+        "2": 1.2138400000000005,
+        "3": 1.2159900000000006,
+        "4": 1.2181400000000007,
+        "5": 1.220290000000001
+      },
+      "actual_exit_price_displayed": 1.20739,
+      "actual_exit_price_source": "Recorded SL reason, unchanged stop and existing base market-exit slippage; no execution path recomputed",
+      "recorded_later_threshold_hits": [],
+      "H1_levels_displayed": [
+        {
+          "id": "H1H@1614736800000",
+          "kind": "HIGH",
+          "mid_price": 1.2093500000000001,
+          "executable_price": 1.20934,
+          "known_at_ms": 1614744000000,
+          "freshness": "VISITED",
+          "observed_minutes": 390,
+          "expected_minutes": 390
+        }
+      ],
+      "full_entry_snapshot": {
+        "decision_ms": 1614767400000,
+        "H1_known_at_ms": 1614765600000,
+        "H1_complete": true,
+        "H1_body": 0.0025800000000000267,
+        "ADX14_M5": 25.667380757656336,
+        "M5_known_at_ms": 1614767400000,
+        "reasons": [],
+        "levels": [
+          {
+            "id": "H1H@1614736800000",
+            "kind": "HIGH",
+            "mid_price": 1.2093500000000001,
+            "executable_price": 1.20934,
+            "known_at_ms": 1614744000000,
+            "freshness": "VISITED",
+            "observed_minutes": 390,
+            "expected_minutes": 390
+          }
+        ]
+      },
+      "files": {
+        "png": "05_2021-03-03_BUY_LOSS.png",
+        "svg": "05_2021-03-03_BUY_LOSS.svg"
+      },
+      "description": "Pire perte nette de H1_ADX_LEVEL_2R / base",
+      "post_exit_region_is_observational": true,
+      "new_execution_path_computed": false
+    }
+  ],
+  "visual_inspection": "Pending inspection of at least one rendered image"
+}

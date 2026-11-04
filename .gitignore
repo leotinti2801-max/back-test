@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+.coverage
+*.pkl
+*.zip
+# Local third-party reference copies; URLs and hashes remain versioned.
+research/indicator_study_20261104/sources/*.c
+research/indicator_study_20261104/sources/*.h
+research/indicator_study_20261104/sources/*.yaml
+

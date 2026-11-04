@@ -1,0 +1,4 @@
+t_utc,ask_open,ask_low,ask_high,base_short_tp_threshold_ask_low_le,stress_short_tp_threshold_ask_low_le,base_target_touched_by_low,stress_target_touched_by_low
+2021-01-27T14:33:00Z,1.2093,1.20905,1.20944,1.209119999999999,1.2089499999999997,True,False
+2021-01-27T14:34:00Z,1.20909,1.20903,1.20921,1.209119999999999,1.2089499999999997,True,False
+2021-01-27T14:35:00Z,1.20904,1.20866,1.20912,1.209119999999999,1.2089499999999997,True,True

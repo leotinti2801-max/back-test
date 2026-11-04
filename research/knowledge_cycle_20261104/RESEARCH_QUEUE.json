@@ -1,0 +1,49 @@
+{
+  "cycle": "2026-11-04",
+  "state": "BOUNDED_RESEARCH_COMPLETED_EXTERNAL_INPUTS_REQUIRED",
+  "credit_balance_visible": false,
+  "permanent_background_loop_created": false,
+  "strategy_changed": false,
+  "new_market_simulation_run": false,
+  "completed": [
+    "Existing performance window reconciliation",
+    "Two local caches compared exactly",
+    "Local raw archive discovery",
+    "Dated FTMO access observation",
+    "Targeted author-source literature review"
+  ],
+  "next_steps": [
+    {
+      "id": "raw_april",
+      "state": "BLOCKED_MISSING_FILE",
+      "input": "EURUSD_202104.zip",
+      "bytes": 7463785,
+      "sha256": "db93091c6e0ebba8fe9a5cef8df50b110962a5f154bd78900659ff7c58e91702",
+      "action": "Verify archive and CSV identities, inspect source tick interval around missing minute, retain unknowns"
+    },
+    {
+      "id": "ftmo_terms",
+      "state": "BLOCKED_NETWORK_OR_OFFICIAL_DOCUMENT",
+      "input": "Current official FTMO2-Step terms, precise product/type and execution contract",
+      "action": "Complete contractual profile and equity definitions before compliance evaluation"
+    },
+    {
+      "id": "independent_history",
+      "state": "BLOCKED_MISSING_QUALIFIED_HOLDOUT",
+      "input": "Previously unused bid/ask history with clock, fees and gap provenance",
+      "action": "Reserve holdout and freeze the one-rule protocol before performance inspection"
+    }
+  ],
+  "do_not_repeat_without_new_evidence": [
+    "Identical denied FTMO HTTP request",
+    "Search for the same minute in the two unchanged identical caches",
+    "Reoptimize 2021 parameters until positive",
+    "Treat overlapping windows as independent challenge attempts"
+  ],
+  "resumption_triggers": [
+    "New raw data uploaded",
+    "Runtime access to official sources activated",
+    "Official dated rules provided",
+    "Previously unused qualified history supplied"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "strategy": "A_STRUCTURE_FIXED_2R",
+  "source": "reports/focused_run_01/TRADES.csv",
+  "market_replayed": false,
+  "new_candidate_tested": false,
+  "observed_calendar_year": 2021,
+  "window_calendar_days": 30,
+  "windows": 336,
+  "overlapping_windows_not_independent": true,
+  "capital_reset_or_new_challenge_simulated": false,
+  "max_entries_in_any_window": 2,
+  "best_observed_window": {
+    "start_utc": "2021-01-01T00:00:00Z",
+    "end_utc_exclusive": "2021-01-31T00:00:00Z",
+    "entries": 1,
+    "closed_net_eur": 238.53737630316775
+  },
+  "best_net_as_percent_of_simulated_initial_100000_eur": 0.23853737630316774,
+  "ftmo_product_verified": false,
+  "ftmo_compliance_status": "NOT_EVALUATED_MISSING_VERIFIED_ACCOUNT_PROFILE",
+  "daily_or_max_loss_equity_compliance_evaluated": false,
+  "market_data_complete": false,
+  "limits": "Descriptive windows of the existing annual trajectory; not independently reset challenges, not pass probability, not evidence of full-market performance."
+}

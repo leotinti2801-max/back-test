@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-11-04",
+  "artifacts": {
+    "EXISTING_TRADES_LEVERAGE_AUDIT.csv": "f19b738223a8d1c01edd04bcf0349ffbd4db7e4b0c4044c00f7c5b68b3097be9",
+    "LEVERAGE_AUDIT.json": "0acd084c20180cd8ab493e72df23ade8eb4696ad138efd77d23ada676350e679",
+    "NOTE_FR.md": "f114dd448879c796100f035c0535f97a1921f6e354b015b3ed784639309fef60"
+  },
+  "validation": {
+    "json_parsed": true,
+    "audited_trade_rows": 122,
+    "distinct_entries_per_cost_scenario": 61,
+    "all_sizes_unchanged_10_30_100": true,
+    "source_hashes_unchanged": true,
+    "new_backtest": false
+  }
+}

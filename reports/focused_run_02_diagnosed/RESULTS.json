@@ -1,0 +1,95 @@
+{
+  "strategy_count": 1,
+  "candidate": {
+    "name": "A_STRUCTURE_FIXED_2R",
+    "bias": "structure",
+    "body_atr_min": 1.0,
+    "target": "fixed",
+    "reward_risk": 2.0
+  },
+  "scenarios": {
+    "base": {
+      "closed_trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 0.6666666666666666,
+      "net_eur": 201.22435736801157,
+      "known_closed_net_eur": 201.22435736801157,
+      "profit_factor": 1.8048181259336742,
+      "gross_profit_eur": 451.24899136164845,
+      "gross_loss_eur": 250.02463399363685,
+      "closed_drawdown_eur": 250.02463399364206,
+      "mean_R": 0.2702665259463353,
+      "commission_eur": 34.00129268390691,
+      "slippage_eur": 13.598549249884679,
+      "cancelled_on_gap_outside_entry_window": 0,
+      "halt": null,
+      "counts": {
+        "BOS_OBSERVED": 451,
+        "BOS_REFUSED_BODY_BELOW_1_ATR": 110,
+        "BOS_REFUSED_BIAS_BULL": 4,
+        "SETUP_CREATED": 8,
+        "DECISION_ENTERED": 3,
+        "BOS_REFUSED_BIAS_NEUTRAL_LOCKED": 214,
+        "BOS_REFUSED_BIAS_NEUTRAL": 81,
+        "BOS_REFUSED_ATR_UNKNOWN_AT_BAR_OPEN": 203,
+        "BOS_REFUSED_BIAS_SUSPENDED_MISSING_H4": 112,
+        "BOS_REFUSED_NO_OPPOSITE_CANDLE_IN_POI_WINDOW": 3,
+        "BOS_REFUSED_POI_WINDOW_INCOMPLETE": 41,
+        "BOS_REFUSED_BIAS_BEAR": 18,
+        "DECISION_RETURN_CLOSED_OUTSIDE_ZONE": 1,
+        "DECISION_OUTSIDE_ENTRY_WINDOW": 1
+      },
+      "coverage": "OBSERVED_STREAM_ONLY",
+      "market_period_certified": false
+    },
+    "higher_costs": {
+      "closed_trades": 3,
+      "wins": 2,
+      "losses": 1,
+      "win_rate": 0.6666666666666666,
+      "net_eur": 173.08887949642724,
+      "known_closed_net_eur": 173.08887949642724,
+      "profit_factor": 1.6919307385811277,
+      "gross_profit_eur": 423.242355625213,
+      "gross_loss_eur": 250.15347612878577,
+      "closed_drawdown_eur": 250.15347612879123,
+      "mean_R": 0.23483389038761804,
+      "commission_eur": 48.6018234067955,
+      "slippage_eur": 25.91725751057059,
+      "cancelled_on_gap_outside_entry_window": 0,
+      "halt": null,
+      "counts": {
+        "BOS_OBSERVED": 451,
+        "BOS_REFUSED_BODY_BELOW_1_ATR": 110,
+        "BOS_REFUSED_BIAS_BULL": 4,
+        "SETUP_CREATED": 8,
+        "DECISION_ENTERED": 3,
+        "BOS_REFUSED_BIAS_NEUTRAL_LOCKED": 214,
+        "BOS_REFUSED_BIAS_NEUTRAL": 81,
+        "BOS_REFUSED_ATR_UNKNOWN_AT_BAR_OPEN": 203,
+        "BOS_REFUSED_BIAS_SUSPENDED_MISSING_H4": 112,
+        "BOS_REFUSED_NO_OPPOSITE_CANDLE_IN_POI_WINDOW": 3,
+        "BOS_REFUSED_POI_WINDOW_INCOMPLETE": 41,
+        "BOS_REFUSED_BIAS_BEAR": 18,
+        "DECISION_RETURN_CLOSED_OUTSIDE_ZONE": 1,
+        "DECISION_OUTSIDE_ENTRY_WINDOW": 1
+      },
+      "coverage": "OBSERVED_STREAM_ONLY",
+      "market_period_certified": false
+    }
+  },
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "independent_validation": false,
+  "live_trading_enabled": false,
+  "causal_diagnostics": {
+    "base": "PASS",
+    "higher_costs": "PASS"
+  }
+}

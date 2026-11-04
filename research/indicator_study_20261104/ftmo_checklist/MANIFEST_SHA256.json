@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-11-04",
+  "artifacts": {
+    "ANNEXE_REPERES_NON_CONFIRMES.json": "974b57b104b0fb01fa737e280932700ca2101357baf7bf7476f74a1514f1d3ea",
+    "ANNEXE_REPERES_NON_CONFIRMES.md": "f8c096408ad8c277a8c56a9665ef401415fd12c0852424083e3346a1ea72a974",
+    "CHECKLIST_FTMO_EXECUTION.json": "51b48260d47ee84507b941395cc7be7bb86a1169230a44353242b4b1ebf32593",
+    "NOTE_FR.md": "0cace4a32485d819d770c184fe00861a525000f0a55acd768c3ca2201a59c1de"
+  },
+  "validation": "JSON parsed; all 43 contract fields null; matrix references and appendix arithmetic checked; source hashes current; no trading script or backtest"
+}

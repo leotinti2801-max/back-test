@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-11-04",
+  "requested_scope": {
+    "provider": "FTMO",
+    "product": "2-Step",
+    "initial_balance": 100000,
+    "account_currency": "EUR"
+  },
+  "scope_origin": "Parent research task; not extracted from a newly received official document",
+  "verification_status": "INCOMPLETE_OFFICIAL_ACCESS_BLOCKED",
+  "current_official_document_received": false,
+  "runtime_observation": {
+    "observations_current": true,
+    "network_mode": "restricted",
+    "network_state": "unknown",
+    "custom_allowed_hosts": [],
+    "ftmo_in_policy_snapshot": false,
+    "vpn_configured": false
+  },
+  "observed_request": {
+    "task_as_of": "2026-11-04",
+    "attempted_at_utc": "2026-11-04T10:12:10.776116+00:00",
+    "url": "https://ftmo.com/en/trading-objectives/",
+    "purpose": "Verify current official FTMO 2-Step 100000 EUR objectives; no 1-Step inference",
+    "route": "Inherited HTTPS proxy; TLS verification kept enabled",
+    "max_request_count_this_probe": 1,
+    "status": "FETCH_FAILED",
+    "http_status": null,
+    "error_type": "URLError",
+    "error_text": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "response_attribution": "No official document received; tunnel error is observed at proxy route",
+    "official_current_rules_verified": false,
+    "strategy_or_backtest_run": false,
+    "network_configuration_changed": false
+  },
+  "current_rules": {
+    "challenge_profit_target_pct": null,
+    "verification_profit_target_pct": null,
+    "maximum_daily_loss_pct": null,
+    "maximum_daily_loss_reference": null,
+    "maximum_loss_pct": null,
+    "maximum_loss_type_static_or_trailing": null,
+    "daily_reset_timezone": null,
+    "daily_reset_time": null,
+    "equity_unrealized_commission_swap_accounting": null,
+    "minimum_trading_days_per_phase": null,
+    "qualifying_trading_day_definition": null,
+    "phase_completion_requires_flat_positions": null,
+    "time_limits_per_phase": null,
+    "news_restrictions_per_phase_and_account_type": null,
+    "weekend_overnight_restrictions_per_phase_and_account_type": null,
+    "phase_transition_and_review_delay": null
+  },
+  "unverified_reference_hypothesis_only": {
+    "challenge_profit_target_pct": 10,
+    "verification_profit_target_pct": 5,
+    "maximum_daily_loss_pct": 5,
+    "maximum_loss_pct": 10,
+    "minimum_trading_days_per_phase": 4,
+    "daily_reset_label": "CET/CEST",
+    "status": "Historical working hypothesis only; not promoted into a confirmed profile or a PASS evaluator"
+  },
+  "important_distinctions": [
+    "Do not import 1-Step trailing limits, consistency/best-day rules or minimum profitable-day definitions into 2-Step without official evidence",
+    "Evaluation phases and funded account Standard/Swing restrictions may differ; verify each stage",
+    "A proxy tunnel denial is not evidence that FTMO itself returned a website 403",
+    "Net closed balance alone cannot establish compliance with intraposition equity limits"
+  ],
+  "allowed_next_action": "Retry official documents only after a meaningful access/configuration state change; parent owns any draft changes",
+  "changes_performed": {
+    "confirmed_profile": false,
+    "network_draft": false,
+    "strategy_parameters": false,
+    "backtest": false
+  }
+}

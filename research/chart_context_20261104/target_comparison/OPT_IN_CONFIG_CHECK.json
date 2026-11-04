@@ -1,0 +1,30 @@
+{
+  "opt_in_config_sha256": "90a8839351f8ed35830f03038a9e2de6d56e736b52cdb99b33c98ed5392b969c",
+  "trading_controls_identical_to_tested_2R_arm": true,
+  "controls_checked": [
+    "capital_eur",
+    "risk_budget_per_trade_eur",
+    "qty_step_eur",
+    "qty_min_eur",
+    "leverage_max",
+    "fee_round_trip_quote",
+    "slip_quote_per_market_execution",
+    "tick_quote",
+    "first_tick_max_delay_ms",
+    "friction_max_fraction_of_stop",
+    "max_attempts_per_day",
+    "max_entries_per_day",
+    "max_planned_daily_risk_eur",
+    "pause_after_consecutive_losses",
+    "pause_hours",
+    "signal_source",
+    "range_start",
+    "range_end_exclusive",
+    "entry_start",
+    "entry_end_exclusive",
+    "hard_exit",
+    "max_open_positions"
+  ],
+  "new_config_not_active_or_live": true,
+  "full_year_not_tested_for_V04": true
+}

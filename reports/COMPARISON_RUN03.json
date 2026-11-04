@@ -1,0 +1,10 @@
+{
+  "new_run": "annual_v02_03",
+  "reference_run": "annual_v02_02",
+  "byte_identical": {
+    "ANNUAL_RESULTS.json": true,
+    "TRADES.csv": true,
+    "DECISIONS.csv": true
+  },
+  "new_independent_market_data": false
+}

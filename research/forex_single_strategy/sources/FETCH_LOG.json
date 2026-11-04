@@ -1,0 +1,28 @@
+[
+  {
+    "id": "carver_readme",
+    "url": "https://raw.githubusercontent.com/robcarver17/pysystemtrade/master/README.md",
+    "status": 200,
+    "file": "carver_readme.txt",
+    "bytes": 4511,
+    "sha256": "6f50ed3562ea201e3f048ee98a00c23f71495ef792d3e18fe8bea7d09ab334d0"
+  },
+  {
+    "id": "carver_backtesting",
+    "url": "https://raw.githubusercontent.com/robcarver17/pysystemtrade/master/docs/backtesting.md",
+    "status": 200,
+    "file": "carver_backtesting.txt",
+    "bytes": 215508,
+    "sha256": "37614ea48b2a51ed8c7f5f35a0ba471101214edef34e47d6508cc092b7b9083b"
+  },
+  {
+    "id": "arch_multiple_comparisons",
+    "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/multiple-comparison-examples.rst",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "arch_multiple_comparisons_index",
+    "url": "https://raw.githubusercontent.com/bashtage/arch/main/doc/source/multiple-comparison/index.rst",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

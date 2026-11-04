@@ -1,0 +1,65 @@
+{
+  "scenario": "higher_costs",
+  "completed": true,
+  "audit_status": "PASS",
+  "errors": [],
+  "source_mapping_sha256": {
+    "src/backtest_bot/simulation.py": "e9bf7151d9cd7876af0c450126e1643b1488c49bc3ba2843bd94f704d59b9111",
+    "src/backtest_bot/strategy.py": "3a1eea23ff1a8f67d0e4205320a06065ca9d1f64b1383ea899d26044982ef0ed",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e"
+  },
+  "bos_rows": 914,
+  "bos_outcomes": {
+    "NOT_EVALUATED_OUTSIDE_UTC_SESSION": 440,
+    "REFUSED_STATIC_CONDITIONS": 443,
+    "SETUP_CREATED": 8,
+    "IGNORED_DYNAMIC_GATE": 23
+  },
+  "setups_created": 8,
+  "setup_terminal_states": {
+    "ENTERED": 3,
+    "SESSION_CLOSE_NO_ENTRY": 3,
+    "FIRST_RETURN_REFUSED": 2
+  },
+  "closed_trades": 3,
+  "entry_decisions": 5,
+  "minute_envelope_rows": 186,
+  "no_counterfactual_refused_trade_execution": true,
+  "known_scope_limit": "BOS list includes only crossings certified by the existing context; incomplete bars may hide other opportunities.",
+  "equity_warning": "M1 liquidation model envelopes include prospective exit fees/slippage; not tick equity or a declaration of FTMO compliance.",
+  "financial_summary_unchanged_by_observer": {
+    "closed_trades": 3,
+    "wins": 2,
+    "losses": 1,
+    "win_rate": 0.6666666666666666,
+    "net_eur": 173.08887949642724,
+    "known_closed_net_eur": 173.08887949642724,
+    "profit_factor": 1.6919307385811277,
+    "gross_profit_eur": 423.242355625213,
+    "gross_loss_eur": 250.15347612878577,
+    "closed_drawdown_eur": 250.15347612879123,
+    "mean_R": 0.23483389038761804,
+    "commission_eur": 48.6018234067955,
+    "slippage_eur": 25.91725751057059,
+    "cancelled_on_gap_outside_entry_window": 0,
+    "halt": null,
+    "counts": {
+      "BOS_OBSERVED": 451,
+      "BOS_REFUSED_BODY_BELOW_1_ATR": 110,
+      "BOS_REFUSED_BIAS_BULL": 4,
+      "SETUP_CREATED": 8,
+      "DECISION_ENTERED": 3,
+      "BOS_REFUSED_BIAS_NEUTRAL_LOCKED": 214,
+      "BOS_REFUSED_BIAS_NEUTRAL": 81,
+      "BOS_REFUSED_ATR_UNKNOWN_AT_BAR_OPEN": 203,
+      "BOS_REFUSED_BIAS_SUSPENDED_MISSING_H4": 112,
+      "BOS_REFUSED_NO_OPPOSITE_CANDLE_IN_POI_WINDOW": 3,
+      "BOS_REFUSED_POI_WINDOW_INCOMPLETE": 41,
+      "BOS_REFUSED_BIAS_BEAR": 18,
+      "DECISION_RETURN_CLOSED_OUTSIDE_ZONE": 1,
+      "DECISION_OUTSIDE_ENTRY_WINDOW": 1
+    },
+    "coverage": "OBSERVED_STREAM_ONLY",
+    "market_period_certified": false
+  }
+}

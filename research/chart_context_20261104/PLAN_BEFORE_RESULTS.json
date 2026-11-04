@@ -1,0 +1,57 @@
+{
+  "study": "EURUSD_CHART_CONTEXT_AND_POST_2R_01",
+  "origin": "User asks better chart context, fewer losing trades, and how many 2R exits later reach3R or higher",
+  "recorded_before_financial_results": true,
+  "period": {"start": "2021-01-04T00:00:00Z", "end_exclusive": "2021-04-01T00:00:00Z"},
+  "period_status": "Already viewed2021 development quarter; chosen before this turn because annual April path missing; not independent",
+  "baseline": "Unmodified V03 range/rearming, risk125EUR/trade,500EUR planned/day,cap4,one position,24h pause after2 net losses,16h London deadline",
+  "variants": [
+    {"name": "V03_3R", "target_R": 3, "context_filter": false, "level_veto": false},
+    {"name": "V03_2R", "target_R": 2, "context_filter": false, "level_veto": false},
+    {"name": "H1_ADX_2R", "target_R": 2, "context_filter": true, "level_veto": false},
+    {"name": "H1_ADX_LEVEL_2R", "target_R": 2, "context_filter": true, "level_veto": true}
+  ],
+  "costs": ["frozen V03 base", "frozen V03 higher_costs"],
+  "context_filter": {
+    "H1": "Last expected UTC H1 already closed; require complete60M1 and direction*(close-open)>0; never reuse older complete H1",
+    "ADX": "TA-Lib ADX14 on last closed complete M5; require >=25; strength only, H1 body supplies directional condition",
+    "ADX_gap_policy": "Reset seed on every missing M5; no interpolation or gap-skipping",
+    "missing_value": "Explicit UNKNOWN filter refusal, no zero replacement",
+    "threshold_status": "Single conventional25 threshold fixed without PnL-by-indicator search",
+    "H1_EMA20_excluded": "Preliminary availability check0/61 entries and0/202breakouts; not used or retuned to conceal missing warmup"
+  },
+  "level_veto": {
+    "family": "Strict H1 fractals2left2right, all5H1 complete, known only at second right close",
+    "lookback": "Confirmations in preceding24 clock hours, including exactlyt-24h",
+    "revisit": "Executable bid high for resistance / ask low for support touched at or beyond level during [known_at,t), excludes level as already visited",
+    "observation_gap": "If not observed touched but a minute is missing in [known_at,t), freshness UNKNOWN",
+    "execution_guard": "At actual first entry quote, known opposing INTACT level ahead of bid_open for BUY or ask_open for SELL and before or exactly at planned2R target refuses; corresponding UNKNOWN level separately refuses",
+    "no_level_found": "No identified veto, not proof there are no barriers or that level will reverse price",
+    "partial_daily_levels": "Not used: exact previous NY17day unavailable; no invented extrema"
+  },
+  "continuation": {
+    "denominator": "Only actual TP exits of each newly replayed2R portfolio, separately by cost",
+    "source": "Same entry, original stop, same quantity and cost convention; independent hypothetical per-trade extension, not portfolio",
+    "horizon": "Original16h Europe/London hard exit; no overnight continuation or break-even change",
+    "thresholds_R": [3,4,5],
+    "threshold_formula": "entry + direction*(R*(direction*(entry-stop)+fee+slip)+fee), same as frozen order",
+    "fill_rule": "Executable bid/ask, one-tick target penetration, original stop priority if both reachable sameM1, deadline open before that row high/low",
+    "same_minute": "Threshold reached in TP2 M1 separately labelled SAME_M1_AS_2R; not claimed strictly after2R fill",
+    "later_minute": "LATER_M1_AFTER_2R reported separately",
+    "missing_path": "Unknown not a failure;3R known reached remains known if4R subsequently unknown",
+    "not_used_for_entry_filter": true,
+    "no_sum_as_portfolio_profit": true
+  },
+  "decision_criteria": [
+    "Compare full portfolios, positions and pauses, not deletion of old losses",
+    "Report trades,winners,losers,lossrate,netEUR,costs,drawdown,frequency and all refusal reasons",
+    "Fewer absolute losses with drastically fewer trades is not by itself an improvement",
+    "Evidence of development improvement requires lower lossrate and higher net in BOTH cost cases versus corresponding2R witness",
+    "Below20 closed trades interpretation remains insufficient, regardless of percentage",
+    "No automatic promotion, parameter search,80pct or FTMOpass claim; stop after this finite comparison"
+  ],
+  "charts": "Use actual historical candlesticks,ADX and only entry-known H1 levels; render post-exit prices separately; illustrative selections do not choose filters",
+  "official_FTMO_rules_verified": false,
+  "account": "FTMO2-Step100000EUR,MT5,EURUSD only",
+  "live_trading_enabled": false
+}

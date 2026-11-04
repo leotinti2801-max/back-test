@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "trade_rows_audited": 960,
+  "not_independent_samples": true,
+  "max_cash_difference_eur": 0.0,
+  "checks": [
+    "Bid/ask, FX, commissions and slippage",
+    "No overlapping positions",
+    "Planned per-trade and daily risk",
+    "Max real daily entries, not attempts",
+    "24h pause from actual close",
+    "London forced exit"
+  ],
+  "80_percent_win_rate_validated": false,
+  "FTMO_rules_validated": false
+}

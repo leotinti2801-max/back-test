@@ -1,0 +1,143 @@
+{
+  "analysis_date": "2026-11-04",
+  "analysis_type": "Existing records, not a new historical backtest",
+  "comparisons": {
+    "base": {
+      "first_45_days": {
+        "closed_trades": 27,
+        "closed_net_eur": 670.6264157229288,
+        "mean_cash_R": 0.09973745747452681,
+        "win_rate": 0.48148148148148145,
+        "mean_positive_R": 1.0340362453973615,
+        "mean_absolute_negative_R": 0.767825702739534,
+        "descriptive_payoff_breakeven_win_rate": 0.42612904031491255,
+        "exit_reasons": {
+          "SL": 9,
+          "TIME": 14,
+          "TP": 4
+        },
+        "first_entry_utc": "2021-01-04T09:20:00Z",
+        "last_exit_utc": "2021-02-16T13:33:00Z"
+      },
+      "known_year_prefix": {
+        "closed_trades": 49,
+        "closed_net_eur": -246.3941953809241,
+        "mean_cash_R": -0.02013278712145207,
+        "win_rate": 0.40816326530612246,
+        "mean_positive_R": 0.8774768350098622,
+        "mean_absolute_negative_R": 0.6391739058327034,
+        "descriptive_payoff_breakeven_win_rate": 0.42143776983065623,
+        "exit_reasons": {
+          "SL": 14,
+          "TIME": 31,
+          "TP": 4
+        },
+        "first_entry_utc": "2021-01-04T09:20:00Z",
+        "last_exit_utc": "2021-03-31T15:00:00Z"
+      },
+      "after_45_days_before_unknown_position": {
+        "closed_trades": 22,
+        "closed_net_eur": -917.0206111038528,
+        "mean_cash_R": -0.16724626912560797,
+        "win_rate": 0.3181818181818182,
+        "mean_positive_R": 0.5867236442902207,
+        "mean_absolute_negative_R": 0.519098895386328,
+        "descriptive_payoff_breakeven_win_rate": 0.4694233267646757,
+        "exit_reasons": {
+          "TIME": 17,
+          "SL": 5
+        },
+        "first_entry_utc": "2021-02-18T10:00:00Z",
+        "last_exit_utc": "2021-03-31T15:00:00Z"
+      },
+      "short_window_exact_subset_of_prefix": true,
+      "year_total_net_eur": null
+    },
+    "higher_costs": {
+      "first_45_days": {
+        "closed_trades": 27,
+        "closed_net_eur": 603.8151623260252,
+        "mean_cash_R": 0.08891441957289495,
+        "win_rate": 0.48148148148148145,
+        "mean_positive_R": 1.0150639964976558,
+        "mean_absolute_negative_R": 0.7710816161429542,
+        "descriptive_payoff_breakeven_win_rate": 0.43170143054742277,
+        "exit_reasons": {
+          "SL": 9,
+          "TIME": 14,
+          "TP": 4
+        },
+        "first_entry_utc": "2021-01-04T09:20:00Z",
+        "last_exit_utc": "2021-02-16T13:33:00Z"
+      },
+      "known_year_prefix": {
+        "closed_trades": 49,
+        "closed_net_eur": -382.62058275818816,
+        "mean_cash_R": -0.032380062028742,
+        "win_rate": 0.40816326530612246,
+        "mean_positive_R": 0.8557298096535734,
+        "mean_absolute_negative_R": 0.6448696287062009,
+        "descriptive_payoff_breakeven_win_rate": 0.4297413501707516,
+        "exit_reasons": {
+          "SL": 14,
+          "TIME": 31,
+          "TP": 4
+        },
+        "first_entry_utc": "2021-01-04T09:20:00Z",
+        "last_exit_utc": "2021-03-31T15:00:00Z"
+      },
+      "after_45_days_before_unknown_position": {
+        "closed_trades": 22,
+        "closed_net_eur": -986.4357450842133,
+        "mean_cash_R": -0.18124147126711462,
+        "win_rate": 0.3181818181818182,
+        "mean_positive_R": 0.5598234626574204,
+        "mean_absolute_negative_R": 0.527071773765231,
+        "descriptive_payoff_breakeven_win_rate": 0.4849333736156639,
+        "exit_reasons": {
+          "TIME": 17,
+          "SL": 5
+        },
+        "first_entry_utc": "2021-02-18T10:00:00Z",
+        "last_exit_utc": "2021-03-31T15:00:00Z"
+      },
+      "short_window_exact_subset_of_prefix": true,
+      "year_total_net_eur": null
+    }
+  },
+  "thirty_day_observed_subtrajectories": {
+    "count": 61,
+    "known_end_exclusive_utc": "2021-04-01T00:00:00+00:00",
+    "best_observed_net": {
+      "start_utc": "2021-01-16T00:00:00+00:00",
+      "end_utc_exclusive": "2021-02-15T00:00:00+00:00",
+      "observed_entries": 17,
+      "observed_closed_net_eur": 1653.7144027005868
+    },
+    "worst_observed_net": {
+      "start_utc": "2021-02-28T00:00:00+00:00",
+      "end_utc_exclusive": "2021-03-30T00:00:00+00:00",
+      "observed_entries": 14,
+      "observed_closed_net_eur": -1227.0432712283432
+    },
+    "max_observed_entries": 20,
+    "independent_reset_challenges": false,
+    "FTMO_pass_probability_estimated": false,
+    "warning": "Overlapping subsets of one observed trajectory, with inherited pauses; not fresh accounts or independent samples."
+  },
+  "limitations": [
+    "All 2021 data were already used for development",
+    "The known annual prefix stops at a missing exposure quote; it is not an annual result",
+    "No independent-sample or stationary-process assumption is asserted",
+    "Empirical averages and breakeven ratios describe these records, not future success probabilities",
+    "FTMO contractual rules remain unverified and no challenge was evaluated"
+  ],
+  "input_trade_sha256": {
+    "D45_base_TRADES.csv": "1cc8b99738f0f648b43d45289e06aab73c057614b658e4268e6e06f56b35d735",
+    "Y2021_base_TRADES.csv": "525e5355edcf6670704c4d136b80f0bee45cfe959e3e4063f82037893b24cb7e",
+    "D45_higher_costs_TRADES.csv": "6569499f97d850953c6e0064afda6c265443620cbcdeaffb258cb35956427ab3",
+    "Y2021_higher_costs_TRADES.csv": "37f0ca462003a333093b29d6af337fc9c92c03ed154596712b356bb317cf67da"
+  },
+  "strategy_or_risk_changed": false,
+  "new_market_run": false
+}

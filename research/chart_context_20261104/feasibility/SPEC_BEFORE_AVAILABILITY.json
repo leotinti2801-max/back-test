@@ -1,0 +1,45 @@
+{
+  "purpose": "Availability only, before possible pre-registration; no financial selection",
+  "H1": "UTC-aligned 60-minute bins, all 60 validated M1 required",
+  "close_reference": "Last nominal H1 close <= decision time, no stale fallback",
+  "forming_H1_bar0": "UTC hour containing decision time; explicitly excluded",
+  "gap_policy": "Reset TA-Lib state after EVERY incomplete H1, including absent closures without cited closure calendar",
+  "EMA_period_H1": 20,
+  "ATR_period_H1": 14,
+  "ohlc_side": "mid",
+  "entry_count": 61,
+  "raw_BREAKOUT_count": 202,
+  "Q1_start_utc": "2021-01-04T00:00:00Z",
+  "Q1_end_exclusive_utc": "2021-04-01T00:00:00Z",
+  "no_PnL_join": true,
+  "no_market_simulation": true,
+  "no_parameter_search": true,
+  "no_active_source_changes": true,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "talib_wrapper": "0.6.8",
+    "talib_C": "0.6.4 (Oct 20 2025 20:23:51)",
+    "compatibility": 0,
+    "unstable_periods": {
+      "EMA": 0,
+      "ATR": 0
+    },
+    "lookbacks_H1_indices": {
+      "EMA20": 19,
+      "ATR14": 14
+    }
+  },
+  "source_sha256": {
+    "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+    "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+    "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21",
+    "vendor/h4m30_v01/h4m30_data.py": "be020d78225a55068677617dc4a777860e73a3ceec5287ccb3f0dee93cb613eb",
+    "research/indicator_study_20261104/lab/features.py": "326de64ee673426e891d4e8abd8dbd761181eacb8504a77db45a889961f6f755",
+    "research/indicator_study_20261104/lab/comparison_01/V03_base_TRADES.csv": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+    "research/indicator_study_20261104/lab/comparison_01/V03_base_DECISIONS.csv": "14302d28b7edc5bc16658d33d70346388c95629dbabdfc0ade58e38fda49a69a"
+  },
+  "script_sha256": "1a0823ab9ba1b3616460362dea42b614c45fa0283854c9b311828ba01326602f"
+}

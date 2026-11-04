@@ -1,0 +1,102 @@
+{
+  "status": "DESIGN_ONLY_NOT_EXECUTED",
+  "financial_market_backtest_run_by_this_audit": false,
+  "source_files_must_remain_unchanged": [
+    "simple_forex/runner.py",
+    "simple_forex/strategy_rearmed.py",
+    "simple_forex/protocol_v03.json",
+    "vendor/h4m30_v01/h4m30_execution.py"
+  ],
+  "tests": [
+    {
+      "id": "CONTROL_PARITY",
+      "input": "Original V03 vs isolated function+parameterized signal, same inputs, base and stress",
+      "expected": "Financial summaries equal and TRADES CSV byte-identical; original file hashes unchanged"
+    },
+    {
+      "id": "CLONE_NO_GLOBAL_MUTATION",
+      "input": "Build two clones with different durations; retain original globals/functions/defaults",
+      "expected": "Same code object; distinct globals dict; only parameters injected; defaults/kwdefaults preserved; core.parameters identity unchanged"
+    },
+    {
+      "id": "FACTORY_CAPTURE_AND_ORDER",
+      "input": "Construct all arm factories before calling; execute arms in reversed order; execute control again",
+      "expected": "Each arm keeps its own calendar/holding/risk; no last-loop-value capture; identical repeated control; no inter-arm mutable state"
+    },
+    {
+      "id": "EXPLICIT_REARMED_SOURCE",
+      "input": "A day with multiple interior/exterior cycles",
+      "expected": "Explicit signal_source used; no accidental fallback to V01; rejected events consume raw signal state but no real-entry quota"
+    },
+    {
+      "id": "NO_FUTURE_BAR_INFORMATION",
+      "input": "Change all OHLC after a signal close and truncate future data",
+      "expected": "Past raw signals/range/stop unchanged; no requirement for future deadline row to create a past signal"
+    },
+    {
+      "id": "M1_VS_M5_CLOSE_TIMING",
+      "input": "First exterior M1 close at09:01 but no exterior completed M5 until09:05",
+      "expected": "M1 may signal09:01 using09:00 row; M5 cannot signal before09:05; entry uses row beginning at decision time, not one minute later"
+    },
+    {
+      "id": "WINDOW_END_EXCLUSIVE",
+      "input": "Exterior confirmations at15:55,15:59,16:00 London",
+      "expected": "M5 last possible15:55; M1 last possible15:59; no entry16:00; original V03 still ends14:30 exclusive"
+    },
+    {
+      "id": "HOLD60_ACTUALLY_INJECTED",
+      "input": "Accepted entry09:20, no stop/TP before10:20, hard exit later",
+      "expected": "Deadline10:20, not original1440min or session deadline; raw original parameters object unchanged"
+    },
+    {
+      "id": "SESSION_BEATS_HOLDING",
+      "input": "Synthetic execution-unit fixture: entry15:30, hard exit16:00 and60min limit; bypass signal window for this deadline unit test",
+      "expected": "Deadline16:00; equality case entry15:00 gives BOTH; no extension to16:30"
+    },
+    {
+      "id": "DST_LONDON_BOUNDARIES",
+      "input": "Sessions before/after28March2021 and31October2021",
+      "expected": "08/09/16/17 London convert using timezone per date; deadline remains after entry on same UTC day"
+    },
+    {
+      "id": "TIME_PRIORITY_PRESERVED",
+      "input": "Stop/TP touched before deadline or only within deadline minute",
+      "expected": "Earlier stop/TP respected; deadline row exits at open according to frozen model; no use of future extrema to improve fill"
+    },
+    {
+      "id": "CLOSE_THEN_NEW_ENTRY",
+      "input": "TIME close and fresh signal share a minute; second consecutive loss at that close",
+      "expected": "Old position closes first; pause applies before candidate entry; otherwise no overlapping exposure"
+    },
+    {
+      "id": "QUOTA_AND_DAILY_RISK",
+      "input": "Eight62.5EUR entries vs125EUR sizing with rounded or leverage-limited quantities; include refusals",
+      "expected": "Actual entries <=declared cap; accumulated planned risk<=500; refusals consume neither; do not hard-code exactly4 entries as a universal budget consequence"
+    },
+    {
+      "id": "LEVERAGE_ISOLATION",
+      "input": "Cases where risk cap binds, leverage cap binds, and quantity step masks leverage difference",
+      "expected": "10/30/100 alter only leverage_max; q_budget unchanged; q_leverage scales; rounded quantity monotone; unchanged quantity possible"
+    },
+    {
+      "id": "MISSING_FORMATION_OR_EXPOSURE",
+      "input": "Missing signal minute, accepted entry quote, exposure minute, or TIME deadline quote",
+      "expected": "No invented bar/fill; formation cancellation distinct from account refusal; accepted uncertain exposure halts branch and keeps net null with known costs"
+    },
+    {
+      "id": "HIGHER_FREQUENCY_NEW_GAP",
+      "input": "A new arm admits an exposure across a hole baseline never entered",
+      "expected": "New arm halts rather than inheriting baseline resolved status; unequal prefixes labelled incomparable as complete-period totals"
+    },
+    {
+      "id": "NEW_ACCOUNT_WINDOWS",
+      "input": "Two losses near end of January; compare continuousQ1 vs independent February account",
+      "expected": "Q1 pause carries over; new February account starts capital100000/losses0/pause0; data history unchanged; no FTMO phase transition assumed"
+    },
+    {
+      "id": "STRESS_REPLAYS_STATE",
+      "input": "Base/stress costs turn a marginal winner into a loser",
+      "expected": "Each cost scenario recomputes sizing, outcomes and subsequent pause; no multiplication of final net or post-hoc row filtering"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "study": "EURUSD_FREQUENCY_AND_LEVERAGE_02",
+  "origin": "Direct user request: continue with more daily trades or higher leverage",
+  "recorded_before_new_results": true,
+  "active_strategy_modified": false,
+  "baseline": "simple_forex/protocol_v03.json, frozen rearmed London range",
+  "data_status": "All 2021 previously viewed development; no independent validation",
+  "common_period": {"name": "Q1", "start": "2021-01-04T00:00:00Z", "end_exclusive": "2021-04-01T00:00:00Z"},
+  "period_reason": "Known common development quarter before April exposure gap; variants may encounter other gaps and must halt if exposed",
+  "diagnostic_attempts": [
+    {"name": "JAN28", "start": "2021-01-04T00:00:00Z", "end_exclusive": "2021-02-01T00:00:00Z"},
+    {"name": "FEB28", "start": "2021-02-01T00:00:00Z", "end_exclusive": "2021-03-01T00:00:00Z"},
+    {"name": "MAR28", "start": "2021-03-01T00:00:00Z", "end_exclusive": "2021-03-29T00:00:00Z"}
+  ],
+  "attempt_semantics": "Each 28-calendar-day diagnostic starts with fresh balance and pause state; NOT a verified FTMO phase or Challenge+Verification evaluator",
+  "costs": ["base", "frozen V03 higher_costs"],
+  "controls": {
+    "capital_eur": 100000,
+    "instrument": "EURUSD",
+    "range": "08:00-09:00 Europe/London",
+    "stop": "Opposite executable-side range boundary plus tick",
+    "target_planned_net_quote_R": 3,
+    "daily_planned_risk_cap_eur": 500,
+    "max_open_positions": 1,
+    "pause_after_net_losses": 2,
+    "pause_hours": 24,
+    "indicators": 0,
+    "no_scaling_risk_to_hit_deadline": true
+  },
+  "variants": [
+    {"name": "V03", "overrides": {}, "signal_minutes": 5, "max_holding_minutes": 1440},
+    {"name": "LEVERAGE30", "overrides": {"leverage_max": 30}, "signal_minutes": 5, "max_holding_minutes": 1440},
+    {"name": "LEVERAGE100", "overrides": {"leverage_max": 100}, "signal_minutes": 5, "max_holding_minutes": 1440},
+    {"name": "EXTENDED", "overrides": {"entry_end_exclusive": "16:00", "hard_exit": "17:00"}, "signal_minutes": 5, "max_holding_minutes": 1440},
+    {"name": "HOLD60", "overrides": {}, "signal_minutes": 5, "max_holding_minutes": 60},
+    {"name": "EXTENDED_HOLD60", "overrides": {"entry_end_exclusive": "16:00", "hard_exit": "17:00"}, "signal_minutes": 5, "max_holding_minutes": 60},
+    {"name": "EXTENDED_HOLD60_CAP8", "overrides": {"entry_end_exclusive": "16:00", "hard_exit": "17:00", "max_entries_per_day": 8}, "signal_minutes": 5, "max_holding_minutes": 60},
+    {"name": "EXTENDED_HOLD60_8SMALL", "overrides": {"entry_end_exclusive": "16:00", "hard_exit": "17:00", "risk_budget_per_trade_eur": 62.5, "max_entries_per_day": 8}, "signal_minutes": 5, "max_holding_minutes": 60},
+    {"name": "EXTENDED_HOLD60_8SMALL_M1", "overrides": {"entry_end_exclusive": "16:00", "hard_exit": "17:00", "risk_budget_per_trade_eur": 62.5, "max_entries_per_day": 8}, "signal_minutes": 1, "max_holding_minutes": 60}
+  ],
+  "method": [
+    "Full replay of positions, pauses, costs and entry quotas for every arm and attempt",
+    "Raw rearming remains driven by interior closed prices, not by executed entries or PnL",
+    "Frozen engine reused via function-local parameters injection; no global monkeypatch or core mutation",
+    "No quote, exposure or signal gap is interpolated; branch halts with total null if exposed",
+    "Report unknown branches without ranking their partial net against complete totals",
+    "Leverage30/100 are hypothetical model scenarios, not verified FTMO permitted leverage"
+  ],
+  "decision": {
+    "primary": "Net EUR, actual frequency, closed drawdown and two-cost robustness on common Q1",
+    "secondary": "All three 28-day diagnostics and causal losses/refusals; no best-window selection",
+    "evidence_of_improvement": "Positive common-quarter net difference in both cost cases, with frequency and drawdown tradeoffs stated; still development only",
+    "automatic_winner_promotion": false,
+    "parameter_search": false,
+    "retain_all_results": true,
+    "stop_after_this_batch": true,
+    "FTMO_pass_claim_allowed": false,
+    "annual_pass_claim_allowed": false
+  }
+}

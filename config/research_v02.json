@@ -1,0 +1,47 @@
+{
+  "version": "H4M30_RESEARCH_V02",
+  "purpose": "Bounded development experiment, frozen before viewing its returns",
+  "data_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "independent_holdout_available": false,
+  "periods": [
+    {"name": "development", "start": "2021-01-01T00:00:00Z", "end": "2021-07-01T00:00:00Z"},
+    {"name": "chronological_check", "start": "2021-07-01T00:00:00Z", "end": "2021-10-01T00:00:00Z"},
+    {"name": "final_2021_check", "start": "2021-10-01T00:00:00Z", "end": "2022-01-01T00:00:00Z"}
+  ],
+  "fixed_controls": {
+    "capital_eur": 100000,
+    "risk_budget_eur": 250,
+    "max_entries_per_utc_day": 1,
+    "entry_start_utc_minute": 480,
+    "entry_end_utc_minute": 960,
+    "hard_exit_utc_minute": 960,
+    "max_holding_minutes": 120,
+    "no_entry_paris_start_minute": 930,
+    "no_entry_paris_end_minute": 1020,
+    "pause_hours_after_two_losses": 24,
+    "h4_impulse_min_body_fraction": 0.25,
+    "missing_minutes": "Never fill; halt continuous branch on uncertain active setup or exposure",
+    "daily_diagnostics": "Independent flat-at-session-start trials; no cross-day pause or equity claim"
+  },
+  "candidates": [
+    {"name": "A_STRUCTURE_FIXED_2R", "bias": "structure", "body_atr_min": 1.0, "target": "fixed", "reward_risk": 2.0},
+    {"name": "B_IMPULSE_FIXED_2R", "bias": "impulse", "body_atr_min": 1.0, "target": "fixed", "reward_risk": 2.0},
+    {"name": "C_IMPULSE_BODY05_2R", "bias": "impulse", "body_atr_min": 0.5, "target": "fixed", "reward_risk": 2.0},
+    {"name": "D_IMPULSE_BODY05_15R", "bias": "impulse", "body_atr_min": 0.5, "target": "fixed", "reward_risk": 1.5},
+    {"name": "E_IMPULSE_KNOWN_TARGET", "bias": "impulse", "body_atr_min": 0.5, "target": "known_structural", "reward_risk": 2.0}
+  ],
+  "selection": {
+    "uses": "development continuous branch only",
+    "min_closed_trades": 20,
+    "min_profit_factor": 1.2,
+    "max_closed_drawdown_eur": 5000,
+    "require_positive_net_eur": true,
+    "require_no_halt": true,
+    "ranking": "highest net_eur / max(250, closed_drawdown_eur), then lexicographic name",
+    "no_fallback_when_checks_fail": true,
+    "live_trading_enabled": false
+  },
+  "stress": {"fee_multiplier": 1.5, "slip_multiplier": 2.0},
+  "predeclared_limit": "Five candidates; no parameter retuning against these results"
+}
+
