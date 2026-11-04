@@ -1,0 +1,17 @@
+{
+  "status": "PASS_NO_MATERIAL_BLOCKING_DEFECT_FOUND_AFTER_DIRECTIONAL_BODY_FIX",
+  "code_review_only": true,
+  "historical_cache_loaded": false,
+  "financial_simulation_run": false,
+  "tests_rerun_by_reviewer": false,
+  "parent_reported_strategy_tests_passed": 9,
+  "reviewed_source_sha256": {
+    "research/ict_smc_20261104/strategy.py": "a54f8be4d96a6b100c7cc48039c6d7aac4da8842ef3fa43704e40fdb4adedb51",
+    "research/ict_smc_20261104/engine.py": "62c6a7c4d9fab2480575daf68261c25745bb4d2f7e8687bf19ffcad0c118056e",
+    "research/ict_smc_20261104/PLAN_BEFORE_RESULTS.json": "42bdd58fae3ef8e8314da8c977d1a6bc612e218d18d4ce4043161ff0fe96d5c6",
+    "research/ict_smc_20261104/test_ict.py": "102eac9cc51d47f4862fe5696fbc8e059e234e436b79078a76282bc1dc7263b4"
+  },
+  "reported_issue": "MSS body zero could satisfy ATR zero without explicit directional check",
+  "fix_verified_in_source": true,
+  "new_plan_resolves_pending_expiration_and_replacement": true
+}

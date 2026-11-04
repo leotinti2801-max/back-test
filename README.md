@@ -4,6 +4,10 @@ Le [journal de recherche](JOURNAL_RECHERCHE.md) suit chaque étape publiée sur
 GitHub : code, résultats, graphiques et limites. Le cache de prix et les ZIP
 restent hors du dépôt ; les URLs/empreintes des sources restent consultables.
 
+Nouvelle hypothèse autorisée : [balayage ICT, MSS puis retour FVG](research/ict_smc_20261104/README.md).
+Le plan et le code sont publiés avant calcul ;17 tests synthétiques réussis.
+Les mises restent fixes faute de probabilités calibrées indépendamment.
+
 La recherche actuelle utilise une méthode sans indicateur, avec **réarmement des
 cassures, objectif prévu à 3R et plafond de quatre entrées réelles par jour**.
 Le [signal V03](simple_forex/strategy_rearmed.py) tient en 32 lignes. Le risque

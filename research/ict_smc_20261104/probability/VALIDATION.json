@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "synthetic_tests_passed": 8,
+  "failed": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s research/ict_smc_20261104/probability -p 'test_prior.py' -v",
+  "market_cache_loaded": false,
+  "new_market_backtest": false,
+  "future_outcomes_used": false,
+  "adaptive_risk_enabled": false,
+  "standalone_calibration_assertion_rejected": true
+}

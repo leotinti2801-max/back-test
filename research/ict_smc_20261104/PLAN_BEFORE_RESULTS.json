@@ -1,0 +1,51 @@
+{
+  "study": "EURUSD_ICT_SWEEP_MSS_FVG_01",
+  "status": "Single predeclared hypothesis; no post-result retuning or automatic promotion",
+  "origin": "User explicitly authorizes backtest after discussion of ICT/SMC and probability-dependent sizing",
+  "instrument": "EURUSD",
+  "platform": "MT5 research only; no broker integration",
+  "periods": [
+    {"name": "Q1", "start": "2021-01-04T00:00:00Z", "end_exclusive": "2021-04-01T00:00:00Z", "role": "Primary comparison to previously frozen2R London range"},
+    {"name": "Y2021", "start": "2021-01-04T00:00:00Z", "end_exclusive": "2022-01-01T00:00:00Z", "role": "Exploratory continuous branch, halt on unknown exposure; not independent validation"}
+  ],
+  "data_status": "Entire supplied2021 already viewed development; preserve absent minutes and November quarantine",
+  "rules": {
+    "range": "08:00-09:00 Europe/London, all60M1 required; midpoint extrema define sweep levels",
+    "signal_window": "ClosedM5 from09:05 until14:30 exclusive; hard exit16:00 Europe/London",
+    "sweep": "M5 high>=rangehigh+tick with close strictly inside range =>SELL; low<=rangelow-tick with inside close =>BUY; both sides in sameM5 rejected as ambiguous",
+    "MSS_reference": "At sweep close freeze latest confirmed opposite M5 pivot among preceding12 centre slots, price beyond sweepclose in intended direction; strict2left2right, all5complete, known_at<=sweepclose",
+    "no_reference": "Reject sweep rather than invent a swing",
+    "MSS": "First later M5 close strictly beyond frozen pivot within6bars; require directional body>=ATR14 of precedingM5 and directional three-barFVG of at least1tick at that first break; otherwise cancel setup",
+    "ATR": "TA-Lib Wilder14, complete consecutiveM5 segments, reset after gap; previous-bar value only",
+    "FVG": "BUY low[s]-high[s-2]>=tick; SELL low[s-2]-high[s]>=tick; all3bars complete, known at close[s]",
+    "return": "First subsequent completeM5 close inside FVG including boundaries within6bars afterMSS; one attempt even if rejected by account or quote",
+    "FVG_invalidation": "BUY close<gaplow or SELL close>gaphigh cancels before return",
+    "stop": "Sweep M5 executable bid_low minus tick forBUY, ask_high plus tick forSELL; never widened",
+    "setup_invalidation": "Any observed executable touch of stop on closed bars after sweep cancels before MSS/return; no intrabar favorable ordering assumed",
+    "setup_state": "One pending setup; new sweeps ignored while active. Expiry or invalidation bar is not reused to start a new setup",
+    "order_block": "Annotation only: last strictly opposite candle among5completeM5 beforeMSS; whole mid high-low, known_at=MSSclose; absence does not reject entry",
+    "entry": "Market quote at M1 open after return M5 close, firstquote<=5sec, midpoint must still be inside FVG; no midpoint limit fill invented",
+    "target": "Opposite executable-side frozen range extreme: bid_high forBUY, ask_low forSELL; known09:00; minimum planned net quote reward/risk2 after modeled fees/slip",
+    "liquidity_caveat": "Range/pivots/FVG/OB are formal price patterns, not proof of institutional orders or untouched liquidity",
+    "costs": "Same bid/ask cache, fee/slip base and higher_costs as frozen V03; stop first if stop/TP both reachableM1; target penetration1tick",
+    "signal_gap": "Cancel pending setup and stop forming session signals; no interpolation",
+    "exposure_gap": "Halt continuous portfolio; total net unknown; retain known costs"
+  },
+  "risk": {
+    "capital_eur": 100000,
+    "risk_budget_eur_per_trade": 125,
+    "daily_planned_risk_eur": 500,
+    "max_entries_per_day": 4,
+    "max_open_positions": 1,
+    "pause_after_net_losses": 2,
+    "pause_hours": 24,
+    "leverage_cap_model": 10,
+    "adaptive_sizing_enabled": false,
+    "reason": "No independently calibrated conditional win-probability model; confidence score or in-sample winrate does not authorize a larger stake",
+    "probability_reporting": "Only trades closed at/before entry; prior sample size, descriptive smoothed frequency and uncertainty, not a validated forecast",
+    "minimum_probability_review_n": 100
+  },
+  "chart_overlays": ["London range", "sweep", "frozen MSS pivot", "FVG", "order block", "stop and target", "EMA20/50M5", "Bollinger20", "ATR14", "ADX14", "RSI14"],
+  "indicator_roles": "Only previousATR14 gates displacement; other overlays descriptive, not extra independent probabilities",
+  "evaluation": ["All entries, losses, expirations and refusals journaled", "Compare net and frequency on same resolvedQ1, not partial annual versus complete control", "Report sample size, costs, dependence and data gaps", "No FTMO pass claim before verified contractual rules/equity evaluation", "Stop after this fixed batch even if zero or unprofitable trades"]
+}

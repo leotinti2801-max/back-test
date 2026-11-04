@@ -144,3 +144,11 @@ Use the inherited proxy/TLS settings. In this managed executor, Git network
 commands require the supported sandbox escalation; no network route bypass.
 Do not infer failed git authentication from sandboxed gh status: this session's
 normal Git push succeeded and main was verified at e0d9331 after first sync.
+
+The user explicitly authorized a NEW ICT/SMC backtest after discussing
+sweep→MSS→FVG and probability-based sizing. This overrides the earlier restriction
+to only modifying the London breakout hypothesis. Read the frozen plan in
+`research/ict_smc_20261104/`; retain all previous hypotheses and failures.
+ICT remains separate research. Risk adaptation is blocked without independently
+calibrated probability evidence; no confluence score or in-sample winrate grants
+a bigger stake. Publish tested coherent steps to main as already authorized.

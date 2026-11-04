@@ -8,6 +8,11 @@ URLs et empreintes, sans prétendre qu'elles sont redistribuées.
 
 ## Dernière étape : lecture graphique et poursuite après2R
 
+Étape suivante autorisée : [ICT/SMC](research/ict_smc_20261104/README.md).
+Plan et code préparés avant le backtest : sweep→MSS→retourFVG, cible bord opposé
+du range, minimum2R prévu,17 tests réussis. Les statistiques antérieures sont
+séparées de toute prévision validée ; aucune hausse automatique des mises.
+
 - Comparaison complète sur le4janvier–31mars2021, données de développement.
 - Même signal V03 : cible2R, net+839,28 EUR en base/+719,24 renforcé, contre
   +642,37/+504,22 à3R ; mêmes61 entrées et30 pertes.
