@@ -1,0 +1,17 @@
+{
+  "as_of_date": "2026-11-04",
+  "hash_checks_passed": 114,
+  "synthetic_context_tests_passed": 6,
+  "synthetic_continuation_tests_passed": 11,
+  "results_audit_status": "PASS",
+  "portfolios_verified": 8,
+  "correlated_threshold_outcomes_checked": 36,
+  "causal_snapshots_checked": 202,
+  "V03_and_core_unchanged": true,
+  "optional_V04_matches_tested_2R_controls": true,
+  "chart_27jan_inspected": true,
+  "independent_market_validation": false,
+  "FTMO_pass_claimed": false,
+  "annual_total_unknown": true,
+  "first_GitHub_sync_commit": "e0d9331f5ce5127fae8bf02249b17ef4fe8f893b"
+}

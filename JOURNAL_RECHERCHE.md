@@ -19,6 +19,10 @@ URLs et empreintes, sans prétendre qu'elles sont redistribuées.
   V03 reste la référence active ; aucun indicateur expérimental n'est adopté.
 - Graphiques des quatreTP2 et d'une perte, avec niveaux connus à l'entrée et
   ADX M5. Les continuations sont hypothétiques, pas un portefeuille additionnel.
+- Vérification :17 tests synthétiques réussis,8 portefeuilles et36 issues
+  de continuation contrôlés ; le témoin3R reproduit les anciens journaux.
+- Première synchronisation GitHub publiée sur `main` : commit `e0d9331`.
+  Le graphique27janvier est également intégré directement au README.
 
 [Rapport](research/chart_context_20261104/RAPPORT.md) ·
 [Galerie](research/chart_context_20261104/charts/INDEX.html) ·

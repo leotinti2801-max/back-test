@@ -33,6 +33,12 @@ Le [candidat2R optionnel](simple_forex/protocol_v04.json) donne+839,28 EUR contr
 +642,37 EUR à3R sur le trimestre, avec les mêmes30 pertes/61trades. Il reste
 en recherche ; V03 et ses gels sont conservés.
 
+![EURUSD du27janvier : sortie2R puis atteinte3R et4R](research/chart_context_20261104/charts/02_2021-01-27_SELL_TP2.png)
+
+Ce graphique montre l'unique continuation2R→3R→4R parmi les quatreTP2 du test.
+La zone grisée montre les prix observés après la sortie ; elle ne représente
+pas un gain supplémentaire encaissé par le bot.
+
 Le [cycle de recherche du 4 novembre](research/knowledge_cycle_20261104/SYNTHESE.md)
 documente les limites des preuves, l'archive brute d'avril manquante et les
 22 trades suivants qui perdent 917,02 € après les 45 jours initialement positifs.

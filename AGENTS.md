@@ -138,3 +138,9 @@ remote changes, never force-push. Keep price cache, ZIPs and local third-party
 reference copies out of Git; source URLs/hashes remain tracked. Do not claim
 synchronization until the remote ref is verified. This authorization persists;
 do not ask again for routine commits/pushes within the Forex research scope.
+The checkout branch is `work`; publish explicitly with
+`git push origin HEAD:main` and verify `git ls-remote --heads origin main`.
+Use the inherited proxy/TLS settings. In this managed executor, Git network
+commands require the supported sandbox escalation; no network route bypass.
+Do not infer failed git authentication from sandboxed gh status: this session's
+normal Git push succeeded and main was verified at e0d9331 after first sync.
