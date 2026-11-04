@@ -1,0 +1,25 @@
+{
+  "diagnostics": {
+    "V03": {
+      "p_raw_user_rule": 1.0,
+      "lower_percentile_unilateral95_unadjusted_descriptive": -0.43346067229802354,
+      "zero_trade_resamples": 0,
+      "bootstrap_draws": 5000,
+      "p_adjusted_Holm": 1.0
+    },
+    "V04": {
+      "p_raw_user_rule": 1.0,
+      "lower_percentile_unilateral95_unadjusted_descriptive": -0.39215946231669235,
+      "zero_trade_resamples": 0,
+      "bootstrap_draws": 5000,
+      "p_adjusted_Holm": 1.0
+    }
+  },
+  "verdicts": {
+    "V03": "ARRÊT",
+    "V04": "ARRÊT"
+  },
+  "joint_inference_complete": true,
+  "reference_remains": "V03",
+  "p_value_caveat": "User-defined sign-count bootstrap rule; not an independently established calibration or FTMO probability"
+}

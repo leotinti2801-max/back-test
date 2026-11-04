@@ -1,0 +1,182 @@
+{
+  "status": "PASS",
+  "performed_by": "Codex; recorded-output audit, not independent strategy validation",
+  "hashes_verified": 137,
+  "cells": [
+    {
+      "strategy": "V03",
+      "scenario": "S_CONT",
+      "costs": "base",
+      "closed_trades": 272,
+      "control": 61,
+      "evaluation": 211,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "scenario": "S_CONT",
+      "costs": "higher_costs",
+      "closed_trades": 271,
+      "control": 61,
+      "evaluation": 210,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "scenario": "S_PESS",
+      "costs": "base",
+      "closed_trades": 271,
+      "control": 61,
+      "evaluation": 210,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "scenario": "S_PESS",
+      "costs": "higher_costs",
+      "closed_trades": 270,
+      "control": 61,
+      "evaluation": 209,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "scenario": "S_OPT",
+      "costs": "base",
+      "closed_trades": 274,
+      "control": 61,
+      "evaluation": 213,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "scenario": "S_OPT",
+      "costs": "higher_costs",
+      "closed_trades": 273,
+      "control": 61,
+      "evaluation": 212,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "scenario": "S_CONT",
+      "costs": "base",
+      "closed_trades": 275,
+      "control": 61,
+      "evaluation": 214,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "scenario": "S_CONT",
+      "costs": "higher_costs",
+      "closed_trades": 274,
+      "control": 61,
+      "evaluation": 213,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "scenario": "S_PESS",
+      "costs": "base",
+      "closed_trades": 274,
+      "control": 61,
+      "evaluation": 213,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "scenario": "S_PESS",
+      "costs": "higher_costs",
+      "closed_trades": 273,
+      "control": 61,
+      "evaluation": 212,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "scenario": "S_OPT",
+      "costs": "base",
+      "closed_trades": 277,
+      "control": 61,
+      "evaluation": 216,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "scenario": "S_OPT",
+      "costs": "higher_costs",
+      "closed_trades": 276,
+      "control": 61,
+      "evaluation": 215,
+      "exposure_gaps": 4,
+      "R3_refusals": 0,
+      "halt": null,
+      "status": "PASS"
+    }
+  ],
+  "trade_rows_checked_correlated": 3280,
+  "witness_rows_compared": 732,
+  "envelope_rows_checked": 747151,
+  "unique_exposure_gaps_UTC": [
+    [
+      "2021-04-01T11:40:00Z",
+      "2021-04-01T11:41:00Z"
+    ],
+    [
+      "2021-04-13T09:29:00Z",
+      "2021-04-13T09:30:00Z"
+    ],
+    [
+      "2021-06-14T12:05:00Z",
+      "2021-06-14T12:06:00Z"
+    ],
+    [
+      "2021-08-12T10:38:00Z",
+      "2021-08-12T10:39:00Z"
+    ]
+  ],
+  "frozen_files_unchanged": true,
+  "runtime_and_draw_fingerprint_match_freeze": true,
+  "Holm_and_priority_checked_from_recorded_values": true,
+  "new_simulations": 0,
+  "performance_bootstrap_recomputed": false,
+  "market_cache_loaded": false,
+  "limitations": [
+    "No independent reexecution of bootstrap metrics or tick-path reconstruction",
+    "Scenarios are not guaranteed portfolio bounds; data remains previously consulted development"
+  ]
+}

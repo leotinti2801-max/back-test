@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-11-04T21:45:07.021472+00:00",
+  "versions_at_invocation": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "cache_path": "/workspace/back-test/data/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+  "cache_sha256_at_invocation": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "freeze_sha256": "4f87d394b249543486b49588bed8813a4d706d0b33c70a15c803e0b7ba1b0a53",
+  "simulation_invocations_by_this_wrapper": 1,
+  "automatic_retry": false,
+  "finished_utc": "2026-11-04T21:45:20.498751+00:00",
+  "evaluation_completed_without_exception": true,
+  "versions_after_invocation": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "recomputed_draw_identity": {
+    "sessions": 197,
+    "shape": [
+      5000,
+      197
+    ],
+    "generator": "numpy.PCG64",
+    "sha256_little_endian_int64": "4146fb33453d9928b71d3313c625ec6c4c6bbec256a3df12e2ec65f2d488f635"
+  },
+  "frozen_draw_identity": {
+    "sessions": 197,
+    "shape": [
+      5000,
+      197
+    ],
+    "generator": "numpy.PCG64",
+    "sha256_little_endian_int64": "4146fb33453d9928b71d3313c625ec6c4c6bbec256a3df12e2ec65f2d488f635"
+  },
+  "draw_identity_matches_freeze": true,
+  "draw_verification_method": "Recomputed calendar indices with unchanged frozen function, not a second simulation or performance bootstrap",
+  "freeze_sha256_after": "4f87d394b249543486b49588bed8813a4d706d0b33c70a15c803e0b7ba1b0a53",
+  "frozen_files_unchanged": true
+}
