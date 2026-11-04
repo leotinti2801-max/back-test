@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "cells": {
+    "Q1/base": {
+      "status": "PASS",
+      "closed_trades": 1,
+      "net_eur": 313.505706990158,
+      "halt": null,
+      "priors_checked": 2,
+      "all_observed_exposure_minutes_present": true,
+      "daily_risk_max": 124.87996207413457
+    },
+    "Q1/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 1,
+      "net_eur": 285.6222580412099,
+      "halt": null,
+      "priors_checked": 2,
+      "all_observed_exposure_minutes_present": true,
+      "daily_risk_max": 123.99664501595554
+    },
+    "Y2021/base": {
+      "status": "PASS",
+      "closed_trades": 1,
+      "net_eur": 313.505706990158,
+      "halt": null,
+      "priors_checked": 5,
+      "all_observed_exposure_minutes_present": true,
+      "daily_risk_max": 124.87996207413457
+    },
+    "Y2021/higher_costs": {
+      "status": "PASS",
+      "closed_trades": 1,
+      "net_eur": 285.6222580412099,
+      "halt": null,
+      "priors_checked": 5,
+      "all_observed_exposure_minutes_present": true,
+      "daily_risk_max": 123.99664501595554
+    }
+  },
+  "audited_trade_rows_correlated": 4,
+  "unique_executed_market_entries": 1,
+  "result_files_verified": 23,
+  "source_identities_verified": 24,
+  "audit_script_sha256": "268388c2989efd35f2941c710878514dbc779cf0e45a1757cbb4c6f190848e26",
+  "run_manifest_sha256": "984e7e12520926f4234c3a1b5153a07f450ef0a2aa8ae7983bfebccd96920bff",
+  "same_period_Q1_comparison_only": {
+    "base": {
+      "ICT_Q1_net_eur": 313.505706990158,
+      "range_2R_Q1_net_eur": 839.277207950634
+    },
+    "higher_costs": {
+      "ICT_Q1_net_eur": 285.6222580412099,
+      "range_2R_Q1_net_eur": 719.2375290591352
+    }
+  },
+  "annual_halt_absent_does_not_certify_all_market_opportunities": true,
+  "new_financial_backtest": false,
+  "path_simulator_called": false,
+  "cash_audit_method": "Recompose only recorded TP fill from fixed entry/exit quotes, fee halves and each fill FX; no alternative path generated",
+  "limits": [
+    "Four scenario rows represent one unique market entry, not four independent observations",
+    "Risk quotas/pause preserved by unchanged core; no two-loss pause exercised by these one-trade outputs",
+    "Signal gaps and unavailable ranges mean total market opportunity completeness remains uncertified",
+    "No FTMO contractual equity or tick ordering certified"
+  ]
+}

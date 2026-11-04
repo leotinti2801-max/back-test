@@ -1,3 +1,5 @@
 # CSV evidence uses the csv module's CRLF records; preserve frozen byte hashes.
 *.csv -text
 *.csv whitespace=cr-at-eol
+# Matplotlib SVG path data includes spaces before newlines; keep archived bytes.
+*.svg -whitespace

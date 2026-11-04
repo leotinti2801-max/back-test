@@ -152,3 +152,14 @@ to only modifying the London breakout hypothesis. Read the frozen plan in
 ICT remains separate research. Risk adaptation is blocked without independently
 calibrated probability evidence; no confluence score or in-sample winrate grants
 a bigger stake. Publish tested coherent steps to main as already authorized.
+
+ICT01 completed: read `research/ict_smc_20261104/RAPPORT.md`. Single Jan6 SELL,
+13:00UTC entry,TP M113:56/modelclose13:57; net313.51EURbase/285.62stress,
+same one trade inQ1 and annual. Annual735sweeps→22MSS/FVG→5returns→1fill;
+four refusals (two structuralRR<2,twofriction). No adaptive lots; prior_n0 before
+unique entry,17 synthetic tests and independent4-cell cash audit pass. Too little
+activity and sample, no promotion. Annual ICT has no unknown exposure but six
+signal-gap sessions and three incomplete ranges; never claim market completeness.
+The narrow same-bar MSS/FVG condition is documented; do not silently loosen it
+or rerun until a separate hypothesis is predeclared. Prior London annual gap is
+still unresolved. Three overlay charts illustrate actual entry/refusal/expiry.

@@ -127,6 +127,10 @@ ADX et RSI en panneaux séparés. Seul l'ATR précédent conditionne ici le
 déplacement. Les autres indicateurs ne sont pas des votes indépendants.
 La galerie et les empreintes sont conservées sous `charts/`.
 
+[Ouvrir les trois graphiques annotés](charts/INDEX.html).
+
+![Trade ICT exécuté du6janvier](charts/01_2021-01-06_SELL_ENTERED.png)
+
 ## Données et portée du résultat annuel
 
 Les quatre simulations n'ont rencontré aucun trou **pendant une position**.
@@ -152,6 +156,10 @@ Cette version est conservée comme essai **non concluant et trop peu actif**.
 Les anciens résultats et sources restent intacts. Les17 tests synthétiques
 passent ; les empreintes des sources sont gelées avant calcul. Aucune période,
 aucun seuil ni règle de retour n'a été retouché après ce résultat.
+L'[audit indépendant](results_audit/NOTE_FR.md) rapproche les quatre cellules
+et les quatre lignes de trade corrélées, soit une seule entrée unique :
+erreur maximale de cash recomposé0 EUR. Les quantités, budgets, horaires,
+prix bid/ask et statistiques antérieures à l'entrée sont vérifiés.
 
 La prochaine hypothèse à définir séparément serait notamment de distinguer
 MSS puis confirmation ultérieure du FVG, plutôt que leur simultanéité ; il

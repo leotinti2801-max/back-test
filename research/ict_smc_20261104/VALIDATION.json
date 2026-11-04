@@ -1,0 +1,18 @@
+{
+  "as_of_date": "2026-11-04",
+  "hash_checks_passed": 90,
+  "strategy_execution_tests_passed": 9,
+  "probability_tests_passed": 8,
+  "independent_recorded_results_audit": "PASS",
+  "cells": 4,
+  "unique_trades": 1,
+  "sources_match_pre_results_freeze": true,
+  "legacy_core_unchanged": true,
+  "three_chart_cases_inspected": true,
+  "probability_forecast_calibrated": false,
+  "adaptive_sizing_enabled": false,
+  "FTMO_pass_claimed": false,
+  "independent_market_validation": false,
+  "promotion": "NONE_TOO_FEW_TRADES",
+  "plan_published_before_results_commit": "7f7a4f656679b79dd448bd15262422cfd7f6a6e9"
+}

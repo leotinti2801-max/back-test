@@ -1,0 +1,137 @@
+{
+  "purpose": "Render three existing ICT decisions; no execution or strategy replay",
+  "selection_post_hoc": "Unique entered trade; first refused Q1; first annual return expiry",
+  "strategy_selection_from_images": false,
+  "execution_paths_recomputed": false,
+  "indicators_recomputed_for_display_with_same_ICT_class": true,
+  "only_previous_ATR_is_strength_gate": true,
+  "other_indicators_not_probabilities": true,
+  "source_sha256": {
+    "research/ict_smc_20261104/charts/render_charts.py": "59150cff74a7ba8c36a6486ec46eb06230ea2cd47158c42481cf55b57e3f34b0",
+    "research/ict_smc_20261104/strategy.py": "a54f8be4d96a6b100c7cc48039c6d7aac4da8842ef3fa43704e40fdb4adedb51",
+    "research/ict_smc_20261104/PLAN_BEFORE_RESULTS.json": "42bdd58fae3ef8e8314da8c977d1a6bc612e218d18d4ce4043161ff0fe96d5c6",
+    "research/ict_smc_20261104/run_01/RESULTS.json": "90fa99b76eb0ab96bccab5d9cf58ad32be9672facad1f224e2c7010f07d1af23",
+    "research/ict_smc_20261104/run_01/Q1/base/DECISIONS.csv": "e4bef815da806051a1f373e5613e6f23c855aadd9c8245d01f8dcd83791143bc",
+    "research/ict_smc_20261104/run_01/Q1/base/TRADES.csv": "aa244d2990f8784e8dc4d85a412b440c9a893dc6dc9caa7fc66381a26013b4f8",
+    "research/ict_smc_20261104/run_01/Y2021/base/DECISIONS.csv": "d795352599734fe225cb6e60d679331c13a701fa8dd7cc52498beb979c406eb6",
+    "research/indicator_study_20261104/lab/features.py": "326de64ee673426e891d4e8abd8dbd761181eacb8504a77db45a889961f6f755"
+  },
+  "cache_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  },
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "cases": [
+    {
+      "name": "01_2021-01-06_SELL_ENTERED",
+      "day": "2021-01-06",
+      "reason": "ENTERED",
+      "direction": -1,
+      "decision_ms": 1609938000000,
+      "setup": {
+        "stage": "RETURN",
+        "direction": -1,
+        "sweep_slot": 10520,
+        "sweep_known_at_ms": 1609937100000,
+        "mss_pivot_id": "M5L@1609934400000",
+        "mss_level": 1.233355,
+        "mss_pivot_known_at_ms": 1609935000000,
+        "stop": 1.2345700000000002,
+        "range_high": 1.234045,
+        "range_low": 1.2322199999999999,
+        "structural_target": 1.23223,
+        "mss_slot": 10521,
+        "mss_known_at_ms": 1609937400000,
+        "fvg_low": 1.23387,
+        "fvg_high": 1.2341199999999999,
+        "atr_previous": 0.0005200401706485778,
+        "order_block": {
+          "slot": 10519,
+          "low": 1.2341199999999999,
+          "high": 1.23451,
+          "known_at_ms": 1609937400000
+        }
+      },
+      "description": "Trade réellement exécuté",
+      "actual_trade": true,
+      "actual_net_eur": 313.505706990158
+    },
+    {
+      "name": "02_2021-01-12_BUY_REFUSED",
+      "day": "2021-01-12",
+      "reason": "REFUSED",
+      "direction": 1,
+      "decision_ms": 1610444400000,
+      "setup": {
+        "stage": "RETURN",
+        "direction": 1,
+        "sweep_slot": 12205,
+        "sweep_known_at_ms": 1610442600000,
+        "mss_pivot_id": "M5H@1610440800000",
+        "mss_level": 1.216715,
+        "mss_pivot_known_at_ms": 1610441400000,
+        "stop": 1.21501,
+        "range_high": 1.216715,
+        "range_low": 1.21506,
+        "structural_target": 1.2167,
+        "mss_slot": 12209,
+        "mss_known_at_ms": 1610443800000,
+        "fvg_low": 1.215975,
+        "fvg_high": 1.2165750000000002,
+        "atr_previous": 0.0005652102074730415,
+        "order_block": {
+          "slot": 12205,
+          "low": 1.2150349999999999,
+          "high": 1.2156950000000002,
+          "known_at_ms": 1610443800000
+        }
+      },
+      "description": "Proposition refusée",
+      "actual_trade": false,
+      "actual_net_eur": null
+    },
+    {
+      "name": "03_2021-02-08_BUY_EXPIRED",
+      "day": "2021-02-08",
+      "reason": "SETUP_EXPIRED_RETURN",
+      "direction": 1,
+      "decision_ms": 1612783500000,
+      "setup": {
+        "stage": "RETURN",
+        "direction": 1,
+        "sweep_slot": 20000,
+        "sweep_known_at_ms": 1612781100000,
+        "mss_pivot_id": "M5H@1612780500000",
+        "mss_level": 1.2028699999999999,
+        "mss_pivot_known_at_ms": 1612781100000,
+        "stop": 1.20244,
+        "range_high": 1.2047750000000002,
+        "range_low": 1.2025299999999999,
+        "structural_target": 1.20476,
+        "mss_slot": 20001,
+        "mss_known_at_ms": 1612781400000,
+        "fvg_low": 1.202585,
+        "fvg_high": 1.202735,
+        "atr_previous": 0.000339460908028771,
+        "order_block": {
+          "slot": 19998,
+          "low": 1.202325,
+          "high": 1.2028699999999999,
+          "known_at_ms": 1612781400000
+        }
+      },
+      "description": "Setup expiré sans entrée",
+      "actual_trade": false,
+      "actual_net_eur": null
+    }
+  ],
+  "visual_inspection": "All three PNG cases inspected; final expiry chart rechecked after moving legend outside candles and fixing footer spacing. Labels separate actual trade, refused proposal and expired setup."
+}

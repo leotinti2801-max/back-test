@@ -11,6 +11,12 @@ Résultat du [backtest ICT](research/ict_smc_20261104/RAPPORT.md) : un seul trad
 sur2021, +313,51 EUR net en base/+285,62 renforcé. La stratégie est trop peu
 active et reste non concluante ; un seul gain ne valide aucune probabilité.
 
+![Trade ICT du6janvier : sweep, MSS, FVG et indicateurs](research/ict_smc_20261104/charts/01_2021-01-06_SELL_ENTERED.png)
+
+[Trois cas annotés : entrée, refus et expiration](research/ict_smc_20261104/charts/INDEX.html).
+Les EMA/Bollinger/ADX/RSI sont descriptifs ; ils ne donnent pas une probabilité
+de gain et ne déclenchent aucune hausse de mise.
+
 La recherche actuelle utilise une méthode sans indicateur, avec **réarmement des
 cassures, objectif prévu à 3R et plafond de quatre entrées réelles par jour**.
 Le [signal V03](simple_forex/strategy_rearmed.py) tient en 32 lignes. Le risque

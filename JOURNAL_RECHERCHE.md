@@ -6,7 +6,7 @@ prix et les archives ZIP restent hors du dépôt ; leurs identités sont conserv
 Les copies locales de sources tierces sont remplacées dans le dépôt par leurs
 URLs et empreintes, sans prétendre qu'elles sont redistribuées.
 
-## Dernière étape : lecture graphique et poursuite après2R
+## Dernière étape : premier backtest ICT/SMC
 
 Étape suivante autorisée : [ICT/SMC](research/ict_smc_20261104/README.md).
 Plan et code préparés avant le backtest : sweep→MSS→retourFVG, cible bord opposé
@@ -16,6 +16,12 @@ Le plan/code ont été publiés avant calcul au commit `7f7a4f6`.
 Résultat ICT : un seul trade le6janvier, +313,51 EUR/+285,62 renforcé,
 surQ1 comme sur l'année.735 sweeps→22MSS/FVG→5retours→1entrée.
 Aucun paramètre modifié après résultats ; lot non concluant, non promu.
+L'audit indépendant vérifie les quatre cellules, leurs quantités et cash-flows,
+sans écart ; elles représentent une seule entrée unique, pas quatre observations.
+Trois [graphiques](research/ict_smc_20261104/charts/INDEX.html) sont publiés :
+trade exécuté, refus sous2R et retour FVG expiré. Le trade figure au README.
+
+## Étape précédente : lecture graphique et poursuite après2R
 
 - Comparaison complète sur le4janvier–31mars2021, données de développement.
 - Même signal V03 : cible2R, net+839,28 EUR en base/+719,24 renforcé, contre
@@ -50,6 +56,8 @@ Aucun paramètre modifié après résultats ; lot non concluant, non promu.
 ## Limites actuelles
 
 2021 a déjà servi au développement, pas à une validation indépendante. Le
-résultat annuel reste inconnu à cause du trou actif d'avril. Les règles FTMO
+résultat annuel de l'ancienne cassure London reste inconnu au trou actif d'avril.
+La nouvelle stratégie ICT n'y était pas exposée ; son total suit une politique
+d'annulation des sessions incomplètes, sans certifier un marché exhaustif. Les règles FTMO
 actuelles et les spécifications MT5 ne sont pas certifiées. Aucun accès
 courtier, ordre réel, garantie80 % ou passage de challenge n'est activé.
