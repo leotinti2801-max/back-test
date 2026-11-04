@@ -1,0 +1,214 @@
+{
+  "lot": "MISSING_MINUTE_V01",
+  "rules_and_user_amendments": {
+    "lot": "MISSING_MINUTE_V01",
+    "scope": "Preparation, synthetic tests, published Q1 witness and freeze only until exact GO",
+    "branch": "research/missing-minute-v01",
+    "base": "0170810ae290da9005498aad29335f595ff43555",
+    "allowed_write_directory": "research/missing_minute_20261104/",
+    "protected": [
+      "main",
+      "simple_forex/",
+      "src/",
+      "vendor/",
+      "config/",
+      "published results"
+    ],
+    "cache_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+    "instrument": "EURUSD",
+    "period": [
+      "2021-01-04T00:00:00Z",
+      "2022-01-01T00:00:00Z"
+    ],
+    "control": [
+      "2021-01-04T00:00:00Z",
+      "2021-04-01T00:00:00Z"
+    ],
+    "evaluation": [
+      "2021-04-01T00:00:00Z",
+      "2022-01-01T00:00:00Z"
+    ],
+    "quarantine_preserved": [
+      "2021-11-01T00:00:00Z",
+      "2021-11-01T01:00:00Z"
+    ],
+    "strategies": {
+      "V03": "simple_forex/protocol_v03.json",
+      "V04": "simple_forex/protocol_v04.json"
+    },
+    "costs": [
+      "base",
+      "higher_costs"
+    ],
+    "scenarios": [
+      "S_CONT",
+      "S_PESS",
+      "S_OPT"
+    ],
+    "R1": {
+      "maximum_consecutive_missing_minutes": 5,
+      "S_CONT": "Remain open without marks/prices in gap. Resume ordinary executable-side logic, stop first, stop gap at worse available open plus slip. If deadline fell inside gap, TIME at first observed open with market slip before high/low checks.",
+      "S_PESS": "At each gap exit at original stop with ordinary slip, or first observed executable open if worse than stop. FX mid_open of that first observed minute. Model closed_at equals its minute open.",
+      "S_OPT": "At each gap exit at original target with no price improvement and no exit slip. FX mid_open of first observed minute. Model closed_at equals its minute open.",
+      "caveat": "Scenario assumptions, NOT mathematical portfolio bounds; state changes alter later entries/pauses/balance. No interpolated prices or marks."
+    },
+    "R2": "More than five consecutive missing minutes or end of data during exposure: UNRESOLVED_EXECUTION, total net_eur null, retain known costs. No imputation.",
+    "R3": "Missing entry quote: append ENTRY_QUOTE_MISSING_REFUSED, refuse without halt or entry/risk quota consumption, continue unchanged signal rules.",
+    "unchanged": "Actual V03 rearmed signal, incomplete M5 session cancellation, stops/targets/costs/account sizing/4 entry cap/500 planned daily risk/125 planned per entry/24h pause/daily reset all preserved",
+    "Q1_witness": {
+      "expected_closed_trades_each": 61,
+      "V03_base_exact": 642.3667390327232,
+      "V03_higher_costs_exact": 504.21532760375015,
+      "V04_base_exact": 839.277207950634,
+      "V04_higher_costs_exact": 719.2375290591352,
+      "published_rounded_EUR": {
+        "V03": [
+          642.37,
+          504.22
+        ],
+        "V04": [
+          839.28,
+          719.24
+        ]
+      },
+      "absolute_EUR_tolerance": 1e-08,
+      "comparison": "Each corresponding trade and all original numeric fields to tolerance1e-8; timestamps/directions/labels exact; no gap in control exposure; all three scenarios checked",
+      "on_mismatch": "STOP, write witness failure report, no freeze or alteration of expected values"
+    },
+    "bootstrap": {
+      "only_scenario": "S_CONT/higher_costs",
+      "entry_session_attribution": true,
+      "calendar": "Monday-Friday evaluation dates, zero-trade sessions included",
+      "blocks": "Mobile non-circular length5, starts uniform in0..N-5 inclusive",
+      "blocks_per_draw": "floor(N/5)+1, concatenate then truncate to N sessions",
+      "draws": 5000,
+      "seed": 20261104,
+      "generator": "numpy.PCG64",
+      "same_session_draws_both_strategies": true,
+      "metric": "sumR / countClosedTrades; zero-trade draw=0",
+      "R": "Realized netEUR / original planned riskEUR, same as frozen runner",
+      "descriptive_bound": "np.quantile(metrics,0.05,method=linear); unadjusted, does not decide verdict"
+    },
+    "holm_user_amendment": {
+      "hypotheses": "For each of V03,V04 H0 mean<=0 vs H1 mean>0",
+      "raw_p": "(1+count(drawMetric<=0))/(5000+1)",
+      "sorted_order": "Ascending rawp; deterministic V03 first for ties",
+      "adjusted_first": "min(1,2*p_first)",
+      "adjusted_second": "max(adjusted_first,p_second)",
+      "condition_b": "adjusted_p<0.05, strict",
+      "both_always_tested": true,
+      "R2_in_either_strategy": "No adjusted p for either strategy; neither can be candidate",
+      "interpretation": "Exact requested rule; supersedes any confidence-bound decision; not independently validated inference or FTMO probability"
+    },
+    "verdict_priority_per_strategy": [
+      "R2 in any of six complete continuous runs => NON CONCLUANT",
+      "S_CONT higher_costs evaluation net<=0 => ARRÊT",
+      "S_CONT higher_costs evaluation closed count<100 => NON CONCLUANT",
+      "Same strategy: S_CONT higher_costs evaluation meanR>=0.05 AND joint Holm adjustedp<0.05 AND S_PESS higher_costs evaluation net>0 => CANDIDAT À COLLECTE PROSPECTIVE",
+      "Otherwise TESTÉ NON VALIDÉ"
+    ],
+    "reference_remains": "V03; V04 never replaces it automatically",
+    "data_status": "All supplied2021 previously consulted development, evaluation NOT virgin and no validation possible",
+    "no_FTMO_probability_or_live_deployment": true,
+    "one_execution_after_GO": "run_01 created atomically; never retry a technical failure automatically; separate control/evaluation ledgers and detailed gap logs",
+    "required_GO": "GO RUN MISSING_MINUTE_V01 <SHA256 of exact FREEZE_BEFORE_RESULTS.json bytes>"
+  },
+  "cache_sha256": "9ea1c28c1fc9145192eb4f1de2c19e5576b397b348d8db671026df4c715943b2",
+  "cache_bytes": 48121320,
+  "base_comparison": {
+    "base_HEAD": "0170810ae290da9005498aad29335f595ff43555",
+    "comparison_HEAD_origin_main": "identical;0ahead0behind",
+    "source_sha256": {
+      "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+      "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6",
+      "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+      "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+      "simple_forex/protocol_v04.json": "90a8839351f8ed35830f03038a9e2de6d56e736b52cdb99b33c98ed5392b969c",
+      "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21"
+    },
+    "local_copies": "Path and simulator copied for explicit review; no upstream file modified. Historical descriptive protocol text is not signal implementation."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "frozen_files_sha256": {
+    "config/reference_params.json": "ab2bd8326e00b2fb67afebf7af7ff0314c025cbafbc77964b65e1f74628c74c3",
+    "config/research_v02.json": "cd811ba1c560ce3432d4fec756f464a8923748abe248c029c880929d7d6c593b",
+    "research/chart_context_20261104/run_01/V03_2R/base/TRADES.csv": "fa466117ee3832011aed1d75f858c75a5f48507e40cbcbcd2dc4bfbd145f477a",
+    "research/chart_context_20261104/run_01/V03_2R/higher_costs/TRADES.csv": "befd6039aac7ac3239ca148dc19e5f3853ddac3c61d4ad2ba33d3018bb8292ee",
+    "research/chart_context_20261104/run_01/V03_3R/base/TRADES.csv": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+    "research/chart_context_20261104/run_01/V03_3R/higher_costs/TRADES.csv": "e7ebdaba62a7428fb3f4cb638420837d4635daaba7c049274c47a6f8ce0fcca9",
+    "research/missing_minute_20261104/GAP_INVENTORY_SUMMARY.json": "47c574cfcf9962acd62eae3e8578674bd2b3d943817479d81cbe1f217871b6e7",
+    "research/missing_minute_20261104/KNOWN_GAPS_NO_EXPOSURE.csv": "f9024f731a0c59c87c0a4069ffd92c63fd0d2344cb908278f8df90dc8ed8e428",
+    "research/missing_minute_20261104/PROVENANCE.json": "0144e2df7d08f1c76e963bb748c482665a82789db8af71fa11503ecd134d0435",
+    "research/missing_minute_20261104/README.md": "3356ec1b987509c69e4d21790af467709bd9f5d1ad31d4c1f8b95dddb417ca26",
+    "research/missing_minute_20261104/TEST_RESULTS.json": "171af154d3aca69e678af3db2fe39a23cfeb8b9caf82c3405f66a15f4af335e4",
+    "research/missing_minute_20261104/TEST_RESULTS.txt": "3ac12df3e969905b2b36900b82a56614276d5ce3967b981aa488ecb36c06b137",
+    "research/missing_minute_20261104/WITNESS.json": "9c2120c72c1a95a26a23d37587e2335b47c567be14224af0e4b28f34ff2ca5dc",
+    "research/missing_minute_20261104/WITNESS_V03_S_CONT_base_TRADES.csv": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+    "research/missing_minute_20261104/WITNESS_V03_S_CONT_higher_costs_TRADES.csv": "e7ebdaba62a7428fb3f4cb638420837d4635daaba7c049274c47a6f8ce0fcca9",
+    "research/missing_minute_20261104/WITNESS_V03_S_OPT_base_TRADES.csv": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+    "research/missing_minute_20261104/WITNESS_V03_S_OPT_higher_costs_TRADES.csv": "e7ebdaba62a7428fb3f4cb638420837d4635daaba7c049274c47a6f8ce0fcca9",
+    "research/missing_minute_20261104/WITNESS_V03_S_PESS_base_TRADES.csv": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+    "research/missing_minute_20261104/WITNESS_V03_S_PESS_higher_costs_TRADES.csv": "e7ebdaba62a7428fb3f4cb638420837d4635daaba7c049274c47a6f8ce0fcca9",
+    "research/missing_minute_20261104/WITNESS_V04_S_CONT_base_TRADES.csv": "fa466117ee3832011aed1d75f858c75a5f48507e40cbcbcd2dc4bfbd145f477a",
+    "research/missing_minute_20261104/WITNESS_V04_S_CONT_higher_costs_TRADES.csv": "befd6039aac7ac3239ca148dc19e5f3853ddac3c61d4ad2ba33d3018bb8292ee",
+    "research/missing_minute_20261104/WITNESS_V04_S_OPT_base_TRADES.csv": "fa466117ee3832011aed1d75f858c75a5f48507e40cbcbcd2dc4bfbd145f477a",
+    "research/missing_minute_20261104/WITNESS_V04_S_OPT_higher_costs_TRADES.csv": "befd6039aac7ac3239ca148dc19e5f3853ddac3c61d4ad2ba33d3018bb8292ee",
+    "research/missing_minute_20261104/WITNESS_V04_S_PESS_base_TRADES.csv": "fa466117ee3832011aed1d75f858c75a5f48507e40cbcbcd2dc4bfbd145f477a",
+    "research/missing_minute_20261104/WITNESS_V04_S_PESS_higher_costs_TRADES.csv": "befd6039aac7ac3239ca148dc19e5f3853ddac3c61d4ad2ba33d3018bb8292ee",
+    "research/missing_minute_20261104/common.py": "55fdd0c0b6f88b1ff338ffbfdc1ad6aec557634ef66afda398ce2d7574378b8b",
+    "research/missing_minute_20261104/engine.py": "424d696460685ed218a6ff5a7959724291aef99780452ad07863263dddb9f9dd",
+    "research/missing_minute_20261104/evaluate_after_go.py": "f062d7f3e45d696096c58ef7d5ae69a76678b54a16bc4c005ea8411421015a69",
+    "research/missing_minute_20261104/path.py": "4f8ee0ff976591f7bfd0aa0b8bbfd9fce10921f8240c9686d5391ff30b2b5eaa",
+    "research/missing_minute_20261104/prepare.py": "a48d3c3061d5f23b803171296d202421f49fd2d5c71e4c4174a26a04475cc656",
+    "research/missing_minute_20261104/protocol.json": "1509de3f46e7eadcd5c61f4dda9b2e9f26a999ff72712c70a475fd29e29ef4a0",
+    "research/missing_minute_20261104/statistics_frozen.py": "bcb7e7770acce56527ad01ae82de620c3cfe89a912a1c79830af621d024740dc",
+    "research/missing_minute_20261104/test_authorization.py": "346af6c2e915e1d6f11372e8f3479e76e7ac467692af5cccd253612879a006dd",
+    "research/missing_minute_20261104/test_statistics.py": "965e6e7117af58c87c84bf89a093d3c10b79e9c9dccb92b46ba8ca95503006d9",
+    "research/missing_minute_20261104/test_synthetic.py": "5e1ea3b922455d29b23200d973776ed6c3efd8dcc8abdbfca4ad1de35027eaba",
+    "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+    "simple_forex/protocol_v04.json": "90a8839351f8ed35830f03038a9e2de6d56e736b52cdb99b33c98ed5392b969c",
+    "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6",
+    "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+    "src/backtest_bot/__init__.py": "8726bd020e5ccf91143ecaf2fa85c2b9b29ac2ebd73038e1cf2eb8a4d57bcce0",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21",
+    "src/backtest_bot/reference.py": "6b3fe8756560646f7ca046a2c54c30f2aed75fd29d6bf4892c1c42626e0fcdcf",
+    "src/backtest_bot/research.py": "443647fd631ff4afff09f606c99c8f26eaf39a1fd0488471dd86faabf9e91d7d",
+    "src/backtest_bot/simulation.py": "e9bf7151d9cd7876af0c450126e1643b1488c49bc3ba2843bd94f704d59b9111",
+    "src/backtest_bot/strategy.py": "3a1eea23ff1a8f67d0e4205320a06065ca9d1f64b1383ea899d26044982ef0ed",
+    "vendor/h4m30_v01/h4m30_bias.py": "0c50dc1963e7000b83963301b60af0d93f7b5cf6a5106686285b48b617011061",
+    "vendor/h4m30_v01/h4m30_data.py": "be020d78225a55068677617dc4a777860e73a3ceec5287ccb3f0dee93cb613eb",
+    "vendor/h4m30_v01/h4m30_engine.py": "55d22ccdf2fa40fc907e0773b547ba7894db575c2a4f7b6d455bf26fd4549618",
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "vendor/h4m30_v01/integrity_guard.py": "4f19df0f0c2c0c7de64f8301ca4083186f31becac9e405eb50d2db30be48d4fd"
+  },
+  "bootstrap_calendar_draws_before_prices": {
+    "sessions": 197,
+    "shape": [
+      5000,
+      197
+    ],
+    "generator": "numpy.PCG64",
+    "sha256_little_endian_int64": "4146fb33453d9928b71d3313c625ec6c4c6bbec256a3df12e2ec65f2d488f635"
+  },
+  "witness": "WITNESS.json;12 scenario/control checks,61 trades each",
+  "evaluation_has_not_run": true,
+  "planned_outputs": [
+    "run_01/EXECUTION_RECORD.json",
+    "run_01/{V03,V04}/{S_CONT,S_PESS,S_OPT}/{base,higher_costs}/TRADES.csv",
+    "DECISIONS.csv",
+    "GAPS_ENCOUNTERED.csv",
+    "CONTROL_TRADES.csv",
+    "EVALUATION_TRADES.csv",
+    "LIQUIDATION_ENVELOPES.csv",
+    "RESULTS.json",
+    "INFERENCE_AND_VERDICTS.json",
+    "MANIFEST_SHA256.json",
+    "TECHNICAL_FAILURE_STOP.json only on error; no automatic retry"
+  ],
+  "exact_GO_required": true,
+  "no_live_orders_or_deployment": true
+}

@@ -1,0 +1,6 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src:. python -B research/missing_minute_20261104/prepare.py --cache data/EURUSD_M1_2021_WITH_202012_WARMUP.pkl",
+  "synthetic_tests": 17,
+  "success": true,
+  "market_prices_read_by_tests": false
+}

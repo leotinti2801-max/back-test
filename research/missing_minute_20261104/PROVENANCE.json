@@ -1,0 +1,13 @@
+{
+  "base_HEAD": "0170810ae290da9005498aad29335f595ff43555",
+  "comparison_HEAD_origin_main": "identical;0ahead0behind",
+  "source_sha256": {
+    "vendor/h4m30_v01/h4m30_execution.py": "2f6e58e74f23af55616cbdbe1b0b1c3d70768742795aeae67fd95797aa3edb8e",
+    "simple_forex/runner.py": "a9095487a20262431a3e14d0b713800bfe8cb7f1fb004ace12cc61c89bf21bb6",
+    "simple_forex/strategy_rearmed.py": "065e0c652d741b06bf0c6627d73031d63da6e726cdc599da2b6abef963c457c7",
+    "simple_forex/protocol_v03.json": "ff6b2a81cb338d0667b8c1b0f74406f617e0f12114093f81656cdecc44652f20",
+    "simple_forex/protocol_v04.json": "90a8839351f8ed35830f03038a9e2de6d56e736b52cdb99b33c98ed5392b969c",
+    "src/backtest_bot/data.py": "49e019a956a842b79ed813854947f1f142e0fb0817caa49223e3eaccd8608d21"
+  },
+  "local_copies": "Path and simulator copied for explicit review; no upstream file modified. Historical descriptive protocol text is not signal implementation."
+}

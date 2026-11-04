@@ -1,0 +1,22 @@
+test_wrong_or_near_GO_never_reads_market (test_authorization.AuthorizationTests.test_wrong_or_near_GO_never_reads_market) ... ok
+test_blocks_non_circular_and_zero_trade_draw_hand_values (test_statistics.StatisticsTests.test_blocks_non_circular_and_zero_trade_draw_hand_values) ... ok
+test_holm_exact_hand_values_and_strict_cutoff (test_statistics.StatisticsTests.test_holm_exact_hand_values_and_strict_cutoff) ... ok
+test_holm_includes_other_strategy_even_when_it_stops (test_statistics.StatisticsTests.test_holm_includes_other_strategy_even_when_it_stops) ... ok
+test_r2_any_run_overrides_negative_and_disables_both_p_values (test_statistics.StatisticsTests.test_r2_any_run_overrides_negative_and_disables_both_p_values) ... ok
+test_zero_trade_draws_and_negative_before_sample_size (test_statistics.StatisticsTests.test_zero_trade_draws_and_negative_before_sample_size) ... ok
+test_R2_portfolio_total_null_and_known_commission_retained (test_synthetic.AccountTests.test_R2_portfolio_total_null_and_known_commission_retained) ... ok
+test_entry_missing_is_refused_without_halt_or_consuming_quota (test_synthetic.AccountTests.test_entry_missing_is_refused_without_halt_or_consuming_quota) ... ok
+test_four_entries_and_daily_reset_survive_all_scenarios (test_synthetic.AccountTests.test_four_entries_and_daily_reset_survive_all_scenarios) ... ok
+test_future_quotes_do_not_rewrite_past_decisions (test_synthetic.AccountTests.test_future_quotes_do_not_rewrite_past_decisions) ... ok
+test_pause_after_two_losses_and_24h_expiry (test_synthetic.AccountTests.test_pause_after_two_losses_and_24h_expiry) ... ok
+test_deadline_missing_and_stop_priority_after_resume (test_synthetic.GapTests.test_deadline_missing_and_stop_priority_after_resume) ... ok
+test_five_accepted_six_and_end_data_unresolved_preserve_entry_fee (test_synthetic.GapTests.test_five_accepted_six_and_end_data_unresolved_preserve_entry_fee) ... ok
+test_gap_beyond_stop_hand_fx_both_sides (test_synthetic.GapTests.test_gap_beyond_stop_hand_fx_both_sides) ... ok
+test_multiple_holes_and_future_after_exit_cannot_change_cash (test_synthetic.GapTests.test_multiple_holes_and_future_after_exit_cannot_change_cash) ... ok
+test_one_minute_long_short_three_scenarios_hand_cash (test_synthetic.GapTests.test_one_minute_long_short_three_scenarios_hand_cash) ... ok
+test_resume_beyond_target_caps_price_and_opt_converts_at_resume (test_synthetic.GapTests.test_resume_beyond_target_caps_price_and_opt_converts_at_resume) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.150s
+
+OK

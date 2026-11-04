@@ -1,0 +1,82 @@
+{
+  "gaps": 2922,
+  "missing_minutes": 152012,
+  "R1_if_exposed": 2852,
+  "R2_if_exposed": 70,
+  "per_month": [
+    {
+      "month": "2021-01",
+      "scope_start_utc": "2021-01-04T00:00:00Z",
+      "grid_minutes": 40320,
+      "missing_minutes": 11660
+    },
+    {
+      "month": "2021-02",
+      "scope_start_utc": "2021-02-01T00:00:00Z",
+      "grid_minutes": 40320,
+      "missing_minutes": 11707
+    },
+    {
+      "month": "2021-03",
+      "scope_start_utc": "2021-03-01T00:00:00Z",
+      "grid_minutes": 44640,
+      "missing_minutes": 11769
+    },
+    {
+      "month": "2021-04",
+      "scope_start_utc": "2021-04-01T00:00:00Z",
+      "grid_minutes": 43200,
+      "missing_minutes": 12060
+    },
+    {
+      "month": "2021-05",
+      "scope_start_utc": "2021-05-01T00:00:00Z",
+      "grid_minutes": 44640,
+      "missing_minutes": 15770
+    },
+    {
+      "month": "2021-06",
+      "scope_start_utc": "2021-06-01T00:00:00Z",
+      "grid_minutes": 43200,
+      "missing_minutes": 11945
+    },
+    {
+      "month": "2021-07",
+      "scope_start_utc": "2021-07-01T00:00:00Z",
+      "grid_minutes": 44640,
+      "missing_minutes": 13363
+    },
+    {
+      "month": "2021-08",
+      "scope_start_utc": "2021-08-01T00:00:00Z",
+      "grid_minutes": 44640,
+      "missing_minutes": 13425
+    },
+    {
+      "month": "2021-09",
+      "scope_start_utc": "2021-09-01T00:00:00Z",
+      "grid_minutes": 43200,
+      "missing_minutes": 11931
+    },
+    {
+      "month": "2021-10",
+      "scope_start_utc": "2021-10-01T00:00:00Z",
+      "grid_minutes": 44640,
+      "missing_minutes": 14694
+    },
+    {
+      "month": "2021-11",
+      "scope_start_utc": "2021-11-01T00:00:00Z",
+      "grid_minutes": 43200,
+      "missing_minutes": 11794
+    },
+    {
+      "month": "2021-12",
+      "scope_start_utc": "2021-12-01T00:00:00Z",
+      "grid_minutes": 44640,
+      "missing_minutes": 11894
+    }
+  ],
+  "actual_positions_or_performance_evaluated": false,
+  "note": "Classification solely hypothetical by gap length/end of grid, no market closure inferred"
+}

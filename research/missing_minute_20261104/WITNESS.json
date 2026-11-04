@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "strategy": "V03",
+      "cost": "base",
+      "scenario": "S_CONT",
+      "closed_trades": 61,
+      "net_eur": 642.3667390327232,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "cost": "base",
+      "scenario": "S_PESS",
+      "closed_trades": 61,
+      "net_eur": 642.3667390327232,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "cost": "base",
+      "scenario": "S_OPT",
+      "closed_trades": 61,
+      "net_eur": 642.3667390327232,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "cost": "higher_costs",
+      "scenario": "S_CONT",
+      "closed_trades": 61,
+      "net_eur": 504.21532760375015,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "cost": "higher_costs",
+      "scenario": "S_PESS",
+      "closed_trades": 61,
+      "net_eur": 504.21532760375015,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V03",
+      "cost": "higher_costs",
+      "scenario": "S_OPT",
+      "closed_trades": 61,
+      "net_eur": 504.21532760375015,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "cost": "base",
+      "scenario": "S_CONT",
+      "closed_trades": 61,
+      "net_eur": 839.277207950634,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "cost": "base",
+      "scenario": "S_PESS",
+      "closed_trades": 61,
+      "net_eur": 839.277207950634,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "cost": "base",
+      "scenario": "S_OPT",
+      "closed_trades": 61,
+      "net_eur": 839.277207950634,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "cost": "higher_costs",
+      "scenario": "S_CONT",
+      "closed_trades": 61,
+      "net_eur": 719.2375290591352,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "cost": "higher_costs",
+      "scenario": "S_PESS",
+      "closed_trades": 61,
+      "net_eur": 719.2375290591352,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    },
+    {
+      "strategy": "V04",
+      "cost": "higher_costs",
+      "scenario": "S_OPT",
+      "closed_trades": 61,
+      "net_eur": 719.2375290591352,
+      "max_absolute_trade_field_difference": 0.0,
+      "exposure_gaps": 0,
+      "status": "PASS"
+    }
+  ],
+  "published_source_sha256": {
+    "research/chart_context_20261104/run_01/V03_3R/base/TRADES.csv": "f91c4ebfb40a956a952a34a746236dd00ac84c6346f32f2a72c9f0fe2daf61a9",
+    "research/chart_context_20261104/run_01/V03_3R/higher_costs/TRADES.csv": "e7ebdaba62a7428fb3f4cb638420837d4635daaba7c049274c47a6f8ce0fcca9",
+    "research/chart_context_20261104/run_01/V03_2R/base/TRADES.csv": "fa466117ee3832011aed1d75f858c75a5f48507e40cbcbcd2dc4bfbd145f477a",
+    "research/chart_context_20261104/run_01/V03_2R/higher_costs/TRADES.csv": "befd6039aac7ac3239ca148dc19e5f3853ddac3c61d4ad2ba33d3018bb8292ee"
+  },
+  "physically_truncated_market_end": "2021-04-01T00:00:00Z",
+  "performance_after_2021_03_31_calculated": false,
+  "cache_quality": {
+    "rows": 401000,
+    "first_minute_utc": "2020-12-01T05:00:00Z",
+    "last_minute_utc": "2021-12-31T21:59:00Z",
+    "max_abs_mid_open_minus_bid_ask_half_sum": 0.0,
+    "max_abs_mid_close_minus_bid_ask_half_sum": 0.0
+  }
+}
