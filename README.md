@@ -7,6 +7,9 @@ restent hors du dépôt ; les URLs/empreintes des sources restent consultables.
 Nouvelle hypothèse autorisée : [balayage ICT, MSS puis retour FVG](research/ict_smc_20261104/README.md).
 Le plan et le code sont publiés avant calcul ;17 tests synthétiques réussis.
 Les mises restent fixes faute de probabilités calibrées indépendamment.
+Résultat du [backtest ICT](research/ict_smc_20261104/RAPPORT.md) : un seul trade
+sur2021, +313,51 EUR net en base/+285,62 renforcé. La stratégie est trop peu
+active et reste non concluante ; un seul gain ne valide aucune probabilité.
 
 La recherche actuelle utilise une méthode sans indicateur, avec **réarmement des
 cassures, objectif prévu à 3R et plafond de quatre entrées réelles par jour**.

@@ -12,6 +12,10 @@ URLs et empreintes, sans prétendre qu'elles sont redistribuées.
 Plan et code préparés avant le backtest : sweep→MSS→retourFVG, cible bord opposé
 du range, minimum2R prévu,17 tests réussis. Les statistiques antérieures sont
 séparées de toute prévision validée ; aucune hausse automatique des mises.
+Le plan/code ont été publiés avant calcul au commit `7f7a4f6`.
+Résultat ICT : un seul trade le6janvier, +313,51 EUR/+285,62 renforcé,
+surQ1 comme sur l'année.735 sweeps→22MSS/FVG→5retours→1entrée.
+Aucun paramètre modifié après résultats ; lot non concluant, non promu.
 
 - Comparaison complète sur le4janvier–31mars2021, données de développement.
 - Même signal V03 : cible2R, net+839,28 EUR en base/+719,24 renforcé, contre

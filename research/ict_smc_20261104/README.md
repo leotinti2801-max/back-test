@@ -5,6 +5,11 @@ Le code formalise des termes ICT/SMC dont les définitions ne sont pas universel
 Il ne détecte pas les ordres institutionnels réels. Aucun réglage ne sera changé
 après lecture des résultats de ce lot.
 
+Résultat : **un seul trade exécuté sur2021**, +313,51 EUR net en base et
++285,62 EUR avec coûts renforcés. L'échantillon est insuffisant pour une
+probabilité fiable et trop peu actif pour l'objectif du projet.
+[Lire le rapport et tous les refus](RAPPORT.md). Aucun seuil retouché.
+
 Avant calcul :9 tests de stratégie/exécution et8 tests de probabilité passent.
 La revue indépendante a fait ajouter le rejet explicite d'un doji au MSS même
 si ATR vaut zéro. Les données2021 sont déjà du développement ; aucune calibration

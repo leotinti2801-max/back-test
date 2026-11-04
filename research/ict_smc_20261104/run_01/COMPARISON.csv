@@ -1,0 +1,5 @@
+period,costs,closed_trades,wins,losses,observed_closed_win_rate,known_closed_net_eur,net_eur,closed_drawdown_eur,mean_realized_R,max_executed_entries_per_day,halt
+Q1,base,1,1,0,1.0,313.505706990158,313.505706990158,0.0,2.51045645580871,1,
+Q1,higher_costs,1,1,0,1.0,285.6222580412099,285.6222580412099,0.0,2.303467630148032,1,
+Y2021,base,1,1,0,1.0,313.505706990158,313.505706990158,0.0,2.51045645580871,1,
+Y2021,higher_costs,1,1,0,1.0,285.6222580412099,285.6222580412099,0.0,2.303467630148032,1,

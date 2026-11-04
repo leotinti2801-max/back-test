@@ -35,5 +35,13 @@
   "same_exits_later_reaching_4R": 1,
   "same_exits_later_reaching_5R": 0,
   "continuation_stop": "Original stop unchanged,16hEurope/London deadline",
-  "optional_2R_candidate_loss_rate_improved": false
+  "optional_2R_candidate_loss_rate_improved": false,
+  "latest_ICT_study": "research/ict_smc_20261104/RAPPORT.md",
+  "ICT_closed_trades_Y2021": 1,
+  "ICT_known_net_eur_base": 313.505706990158,
+  "ICT_known_net_eur_higher_costs": 285.6222580412099,
+  "ICT_promoted": false,
+  "ICT_probability_calibrated": false,
+  "ICT_adaptive_sizing_enabled": false,
+  "ICT_result_status": "INSUFFICIENT_SAMPLE_AND_FREQUENCY_NOT_CONCLUSIVE"
 }
