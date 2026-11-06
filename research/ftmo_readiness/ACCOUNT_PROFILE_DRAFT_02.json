@@ -1,0 +1,95 @@
+{
+  "schema_version": "FTMO_ACCOUNT_PROFILE_DRAFT_02",
+  "status": "L0_DECISIONS_RECORDED_RULES_READ_2026-11-04_FTMO_ANSWERS_PENDING",
+  "decided_by": "Léo, 2026-11-06",
+  "research_objective": "PROOF_FIRST",
+  "live_trading_enabled": false,
+  "provider": "FTMO",
+  "product": "2-Step",
+  "fallback_product": "1-Step",
+  "account_type": "INCONNU — Standard ou Swing, à décider avant L4 (Swing : 2-Step seulement, levier 1:30, week-end autorisé)",
+  "account_currency": "USD",
+  "initial_balance": 100000,
+  "target_deadline_calendar_days": null,
+  "deadline_note": "Aucune échéance : l'objectif de moins d'un mois est abandonné au profit de la preuve d'abord.",
+  "rules_effective_date": "Pages lues le 2026-11-04 ; Conditions générales du 2026-11-01",
+  "official_source_urls": [
+    "https://ftmo.com/en/trading-objectives/",
+    "https://ftmo.com/en/forbidden-trading-practices/",
+    "https://ftmo.com/en/faq/can-i-trade-news/",
+    "https://ftmo.com/en/symbols/"
+  ],
+  "official_sources_consulted": true,
+  "phases": [
+    {
+      "name": "Challenge",
+      "profit_target_fraction": 0.1,
+      "profit_target_verified": true
+    },
+    {
+      "name": "Verification",
+      "profit_target_fraction": 0.05,
+      "profit_target_verified": true
+    }
+  ],
+  "daily_loss": {
+    "limit_fraction_of_initial_balance": 0.05,
+    "reference_base": "Solde à minuit Europe/Prague de la veille ; capital initial le premier jour",
+    "includes_floating_pnl": true,
+    "includes_commission": true,
+    "includes_swaps": true,
+    "reset_iana_timezone": "Europe/Prague",
+    "measurement_frequency_and_price": "INCONNU — question FTMO n° 5"
+  },
+  "max_loss": {
+    "limit_fraction_of_initial_balance": 0.1,
+    "static_or_trailing": "static",
+    "floor": 90000
+  },
+  "minimum_qualifying_days": 4,
+  "qualifying_day_definition": "Au moins une position ouverte entre 00:00:00 et 23:59:59 CE(S)T",
+  "best_day_rule": {
+    "applicable": false
+  },
+  "fallback_1step_rules": {
+    "profit_target_fraction": 0.1,
+    "daily_loss_fraction": 0.03,
+    "max_loss": "10 % suiveur, fondé sur le plus haut solde de minuit, qui ne fait que monter",
+    "consistency": "Meilleur jour au plus 50 % du profit total (commandes depuis le 2026-10-12)"
+  },
+  "restrictions": {
+    "news": "INCONNU — la FAQ et les pratiques interdites se contredisent ; question FTMO n° 4. Règle prudente en attendant : pas d'entrée à l'approche d'une annonce majeure.",
+    "weekend": "Autorisé en évaluation ; interdit sur compte Standard financé",
+    "pre_close": "Pas d'ouverture dans les 2 heures avant une fermeture de marché d'au moins 2 heures (pratiques interdites)",
+    "server_requests_per_day_max": 2000,
+    "server_requests_scope": "INCONNU — question FTMO n° 3"
+  },
+  "risk_reference": {
+    "risk_per_trade": 125,
+    "risk_per_trade_fraction": 0.00125,
+    "daily_stop_new_entries": 500,
+    "currency": "USD",
+    "note": "Le test de preuve se mesure en R ; la taille réelle se fixe en L7. Le témoin V03 historique garde ses montants en EUR."
+  },
+  "execution_contract": {
+    "platform": "MT5",
+    "symbol": "EURUSD",
+    "server_timezone": "GMT+2, GMT+3 en heure d'été ; les limites suivent Europe/Prague",
+    "trading_hours_server_time": "Lundi-vendredi 00:05-23:55",
+    "lot_contract_size": 100000,
+    "leverage": "1:100 (Swing 1:30)",
+    "maximum_volume_per_trade_lots": 100,
+    "minimum_volume": "INCONNU — relevé L1 (spécification du symbole)",
+    "volume_step": "INCONNU — relevé L1",
+    "tick_size": "INCONNU — 0.00001 probable d'après les cotations à 5 décimales, à confirmer en L1",
+    "commission_currency_and_schedule": "5 USD par lot aller-retour selon la page Symbols ; à confirmer, question FTMO n° 6",
+    "currency_adjustment_0_7_percent": "Non applicable en principe (P/L EURUSD en USD, compte en USD) ; question FTMO n° 7",
+    "swap_schedule": "INCONNU — page Symbols : long −9.26, short +0.29 points (unité non définie) ; relevé L1"
+  },
+  "programmatic_access": {
+    "price_recording": "INCONNU — question FTMO n° 1 ; condition de l'arrêt écrit de L0",
+    "metatrader5_python_package": "INCONNU — question FTMO n° 2",
+    "ai_clause": "INCONNU — question FTMO n° 8",
+    "free_trial_ea": "INCONNU — question FTMO n° 9"
+  }
+}
