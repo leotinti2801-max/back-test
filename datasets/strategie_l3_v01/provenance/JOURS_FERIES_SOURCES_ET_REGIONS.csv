@@ -1,0 +1,276 @@
+date,pays,nom,region,source_url,notes
+2020-01-01,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-01-01,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-01-01,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2020-01-01,US,New Year’s Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-01-02,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,
+2020-01-20,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-02-17,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-03-17,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-04-10,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-04-10,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-04-10,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2020-04-13,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-04-13,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-05-08,UK,[england-and-wales] Early May bank holiday (VE day),england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-05-08,UK,[northern-ireland] Early May bank holiday (VE day),northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-05-08,UK,[scotland] Early May bank holiday (VE day),scotland,https://www.gov.uk/bank-holidays.json,
+2020-05-25,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-05-25,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-05-25,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2020-05-25,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-07-03,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-07-13,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2020-08-03,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2020-08-31,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-08-31,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-09-07,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-10-12,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-11-11,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-11-26,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-11-30,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2020-12-25,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2020-12-25,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2020-12-25,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,
+2020-12-25,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2020-12-28,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2020-12-28,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2020-12-28,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-01-01,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2021-01-01,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-01-01,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2021-01-01,US,New Year’s Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-01-04,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-01-18,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-02-15,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-03-17,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-04-02,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2021-04-02,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-04-02,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2021-04-05,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2021-04-05,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-05-03,UK,[england-and-wales] Early May bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2021-05-03,UK,[northern-ireland] Early May bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-05-03,UK,[scotland] Early May bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2021-05-31,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2021-05-31,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-05-31,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2021-05-31,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-06-18,US,Juneteenth National Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-07-05,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-07-12,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-08-02,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2021-08-30,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2021-08-30,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2021-09-06,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-10-11,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-11-11,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-11-25,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-11-30,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2021-12-24,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2021-12-27,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-12-27,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-12-27,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-12-28,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-12-28,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-12-28,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2021-12-31,US,"New Year’s Day (2022, observed)",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-01-03,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2022-01-03,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2022-01-03,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2022-01-04,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2022-01-17,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-02-21,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-03-17,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-04-15,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-04-15,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-04-15,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2022-04-18,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-04-18,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-05-02,UK,[england-and-wales] Early May bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-05-02,UK,[northern-ireland] Early May bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-05-02,UK,[scotland] Early May bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2022-05-30,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-06-02,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-06-02,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-06-02,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2022-06-03,UK,[england-and-wales] Platinum Jubilee bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-06-03,UK,[northern-ireland] Platinum Jubilee bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-06-03,UK,[scotland] Platinum Jubilee bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2022-06-20,US,Juneteenth National Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-07-04,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-07-12,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-08-01,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2022-08-29,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-08-29,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-09-05,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-09-19,UK,[england-and-wales] Bank Holiday for the State Funeral of Queen Elizabeth II,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-09-19,UK,[northern-ireland] Bank Holiday for the State Funeral of Queen Elizabeth II,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-09-19,UK,[scotland] Bank Holiday for the State Funeral of Queen Elizabeth II,scotland,https://www.gov.uk/bank-holidays.json,
+2022-10-10,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-11-11,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-11-24,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-11-30,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2022-12-26,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2022-12-26,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2022-12-26,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,
+2022-12-26,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2022-12-27,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2022-12-27,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2022-12-27,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2023-01-02,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2023-01-02,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2023-01-02,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2023-01-02,US,New Year’s Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-01-03,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2023-01-16,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-02-20,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-03-17,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-04-07,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-04-07,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-04-07,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2023-04-10,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-04-10,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-05-01,UK,[england-and-wales] Early May bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-05-01,UK,[northern-ireland] Early May bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-05-01,UK,[scotland] Early May bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2023-05-08,UK,[england-and-wales] Bank holiday for the coronation of King Charles III,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-05-08,UK,[northern-ireland] Bank holiday for the coronation of King Charles III,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-05-08,UK,[scotland] Bank holiday for the coronation of King Charles III,scotland,https://www.gov.uk/bank-holidays.json,
+2023-05-29,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-05-29,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-05-29,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2023-05-29,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-06-19,US,Juneteenth National Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-07-04,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-07-12,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-08-07,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2023-08-28,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-08-28,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-09-04,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-10-09,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-11-10,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-11-23,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-11-30,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2023-12-25,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-12-25,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-12-25,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,
+2023-12-25,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2023-12-26,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2023-12-26,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2023-12-26,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,
+2024-01-01,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-01-01,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-01-01,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2024-01-01,US,New Year’s Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-01-02,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,
+2024-01-15,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-02-19,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-03-18,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2024-03-29,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-03-29,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-03-29,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2024-04-01,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-04-01,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-05-06,UK,[england-and-wales] Early May bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-05-06,UK,[northern-ireland] Early May bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-05-06,UK,[scotland] Early May bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2024-05-27,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-05-27,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-05-27,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2024-05-27,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-06-19,US,Juneteenth National Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-07-04,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-07-12,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-08-05,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2024-08-26,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-08-26,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-09-02,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-10-14,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-11-11,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-11-28,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-12-02,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2024-12-25,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-12-25,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-12-25,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,
+2024-12-25,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2024-12-26,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2024-12-26,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2024-12-26,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,
+2025-01-01,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-01-01,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-01-01,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2025-01-01,US,New Year’s Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-01-02,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,
+2025-01-20,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-02-17,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-03-17,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-04-18,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-04-18,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-04-18,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2025-04-21,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-04-21,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-05-05,UK,[england-and-wales] Early May bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-05-05,UK,[northern-ireland] Early May bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-05-05,UK,[scotland] Early May bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2025-05-26,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-05-26,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-05-26,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2025-05-26,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-06-19,US,Juneteenth National Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-07-04,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-07-14,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2025-08-04,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2025-08-25,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-08-25,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-09-01,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-10-13,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-11-11,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-11-27,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-12-01,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day
+2025-12-25,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-12-25,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-12-25,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,
+2025-12-25,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2025-12-26,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2025-12-26,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2025-12-26,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,
+2026-01-01,UK,[england-and-wales] New Year’s Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-01-01,UK,[northern-ireland] New Year’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-01-01,UK,[scotland] New Year’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2026-01-01,US,New Year’s Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-01-02,UK,[scotland] 2nd January,scotland,https://www.gov.uk/bank-holidays.json,
+2026-01-19,US,"Birthday of Martin Luther King, Jr.",federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-02-16,US,Washington’s Birthday,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-03-17,UK,[northern-ireland] St Patrick’s Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-04-03,UK,[england-and-wales] Good Friday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-04-03,UK,[northern-ireland] Good Friday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-04-03,UK,[scotland] Good Friday,scotland,https://www.gov.uk/bank-holidays.json,
+2026-04-06,UK,[england-and-wales] Easter Monday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-04-06,UK,[northern-ireland] Easter Monday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-05-04,UK,[england-and-wales] Early May bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-05-04,UK,[northern-ireland] Early May bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-05-04,UK,[scotland] Early May bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2026-05-25,UK,[england-and-wales] Spring bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-05-25,UK,[northern-ireland] Spring bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-05-25,UK,[scotland] Spring bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2026-05-25,US,Memorial Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-06-15,UK,[scotland] World Cup bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2026-06-19,US,Juneteenth National Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-07-03,US,Independence Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-07-13,UK,[northern-ireland] Battle of the Boyne (Orangemen’s Day),northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2026-08-03,UK,[scotland] Summer bank holiday,scotland,https://www.gov.uk/bank-holidays.json,
+2026-08-31,UK,[england-and-wales] Summer bank holiday,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-08-31,UK,[northern-ireland] Summer bank holiday,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-09-07,US,Labor Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-10-12,US,Columbus Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-11-11,US,Veterans Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-11-26,US,Thanksgiving Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-11-30,UK,[scotland] St Andrew’s Day,scotland,https://www.gov.uk/bank-holidays.json,
+2026-12-25,UK,[england-and-wales] Christmas Day,england-and-wales,https://www.gov.uk/bank-holidays.json,
+2026-12-25,UK,[northern-ireland] Christmas Day,northern-ireland,https://www.gov.uk/bank-holidays.json,
+2026-12-25,UK,[scotland] Christmas Day,scotland,https://www.gov.uk/bank-holidays.json,
+2026-12-25,US,Christmas Day,federal_national_observed,https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/,Observed date; not a market-closure calendar
+2026-12-28,UK,[england-and-wales] Boxing Day,england-and-wales,https://www.gov.uk/bank-holidays.json,Substitute day
+2026-12-28,UK,[northern-ireland] Boxing Day,northern-ireland,https://www.gov.uk/bank-holidays.json,Substitute day
+2026-12-28,UK,[scotland] Boxing Day,scotland,https://www.gov.uk/bank-holidays.json,Substitute day

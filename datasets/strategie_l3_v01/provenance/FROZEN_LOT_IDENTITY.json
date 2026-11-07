@@ -1,0 +1,11 @@
+{
+  "original_archive_sha256": "447fe0409e801f5eb809babd8795e3757b51d0c1377d4b5184addd759cec1142",
+  "frozen_files_sha256": {
+    "DEMANDE_DONNEES_TICKS.md": "0c0691f0950788ce1df77c9bcca77dd51d301b48fde7185ee5bb6b773d610ce7",
+    "FICHE_STRATEGIE_L3_V01.md": "19653f8ce20d352b8f10fb47d16934aab0f76ea017606b75ef354c37627a6ae1",
+    "MODELE_COUTS.md": "c34b8eb937c35498da6687bc36d68fa565f715d1566fe82f266fbb05ba74e6fa"
+  },
+  "integrity_verified": true,
+  "strategy_modified": false,
+  "strategy_content_not_used_by_data_pipeline": true
+}

@@ -1,0 +1,275 @@
+date,source_url,http_status,attempts,raw_sha256,raw_bytes,n_ticks,status,error
+2020-01-01,https://www.dukascopy.com/datafeed/EURUSD/2020/00/01_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-02,https://www.dukascopy.com/datafeed/EURUSD/2020/00/02_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-03,https://www.dukascopy.com/datafeed/EURUSD/2020/00/03_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-04,https://www.dukascopy.com/datafeed/EURUSD/2020/00/04_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-05,https://www.dukascopy.com/datafeed/EURUSD/2020/00/05_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-06,https://www.dukascopy.com/datafeed/EURUSD/2020/00/06_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-07,https://www.dukascopy.com/datafeed/EURUSD/2020/00/07_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-08,https://www.dukascopy.com/datafeed/EURUSD/2020/00/08_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-09,https://www.dukascopy.com/datafeed/EURUSD/2020/00/09_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-10,https://www.dukascopy.com/datafeed/EURUSD/2020/00/10_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-11,https://www.dukascopy.com/datafeed/EURUSD/2020/00/11_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-12,https://www.dukascopy.com/datafeed/EURUSD/2020/00/12_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-13,https://www.dukascopy.com/datafeed/EURUSD/2020/00/13_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-14,https://www.dukascopy.com/datafeed/EURUSD/2020/00/14_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-15,https://www.dukascopy.com/datafeed/EURUSD/2020/00/15_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-16,https://www.dukascopy.com/datafeed/EURUSD/2020/00/16_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-17,https://www.dukascopy.com/datafeed/EURUSD/2020/00/17_ticks.bi5,200,4,4930018568e7d06eec21064d259301242c540fa7ac3b66be662071b4ba656d48,314842,65077,ok,
+2020-01-18,https://www.dukascopy.com/datafeed/EURUSD/2020/00/18_ticks.bi5,200,4,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-01-19,https://www.dukascopy.com/datafeed/EURUSD/2020/00/19_ticks.bi5,200,4,8ac184f095113693aa72f3a9a84b2dc73b015557977984e05bbd36f0dba42684,14995,3448,ok,
+2020-01-20,https://www.dukascopy.com/datafeed/EURUSD/2020/00/20_ticks.bi5,200,4,b6297901b5bf7926d86744a2cc325ede6318de9777e45298cefa6fef2deda678,219930,46861,ok,
+2020-01-21,https://www.dukascopy.com/datafeed/EURUSD/2020/00/21_ticks.bi5,200,4,5b3ecdf588262b4776473d3d0830a50772d927107814a12595608a4179992008,331702,68256,ok,
+2020-01-22,https://www.dukascopy.com/datafeed/EURUSD/2020/00/22_ticks.bi5,200,4,de4edd4f83d9a6975fa088f1ff4500d64c9d56b2d45694f15043c90ee99a70d0,331308,68874,ok,
+2020-01-23,https://www.dukascopy.com/datafeed/EURUSD/2020/00/23_ticks.bi5,200,4,4210a2bd4a1f75a67a0494ecf9c9323b8bfc3b427880f4f399cc4c37ca87a730,411069,83281,ok,
+2020-01-24,https://www.dukascopy.com/datafeed/EURUSD/2020/00/24_ticks.bi5,200,4,6e8118975f2e9a4104bf6b3ae978b69c2d0a449682cdb0f96f4280b49e5d7a3e,326966,67952,ok,
+2020-01-25,https://www.dukascopy.com/datafeed/EURUSD/2020/00/25_ticks.bi5,200,4,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-01-26,https://www.dukascopy.com/datafeed/EURUSD/2020/00/26_ticks.bi5,200,4,b1506ced39b689640d9bbbc271a38579db7e6c1d6754080aa9fe07edc11205a2,42431,10294,ok,
+2020-01-27,https://www.dukascopy.com/datafeed/EURUSD/2020/00/27_ticks.bi5,200,4,dcbc73fbd91ec6aeb79de29d137e9307118d885ab5dc846875b79e89abc9d98c,336404,70600,ok,
+2020-01-28,https://www.dukascopy.com/datafeed/EURUSD/2020/00/28_ticks.bi5,200,4,77c2325c8b073d17ab954b5457811dec320825ecfe63471961932a1580dff26b,315906,66432,ok,
+2020-01-29,https://www.dukascopy.com/datafeed/EURUSD/2020/00/29_ticks.bi5,200,4,dcb519ca22d6913d88f372564033e7cac27b8ffb09f45de515ff5eea06ee37e5,315814,65320,ok,
+2020-01-30,https://www.dukascopy.com/datafeed/EURUSD/2020/00/30_ticks.bi5,200,4,ed0bc19b6b0f7aa6a73a0db34ce5def74c961e55b0d081ce0b98c4b1fb717181,352104,73708,ok,
+2020-01-31,https://www.dukascopy.com/datafeed/EURUSD/2020/00/31_ticks.bi5,200,4,943f64a82caf454416621813c409ad1fcfd50c01edebac6e0b252aaedf34c470,363028,74821,ok,
+2020-02-01,https://www.dukascopy.com/datafeed/EURUSD/2020/01/01_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-02-02,https://www.dukascopy.com/datafeed/EURUSD/2020/01/02_ticks.bi5,200,1,fdd1eaba3b5e5fb407b86f9bec858360da347d03ef869dad3acd8ea974dcf49a,18544,4104,ok,
+2020-02-03,https://www.dukascopy.com/datafeed/EURUSD/2020/01/03_ticks.bi5,200,1,b4a156191cab32015fa3da2242dca05828e0368ada7d3d501112455846fa38f9,346376,68590,ok,
+2020-02-04,https://www.dukascopy.com/datafeed/EURUSD/2020/01/04_ticks.bi5,200,1,1dcfb56304a1d09c182bd7c886d8cbcb3d76f8211df73da7290b3e7e882f8671,298208,60135,ok,
+2020-02-05,https://www.dukascopy.com/datafeed/EURUSD/2020/01/05_ticks.bi5,200,1,992c782afd705ac36486c9dacc85db9a910cc9dd617b5dcb8a55b101223e22ca,305955,62758,ok,
+2020-02-06,https://www.dukascopy.com/datafeed/EURUSD/2020/01/06_ticks.bi5,200,1,89225ae20a9a82fe61e41a3f1315d9dd19c4cbdaee1250a49ebf788db9d48406,262378,52020,ok,
+2020-02-07,https://www.dukascopy.com/datafeed/EURUSD/2020/01/07_ticks.bi5,200,1,039c76cba949e9a06062704b20566529bbb67eafd92e5d93dc092d8ccab3b6f8,320739,65974,ok,
+2020-02-08,https://www.dukascopy.com/datafeed/EURUSD/2020/01/08_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-02-09,https://www.dukascopy.com/datafeed/EURUSD/2020/01/09_ticks.bi5,200,1,0b4f120ac1ce7af70d2e07d1cf04f0671aa8042880fb9c371b7228a179ef7613,12310,2507,ok,
+2020-02-10,https://www.dukascopy.com/datafeed/EURUSD/2020/01/10_ticks.bi5,200,1,b0ecab43289da7445b09f55572010f87151daf53ff56fd1750422f48db15dd8e,252591,51701,ok,
+2020-02-11,https://www.dukascopy.com/datafeed/EURUSD/2020/01/11_ticks.bi5,200,1,4294f49c6bd19d8f6f323cdf94dc9d3642ec94a6482752f7a0d7192123d84e9d,238638,51593,ok,
+2020-02-12,https://www.dukascopy.com/datafeed/EURUSD/2020/01/12_ticks.bi5,200,1,d8a6830790c5ced41fa7028d71ec492c677ef2f62bb7bc15f260de43a803bf8f,248122,62332,ok,
+2020-02-13,https://www.dukascopy.com/datafeed/EURUSD/2020/01/13_ticks.bi5,200,1,4a015881b119a5d3012aac9ef27195bc967dc5e729171570ebe4932c6d1e7aa0,338363,76095,ok,
+2020-02-14,https://www.dukascopy.com/datafeed/EURUSD/2020/01/14_ticks.bi5,200,1,314ace9ce490dae85859f931ce7fd88953cb0d814df509bff9d0d8bc7aa266de,337743,67330,ok,
+2020-02-15,https://www.dukascopy.com/datafeed/EURUSD/2020/01/15_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-02-16,https://www.dukascopy.com/datafeed/EURUSD/2020/01/16_ticks.bi5,200,1,999b5c8ffd6675ffbb7f952459f7ef217e05b9c031276d7d0e2b7b3e8a12908e,14175,3154,ok,
+2020-02-17,https://www.dukascopy.com/datafeed/EURUSD/2020/01/17_ticks.bi5,200,1,bc917b10ca4c7dacd9af88f1a2a7e8dfa66c949478dc5875324ce7e2c5547745,201738,40791,ok,
+2020-02-18,https://www.dukascopy.com/datafeed/EURUSD/2020/01/18_ticks.bi5,200,1,9f365aeff9989fadeffc0db06d2936fa71919f9a06acf5673cda941abdc88e62,354643,72279,ok,
+2020-02-19,https://www.dukascopy.com/datafeed/EURUSD/2020/01/19_ticks.bi5,200,1,0c03801f9d0a938e6929d040cf730da44908954dbd53575841baef19bf6f42d0,287373,57377,ok,
+2020-02-20,https://www.dukascopy.com/datafeed/EURUSD/2020/01/20_ticks.bi5,200,1,7f056324bac44d51dc7c668f49a8475147c4eba4cf0a184f3d22b0c51f2832a9,314119,72757,ok,
+2020-02-21,https://www.dukascopy.com/datafeed/EURUSD/2020/01/21_ticks.bi5,200,1,2fab7673e515db0852ad8c82f410d88053c577a91c815055c503473a23d9ab89,354541,71758,ok,
+2020-02-22,https://www.dukascopy.com/datafeed/EURUSD/2020/01/22_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-02-23,https://www.dukascopy.com/datafeed/EURUSD/2020/01/23_ticks.bi5,200,1,fde2931da5ae083c0011f34372bb78f48eb79fe29a8727d7a277995e6160609a,35140,8348,ok,
+2020-02-24,https://www.dukascopy.com/datafeed/EURUSD/2020/01/24_ticks.bi5,200,1,8433d126d6bdd927f2717d5872049be86185689e674337672cb5939d7033a34c,475256,99134,ok,
+2020-02-25,https://www.dukascopy.com/datafeed/EURUSD/2020/01/25_ticks.bi5,200,1,4d9f8f6be2b37e97f61eea022560696a17521e9d7c1572d015637061a47fab8c,508232,106353,ok,
+2020-02-26,https://www.dukascopy.com/datafeed/EURUSD/2020/01/26_ticks.bi5,200,1,8087e2e5fd06227d391c2cbdf5f814859cd98345a843567b2d8ebd7059fd08f4,532425,113006,ok,
+2020-02-27,https://www.dukascopy.com/datafeed/EURUSD/2020/01/27_ticks.bi5,200,1,a9a957a4ad2c31f54a3759905768fa0d24e0342bee6f02d9e43167fdbe81ad17,637847,132630,ok,
+2020-02-28,https://www.dukascopy.com/datafeed/EURUSD/2020/01/28_ticks.bi5,200,1,239a10375588002e2f25189884df21fb82ce0340ebbf447e1bee263a6c4c78f6,746026,159371,ok,
+2020-02-29,https://www.dukascopy.com/datafeed/EURUSD/2020/01/29_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-03-01,https://www.dukascopy.com/datafeed/EURUSD/2020/02/01_ticks.bi5,200,1,080c7de2090928490b0e28a1a7138e976234f11129b536334540870e3599793d,33599,7014,ok,
+2020-03-02,https://www.dukascopy.com/datafeed/EURUSD/2020/02/02_ticks.bi5,200,1,58a26271c5ae13359c6a279d2c3a31f3323caa1eb6b097653e5095966b1a3d9e,816624,176529,ok,
+2020-03-03,https://www.dukascopy.com/datafeed/EURUSD/2020/02/03_ticks.bi5,200,1,00b964bf2a382065e30aea3ba0b602a6941678f70ccfe930eccec83220e73d6a,776343,166207,ok,
+2020-03-04,https://www.dukascopy.com/datafeed/EURUSD/2020/02/04_ticks.bi5,200,1,53a72c588b0c620e398695653763253e5712f789db29f0d1235610d69c7c8d01,579634,120671,ok,
+2020-03-05,https://www.dukascopy.com/datafeed/EURUSD/2020/02/05_ticks.bi5,200,1,7c87d87c4aecd7d54514e5c582db2b0969b88afc40f7292a1084d1ac9b9bb753,556040,117774,ok,
+2020-03-06,https://www.dukascopy.com/datafeed/EURUSD/2020/02/06_ticks.bi5,200,1,8706d2236ffa175bfd92ce11c37245e4485bbaf155b2ea02e5cc4adb14797d37,861469,188834,ok,
+2020-03-07,https://www.dukascopy.com/datafeed/EURUSD/2020/02/07_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-03-08,https://www.dukascopy.com/datafeed/EURUSD/2020/02/08_ticks.bi5,200,1,e860f85faae9ed3c8041d500ac75376635fc806b0d43a2303ee937eedf861e1e,83296,18541,ok,
+2020-03-09,https://www.dukascopy.com/datafeed/EURUSD/2020/02/09_ticks.bi5,200,1,cdf6bd68416662aeaadfd16412dfc86c52a90ae56d11dfa858b32cccb470e496,1271379,293707,ok,
+2020-03-10,https://www.dukascopy.com/datafeed/EURUSD/2020/02/10_ticks.bi5,200,1,6c596e270a0f9e2e66db33674187ac53924e5d7c90d8451f4223196ca290c5c1,1140078,260108,ok,
+2020-03-11,https://www.dukascopy.com/datafeed/EURUSD/2020/02/11_ticks.bi5,200,1,a7408dcd14144383e12a768fce7dcded1f93ffd5773f7aceefec0b3d77c86af2,851358,192911,ok,
+2020-03-12,https://www.dukascopy.com/datafeed/EURUSD/2020/02/12_ticks.bi5,200,1,33310d6b7c730e6c90235cb550b71bbdfcc676f5e0e8ffceb6935b3fbc70a461,1292334,300463,ok,
+2020-03-13,https://www.dukascopy.com/datafeed/EURUSD/2020/02/13_ticks.bi5,200,1,5ec8ce6434392b0bce78a9073b5fadba302a16de9a267342df3243f8b6cad258,1144362,276865,ok,
+2020-03-14,https://www.dukascopy.com/datafeed/EURUSD/2020/02/14_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-03-15,https://www.dukascopy.com/datafeed/EURUSD/2020/02/15_ticks.bi5,200,1,daa94d4219dccaa284658843b852109bb9817eee218e927636c8b7bf0dec9a9e,171307,48854,ok,
+2020-03-16,https://www.dukascopy.com/datafeed/EURUSD/2020/02/16_ticks.bi5,200,1,6a41407144b9351a07cefea482cd285e33c6d423dfaf18005292a99bacaec12e,1436027,349342,ok,
+2020-03-17,https://www.dukascopy.com/datafeed/EURUSD/2020/02/17_ticks.bi5,200,1,47217522aa412cd8bf4926650dec92a202739c366813cccd8cd9ef4aab4daf09,1276792,308229,ok,
+2020-03-18,https://www.dukascopy.com/datafeed/EURUSD/2020/02/18_ticks.bi5,200,1,d0e8f61942d76ea19cb075090a4d68f1ccaf088face134514e172a3e11d4e503,1410197,338752,ok,
+2020-03-19,https://www.dukascopy.com/datafeed/EURUSD/2020/02/19_ticks.bi5,200,1,c5f91b6288f941de94891b86c470432a785ffb8b5545e01023e86bc2d9b9e59e,1498715,370856,ok,
+2020-03-20,https://www.dukascopy.com/datafeed/EURUSD/2020/02/20_ticks.bi5,200,1,248b3b1a95cf86d5080929606dddbabf8bfe40fedafdb93aab7e54cb749a5021,1591829,395848,ok,
+2020-03-21,https://www.dukascopy.com/datafeed/EURUSD/2020/02/21_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-03-22,https://www.dukascopy.com/datafeed/EURUSD/2020/02/22_ticks.bi5,200,1,cef4aa13ec7ea1bb7573dc8ff0e4c6e5816c64e2fb32ebc06614ef9a439d5194,127497,31955,ok,
+2020-03-23,https://www.dukascopy.com/datafeed/EURUSD/2020/02/23_ticks.bi5,200,1,d29aa5bea5a0a56daa960c14d9b124d3ae84f2320a58d3374a99bfe8e4f62490,1421363,345376,ok,
+2020-03-24,https://www.dukascopy.com/datafeed/EURUSD/2020/02/24_ticks.bi5,200,1,de8661e59a0d96c7ee1b69c8ba1a3d005dc2656e0fb7e6f0c480220083e512ad,1198588,285473,ok,
+2020-03-25,https://www.dukascopy.com/datafeed/EURUSD/2020/02/25_ticks.bi5,200,1,c2980166fa5f04e42484db3c3be722828e93b3d0b51046ae0f326f1ede243773,1090911,262985,ok,
+2020-03-26,https://www.dukascopy.com/datafeed/EURUSD/2020/02/26_ticks.bi5,200,1,5e9f5e5db73b721e60165d8629b5d0e0fb37593f6bde6e50d440cb2ade8493c9,1013963,235013,ok,
+2020-03-27,https://www.dukascopy.com/datafeed/EURUSD/2020/02/27_ticks.bi5,200,1,acdb6563423b6bcaa0ea5c52e837e431b0bb2e4a7cb4ac2d51691cc2dc23302a,965158,223798,ok,
+2020-03-28,https://www.dukascopy.com/datafeed/EURUSD/2020/02/28_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-03-29,https://www.dukascopy.com/datafeed/EURUSD/2020/02/29_ticks.bi5,200,1,819e555b32e196e4d1ac798a5567263b4a1b52b2d3fff75f65e2e730b8c3d66d,37565,8984,ok,
+2020-03-30,https://www.dukascopy.com/datafeed/EURUSD/2020/02/30_ticks.bi5,200,1,154c08f0e3b651cbb0f94ffdbe197cc2bc5bd3290043edf3de64b569d6d92606,759576,173015,ok,
+2020-03-31,https://www.dukascopy.com/datafeed/EURUSD/2020/02/31_ticks.bi5,200,1,64acacc466c6ddb08fb87337fd5a1386e3a877cdf534e8735f9dd0dbd6b0cf4d,958010,211893,ok,
+2020-04-01,https://www.dukascopy.com/datafeed/EURUSD/2020/03/01_ticks.bi5,200,1,a05544e85c594d38c9e5809a164430c43a1eb43241cc5083af64c49b4496a5d9,758773,164916,ok,
+2020-04-02,https://www.dukascopy.com/datafeed/EURUSD/2020/03/02_ticks.bi5,200,1,c5deefa32d61bd6fecbcfc3cc6bbce8c1ec66ad32c77d24fc4ef884c7b0b4513,778502,169004,ok,
+2020-04-03,https://www.dukascopy.com/datafeed/EURUSD/2020/03/03_ticks.bi5,200,1,e537f6870ba23367203a782549e4324051d238fba8512ca40a0663cbeb616a3f,679080,145732,ok,
+2020-04-04,https://www.dukascopy.com/datafeed/EURUSD/2020/03/04_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-04-05,https://www.dukascopy.com/datafeed/EURUSD/2020/03/05_ticks.bi5,200,1,0a5b13b5ce926377bd99914952a61b5fe810003dd56f551b30ed810c2800126e,50118,11260,ok,
+2020-04-06,https://www.dukascopy.com/datafeed/EURUSD/2020/03/06_ticks.bi5,200,1,c0128cc18792b1eb17777c53a128cee49fb470f0a9cf533964fb0234b6bc9084,669655,142493,ok,
+2020-04-07,https://www.dukascopy.com/datafeed/EURUSD/2020/03/07_ticks.bi5,200,1,66939984ffe0c05e5bf004c8ef0500c2b943171d653b0c62ad3d67572156971d,659150,141991,ok,
+2020-04-08,https://www.dukascopy.com/datafeed/EURUSD/2020/03/08_ticks.bi5,200,1,41d9287c8a1e861e94f13738f73a4e958270a845565b30b3f6bf2d4f55c35f3a,582992,123439,ok,
+2020-04-09,https://www.dukascopy.com/datafeed/EURUSD/2020/03/09_ticks.bi5,200,1,86a724a0df36791a95c9e9c0da69e682858da520f78fcbac5261cd852710fa3a,659815,138577,ok,
+2020-04-10,https://www.dukascopy.com/datafeed/EURUSD/2020/03/10_ticks.bi5,200,1,a67307a018ec166a32b660298d94ce6a7353ea7d1722e96fa709b872747ae7d9,289758,81989,ok,
+2020-04-11,https://www.dukascopy.com/datafeed/EURUSD/2020/03/11_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-04-12,https://www.dukascopy.com/datafeed/EURUSD/2020/03/12_ticks.bi5,200,1,7628cc94a3083455696be7f799d55404fbcd6e98ce107179517f4171b8d3c7dc,23658,5273,ok,
+2020-04-13,https://www.dukascopy.com/datafeed/EURUSD/2020/03/13_ticks.bi5,200,1,3a89a5dc6734ab9e72f1010772378f5d47372e50f71771a39412d42d55524828,425255,91182,ok,
+2020-04-14,https://www.dukascopy.com/datafeed/EURUSD/2020/03/14_ticks.bi5,200,1,1af1920ab2f9f74736c8bb24994e5685a06f9f4534541b3eb24f9ee163fd0c58,542543,115296,ok,
+2020-04-15,https://www.dukascopy.com/datafeed/EURUSD/2020/03/15_ticks.bi5,200,1,7c7349eded4d007297c648843c66bcc10f3b7eb02e50abbbc765bc81789cbd93,544064,116171,ok,
+2020-04-16,https://www.dukascopy.com/datafeed/EURUSD/2020/03/16_ticks.bi5,200,1,664c4cd80152ed8d9da3a802e88578bc54062a2f07884bdd4bce28fa1a5f6881,665015,140487,ok,
+2020-04-17,https://www.dukascopy.com/datafeed/EURUSD/2020/03/17_ticks.bi5,200,1,360297951b214369c8df2261a6e9613e0087780e53624adb3a206603988e6b23,580623,122309,ok,
+2020-04-18,https://www.dukascopy.com/datafeed/EURUSD/2020/03/18_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-04-19,https://www.dukascopy.com/datafeed/EURUSD/2020/03/19_ticks.bi5,200,1,7c69a24022947f42196469f785c34a9d8958a2a82c41d2530a38226dcdd73fe2,25232,6627,ok,
+2020-04-20,https://www.dukascopy.com/datafeed/EURUSD/2020/03/20_ticks.bi5,200,1,972efe1e06c3af36d1882832059ebd235511a92d4e9e1d4963d4bea72e04f81d,473756,100043,ok,
+2020-04-21,https://www.dukascopy.com/datafeed/EURUSD/2020/03/21_ticks.bi5,200,1,1ec7518db8a1d2eb628464b14d9d3fc1aaf961ff77601a439cc60a7475b242fd,557984,116943,ok,
+2020-04-22,https://www.dukascopy.com/datafeed/EURUSD/2020/03/22_ticks.bi5,200,1,9644b25e99dade9765e9d8bd25224ff96add5a9573ac92a1b10d65a776925d30,454463,94770,ok,
+2020-04-23,https://www.dukascopy.com/datafeed/EURUSD/2020/03/23_ticks.bi5,200,1,b1b684c77607943146a6f7bf9f01d8192bde78d9ed80f67ba9089df197e984c7,624335,131638,ok,
+2020-04-24,https://www.dukascopy.com/datafeed/EURUSD/2020/03/24_ticks.bi5,200,1,76acd8ec8884fb220930b1985548f82108e100db6a7e9ac2894f89147358ff81,514484,107566,ok,
+2020-04-25,https://www.dukascopy.com/datafeed/EURUSD/2020/03/25_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-04-26,https://www.dukascopy.com/datafeed/EURUSD/2020/03/26_ticks.bi5,200,1,a3f6efc4dd04d705b40c008c934f9379b203d4cd071927196ecf088d6cb35868,18783,4076,ok,
+2020-04-27,https://www.dukascopy.com/datafeed/EURUSD/2020/03/27_ticks.bi5,200,1,3bdc32b90b061f92283b4938baac8d755f4897b793635b04a60d3d2077994d0c,478464,98493,ok,
+2020-04-28,https://www.dukascopy.com/datafeed/EURUSD/2020/03/28_ticks.bi5,200,1,7e93d04bc64e14d5a1ca4a8bdc34fb54ffe70a2c76467a0ce9d3863f08b77a98,473081,96607,ok,
+2020-04-29,https://www.dukascopy.com/datafeed/EURUSD/2020/03/29_ticks.bi5,200,1,d06c2d8a3392761a74fc76232023efe27cf0be84edf609456f3e6bfe45ce8a06,473697,96772,ok,
+2020-04-30,https://www.dukascopy.com/datafeed/EURUSD/2020/03/30_ticks.bi5,200,1,83feb566ae15f89f4ccce99baeed45f030fc60a3f2dcdcef039152ac45c61d89,639229,133076,ok,
+2020-05-01,https://www.dukascopy.com/datafeed/EURUSD/2020/04/01_ticks.bi5,200,1,1e370fe47be1ecd5b2220eb699dbe4e338fa9ebd3d701953a1b28b3d1a1a1ecb,417603,86469,ok,
+2020-05-02,https://www.dukascopy.com/datafeed/EURUSD/2020/04/02_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-05-03,https://www.dukascopy.com/datafeed/EURUSD/2020/04/03_ticks.bi5,200,1,a9bdb37d6a911a2a6d61949597d24e16da981a9e7827e7e4b7b7db79162cfb4e,27258,5778,ok,
+2020-05-04,https://www.dukascopy.com/datafeed/EURUSD/2020/04/04_ticks.bi5,200,1,98cb9c4527aa1847530a71e22119e0b337ae0f45ec54318dac1ec44ae04a11eb,457254,94434,ok,
+2020-05-05,https://www.dukascopy.com/datafeed/EURUSD/2020/04/05_ticks.bi5,200,1,37c3a687d0da5b4cc2331f550190929710d2df0145f36e0528136d8d219e3094,510073,104963,ok,
+2020-05-06,https://www.dukascopy.com/datafeed/EURUSD/2020/04/06_ticks.bi5,200,1,46ec95b5574e7b2ff126a9a3d550b7ee45abf9362f96dc54f1748a7753c06164,475541,96955,ok,
+2020-05-07,https://www.dukascopy.com/datafeed/EURUSD/2020/04/07_ticks.bi5,200,1,df2fb21a666a1038a341994cc533bbeab7253c3827a6c6a68755894c28b44483,510835,107489,ok,
+2020-05-08,https://www.dukascopy.com/datafeed/EURUSD/2020/04/08_ticks.bi5,200,1,1334d9760b89967f70ccda637fa2ae11d4d260d86cf38b80d4d3ebd5cdb3dbda,387832,79020,ok,
+2020-05-09,https://www.dukascopy.com/datafeed/EURUSD/2020/04/09_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-05-10,https://www.dukascopy.com/datafeed/EURUSD/2020/04/10_ticks.bi5,200,1,57495d36444bbdda5969fe3e9678bc47057549362ac9aa9463eea4516a3b3628,21187,4750,ok,
+2020-05-11,https://www.dukascopy.com/datafeed/EURUSD/2020/04/11_ticks.bi5,200,1,dc7b7c763b7a58dd9cc2064032f8638135b0b5e2a28949bbb0892aacfa73fbb1,420582,89935,ok,
+2020-05-12,https://www.dukascopy.com/datafeed/EURUSD/2020/04/12_ticks.bi5,200,1,671885757fa8dd35a382790e6a5d68040a569d9bccb5ee3e3384b2c7ba4469ef,464878,95668,ok,
+2020-05-13,https://www.dukascopy.com/datafeed/EURUSD/2020/04/13_ticks.bi5,200,1,066dd4b821983292d1ab10e5627fd39c5faa59b59275d64044855a4260ad5b24,498120,103366,ok,
+2020-05-14,https://www.dukascopy.com/datafeed/EURUSD/2020/04/14_ticks.bi5,200,1,0aaff8c506b156888e2c40a9ec5d7c72fba42027a0ee3b20025e0336effc9a61,479944,96736,ok,
+2020-05-15,https://www.dukascopy.com/datafeed/EURUSD/2020/04/15_ticks.bi5,200,1,0cbef4ee61ab17f9e1ce96ff70a3b0e8d98ec9a7473ed75221c9fa06389147c1,442077,89379,ok,
+2020-05-16,https://www.dukascopy.com/datafeed/EURUSD/2020/04/16_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-05-17,https://www.dukascopy.com/datafeed/EURUSD/2020/04/17_ticks.bi5,200,1,29005ef7adaaa7391c61069ae6a01d3d7fd2d509f5f41d92692320d0995c229c,19238,3939,ok,
+2020-05-18,https://www.dukascopy.com/datafeed/EURUSD/2020/04/18_ticks.bi5,200,1,6db8602a22858fe676cad3f5e695366969901c5386bac4ce16219e7e9e3879cc,435943,89318,ok,
+2020-05-19,https://www.dukascopy.com/datafeed/EURUSD/2020/04/19_ticks.bi5,200,1,41eaccf7c1b0226becbd57549899257f517c47f9414cf825c9c9febd6b87457b,446821,94028,ok,
+2020-05-20,https://www.dukascopy.com/datafeed/EURUSD/2020/04/20_ticks.bi5,200,1,07613d46499716a7c13956c2f9f05c6ea3907aca24b183b478df15040dd0a37b,414689,85015,ok,
+2020-05-21,https://www.dukascopy.com/datafeed/EURUSD/2020/04/21_ticks.bi5,200,1,2c1d17cc3e93c847c8d09a6db457e5964dbbbd01287ae82459171b605fcbb863,433587,87616,ok,
+2020-05-22,https://www.dukascopy.com/datafeed/EURUSD/2020/04/22_ticks.bi5,200,1,94b95311f04910001267fff81c0e402a81d779acf88359cd937ef31897cc400a,370868,74982,ok,
+2020-05-23,https://www.dukascopy.com/datafeed/EURUSD/2020/04/23_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-05-24,https://www.dukascopy.com/datafeed/EURUSD/2020/04/24_ticks.bi5,200,1,4f07bb4c1483f1ad818397d4e0ff97e9c7a40d44ba1582c69409e9fc04d3eba9,14630,2912,ok,
+2020-05-25,https://www.dukascopy.com/datafeed/EURUSD/2020/04/25_ticks.bi5,200,1,dbf59da80af9ba46e927a470670ce5c852bf619ef353dc522b0edb40869aa045,252670,52358,ok,
+2020-05-26,https://www.dukascopy.com/datafeed/EURUSD/2020/04/26_ticks.bi5,200,1,2a2b5e85cfd7e52355ba2eab80484bd0644f25f075b79a6d4cd000222dc9dde7,457420,93580,ok,
+2020-05-27,https://www.dukascopy.com/datafeed/EURUSD/2020/04/27_ticks.bi5,200,1,603e35d62429849db127f9a01ac2698a3357475d354d8d4fe26070b92ea624ad,666365,137822,ok,
+2020-05-28,https://www.dukascopy.com/datafeed/EURUSD/2020/04/28_ticks.bi5,200,1,edef49249382f031e1cb410c3d10d04190203c71b18e18ba2350b564ca193ca0,597494,119334,ok,
+2020-05-29,https://www.dukascopy.com/datafeed/EURUSD/2020/04/29_ticks.bi5,200,1,baa2969701f092d4fed66defb5b06f1fd3cba8b9454c0134fdf87cc4e561ad53,669498,136715,ok,
+2020-05-30,https://www.dukascopy.com/datafeed/EURUSD/2020/04/30_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-05-31,https://www.dukascopy.com/datafeed/EURUSD/2020/04/31_ticks.bi5,200,1,63d02cffb1fab0307ed53ce0ebddf3d010975d2963d4fd54d551484069c6a27a,25561,5363,ok,
+2020-06-01,https://www.dukascopy.com/datafeed/EURUSD/2020/05/01_ticks.bi5,200,1,97de2406fde19decc1fbf1db3134924f454e4fa1a16d241119b4f17708b82289,544273,110620,ok,
+2020-06-02,https://www.dukascopy.com/datafeed/EURUSD/2020/05/02_ticks.bi5,200,1,571c4896754d3a481283c259d64e2682d5bbf201de55876de75a050c8cd95545,631561,129724,ok,
+2020-06-03,https://www.dukascopy.com/datafeed/EURUSD/2020/05/03_ticks.bi5,200,1,bc0f728ed4dcc3780f2df4896d48638412193d339ae53f1df401350b22897e06,647927,134991,ok,
+2020-06-04,https://www.dukascopy.com/datafeed/EURUSD/2020/05/04_ticks.bi5,200,1,df81148036a600b371a79c6225436758eaf6a91f45f089f8f549636ee5fdc2e0,717963,150303,ok,
+2020-06-05,https://www.dukascopy.com/datafeed/EURUSD/2020/05/05_ticks.bi5,200,1,6f0ac0e758b7adffca0d02ff70483901f00aee4cd82f555bc205d5aca501db52,683687,142471,ok,
+2020-06-06,https://www.dukascopy.com/datafeed/EURUSD/2020/05/06_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-06-07,https://www.dukascopy.com/datafeed/EURUSD/2020/05/07_ticks.bi5,200,1,8293189f8db29d535d1ad395b55cf7b4ac65208fcfee064dc15f18f33f549e50,24753,5013,ok,
+2020-06-08,https://www.dukascopy.com/datafeed/EURUSD/2020/05/08_ticks.bi5,200,1,3ffc8c39e8ea3d9933ba4bff57215a4b5c60a25fc9db719902de11d14820612a,531349,110152,ok,
+2020-06-09,https://www.dukascopy.com/datafeed/EURUSD/2020/05/09_ticks.bi5,200,1,4863862fac7d5148e8ffbc6f73706377b04f619ce2f8057a2f581de43e5be7eb,603432,125599,ok,
+2020-06-10,https://www.dukascopy.com/datafeed/EURUSD/2020/05/10_ticks.bi5,200,1,018ec710530e179b389de24b70933aefc562327355f6d13dbf54494982816809,690621,145625,ok,
+2020-06-11,https://www.dukascopy.com/datafeed/EURUSD/2020/05/11_ticks.bi5,200,1,95e4810f146d66e92155f8294dd314962c29ba33fc038ec63a73aff239486fcd,869069,180957,ok,
+2020-06-12,https://www.dukascopy.com/datafeed/EURUSD/2020/05/12_ticks.bi5,200,1,6d097feb6a3f791de6a29d3d53ee3204f07f1743f473a2a25c28375546be5967,793418,167454,ok,
+2020-06-13,https://www.dukascopy.com/datafeed/EURUSD/2020/05/13_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-06-14,https://www.dukascopy.com/datafeed/EURUSD/2020/05/14_ticks.bi5,200,1,63a20f3b75d3debb3e0556deae7ae6c75e58ad298c323ce9e84214f589ea66b0,45747,9566,ok,
+2020-06-15,https://www.dukascopy.com/datafeed/EURUSD/2020/05/15_ticks.bi5,200,1,853d4f1286b504307864d02c5023ed86ad7eed3b971313dc5156f0d1ebe2c3a4,798827,168511,ok,
+2020-06-16,https://www.dukascopy.com/datafeed/EURUSD/2020/05/16_ticks.bi5,200,1,340b684ec4067618bf7ed6b8979f31c482823e04c1109d040d7eb26bf22cb58f,736634,153423,ok,
+2020-06-17,https://www.dukascopy.com/datafeed/EURUSD/2020/05/17_ticks.bi5,200,1,26a84afe3b016bc1d2b106f54e6de4bf099ebf024ff426a95728185e64bdcd87,684632,143275,ok,
+2020-06-18,https://www.dukascopy.com/datafeed/EURUSD/2020/05/18_ticks.bi5,200,1,0693198bbb10b2afc37b3749b120957f818d6a49dea9e350b68d5501b643d6c9,638399,134830,ok,
+2020-06-19,https://www.dukascopy.com/datafeed/EURUSD/2020/05/19_ticks.bi5,200,1,1315c0c98a73350ff950f01ff2c794f67dc74213ae8d1d1ed4327bd1582556ff,561355,119517,ok,
+2020-06-20,https://www.dukascopy.com/datafeed/EURUSD/2020/05/20_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-06-21,https://www.dukascopy.com/datafeed/EURUSD/2020/05/21_ticks.bi5,200,1,2111eb9b7cbf37682b8aa48be01a8da55272278c08978ef815f70c20a850d056,23050,4649,ok,
+2020-06-22,https://www.dukascopy.com/datafeed/EURUSD/2020/05/22_ticks.bi5,200,1,fd2b27ced1ab4b8dc74de57d250a7eda59eb6e10360123a176c961db86a50315,497463,103171,ok,
+2020-06-23,https://www.dukascopy.com/datafeed/EURUSD/2020/05/23_ticks.bi5,200,1,5bf7d4ca4da7fcff9167fbee1581d6c8c4d9aeb59dc872ed86cdea1b5feb65be,642877,137320,ok,
+2020-06-24,https://www.dukascopy.com/datafeed/EURUSD/2020/05/24_ticks.bi5,200,1,8f9db5b24045b20eea44e5cacf8c9b9e5bbdb31336f10b61b2cbcd176e75cec2,608669,130236,ok,
+2020-06-25,https://www.dukascopy.com/datafeed/EURUSD/2020/05/25_ticks.bi5,200,1,29ab4b2d576a920bad61acc8ab221ee5b6f6968509ba2de63c902983fcd1f4e2,613659,133245,ok,
+2020-06-26,https://www.dukascopy.com/datafeed/EURUSD/2020/05/26_ticks.bi5,200,1,922f981fb90146baf3fa9e5093d83b2a69ca5cbde4e414111ed7b0b018b65595,434789,90949,ok,
+2020-06-27,https://www.dukascopy.com/datafeed/EURUSD/2020/05/27_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-06-28,https://www.dukascopy.com/datafeed/EURUSD/2020/05/28_ticks.bi5,200,1,6dd01ea9840cf7a250e3dfd7465ffd7cc1b5af7bd378932efca7d2041b0771cb,16232,3379,ok,
+2020-06-29,https://www.dukascopy.com/datafeed/EURUSD/2020/05/29_ticks.bi5,200,1,c494285647574f89107fd855b124fe6a6ff838b78f7cf5e257b764bac580c21b,469465,98458,ok,
+2020-06-30,https://www.dukascopy.com/datafeed/EURUSD/2020/05/30_ticks.bi5,200,1,eb4a923fdf3d32efd5d4233262166a45685a3546e530da459528bc2ef4e2e172,516282,108106,ok,
+2020-07-01,https://www.dukascopy.com/datafeed/EURUSD/2020/06/01_ticks.bi5,200,2,ea6364ba4c25869c08d80bbaf5d40cc2220f56632d3e2c9770f04a6bee2feeb9,499236,102859,ok,
+2020-07-02,https://www.dukascopy.com/datafeed/EURUSD/2020/06/02_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-03,https://www.dukascopy.com/datafeed/EURUSD/2020/06/03_ticks.bi5,200,2,94a2942d8b7ea26030c072aed5b2cbc9bddb2cc00c2110d110c6e5f3652d27e3,404537,87121,ok,
+2020-07-04,https://www.dukascopy.com/datafeed/EURUSD/2020/06/04_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-05,https://www.dukascopy.com/datafeed/EURUSD/2020/06/05_ticks.bi5,200,2,58f01c4bdee8ddefdcf570720c7634cc5cb8e9ff925c667917ac99b629a85b30,8936,1759,ok,
+2020-07-06,https://www.dukascopy.com/datafeed/EURUSD/2020/06/06_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-07,https://www.dukascopy.com/datafeed/EURUSD/2020/06/07_ticks.bi5,200,2,6c35fb757c177725284ce17a8e5fa48909d5d72489f3d0bfe48fafa6e7ba9cba,474366,97199,ok,
+2020-07-08,https://www.dukascopy.com/datafeed/EURUSD/2020/06/08_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-09,https://www.dukascopy.com/datafeed/EURUSD/2020/06/09_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-10,https://www.dukascopy.com/datafeed/EURUSD/2020/06/10_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-11,https://www.dukascopy.com/datafeed/EURUSD/2020/06/11_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-12,https://www.dukascopy.com/datafeed/EURUSD/2020/06/12_ticks.bi5,200,2,f9691e939af0e67eaae05503160b671b5c709a9b1255bfca4eb388905481c9db,20471,3873,ok,
+2020-07-13,https://www.dukascopy.com/datafeed/EURUSD/2020/06/13_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-14,https://www.dukascopy.com/datafeed/EURUSD/2020/06/14_ticks.bi5,200,2,055849f6f39e9b35b124b82347192e730e52ca7af5829971f67e77a4e9564d4a,621230,124780,ok,
+2020-07-15,https://www.dukascopy.com/datafeed/EURUSD/2020/06/15_ticks.bi5,200,2,b72eb545b827e19641efd61386333c4bbcf9e286a5909da8dea5c984107f69bc,559671,111154,ok,
+2020-07-16,https://www.dukascopy.com/datafeed/EURUSD/2020/06/16_ticks.bi5,200,2,0df0ed27b1c3b91998b47cade6fdeac07467712b35cbfb9cad23f4cc6f811f6b,602167,121162,ok,
+2020-07-17,https://www.dukascopy.com/datafeed/EURUSD/2020/06/17_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-18,https://www.dukascopy.com/datafeed/EURUSD/2020/06/18_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-19,https://www.dukascopy.com/datafeed/EURUSD/2020/06/19_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-20,https://www.dukascopy.com/datafeed/EURUSD/2020/06/20_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-21,https://www.dukascopy.com/datafeed/EURUSD/2020/06/21_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-22,https://www.dukascopy.com/datafeed/EURUSD/2020/06/22_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-23,https://www.dukascopy.com/datafeed/EURUSD/2020/06/23_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-24,https://www.dukascopy.com/datafeed/EURUSD/2020/06/24_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-25,https://www.dukascopy.com/datafeed/EURUSD/2020/06/25_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-26,https://www.dukascopy.com/datafeed/EURUSD/2020/06/26_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-27,https://www.dukascopy.com/datafeed/EURUSD/2020/06/27_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-28,https://www.dukascopy.com/datafeed/EURUSD/2020/06/28_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-29,https://www.dukascopy.com/datafeed/EURUSD/2020/06/29_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-30,https://www.dukascopy.com/datafeed/EURUSD/2020/06/30_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-07-31,https://www.dukascopy.com/datafeed/EURUSD/2020/06/31_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-01,https://www.dukascopy.com/datafeed/EURUSD/2020/07/01_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-02,https://www.dukascopy.com/datafeed/EURUSD/2020/07/02_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-03,https://www.dukascopy.com/datafeed/EURUSD/2020/07/03_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-04,https://www.dukascopy.com/datafeed/EURUSD/2020/07/04_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-05,https://www.dukascopy.com/datafeed/EURUSD/2020/07/05_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-06,https://www.dukascopy.com/datafeed/EURUSD/2020/07/06_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-07,https://www.dukascopy.com/datafeed/EURUSD/2020/07/07_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-08,https://www.dukascopy.com/datafeed/EURUSD/2020/07/08_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-09,https://www.dukascopy.com/datafeed/EURUSD/2020/07/09_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-10,https://www.dukascopy.com/datafeed/EURUSD/2020/07/10_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-11,https://www.dukascopy.com/datafeed/EURUSD/2020/07/11_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-12,https://www.dukascopy.com/datafeed/EURUSD/2020/07/12_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-13,https://www.dukascopy.com/datafeed/EURUSD/2020/07/13_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-14,https://www.dukascopy.com/datafeed/EURUSD/2020/07/14_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-15,https://www.dukascopy.com/datafeed/EURUSD/2020/07/15_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-16,https://www.dukascopy.com/datafeed/EURUSD/2020/07/16_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-17,https://www.dukascopy.com/datafeed/EURUSD/2020/07/17_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-18,https://www.dukascopy.com/datafeed/EURUSD/2020/07/18_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-19,https://www.dukascopy.com/datafeed/EURUSD/2020/07/19_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-20,https://www.dukascopy.com/datafeed/EURUSD/2020/07/20_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-21,https://www.dukascopy.com/datafeed/EURUSD/2020/07/21_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-22,https://www.dukascopy.com/datafeed/EURUSD/2020/07/22_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-23,https://www.dukascopy.com/datafeed/EURUSD/2020/07/23_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-24,https://www.dukascopy.com/datafeed/EURUSD/2020/07/24_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-25,https://www.dukascopy.com/datafeed/EURUSD/2020/07/25_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-26,https://www.dukascopy.com/datafeed/EURUSD/2020/07/26_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-27,https://www.dukascopy.com/datafeed/EURUSD/2020/07/27_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-28,https://www.dukascopy.com/datafeed/EURUSD/2020/07/28_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-29,https://www.dukascopy.com/datafeed/EURUSD/2020/07/29_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-30,https://www.dukascopy.com/datafeed/EURUSD/2020/07/30_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-08-31,https://www.dukascopy.com/datafeed/EURUSD/2020/07/31_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-09-01,https://www.dukascopy.com/datafeed/EURUSD/2020/08/01_ticks.bi5,200,1,9d595b1b57896843b98914981914ba92e1a38f3414c81e980532d3920c37947b,719421,143267,ok,
+2020-09-02,https://www.dukascopy.com/datafeed/EURUSD/2020/08/02_ticks.bi5,200,1,e2295eb14b1d3de0710f6ad4d7a647cab864227c8e09fff7637ad6176f51d5f3,735581,144339,ok,
+2020-09-03,https://www.dukascopy.com/datafeed/EURUSD/2020/08/03_ticks.bi5,200,1,7625629b62521df4ffaefcfc09686da850d8336aa65408838e4ad174a1aeb93a,838251,165604,ok,
+2020-09-04,https://www.dukascopy.com/datafeed/EURUSD/2020/08/04_ticks.bi5,200,1,8ebc725f0883cf43dc4616461d2997d10667e6e06f22066e35f3698e0d8904b2,860676,170100,ok,
+2020-09-05,https://www.dukascopy.com/datafeed/EURUSD/2020/08/05_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-09-06,https://www.dukascopy.com/datafeed/EURUSD/2020/08/06_ticks.bi5,200,1,58e898c2cecc49296601a4156189b4ae3cffb1e15a9e63fac79e7fefff244034,23030,4448,ok,
+2020-09-07,https://www.dukascopy.com/datafeed/EURUSD/2020/08/07_ticks.bi5,200,1,1186a2917f98a1076ed9c2271d3497def9f4751ea00eba7ebf75eb9ef9e903c1,475604,96548,ok,
+2020-09-08,https://www.dukascopy.com/datafeed/EURUSD/2020/08/08_ticks.bi5,200,1,70b63b656f13184d9923917b4df8d0e3034898b63d3200deae7037ee91111d93,850539,171935,ok,
+2020-09-09,https://www.dukascopy.com/datafeed/EURUSD/2020/08/09_ticks.bi5,200,1,a7214c11f61f5f047f46101809741eedc0fd80cba6dae8635bf956d3e2b8485b,773725,153686,ok,
+2020-09-10,https://www.dukascopy.com/datafeed/EURUSD/2020/08/10_ticks.bi5,200,1,496fb7d8e5b838bf76838c7823e42979b5c4187e7821e82143fb01234340bc32,895966,177978,ok,
+2020-09-11,https://www.dukascopy.com/datafeed/EURUSD/2020/08/11_ticks.bi5,200,1,96cab1e1f26b4245e013542683bca645977972cb4d26e514d7c4058e1d7fd958,636798,127150,ok,
+2020-09-12,https://www.dukascopy.com/datafeed/EURUSD/2020/08/12_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-09-13,https://www.dukascopy.com/datafeed/EURUSD/2020/08/13_ticks.bi5,200,1,7a55726804f297a92c8ebb55aa7ae5df1cddc7b69b756e5f17ea6eeeff480ea9,20384,3926,ok,
+2020-09-14,https://www.dukascopy.com/datafeed/EURUSD/2020/08/14_ticks.bi5,200,1,af7f468ed66f72b0fa72c99792e0775130785162d62c82d7b38cf0b9f9cf4565,559303,112396,ok,
+2020-09-15,https://www.dukascopy.com/datafeed/EURUSD/2020/08/15_ticks.bi5,200,1,7a6e1cb93bd39c43d1cc3a3069ca7df91d1a4ff742b8b320e97fb238b4ada8a3,621731,125700,ok,
+2020-09-16,https://www.dukascopy.com/datafeed/EURUSD/2020/08/16_ticks.bi5,200,1,fa33c426258a7465ca8432360ebc732d43137443562a8aafcb6910a010591a19,778871,156455,ok,
+2020-09-17,https://www.dukascopy.com/datafeed/EURUSD/2020/08/17_ticks.bi5,200,1,b640b4548d22084c3a352e74e73c603c89a1a7c3f6bc48e0adf4555beb9bca26,868098,176948,ok,
+2020-09-18,https://www.dukascopy.com/datafeed/EURUSD/2020/08/18_ticks.bi5,200,1,d685b40eb711356266cf492930dfc608af24fc6f127291a8495d95216e06c44d,658918,134140,ok,
+2020-09-19,https://www.dukascopy.com/datafeed/EURUSD/2020/08/19_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-09-20,https://www.dukascopy.com/datafeed/EURUSD/2020/08/20_ticks.bi5,200,1,26beedbb233cc676e5139b74ad4882f3568721c6fa79ef59622e1bea3f6a0fe6,28028,5500,ok,
+2020-09-21,https://www.dukascopy.com/datafeed/EURUSD/2020/08/21_ticks.bi5,200,1,126fe1a41e335ae430c3147b1a5f88dc2a2ae3c9a54f0d8a08f1448715d84d5d,824709,164967,ok,
+2020-09-22,https://www.dukascopy.com/datafeed/EURUSD/2020/08/22_ticks.bi5,200,1,b23c00f1efe02c835f63ae47ca6bd21fd5585a81f705af7f39c9692456e145e5,802918,160297,ok,
+2020-09-23,https://www.dukascopy.com/datafeed/EURUSD/2020/08/23_ticks.bi5,200,1,5ebae1ce83c53d0f8af87d34bed10f451e51f0d95fc634e4431012a690c1ba58,823558,168982,ok,
+2020-09-24,https://www.dukascopy.com/datafeed/EURUSD/2020/08/24_ticks.bi5,200,1,b4c0ad9ccaacc28df542e6cf5ae41da1e8c8516aca3aaddf380f919af9dd85a3,829409,166488,ok,
+2020-09-25,https://www.dukascopy.com/datafeed/EURUSD/2020/08/25_ticks.bi5,200,1,6075b423e1d3689bc9fdea1768fc0994d6211f25fe0ed14c382f674fd505e256,721026,144166,ok,
+2020-09-26,https://www.dukascopy.com/datafeed/EURUSD/2020/08/26_ticks.bi5,200,1,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,0,0,empty,
+2020-09-27,https://www.dukascopy.com/datafeed/EURUSD/2020/08/27_ticks.bi5,200,1,c7dfa83eef0d0258b89fb30c99c0a9f82be1fee9486a9d0a32139570969637c1,18869,3616,ok,
+2020-09-28,https://www.dukascopy.com/datafeed/EURUSD/2020/08/28_ticks.bi5,200,1,7205888c98e0535e3ce09f8bf839abba9d086ad5687753be510646d7b3ed0161,650838,129777,ok,
+2020-09-29,https://www.dukascopy.com/datafeed/EURUSD/2020/08/29_ticks.bi5,200,1,519f8e98f31142c8de83cee2b13acc23aa27cf510ded98b1673eb11e1455df85,641868,128531,ok,
+2020-09-30,https://www.dukascopy.com/datafeed/EURUSD/2020/08/30_ticks.bi5,200,1,690247efb84e3fdd7c770205af0769d3fee69121bd07096ce00196ee070d1db3,871819,177569,ok,

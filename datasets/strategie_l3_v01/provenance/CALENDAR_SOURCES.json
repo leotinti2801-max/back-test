@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ECB_2020",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2020/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "dd6bf93f5f576c98b43f3fa3c4aa17ffd7715c3d7ac4d949492b341ca0744b6d",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_2021",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2021/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "a30dd6312dcdab1983a4764c29627313ab1a1ab11b1bead538afc17614faaa5e",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_2022",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2022/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "9b7a3064ad5a824bfff58f35089f37b8499c07b88a8acc464a8eb14b72a1e794",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_2023",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2023/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "a7d5c3f7d479052c91ca1dc409c3dee90dfc8c8bb99b5cb0a7f606b243c47635",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_2024",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2024/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "4c957ea8240d8ff04f32faa71a80d3078b7f2b6c1e4a3255616814a4b47d3e2d",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_2025",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2025/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "d7a568db1045be795f4269039c8228670ce2bf88de276a40f715f49fc502f5ed",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_2026",
+    "url": "https://www.ecb.europa.eu/press/govcdec/mopo/2026/html/index_include.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "9b1634714497f5b6e877834a3bf776741338093ac3c732b623b6481eec5542a2",
+    "access": "direct_https"
+  },
+  {
+    "id": "FOMC_CALENDAR",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "f3f8e21c175d32960bfc2f36576475591c9cb7c4b8f352733442c79a94f04801",
+    "access": "direct_https"
+  },
+  {
+    "id": "ECB_FUTURE_CALENDAR",
+    "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "613e11208c9c69834934128e1488e30d0d82d5233e17ea32530609c93bc4d5d2",
+    "access": "direct_https"
+  },
+  {
+    "id": "UK_BANK_HOLIDAYS",
+    "url": "https://www.gov.uk/bank-holidays.json",
+    "retrieved_on": "2026-11-07",
+    "raw_sha256": "538b3482c28b85ecd2db606a0d5ae6ad17248900b6498700ce0a48d26a3ecde6",
+    "access": "direct_https"
+  },
+  {
+    "id": "FOMC_2020",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2020.htm",
+    "retrieved_on": "2026-11-07",
+    "access": "web_retrieval",
+    "raw_sha256": null
+  },
+  {
+    "id": "US_FEDERAL_HOLIDAYS",
+    "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+    "retrieved_on": "2026-11-07",
+    "access": "web_retrieval; direct_https_access_denied",
+    "raw_sha256": null
+  }
+]

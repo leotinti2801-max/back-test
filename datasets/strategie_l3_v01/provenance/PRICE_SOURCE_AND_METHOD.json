@@ -1,0 +1,25 @@
+{
+  "source": "Dukascopy public daily tick archives",
+  "base_url": "https://www.dukascopy.com/datafeed/",
+  "path_template": "EURUSD/{year}/{zero_based_month:02d}/{day:02d}_ticks.bi5",
+  "daily_time_base": "milliseconds since 00:00 UTC of the path date",
+  "binary_record": "big-endian >IIIff : ms, ask_integer, bid_integer, ask_volume, bid_volume",
+  "eurusd_price_divisor": 100000,
+  "compression": "LZMA; Python lzma.decompress",
+  "collector_version": "l3-data-collector/1.0.0",
+  "collector_sha256": "960fe038a50de5bb8c761fa87c64080544de9e5320c98aa9626280650d599df0",
+  "python_version": "3.12.14",
+  "aggregation": "UTC minute buckets [start, start+60s); separate bid and ask OHLC from the same ticks; source order retained for equal timestamps; n_ticks counts all source records; no resampling fill; no outlier filtering",
+  "source_integrity": "Every successfully acquired compressed day has SHA256 in daily_source_ledger.csv. HTTP errors are not treated as empty-market days.",
+  "daily_format_check": {
+    "date": "2021-01-04",
+    "compared_hour_utc": "12:00",
+    "daily_tick_records": 109520,
+    "hourly_tick_records": 5005,
+    "daily_hour_equals_independent_hourly_file": true,
+    "hourly_source_url": "https://www.dukascopy.com/datafeed/EURUSD/2021/00/04/12h_ticks.bi5",
+    "hourly_source_sha256": "3b234528977fd64570ff01938801dc147b84303504186101b342b3a082185884"
+  },
+  "official_format_reference": "https://www.dukascopy.com/wiki/en/development/data-export/",
+  "no_ftmo_equivalence_claim": true
+}

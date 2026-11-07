@@ -1,0 +1,5 @@
+date,banque,nature,source_url
+2020-03-19,FOMC,liquidite_swap_lines,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200319b.htm
+2020-03-31,FOMC,liquidite_FIMA_repo,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200331a.htm
+2020-08-27,FOMC,cadre_de_politique_monetaire,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200827a.htm
+2025-08-22,FOMC,cadre_de_politique_monetaire,https://www.federalreserve.gov/newsevents/pressreleases/monetary20250822a.htm

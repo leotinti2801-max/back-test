@@ -1,0 +1,23 @@
+{
+  "status": "incomplete_acquisition_provider_bulk_access_required",
+  "requested_start_utc": "2020-01-01T00:00:00Z",
+  "requested_end_utc": "2026-10-16T23:59:00Z",
+  "months_requested": 82,
+  "monthly_csv_files": 8,
+  "months_with_coverage_audit": 9,
+  "months_without_acquisition_audit": 73,
+  "remaining_source_access": "Dukascopy S3 bulk export requires AWS credentials and Requester Pays access; no AWS credentials configured",
+  "public_feed_blocker": "HTTP 429 Too Many Requests; provider directs bulk collection to https://wiki.dukascopy.com/en/development/data-export/",
+  "utc_minutes_with_ticks": 209796,
+  "utc_minutes_without_output_bar": 184764,
+  "source_days": 274,
+  "unavailable_or_invalid_source_days": 70,
+  "backtest_executed": false,
+  "returns_calculated": false,
+  "spreads_calculated": false,
+  "strategy_window_statistics_calculated": false,
+  "frozen_strategy_modified": false,
+  "validation": "data_integrity_only",
+  "calendar_cutoff_for_observed_decisions": "2026-11-07",
+  "future_decisions_separate": true
+}
