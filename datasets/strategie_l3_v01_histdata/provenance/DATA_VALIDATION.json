@@ -1,0 +1,18 @@
+{
+  "validated_at_utc": "2026-11-07T17:35:57.488842+00:00",
+  "checks_passed": [
+    "82 monthly CSV schemas",
+    "UTC period boundaries",
+    "strict chronology and uniqueness of output minutes",
+    "independent conversion and OHLC reconciliation on first 10000 source ticks",
+    "OHLC order consistency on every output bar",
+    "all tick counts reconciled to source archive ledger",
+    "full partition of UTC minutes into present/absent",
+    "all successfully decoded source CSVs checked through ZIP CRC",
+    "unmodified original archive SHA256 and uncompressed CSV SHA256 logged",
+    "all existing Dukascopy/calendar/frozen identities preserved"
+  ],
+  "invalid_source_rows": 0,
+  "source_failures": [],
+  "no_strategy_execution": true
+}

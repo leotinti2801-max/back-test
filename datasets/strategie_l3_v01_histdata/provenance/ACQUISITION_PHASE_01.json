@@ -1,0 +1,18 @@
+{
+  "collector_version": "histdata-l3-acquisition/1.0.0",
+  "collector_source_sha256": "3fdb91397919dcfd6c3da2487b2313b6f6e7e7092e7f4439ce04fbd77221c38e",
+  "aggregation_source_sha256": "4e94bba6f20a7efce9dd72407515a9ae8514abd68cd8187cafbe1155ef52d975",
+  "started_at_utc": "2026-11-07T17:20:59.773785+00:00",
+  "status": "stopped_by_control",
+  "authorized_source": "HistData Generic ASCII ticks bid/ask",
+  "tick_download_authorized": true,
+  "backtest_executed": false,
+  "returns_or_spreads_calculated": false,
+  "frozen_strategy_modified": false,
+  "completed_source_months": 11,
+  "source_months_requested": 83,
+  "http_requests": 20,
+  "last_updated_at_utc": "2026-11-07T17:24:29.490165+00:00",
+  "attempted_source_months": 11,
+  "latest_source_month": "202010"
+}

@@ -1,0 +1,28 @@
+{
+  "source_specification_url": "https://www.histdata.com/f-a-q/data-files-detailed-specification/",
+  "source_faq_url": "https://www.histdata.com/f-a-q/",
+  "source_page_template": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/eurusd/{year}/{month}",
+  "download_method": "POST official file_down form to https://www.histdata.com/get.php; form token not published",
+  "source_csv_schema": [
+    "YYYYMMDD HHMMSSNNN",
+    "bid",
+    "ask",
+    "volume"
+  ],
+  "source_timezone": "fixed UTC-05:00 (EST); no daylight saving time",
+  "conversion": "add exactly 5 hours and partition by UTC minute/month; source 2019-12 included for the left UTC boundary",
+  "minute_bucket": "[start,start+60seconds)",
+  "equal_timestamps": "all source records retained; source order breaks equal-time ties",
+  "out_of_order_timestamps": "open is earliest timestamp, close latest; OHLC extremes across all received ticks; counts of backward transitions reported per source archive",
+  "n_ticks": "source record count, not the source volume column",
+  "prices": "decimal integer representation at 1e-9; output keeps at least 5 decimal places and all source precision up to 9; no reconstructed ask",
+  "missing_minutes": "enumerated over every UTC minute, including weekends and holidays; no interpolation, forward-fill or inference that an absent source tick certifies market closure",
+  "collector_versions": [
+    "histdata-l3-acquisition/1.0.0",
+    "histdata-l3-acquisition/1.1.0"
+  ],
+  "collector_code_sha256": "57555725ebc833e7a2a3c9bcd4c38f4ef9b79771982855fa27289b5d1fe8770d",
+  "aggregation_code_sha256": "4e94bba6f20a7efce9dd72407515a9ae8514abd68cd8187cafbe1155ef52d975",
+  "aggregation_runtime": "C++17, standard library; archive decompression and SHA256 via Python standard library",
+  "data_only": true
+}
