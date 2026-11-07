@@ -1,0 +1,75 @@
+{
+  "zip_sha256": "3b366b02372139e3062e3bdbf384decdf8539574a93464d9c20fbab3933f2a1a",
+  "manifest_sha256": "b79ec927ba5501a05238fa65758a8fd401888a53cc315ada173400e30dcc045d",
+  "independent_expected_hashes_provided": false,
+  "entries": 14,
+  "files_checked": 11,
+  "files": [
+    {
+      "file": "DEMANDE_DONNEES_TICKS.md",
+      "expected": "7270e30081bad10682173acc6ad3fc4ceb5c1b47ab98d2f45b218a066bab63cf",
+      "actual": "7270e30081bad10682173acc6ad3fc4ceb5c1b47ab98d2f45b218a066bab63cf",
+      "matches": true
+    },
+    {
+      "file": "JOURNAL_TESTS.txt",
+      "expected": "af68446e9cbb2fe8de41fa3fcb06933854ced7719ed98d1cfb3775445ad43f62",
+      "actual": "af68446e9cbb2fe8de41fa3fcb06933854ced7719ed98d1cfb3775445ad43f62",
+      "matches": true
+    },
+    {
+      "file": "README.md",
+      "expected": "1a3959da9399e59af59f23309a740728c53a9b6db1d6465e7803f412947a8236",
+      "actual": "1a3959da9399e59af59f23309a740728c53a9b6db1d6465e7803f412947a8236",
+      "matches": true
+    },
+    {
+      "file": "analyse_couts.py",
+      "expected": "f4f58a8650389548103fa2e307fe6fe782badcba068cac5717010f66a3d18449",
+      "actual": "f4f58a8650389548103fa2e307fe6fe782badcba068cac5717010f66a3d18449",
+      "matches": true
+    },
+    {
+      "file": "annonces_MODELE.csv",
+      "expected": "b6ced369c5d6f00f0b2377c2cf561eecbf477e4d19291111651be78663366434",
+      "actual": "b6ced369c5d6f00f0b2377c2cf561eecbf477e4d19291111651be78663366434",
+      "matches": true
+    },
+    {
+      "file": "collecte_couts.py",
+      "expected": "292505278362e133b37e2be633108397b9f23f624eeae07273ee9e44aaf815aa",
+      "actual": "292505278362e133b37e2be633108397b9f23f624eeae07273ee9e44aaf815aa",
+      "matches": true
+    },
+    {
+      "file": "config_couts.json",
+      "expected": "bbdcb9164cda9589ef39ea3a7e8085a6b36bac5029fa670bbe63cb6e6a9006cf",
+      "actual": "bbdcb9164cda9589ef39ea3a7e8085a6b36bac5029fa670bbe63cb6e6a9006cf",
+      "matches": true
+    },
+    {
+      "file": "lancer_analyse.bat",
+      "expected": "ee30218dd39243cc78a1953a9c78244fdb75120e26528aa92f711f4b19f3a786",
+      "actual": "ee30218dd39243cc78a1953a9c78244fdb75120e26528aa92f711f4b19f3a786",
+      "matches": true
+    },
+    {
+      "file": "lancer_collecte.bat",
+      "expected": "6c36775affcfa5c31b015b8c40c87172995bbae1b3f0b3b28c3937d32e760b1c",
+      "actual": "6c36775affcfa5c31b015b8c40c87172995bbae1b3f0b3b28c3937d32e760b1c",
+      "matches": true
+    },
+    {
+      "file": "lancer_tests.bat",
+      "expected": "9c46acdb03fe994396c353312ab04c1fa47eb8793bf0882392d723f10e19c3c2",
+      "actual": "9c46acdb03fe994396c353312ab04c1fa47eb8793bf0882392d723f10e19c3c2",
+      "matches": true
+    },
+    {
+      "file": "tests/test_couts.py",
+      "expected": "7e1f06fc3e5db88e70810b99ac145e775fe65179bac34081d5adc91994468114",
+      "actual": "7e1f06fc3e5db88e70810b99ac145e775fe65179bac34081d5adc91994468114",
+      "matches": true
+    }
+  ]
+}
