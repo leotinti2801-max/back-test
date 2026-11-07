@@ -28,3 +28,7 @@ Ces listes civiles/bancaires ne constituent pas un calendrier des fermetures de 
 Lire `STATUT_LIVRAISON.json` avant utilisation ; le statut distingue des minutes sans ticks des jours non acquis. `provenance/DATA_VALIDATION.json` ne contient que des contrôles de données.
 Les empreintes de tous les fichiers livrés sont dans `MANIFEST_SHA256.json`, sauf celle du manifeste lui-même. L'identité et la vérification du lot gelé reçu sont dans `provenance/FROZEN_LOT_IDENTITY.json`.
 Aucun module de stratégie n'a été importé ou exécuté par la collecte. La fiche, ses horaires et ses résultats ne servent pas à sélectionner les données.
+
+## Reprise à débit limité — 7 novembre 2026
+
+Le registre des sources a servi de point de reprise. Une seule requête à la fois, intervalle de 3 à 5 secondes ; après un HTTP 429, aucune nouvelle requête avant une pause de 10 minutes. Les requêtes et leur chronologie figurent dans `provenance/ACQUISITION_REQUEST_LOG.csv`, le checkpoint dans `provenance/ACQUISITION_RESUME_STATE.json`. Deux 429 consécutifs après la pause déclenchent la proposition d’une autre source, sans téléchargement avant accord. Les journées initialement en échec restent dans la file tant qu’elles ne sont pas acquises. Aucun indicateur ni résultat de stratégie n’est produit.

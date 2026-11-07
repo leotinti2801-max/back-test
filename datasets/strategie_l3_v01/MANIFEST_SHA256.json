@@ -2,8 +2,8 @@
   "algorithm": "SHA256",
   "self_excluded": true,
   "files": {
-    "README.md": "42f269877db263dd172f8154700bb29e33f7a05530a60b07fe2893ad925705e3",
-    "STATUT_LIVRAISON.json": "f15ac92d70ed515ae52d3c2f5c2bca71225b41b5d88acae8e05518731a3b3cc8",
+    "README.md": "1d6bd27c03217f7d2a2cea75c16c0e3240c2d0663034d8b887d72c3a5282214b",
+    "STATUT_LIVRAISON.json": "df7e576b93a74bd71583604f5acb14fa345cf54602ab24b7a88e54862049defd",
     "calendriers/DECISIONS_BCE_FOMC_2020_2026.csv": "5dd3d89ce357f2b7767bf53ffa87f12b385a94caf822c640f7416ed41cbb907a",
     "calendriers/DECISIONS_NATURE.csv": "fa76cb6ccfec32f6894c857a419373e600a31f3e7ce0e8ff0a965f248eb79513",
     "calendriers/DECISIONS_PLANIFIEES_FIN_2026.csv": "6b614e7550aed9abadbd86d55a3216b651ec92edf32cda16d6fa89d4e772b62d",
@@ -27,13 +27,16 @@
     "minutes_manquantes/MINUTES_MANQUANTES_2020-07.csv": "06a6f6c99636e5e06fc5fb7d85f1f76315502f648c0605f79b2c14dafb881de2",
     "minutes_manquantes/MINUTES_MANQUANTES_2020-08.csv": "89c8dabf8584cbeeebe5e62907bbabd9edab540d01542de27efbc0dfd210b11a",
     "minutes_manquantes/MINUTES_MANQUANTES_2020-09.csv": "b59936424faf6ff8ce9be1f72a1b72dd0eaca980a86acc2ff277e75170c41688",
+    "provenance/ACQUISITION_REQUEST_LOG.csv": "7bb2586928a05d89eedcc2328129f07d5f23c5fddbe9138c2efc52a3a4ec7f6e",
+    "provenance/ACQUISITION_RESUME_STATE.json": "05de7eadac729af6e5a24d91f94ef98a3689a66829298e3760a9390d9272c3ff",
     "provenance/AVAILABILITY_82_MONTHS.csv": "5260f5d654df83b7af15219418a5a3cd80bd7c28ddaf9f56d3487652b59097f9",
     "provenance/CALENDAR_SOURCES.json": "9b0e553eac319dc46dadd807890e84124cbf54d91819991bca2138fec2083598",
-    "provenance/DATA_VALIDATION.json": "641a3e2cbdb47a36c0190ce98130cd48276c24ae2447c05d49d25371d3ecfcd8",
+    "provenance/DATA_VALIDATION.json": "c96f34d94c1f66916d4f85fc15d179c040b9627f6f33dfaaec5813d35add8bde",
+    "provenance/FALLBACK_PROPOSAL.md": "c3d9edf2cbf3d8c829434c31b5d6f7ef605cc67b4ec7705e458687585b7e5704",
     "provenance/FROZEN_LOT_IDENTITY.json": "e4192bed0e221c2825d35277dbd0785d17753430d16f89b2e2b203b003ca30a9",
     "provenance/JOURS_FERIES_SOURCES_ET_REGIONS.csv": "3dace0a1b0e96850471048da4969cc56dc9db85574d7fef4f3c3de7f3e42d37e",
-    "provenance/PRICE_SOURCE_AND_METHOD.json": "d143af2e48770a8b82e8da470d2b11d58fe657ae45ffa1ef396e5260315388f6",
-    "provenance/daily_source_ledger.csv": "c0c580762f8b8ecb3089fdab9011dafd502daae13dc11fbb393e3ec72b732b6a",
+    "provenance/PRICE_SOURCE_AND_METHOD.json": "e3961bff46b57d028ff8c6476a3fd7c8dff49425b4acddd86bc62a10669ec5bf",
+    "provenance/daily_source_ledger.csv": "f53f9ad7add086349ae77fc5f5b8f68aec10d20711087cb45c6d793cf4d36f19",
     "provenance/monthly_coverage.csv": "92c1cbc5ed0ed40b7e14463d24d5f15754b527437e5ba6e833e0b7df2f6038f3"
   }
 }

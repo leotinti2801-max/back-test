@@ -1,6 +1,6 @@
 {
-  "validated_at_utc": "2026-11-07T16:42:46.405888+00:00",
-  "checks": "schema, chronology, uniqueness, positive tick counts, OHLC consistency, exact partition of all UTC minutes, tick-count reconciliation to source ledger, calendar schemas, frozen-lot integrity",
+  "validated_at_utc": "2026-11-07T17:10:53.865481+00:00",
+  "checks": "schema, chronology, uniqueness, positive tick counts, OHLC consistency, exact partition of UTC minutes, tick-count reconciliation to source ledger, calendar and frozen-lot identities unchanged",
   "monthly": [
     {
       "month": "2020-01",
@@ -44,12 +44,12 @@
       "date": "2020-01-01",
       "source_url": "https://www.dukascopy.com/datafeed/EURUSD/2020/00/01_ticks.bi5",
       "http_status": "429",
-      "attempts": "4",
+      "attempts": "6",
       "raw_sha256": "",
       "raw_bytes": "",
       "n_ticks": "",
       "status": "unavailable",
-      "error": "HTTP 429"
+      "error": "HTTP 429 {\"error\": \"Too Many Requests. For instructions, see: https://wiki.dukascopy.com/en/development/data-export/\"}"
     },
     {
       "date": "2020-01-02",

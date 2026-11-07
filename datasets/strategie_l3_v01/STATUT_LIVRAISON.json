@@ -1,5 +1,5 @@
 {
-  "status": "incomplete_acquisition_provider_bulk_access_required",
+  "status": "incomplete_persistent_http_429_awaiting_fallback_agreement",
   "requested_start_utc": "2020-01-01T00:00:00Z",
   "requested_end_utc": "2026-10-16T23:59:00Z",
   "months_requested": 82,
@@ -19,5 +19,17 @@
   "frozen_strategy_modified": false,
   "validation": "data_integrity_only",
   "calendar_cutoff_for_observed_decisions": "2026-11-07",
-  "future_decisions_separate": true
+  "future_decisions_separate": true,
+  "public_feed_resume_policy": {
+    "delay_between_requests_seconds": [
+      3,
+      5
+    ],
+    "pause_after_http_429_seconds": 600,
+    "stop_for_fallback_proposal_after_consecutive_429": 2
+  },
+  "resume_network_attempts": 2,
+  "resume_successful_days": 0,
+  "next_request_not_before_utc": "2026-11-07T17:20:29.017895+00:00",
+  "fallback_downloads_authorized": false
 }

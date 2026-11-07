@@ -21,5 +21,13 @@
     "hourly_source_sha256": "3b234528977fd64570ff01938801dc147b84303504186101b342b3a082185884"
   },
   "official_format_reference": "https://www.dukascopy.com/wiki/en/development/data-export/",
-  "no_ftmo_equivalence_claim": true
+  "no_ftmo_equivalence_claim": true,
+  "resume_collector": {
+    "version": "l3-data-collector/1.1.0",
+    "source_sha256_at_startup": null,
+    "requests": "sequential; 3 to 5 seconds after the previous response",
+    "after_429": "wait at least 600 seconds before retry; retain an outstanding cooldown when stopping on persistent 429",
+    "ledger": "successful source days skipped; failed days first; attempts cumulative; preserve row schema",
+    "m1_aggregation_changed": false
+  }
 }

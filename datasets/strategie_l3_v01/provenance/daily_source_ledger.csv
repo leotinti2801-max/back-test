@@ -1,5 +1,5 @@
 date,source_url,http_status,attempts,raw_sha256,raw_bytes,n_ticks,status,error
-2020-01-01,https://www.dukascopy.com/datafeed/EURUSD/2020/00/01_ticks.bi5,429,4,,,,unavailable,HTTP 429
+2020-01-01,https://www.dukascopy.com/datafeed/EURUSD/2020/00/01_ticks.bi5,429,6,,,,unavailable,"HTTP 429 {""error"": ""Too Many Requests. For instructions, see: https://wiki.dukascopy.com/en/development/data-export/""}"
 2020-01-02,https://www.dukascopy.com/datafeed/EURUSD/2020/00/02_ticks.bi5,429,4,,,,unavailable,HTTP 429
 2020-01-03,https://www.dukascopy.com/datafeed/EURUSD/2020/00/03_ticks.bi5,429,4,,,,unavailable,HTTP 429
 2020-01-04,https://www.dukascopy.com/datafeed/EURUSD/2020/00/04_ticks.bi5,429,4,,,,unavailable,HTTP 429

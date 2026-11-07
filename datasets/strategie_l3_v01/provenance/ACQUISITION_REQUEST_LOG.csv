@@ -1,0 +1,3 @@
+request_started_at_utc,request_finished_at_utc,date,source_url,http_status,outcome,retry_after_header
+2026-11-07T16:59:53.717844+00:00,2026-11-07T17:00:11.522989+00:00,2020-01-01,https://www.dukascopy.com/datafeed/EURUSD/2020/00/01_ticks.bi5,429,unavailable,
+2026-11-07T17:10:12.578058+00:00,2026-11-07T17:10:27.987977+00:00,2020-01-01,https://www.dukascopy.com/datafeed/EURUSD/2020/00/01_ticks.bi5,429,unavailable,
