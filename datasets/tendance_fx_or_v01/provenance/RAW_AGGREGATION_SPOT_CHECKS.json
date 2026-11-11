@@ -1,0 +1,35 @@
+{
+  "method": "independent Python Decimal parsing of original ZIP CSV ticks vs C++ partial aggregates",
+  "checks": [
+    {
+      "source_month": "2020-01",
+      "source_label_minute": "20200107 1200",
+      "corrected_utc_minute": "2020-01-07T17:00:00Z",
+      "source_tick_count": 249,
+      "bid_ask_ohlc_and_count": "MATCH"
+    },
+    {
+      "source_month": "2020-03",
+      "source_label_minute": "20200317 1200",
+      "corrected_utc_minute": "2020-03-17T17:00:00Z",
+      "source_tick_count": 354,
+      "bid_ask_ohlc_and_count": "MATCH"
+    },
+    {
+      "source_month": "2020-07",
+      "source_label_minute": "20200714 1200",
+      "corrected_utc_minute": "2020-07-14T16:00:00Z",
+      "source_tick_count": 293,
+      "bid_ask_ohlc_and_count": "MATCH"
+    },
+    {
+      "source_month": "2020-10",
+      "source_label_minute": "20201027 1200",
+      "corrected_utc_minute": "2020-10-27T17:00:00Z",
+      "source_tick_count": 123,
+      "bid_ask_ohlc_and_count": "MATCH"
+    }
+  ],
+  "independent_provider_validation": false,
+  "strategy_or_return_calculation": false
+}

@@ -1,0 +1,13 @@
+{
+  "uploaded_filename": "STRATEGIE_TENDANCE_FX_OR_V01.zip",
+  "zip_sha256": "60ae9383c6fa0a224536dfaa4cf8781607798fa05b54c8cf16fa928a2deb797e",
+  "request_md_sha256": "f4b0dc7a458f82b32b16f75f3f4c27280f3e38d2bb11387396a13d69b7cc1704",
+  "strategy_not_run": true,
+  "request_scope": [
+    "XAUUSD M1 bid and ask 2020-01-01 through 2026-10-16",
+    "requested European DST clock correction",
+    "independent Dukascopy checks",
+    "FTMO EURUSD and XAUUSD specifications"
+  ],
+  "data_only": true
+}

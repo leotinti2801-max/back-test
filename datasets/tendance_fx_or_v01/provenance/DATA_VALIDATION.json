@@ -1,0 +1,19 @@
+{
+  "start_inclusive": "2020-01-01T00:00:00+00:00",
+  "end_exclusive": "2026-10-17T00:00:00+00:00",
+  "source_archives": 83,
+  "monthly_price_files": 82,
+  "monthly_gap_files": 82,
+  "observed_utc_minutes": 2362208,
+  "included_source_ticks": 392906579,
+  "expected_grid_minutes": 3572640,
+  "missing_utc_minutes": 1210432,
+  "missing_grid_includes_weekends_holidays_and_unknown_absences": true,
+  "ticks_reconcile": true,
+  "invalid_source_rows": 0,
+  "crossed_source_quotes": 0,
+  "backward_timestamp_transitions": 43185,
+  "interpolation": false,
+  "synthetic_ask": false,
+  "data_only": true
+}

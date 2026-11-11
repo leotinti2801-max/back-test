@@ -1,0 +1,509 @@
+{
+  "structural_checks": "PASS",
+  "monthly_price_csvs": 82,
+  "monthly_missing_csvs": 82,
+  "source_archive_identities": 83,
+  "monthly_checks": [
+    {
+      "month": "2020-01",
+      "observed": 30104,
+      "missing": 14536,
+      "ticks": 4020833
+    },
+    {
+      "month": "2020-02",
+      "observed": 27350,
+      "missing": 14410,
+      "ticks": 4658254
+    },
+    {
+      "month": "2020-03",
+      "observed": 30384,
+      "missing": 14256,
+      "ticks": 6627931
+    },
+    {
+      "month": "2020-04",
+      "observed": 28976,
+      "missing": 14224,
+      "ticks": 3750430
+    },
+    {
+      "month": "2020-05",
+      "observed": 28738,
+      "missing": 15902,
+      "ticks": 4179413
+    },
+    {
+      "month": "2020-06",
+      "observed": 30357,
+      "missing": 12843,
+      "ticks": 4552144
+    },
+    {
+      "month": "2020-07",
+      "observed": 31372,
+      "missing": 13268,
+      "ticks": 4726565
+    },
+    {
+      "month": "2020-08",
+      "observed": 29038,
+      "missing": 15602,
+      "ticks": 5961384
+    },
+    {
+      "month": "2020-09",
+      "observed": 30116,
+      "missing": 13084,
+      "ticks": 5147813
+    },
+    {
+      "month": "2020-10",
+      "observed": 30239,
+      "missing": 14401,
+      "ticks": 4252380
+    },
+    {
+      "month": "2020-11",
+      "observed": 27523,
+      "missing": 15677,
+      "ticks": 4090459
+    },
+    {
+      "month": "2020-12",
+      "observed": 30095,
+      "missing": 14545,
+      "ticks": 3668950
+    },
+    {
+      "month": "2021-01",
+      "observed": 27419,
+      "missing": 17221,
+      "ticks": 4751517
+    },
+    {
+      "month": "2021-02",
+      "observed": 27359,
+      "missing": 12961,
+      "ticks": 5262811
+    },
+    {
+      "month": "2021-03",
+      "observed": 31737,
+      "missing": 12903,
+      "ticks": 6480064
+    },
+    {
+      "month": "2021-04",
+      "observed": 28856,
+      "missing": 14344,
+      "ticks": 4327365
+    },
+    {
+      "month": "2021-05",
+      "observed": 27957,
+      "missing": 16683,
+      "ticks": 4633997
+    },
+    {
+      "month": "2021-06",
+      "observed": 30358,
+      "missing": 12842,
+      "ticks": 4510947
+    },
+    {
+      "month": "2021-07",
+      "observed": 30000,
+      "missing": 14640,
+      "ticks": 3462270
+    },
+    {
+      "month": "2021-08",
+      "observed": 30469,
+      "missing": 14171,
+      "ticks": 3458443
+    },
+    {
+      "month": "2021-09",
+      "observed": 30119,
+      "missing": 13081,
+      "ticks": 4370571
+    },
+    {
+      "month": "2021-10",
+      "observed": 28974,
+      "missing": 15666,
+      "ticks": 4170152
+    },
+    {
+      "month": "2021-11",
+      "observed": 29845,
+      "missing": 13355,
+      "ticks": 4161705
+    },
+    {
+      "month": "2021-12",
+      "observed": 30294,
+      "missing": 14346,
+      "ticks": 3436395
+    },
+    {
+      "month": "2022-01",
+      "observed": 28799,
+      "missing": 15841,
+      "ticks": 4049409
+    },
+    {
+      "month": "2022-02",
+      "observed": 27448,
+      "missing": 12872,
+      "ticks": 4914145
+    },
+    {
+      "month": "2022-03",
+      "observed": 31739,
+      "missing": 12901,
+      "ticks": 6170880
+    },
+    {
+      "month": "2022-04",
+      "observed": 27477,
+      "missing": 15723,
+      "ticks": 4697480
+    },
+    {
+      "month": "2022-05",
+      "observed": 30327,
+      "missing": 14313,
+      "ticks": 4628667
+    },
+    {
+      "month": "2022-06",
+      "observed": 30209,
+      "missing": 12991,
+      "ticks": 4139069
+    },
+    {
+      "month": "2022-07",
+      "observed": 28827,
+      "missing": 15813,
+      "ticks": 4398091
+    },
+    {
+      "month": "2022-08",
+      "observed": 31734,
+      "missing": 12906,
+      "ticks": 4288324
+    },
+    {
+      "month": "2022-09",
+      "observed": 30089,
+      "missing": 13111,
+      "ticks": 5029415
+    },
+    {
+      "month": "2022-10",
+      "observed": 29084,
+      "missing": 15556,
+      "ticks": 4501931
+    },
+    {
+      "month": "2022-11",
+      "observed": 29929,
+      "missing": 13271,
+      "ticks": 3641776
+    },
+    {
+      "month": "2022-12",
+      "observed": 28907,
+      "missing": 15733,
+      "ticks": 3391139
+    },
+    {
+      "month": "2023-01",
+      "observed": 28614,
+      "missing": 16026,
+      "ticks": 3593071
+    },
+    {
+      "month": "2023-02",
+      "observed": 24746,
+      "missing": 15574,
+      "ticks": 2903622
+    },
+    {
+      "month": "2023-03",
+      "observed": 22908,
+      "missing": 21732,
+      "ticks": 2977373
+    },
+    {
+      "month": "2023-04",
+      "observed": 19071,
+      "missing": 24129,
+      "ticks": 2053409
+    },
+    {
+      "month": "2023-05",
+      "observed": 22586,
+      "missing": 22054,
+      "ticks": 2661352
+    },
+    {
+      "month": "2023-06",
+      "observed": 21652,
+      "missing": 21548,
+      "ticks": 2130922
+    },
+    {
+      "month": "2023-07",
+      "observed": 21110,
+      "missing": 23530,
+      "ticks": 1940193
+    },
+    {
+      "month": "2023-08",
+      "observed": 31674,
+      "missing": 12966,
+      "ticks": 2373606
+    },
+    {
+      "month": "2023-09",
+      "observed": 28570,
+      "missing": 14630,
+      "ticks": 1892643
+    },
+    {
+      "month": "2023-10",
+      "observed": 30464,
+      "missing": 14176,
+      "ticks": 2845443
+    },
+    {
+      "month": "2023-11",
+      "observed": 29824,
+      "missing": 13376,
+      "ticks": 2491773
+    },
+    {
+      "month": "2023-12",
+      "observed": 27534,
+      "missing": 17106,
+      "ticks": 2765712
+    },
+    {
+      "month": "2024-01",
+      "observed": 30028,
+      "missing": 14612,
+      "ticks": 3041755
+    },
+    {
+      "month": "2024-02",
+      "observed": 28808,
+      "missing": 12952,
+      "ticks": 2126396
+    },
+    {
+      "month": "2024-03",
+      "observed": 27589,
+      "missing": 17051,
+      "ticks": 2727977
+    },
+    {
+      "month": "2024-04",
+      "observed": 30359,
+      "missing": 12841,
+      "ticks": 5252627
+    },
+    {
+      "month": "2024-05",
+      "observed": 31463,
+      "missing": 13177,
+      "ticks": 5054706
+    },
+    {
+      "month": "2024-06",
+      "observed": 27567,
+      "missing": 15633,
+      "ticks": 4639089
+    },
+    {
+      "month": "2024-07",
+      "observed": 31587,
+      "missing": 13053,
+      "ticks": 5651582
+    },
+    {
+      "month": "2024-08",
+      "observed": 30240,
+      "missing": 14400,
+      "ticks": 5987622
+    },
+    {
+      "month": "2024-09",
+      "observed": 28945,
+      "missing": 14255,
+      "ticks": 5121630
+    },
+    {
+      "month": "2024-10",
+      "observed": 31671,
+      "missing": 12969,
+      "ticks": 5569146
+    },
+    {
+      "month": "2024-11",
+      "observed": 28572,
+      "missing": 14628,
+      "ticks": 5938280
+    },
+    {
+      "month": "2024-12",
+      "observed": 28764,
+      "missing": 15876,
+      "ticks": 5090073
+    },
+    {
+      "month": "2025-01",
+      "observed": 30197,
+      "missing": 14443,
+      "ticks": 5798226
+    },
+    {
+      "month": "2025-02",
+      "observed": 27441,
+      "missing": 12879,
+      "ticks": 5815784
+    },
+    {
+      "month": "2025-03",
+      "observed": 29032,
+      "missing": 15608,
+      "ticks": 5392257
+    },
+    {
+      "month": "2025-04",
+      "observed": 28948,
+      "missing": 14252,
+      "ticks": 6160835
+    },
+    {
+      "month": "2025-05",
+      "observed": 30087,
+      "missing": 14553,
+      "ticks": 5325473
+    },
+    {
+      "month": "2025-06",
+      "observed": 28949,
+      "missing": 14251,
+      "ticks": 4752206
+    },
+    {
+      "month": "2025-07",
+      "observed": 31499,
+      "missing": 13141,
+      "ticks": 4192283
+    },
+    {
+      "month": "2025-08",
+      "observed": 28971,
+      "missing": 15669,
+      "ticks": 4332294
+    },
+    {
+      "month": "2025-09",
+      "observed": 30209,
+      "missing": 12991,
+      "ticks": 5823801
+    },
+    {
+      "month": "2025-10",
+      "observed": 31559,
+      "missing": 13081,
+      "ticks": 9300007
+    },
+    {
+      "month": "2025-11",
+      "observed": 27358,
+      "missing": 15842,
+      "ticks": 6537897
+    },
+    {
+      "month": "2025-12",
+      "observed": 29702,
+      "missing": 14938,
+      "ticks": 7880741
+    },
+    {
+      "month": "2026-01",
+      "observed": 28828,
+      "missing": 15812,
+      "ticks": 9135062
+    },
+    {
+      "month": "2026-02",
+      "observed": 27430,
+      "missing": 12890,
+      "ticks": 7538339
+    },
+    {
+      "month": "2026-03",
+      "observed": 30356,
+      "missing": 14284,
+      "ticks": 9409629
+    },
+    {
+      "month": "2026-04",
+      "observed": 28977,
+      "missing": 14223,
+      "ticks": 7470570
+    },
+    {
+      "month": "2026-05",
+      "observed": 28823,
+      "missing": 15817,
+      "ticks": 8330808
+    },
+    {
+      "month": "2026-06",
+      "observed": 30119,
+      "missing": 13081,
+      "ticks": 8201406
+    },
+    {
+      "month": "2026-07",
+      "observed": 31379,
+      "missing": 13261,
+      "ticks": 7415837
+    },
+    {
+      "month": "2026-08",
+      "observed": 29100,
+      "missing": 15540,
+      "ticks": 5170561
+    },
+    {
+      "month": "2026-09",
+      "observed": 30209,
+      "missing": 12991,
+      "ticks": 6529990
+    },
+    {
+      "month": "2026-10",
+      "observed": 16441,
+      "missing": 6599,
+      "ticks": 3049452
+    }
+  ],
+  "schema_and_utc_bounds": true,
+  "ordered_unique_minutes": true,
+  "positive_finite_quotes": true,
+  "ohlc_extremes_consistent": true,
+  "positive_tick_counts": true,
+  "price_plus_missing_exactly_partitions_requested_grid": true,
+  "tick_totals_reconcile": true,
+  "independent_dukascopy_validation": "NOT_PERFORMED_SEE_CONTROLE_DUKASCOPY",
+  "returns_or_strategy_statistics_computed": false
+}

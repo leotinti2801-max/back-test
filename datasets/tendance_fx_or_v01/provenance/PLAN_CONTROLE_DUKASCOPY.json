@@ -1,0 +1,44 @@
+{
+  "instrument": "XAUUSD",
+  "purpose": "independent price and clock validation only, no returns",
+  "planned_sample_days": [
+    {
+      "date": "2020-01-07",
+      "regime": "winter"
+    },
+    {
+      "date": "2020-07-14",
+      "regime": "summer"
+    },
+    {
+      "date": "2020-03-10",
+      "regime": "US/EU March mismatch week 1"
+    },
+    {
+      "date": "2020-03-17",
+      "regime": "US/EU March mismatch week 2"
+    },
+    {
+      "date": "2020-03-24",
+      "regime": "US/EU March mismatch week 3"
+    },
+    {
+      "date": "2020-10-27",
+      "regime": "EU/US October-November mismatch week"
+    }
+  ],
+  "policy": "serial requests at least 5 seconds apart; no unbounded retries; stop and retain error on persistent 429",
+  "required_sides": [
+    "BID",
+    "ASK"
+  ],
+  "metrics_allowed": [
+    "minute identity",
+    "quote-level absolute differences in USD per ounce",
+    "exact quote match counts",
+    "missing reference or source minutes"
+  ],
+  "price_adjustment_to_force_agreement": false,
+  "timezone_parameter_search": false,
+  "summer_correction": "explicitly fixed by user; independent test cannot be marked passed without XAUUSD reference quotes"
+}

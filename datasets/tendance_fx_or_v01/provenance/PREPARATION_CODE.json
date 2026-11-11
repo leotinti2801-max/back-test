@@ -1,0 +1,23 @@
+{
+  "files": {
+    "tools/data_tendance_fx_or_v01/collect.py": "7bdfec61d246d997680baa00fa22ac058366a88dad3cdff8f49d99b1e4bce650",
+    "tools/data_tendance_fx_or_v01/test_prepare.py": "73df0c94537d6ade8ca4105c43cc44f668ec0a1bdb7d24e57d4016d3ec0507a7",
+    "tools/data_tendance_fx_or_v01/validate.py": "9cc87ce267d94b73f3c5485e3a2ecbad3021e7472acd85c821272289a4b32416",
+    "tools/data_tendance_fx_or_v01/aggregate.cpp": "5a092bdfe0427e6d8d6da8e996c40dde6447893cb21074e927dc1f42e8d790d7"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "synthetic_tests": {
+    "command": "python tools/data_tendance_fx_or_v01/test_prepare.py",
+    "tests": 4,
+    "result": "PASS",
+    "scenarios": [
+      "winter/summer plus all three March mismatch weeks and autumn mismatch",
+      "out-of-order event-time opens/closes, exact quote precision and equal-timestamp source order",
+      "previous-source-month inclusion at left UTC boundary",
+      "merging partial bid/ask bars and preserving source tick counts"
+    ]
+  },
+  "backtest_or_returns": false,
+  "system_tzdata_version": "# version 2026b"
+}

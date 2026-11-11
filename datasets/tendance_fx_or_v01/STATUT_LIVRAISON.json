@@ -1,0 +1,25 @@
+{
+  "lot": "STRATEGIE_TENDANCE_FX_OR_V01",
+  "instruments": [
+    "EURUSD",
+    "XAUUSD"
+  ],
+  "delivery_date": "2026-11-11",
+  "status": "PRIX_COMPLETS_FICHES_FTMO_COMPLETES_CONTROLE_DUKASCOPY_BLOQUE",
+  "requested_period_utc": {
+    "start_inclusive": "2020-01-01T00:00:00Z",
+    "end_exclusive": "2026-10-17T00:00:00Z"
+  },
+  "xauusd_monthly_price_csvs": 82,
+  "monthly_missing_minute_csvs": 82,
+  "requested_clock_conversion_applied": true,
+  "price_preparation_structural_validation": "PASS",
+  "independent_xauusd_dukascopy_comparison": "NOT_PERFORMED",
+  "independent_clock_validation": "NOT_PERFORMED",
+  "ftmo_snapshot_date": "2026-11-11",
+  "full_request_validated": false,
+  "remaining_requirement": "Independent bid/ask price and clock checks against Dukascopy winter, summer and US/EU DST-mismatch days; references are currently inaccessible (HTTP429 and security challenge).",
+  "backtest_executed": false,
+  "returns_computed": false,
+  "strategy_indicators_computed": false
+}

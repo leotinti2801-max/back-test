@@ -1,0 +1,55 @@
+{
+  "read_date": "2026-11-11",
+  "read_time_zone": "Europe/Paris",
+  "read_method": "live browser DOM of the official FTMO Symbols page, Global region",
+  "scope": "FTMO Global CFD; Standard and Swing leverage as displayed; not FTMO Futures or FTMO US",
+  "panels": {
+    "EURUSD": {
+      "url": "https://ftmo.com/en/symbols/#eur-usd",
+      "contract_size": 100000,
+      "margin_percent": 1,
+      "leverage": "1:100",
+      "leverage_swing": "1:30",
+      "swap_long": -10.27,
+      "swap_short": 0.13,
+      "swap_type": "points",
+      "commission_displayed": 5,
+      "commission_type_displayed": "USD/LOT*",
+      "currency_footnote": "or equivalent in your trading currency",
+      "trading_hours_timezone_displayed": "GMT+2",
+      "monday_to_friday": "00:05 - 23:55",
+      "saturday_sunday": "trading is closed"
+    },
+    "XAUUSD": {
+      "url": "https://ftmo.com/en/symbols/#xau-usd",
+      "contract_size": 100,
+      "margin_percent": 2,
+      "leverage": "1:50",
+      "leverage_swing": "1:15",
+      "swap_long": -92.26,
+      "swap_short": -4.2,
+      "swap_type": "points",
+      "commission_displayed": 0.0014,
+      "commission_type_displayed": "PERCENT/VOLUME",
+      "currency_footnote": "or equivalent in your trading currency",
+      "trading_hours_timezone_displayed": "GMT+2",
+      "monday_to_friday": "01:05 - 23:50",
+      "saturday_sunday": "trading is closed"
+    }
+  },
+  "commission_per_side_source": {
+    "url": "https://ftmo.com/en/blog/trading-updates/trading-update-25-sep-2025/",
+    "effective_date": "2025-09-29",
+    "forex_usd_per_lot_per_side": 2.5,
+    "metals_percent_of_notional_per_side": 0.0007
+  },
+  "point_definition_source": "https://ftmo.com/en/quick-trade-manager/",
+  "derived_point_values": {
+    "method": "contract size times technical point size, before account-currency conversion",
+    "EURUSD": {"point_size": 0.00001, "usd_per_point_per_lot": 1},
+    "XAUUSD": {"point_size": 0.01, "usd_per_point_per_lot": 1}
+  },
+  "historical_swap_series_available": false,
+  "historical_session_schedule_available": false,
+  "data_only": true
+}

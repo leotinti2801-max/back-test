@@ -1,0 +1,35 @@
+{
+  "source": "HistData official Generic ASCII tick quotes, XAUUSD",
+  "source_specification_url": "https://www.histdata.com/f-a-q/data-files-detailed-specification/",
+  "source_page_template": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/xauusd/{year}/{month}",
+  "download_method": "at most two concurrent HistData months, each with sequential GET of official download page then POST of its file_down form to https://www.histdata.com/get.php; no form token published; bounded retries for transient 5xx only",
+  "source_csv_schema": ["YYYYMMDD HHMMSSNNN", "bid", "ask", "volume"],
+  "published_source_timezone": "EST fixed UTC-5, no DST according to HistData documentation",
+  "requested_empirical_clock_correction": {
+    "u0": "source label interpreted as a naive clock plus 5 hours, expressed as UTC",
+    "u": "u0 minus one hour if u0 falls in European summer time in Europe/Berlin; otherwise u0",
+    "authority": "explicit user request and DEMANDE_DONNEES.md, 2026-11-11",
+    "independent_confirmation_for_xauusd": "see CONTROLE_DUKASCOPY.json; must not infer from EURUSD",
+    "boundary_policy": "half-open European DST UTC intervals generated with zoneinfo Europe/Berlin; never use US DST"
+  },
+  "requested_period": {"start_inclusive_utc": "2020-01-01T00:00:00Z", "end_exclusive_utc": "2026-10-17T00:00:00Z"},
+  "source_archives": "2019-12 through 2026-10; prior source month is included only for the left UTC boundary",
+  "reference_format": {
+    "repository": "leotinti2801-max/back-test",
+    "branch": "data/strategie-l3-v01-20261107",
+    "directory": "datasets/strategie_l3_v01_histdata",
+    "new_data_do_not_modify_reference": true
+  },
+  "output_csv_schema": ["utc_minute", "bid_open", "bid_high", "bid_low", "bid_close", "ask_open", "ask_high", "ask_low", "ask_close", "n_ticks"],
+  "output_files": "one CSV per UTC month; CRLF records as in the reference format",
+  "minute_bucket": "[start, start + 60 seconds)",
+  "price_precision": "exact base-10 integers at scale 1e9, input precision at most nine decimals; output at least five decimals with all significant source digits retained",
+  "open_close": "earliest/latest event timestamp; equal timestamps retain source order",
+  "n_ticks": "count of original quote records, including equal-timestamp records; never source volume",
+  "missing_minutes": "every UTC minute without a bar, including weekends and holidays; an absence is not proof of market closure",
+  "interpolation": false,
+  "synthetic_ask": false,
+  "ftmo_quotes": false,
+  "data_only": true,
+  "backtest_or_return_calculation": false
+}

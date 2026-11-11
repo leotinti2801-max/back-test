@@ -1,0 +1,42 @@
+{
+  "bounded_retries": {
+    "2026-03.errors.json": [
+      {
+        "at_utc": "2026-11-11T15:29:44.795214+00:00",
+        "http_status": 503,
+        "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/xauusd/2026/3",
+        "response_body": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+      }
+    ],
+    "2026-07.errors.json": [
+      {
+        "at_utc": "2026-11-11T15:30:47.810163+00:00",
+        "http_status": 503,
+        "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/xauusd/2026/7",
+        "response_body": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+      }
+    ],
+    "2026-02.errors.json": [
+      {
+        "at_utc": "2026-11-11T15:29:44.127420+00:00",
+        "http_status": 503,
+        "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/xauusd/2026/2",
+        "response_body": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+      }
+    ],
+    "2026-06.errors.json": [
+      {
+        "at_utc": "2026-11-11T15:30:47.856561+00:00",
+        "http_status": 503,
+        "url": "https://www.histdata.com/download-free-forex-historical-data/?/ascii/tick-data-quotes/xauusd/2026/6",
+        "response_body": "upstream connect error or disconnect/reset before headers. reset reason: connection termination"
+      }
+    ]
+  },
+  "all_required_months_eventually_acquired": true,
+  "earlier_interrupted_serial_attempt": {
+    "month": "2020-10",
+    "http_status": 503,
+    "recovered_on_resume": true
+  }
+}
